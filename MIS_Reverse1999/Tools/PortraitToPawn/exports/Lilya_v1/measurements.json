@@ -1,0 +1,740 @@
+{
+  "head_south": {
+    "solid_bbox": [
+      73,
+      85,
+      183,
+      231
+    ],
+    "rows": {
+      "90": {
+        "x_min": 88,
+        "x_max_exclusive": 168,
+        "full_extent": 80,
+        "occupied_pixels": 76,
+        "mean_x": 127.47
+      },
+      "100": {
+        "x_min": 87,
+        "x_max_exclusive": 169,
+        "full_extent": 82,
+        "occupied_pixels": 82,
+        "mean_x": 127.5
+      },
+      "110": {
+        "x_min": 90,
+        "x_max_exclusive": 166,
+        "full_extent": 76,
+        "occupied_pixels": 76,
+        "mean_x": 127.5
+      },
+      "120": {
+        "x_min": 85,
+        "x_max_exclusive": 170,
+        "full_extent": 85,
+        "occupied_pixels": 85,
+        "mean_x": 127.0
+      },
+      "130": {
+        "x_min": 83,
+        "x_max_exclusive": 172,
+        "full_extent": 89,
+        "occupied_pixels": 89,
+        "mean_x": 127.0
+      },
+      "140": {
+        "x_min": 85,
+        "x_max_exclusive": 169,
+        "full_extent": 84,
+        "occupied_pixels": 84,
+        "mean_x": 126.5
+      },
+      "150": {
+        "x_min": 75,
+        "x_max_exclusive": 169,
+        "full_extent": 94,
+        "occupied_pixels": 94,
+        "mean_x": 121.5
+      },
+      "160": {
+        "x_min": 73,
+        "x_max_exclusive": 179,
+        "full_extent": 106,
+        "occupied_pixels": 105,
+        "mean_x": 125.03
+      },
+      "170": {
+        "x_min": 77,
+        "x_max_exclusive": 167,
+        "full_extent": 90,
+        "occupied_pixels": 87,
+        "mean_x": 121.86
+      },
+      "180": {
+        "x_min": 83,
+        "x_max_exclusive": 177,
+        "full_extent": 94,
+        "occupied_pixels": 56,
+        "mean_x": 132.89
+      },
+      "190": {
+        "x_min": 141,
+        "x_max_exclusive": 172,
+        "full_extent": 31,
+        "occupied_pixels": 31,
+        "mean_x": 156.0
+      },
+      "200": {
+        "x_min": 141,
+        "x_max_exclusive": 176,
+        "full_extent": 35,
+        "occupied_pixels": 35,
+        "mean_x": 158.0
+      },
+      "210": {
+        "x_min": 140,
+        "x_max_exclusive": 177,
+        "full_extent": 37,
+        "occupied_pixels": 37,
+        "mean_x": 158.0
+      },
+      "220": {
+        "x_min": 144,
+        "x_max_exclusive": 165,
+        "full_extent": 21,
+        "occupied_pixels": 20,
+        "mean_x": 153.75
+      },
+      "230": {
+        "x_min": 142,
+        "x_max_exclusive": 144,
+        "full_extent": 2,
+        "occupied_pixels": 2,
+        "mean_x": 142.5
+      },
+      "240": null,
+      "250": null
+    },
+    "scope": "Complete clothed/hair alpha silhouette; not unoccluded anatomy. Canister, fur and hair may extend beyond the body."
+  },
+  "head_east": {
+    "solid_bbox": [
+      55,
+      85,
+      174,
+      231
+    ],
+    "rows": {
+      "90": {
+        "x_min": 83,
+        "x_max_exclusive": 139,
+        "full_extent": 56,
+        "occupied_pixels": 35,
+        "mean_x": 106.6
+      },
+      "100": {
+        "x_min": 80,
+        "x_max_exclusive": 152,
+        "full_extent": 72,
+        "occupied_pixels": 72,
+        "mean_x": 115.5
+      },
+      "110": {
+        "x_min": 83,
+        "x_max_exclusive": 169,
+        "full_extent": 86,
+        "occupied_pixels": 86,
+        "mean_x": 125.5
+      },
+      "120": {
+        "x_min": 75,
+        "x_max_exclusive": 172,
+        "full_extent": 97,
+        "occupied_pixels": 97,
+        "mean_x": 123.0
+      },
+      "130": {
+        "x_min": 72,
+        "x_max_exclusive": 174,
+        "full_extent": 102,
+        "occupied_pixels": 102,
+        "mean_x": 122.5
+      },
+      "140": {
+        "x_min": 71,
+        "x_max_exclusive": 174,
+        "full_extent": 103,
+        "occupied_pixels": 103,
+        "mean_x": 122.0
+      },
+      "150": {
+        "x_min": 75,
+        "x_max_exclusive": 171,
+        "full_extent": 96,
+        "occupied_pixels": 96,
+        "mean_x": 122.5
+      },
+      "160": {
+        "x_min": 65,
+        "x_max_exclusive": 166,
+        "full_extent": 101,
+        "occupied_pixels": 101,
+        "mean_x": 115.0
+      },
+      "170": {
+        "x_min": 63,
+        "x_max_exclusive": 161,
+        "full_extent": 98,
+        "occupied_pixels": 98,
+        "mean_x": 111.5
+      },
+      "180": {
+        "x_min": 73,
+        "x_max_exclusive": 165,
+        "full_extent": 92,
+        "occupied_pixels": 79,
+        "mean_x": 115.62
+      },
+      "190": {
+        "x_min": 58,
+        "x_max_exclusive": 170,
+        "full_extent": 112,
+        "occupied_pixels": 82,
+        "mean_x": 108.01
+      },
+      "200": {
+        "x_min": 66,
+        "x_max_exclusive": 169,
+        "full_extent": 103,
+        "occupied_pixels": 70,
+        "mean_x": 111.34
+      },
+      "210": {
+        "x_min": 66,
+        "x_max_exclusive": 164,
+        "full_extent": 98,
+        "occupied_pixels": 63,
+        "mean_x": 109.22
+      },
+      "220": {
+        "x_min": 79,
+        "x_max_exclusive": 157,
+        "full_extent": 78,
+        "occupied_pixels": 51,
+        "mean_x": 110.88
+      },
+      "230": {
+        "x_min": 100,
+        "x_max_exclusive": 102,
+        "full_extent": 2,
+        "occupied_pixels": 2,
+        "mean_x": 100.5
+      },
+      "240": null,
+      "250": null
+    },
+    "scope": "Complete clothed/hair alpha silhouette; not unoccluded anatomy. Canister, fur and hair may extend beyond the body."
+  },
+  "head_north": {
+    "solid_bbox": [
+      73,
+      85,
+      183,
+      230
+    ],
+    "rows": {
+      "90": {
+        "x_min": 83,
+        "x_max_exclusive": 173,
+        "full_extent": 90,
+        "occupied_pixels": 80,
+        "mean_x": 127.5
+      },
+      "100": {
+        "x_min": 81,
+        "x_max_exclusive": 174,
+        "full_extent": 93,
+        "occupied_pixels": 93,
+        "mean_x": 127.0
+      },
+      "110": {
+        "x_min": 85,
+        "x_max_exclusive": 171,
+        "full_extent": 86,
+        "occupied_pixels": 86,
+        "mean_x": 127.5
+      },
+      "120": {
+        "x_min": 84,
+        "x_max_exclusive": 172,
+        "full_extent": 88,
+        "occupied_pixels": 88,
+        "mean_x": 127.5
+      },
+      "130": {
+        "x_min": 83,
+        "x_max_exclusive": 173,
+        "full_extent": 90,
+        "occupied_pixels": 90,
+        "mean_x": 127.5
+      },
+      "140": {
+        "x_min": 86,
+        "x_max_exclusive": 170,
+        "full_extent": 84,
+        "occupied_pixels": 84,
+        "mean_x": 127.5
+      },
+      "150": {
+        "x_min": 75,
+        "x_max_exclusive": 180,
+        "full_extent": 105,
+        "occupied_pixels": 105,
+        "mean_x": 127.0
+      },
+      "160": {
+        "x_min": 73,
+        "x_max_exclusive": 183,
+        "full_extent": 110,
+        "occupied_pixels": 110,
+        "mean_x": 127.5
+      },
+      "170": {
+        "x_min": 84,
+        "x_max_exclusive": 170,
+        "full_extent": 86,
+        "occupied_pixels": 86,
+        "mean_x": 126.5
+      },
+      "180": {
+        "x_min": 74,
+        "x_max_exclusive": 181,
+        "full_extent": 107,
+        "occupied_pixels": 107,
+        "mean_x": 127.0
+      },
+      "190": {
+        "x_min": 78,
+        "x_max_exclusive": 170,
+        "full_extent": 92,
+        "occupied_pixels": 92,
+        "mean_x": 123.5
+      },
+      "200": {
+        "x_min": 75,
+        "x_max_exclusive": 168,
+        "full_extent": 93,
+        "occupied_pixels": 93,
+        "mean_x": 121.0
+      },
+      "210": {
+        "x_min": 77,
+        "x_max_exclusive": 155,
+        "full_extent": 78,
+        "occupied_pixels": 60,
+        "mean_x": 111.9
+      },
+      "220": {
+        "x_min": 90,
+        "x_max_exclusive": 109,
+        "full_extent": 19,
+        "occupied_pixels": 19,
+        "mean_x": 99.0
+      },
+      "230": null,
+      "240": null,
+      "250": null
+    },
+    "scope": "Complete clothed/hair alpha silhouette; not unoccluded anatomy. Canister, fur and hair may extend beyond the body."
+  },
+  "body_south": {
+    "solid_bbox": [
+      79,
+      89,
+      179,
+      252
+    ],
+    "rows": {
+      "90": {
+        "x_min": 119,
+        "x_max_exclusive": 140,
+        "full_extent": 21,
+        "occupied_pixels": 21,
+        "mean_x": 129.0
+      },
+      "100": {
+        "x_min": 106,
+        "x_max_exclusive": 152,
+        "full_extent": 46,
+        "occupied_pixels": 46,
+        "mean_x": 128.5
+      },
+      "110": {
+        "x_min": 91,
+        "x_max_exclusive": 166,
+        "full_extent": 75,
+        "occupied_pixels": 75,
+        "mean_x": 128.0
+      },
+      "120": {
+        "x_min": 85,
+        "x_max_exclusive": 170,
+        "full_extent": 85,
+        "occupied_pixels": 85,
+        "mean_x": 127.0
+      },
+      "130": {
+        "x_min": 85,
+        "x_max_exclusive": 171,
+        "full_extent": 86,
+        "occupied_pixels": 86,
+        "mean_x": 127.5
+      },
+      "140": {
+        "x_min": 89,
+        "x_max_exclusive": 168,
+        "full_extent": 79,
+        "occupied_pixels": 79,
+        "mean_x": 128.0
+      },
+      "150": {
+        "x_min": 87,
+        "x_max_exclusive": 171,
+        "full_extent": 84,
+        "occupied_pixels": 84,
+        "mean_x": 128.5
+      },
+      "160": {
+        "x_min": 83,
+        "x_max_exclusive": 175,
+        "full_extent": 92,
+        "occupied_pixels": 92,
+        "mean_x": 128.5
+      },
+      "170": {
+        "x_min": 79,
+        "x_max_exclusive": 179,
+        "full_extent": 100,
+        "occupied_pixels": 100,
+        "mean_x": 128.5
+      },
+      "180": {
+        "x_min": 80,
+        "x_max_exclusive": 178,
+        "full_extent": 98,
+        "occupied_pixels": 98,
+        "mean_x": 128.5
+      },
+      "190": {
+        "x_min": 87,
+        "x_max_exclusive": 171,
+        "full_extent": 84,
+        "occupied_pixels": 84,
+        "mean_x": 128.5
+      },
+      "200": {
+        "x_min": 101,
+        "x_max_exclusive": 151,
+        "full_extent": 50,
+        "occupied_pixels": 50,
+        "mean_x": 125.5
+      },
+      "210": {
+        "x_min": 104,
+        "x_max_exclusive": 152,
+        "full_extent": 48,
+        "occupied_pixels": 48,
+        "mean_x": 127.5
+      },
+      "220": {
+        "x_min": 105,
+        "x_max_exclusive": 150,
+        "full_extent": 45,
+        "occupied_pixels": 45,
+        "mean_x": 127.0
+      },
+      "230": {
+        "x_min": 108,
+        "x_max_exclusive": 148,
+        "full_extent": 40,
+        "occupied_pixels": 40,
+        "mean_x": 127.5
+      },
+      "240": {
+        "x_min": 108,
+        "x_max_exclusive": 148,
+        "full_extent": 40,
+        "occupied_pixels": 40,
+        "mean_x": 127.5
+      },
+      "250": {
+        "x_min": 110,
+        "x_max_exclusive": 145,
+        "full_extent": 35,
+        "occupied_pixels": 35,
+        "mean_x": 127.0
+      }
+    },
+    "scope": "Complete clothed/hair alpha silhouette; not unoccluded anatomy. Canister, fur and hair may extend beyond the body."
+  },
+  "body_east": {
+    "solid_bbox": [
+      69,
+      89,
+      159,
+      252
+    ],
+    "rows": {
+      "90": {
+        "x_min": 112,
+        "x_max_exclusive": 133,
+        "full_extent": 21,
+        "occupied_pixels": 21,
+        "mean_x": 122.0
+      },
+      "100": {
+        "x_min": 95,
+        "x_max_exclusive": 144,
+        "full_extent": 49,
+        "occupied_pixels": 49,
+        "mean_x": 119.0
+      },
+      "110": {
+        "x_min": 87,
+        "x_max_exclusive": 158,
+        "full_extent": 71,
+        "occupied_pixels": 71,
+        "mean_x": 122.0
+      },
+      "120": {
+        "x_min": 83,
+        "x_max_exclusive": 157,
+        "full_extent": 74,
+        "occupied_pixels": 74,
+        "mean_x": 119.5
+      },
+      "130": {
+        "x_min": 85,
+        "x_max_exclusive": 152,
+        "full_extent": 67,
+        "occupied_pixels": 67,
+        "mean_x": 118.0
+      },
+      "140": {
+        "x_min": 86,
+        "x_max_exclusive": 148,
+        "full_extent": 62,
+        "occupied_pixels": 62,
+        "mean_x": 116.5
+      },
+      "150": {
+        "x_min": 79,
+        "x_max_exclusive": 145,
+        "full_extent": 66,
+        "occupied_pixels": 66,
+        "mean_x": 111.5
+      },
+      "160": {
+        "x_min": 72,
+        "x_max_exclusive": 145,
+        "full_extent": 73,
+        "occupied_pixels": 73,
+        "mean_x": 108.0
+      },
+      "170": {
+        "x_min": 70,
+        "x_max_exclusive": 143,
+        "full_extent": 73,
+        "occupied_pixels": 73,
+        "mean_x": 106.0
+      },
+      "180": {
+        "x_min": 69,
+        "x_max_exclusive": 144,
+        "full_extent": 75,
+        "occupied_pixels": 75,
+        "mean_x": 106.0
+      },
+      "190": {
+        "x_min": 85,
+        "x_max_exclusive": 136,
+        "full_extent": 51,
+        "occupied_pixels": 51,
+        "mean_x": 110.0
+      },
+      "200": {
+        "x_min": 89,
+        "x_max_exclusive": 126,
+        "full_extent": 37,
+        "occupied_pixels": 37,
+        "mean_x": 107.0
+      },
+      "210": {
+        "x_min": 82,
+        "x_max_exclusive": 118,
+        "full_extent": 36,
+        "occupied_pixels": 36,
+        "mean_x": 99.5
+      },
+      "220": {
+        "x_min": 78,
+        "x_max_exclusive": 115,
+        "full_extent": 37,
+        "occupied_pixels": 37,
+        "mean_x": 96.0
+      },
+      "230": {
+        "x_min": 76,
+        "x_max_exclusive": 107,
+        "full_extent": 31,
+        "occupied_pixels": 31,
+        "mean_x": 91.0
+      },
+      "240": {
+        "x_min": 74,
+        "x_max_exclusive": 107,
+        "full_extent": 33,
+        "occupied_pixels": 33,
+        "mean_x": 90.0
+      },
+      "250": {
+        "x_min": 76,
+        "x_max_exclusive": 101,
+        "full_extent": 25,
+        "occupied_pixels": 25,
+        "mean_x": 88.0
+      }
+    },
+    "scope": "Complete clothed/hair alpha silhouette; not unoccluded anatomy. Canister, fur and hair may extend beyond the body."
+  },
+  "body_north": {
+    "solid_bbox": [
+      79,
+      89,
+      179,
+      252
+    ],
+    "rows": {
+      "90": {
+        "x_min": 118,
+        "x_max_exclusive": 142,
+        "full_extent": 24,
+        "occupied_pixels": 24,
+        "mean_x": 129.5
+      },
+      "100": {
+        "x_min": 115,
+        "x_max_exclusive": 145,
+        "full_extent": 30,
+        "occupied_pixels": 30,
+        "mean_x": 129.5
+      },
+      "110": {
+        "x_min": 92,
+        "x_max_exclusive": 168,
+        "full_extent": 76,
+        "occupied_pixels": 76,
+        "mean_x": 129.5
+      },
+      "120": {
+        "x_min": 86,
+        "x_max_exclusive": 174,
+        "full_extent": 88,
+        "occupied_pixels": 88,
+        "mean_x": 129.5
+      },
+      "130": {
+        "x_min": 84,
+        "x_max_exclusive": 176,
+        "full_extent": 92,
+        "occupied_pixels": 92,
+        "mean_x": 129.5
+      },
+      "140": {
+        "x_min": 91,
+        "x_max_exclusive": 165,
+        "full_extent": 74,
+        "occupied_pixels": 74,
+        "mean_x": 127.5
+      },
+      "150": {
+        "x_min": 88,
+        "x_max_exclusive": 169,
+        "full_extent": 81,
+        "occupied_pixels": 81,
+        "mean_x": 128.0
+      },
+      "160": {
+        "x_min": 84,
+        "x_max_exclusive": 175,
+        "full_extent": 91,
+        "occupied_pixels": 91,
+        "mean_x": 129.0
+      },
+      "170": {
+        "x_min": 81,
+        "x_max_exclusive": 178,
+        "full_extent": 97,
+        "occupied_pixels": 97,
+        "mean_x": 129.0
+      },
+      "180": {
+        "x_min": 79,
+        "x_max_exclusive": 178,
+        "full_extent": 99,
+        "occupied_pixels": 99,
+        "mean_x": 128.0
+      },
+      "190": {
+        "x_min": 79,
+        "x_max_exclusive": 159,
+        "full_extent": 80,
+        "occupied_pixels": 80,
+        "mean_x": 118.5
+      },
+      "200": {
+        "x_min": 104,
+        "x_max_exclusive": 159,
+        "full_extent": 55,
+        "occupied_pixels": 55,
+        "mean_x": 131.0
+      },
+      "210": {
+        "x_min": 108,
+        "x_max_exclusive": 156,
+        "full_extent": 48,
+        "occupied_pixels": 48,
+        "mean_x": 131.5
+      },
+      "220": {
+        "x_min": 107,
+        "x_max_exclusive": 154,
+        "full_extent": 47,
+        "occupied_pixels": 47,
+        "mean_x": 130.0
+      },
+      "230": {
+        "x_min": 109,
+        "x_max_exclusive": 151,
+        "full_extent": 42,
+        "occupied_pixels": 42,
+        "mean_x": 129.5
+      },
+      "240": {
+        "x_min": 110,
+        "x_max_exclusive": 151,
+        "full_extent": 41,
+        "occupied_pixels": 41,
+        "mean_x": 130.0
+      },
+      "250": {
+        "x_min": 111,
+        "x_max_exclusive": 149,
+        "full_extent": 38,
+        "occupied_pixels": 38,
+        "mean_x": 129.5
+      }
+    },
+    "scope": "Complete clothed/hair alpha silhouette; not unoccluded anatomy. Canister, fur and hair may extend beyond the body."
+  }
+}

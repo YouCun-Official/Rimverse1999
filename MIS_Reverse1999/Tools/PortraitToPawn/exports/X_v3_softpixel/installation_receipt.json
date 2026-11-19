@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-09",
+  "batch": "SoftPixel_v1_20261109",
+  "backup_archive": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\TextureBackups\\AllCharacters_before_SoftPixel_v1_20261109_5bd9c9f0.zip",
+  "backup_sha256": "09a5ac15fdac3e489cfe3dc1adbbf945edb00a3158df523c16f6c3db8ffb799b",
+  "changed_formal_textures": [
+    "Textures/Things/Hair/R99/X_south.png",
+    "Textures/Things/R99_Agents/Arcanist/X_Thin_south.png",
+    "Textures/Things/Hair/R99/X_east.png",
+    "Textures/Things/R99_Agents/Arcanist/X_Thin_east.png",
+    "Textures/Things/Hair/R99/X_north.png",
+    "Textures/Things/R99_Agents/Arcanist/X_Thin_north.png",
+    "Textures/Things/R99_Agents/Arcanist/X.png"
+  ],
+  "changed_count": 7,
+  "unchanged_ui_count": 2,
+  "export_reproduction_install_hashes_equal": true,
+  "all_alpha_pixel_identical": true,
+  "canvas_and_geometry_unchanged": true,
+  "protected_face_pixels_identical": true,
+  "no_new_grin_or_eye_transfer": true,
+  "item_front_body_byte_identical": true,
+  "installed": {
+    "Textures/Things/Hair/R99/X_south.png": "e4ac2cf84218869044da1e939d9b19901c00d04f1b1b2f3c4d1fac66a7b27d69",
+    "Textures/Things/R99_Agents/Arcanist/X_Thin_south.png": "bf12bf3441da28213a2358c6541e52dc6a1e3d6cc10f2b186acc4fbec5679620",
+    "Textures/Things/Hair/R99/X_east.png": "ac6fbfddbb13d895cf824bca49d65390b05976cad5d169f9d3269f1b59312f72",
+    "Textures/Things/R99_Agents/Arcanist/X_Thin_east.png": "cc5f4aa10e62078714b0c2ca965613fd17ee801bd7628780ba93fbd983aca87d",
+    "Textures/Things/Hair/R99/X_north.png": "15e29731d4fffa38b2c07be51c6a3793ee253c3f270349c71d3aac257830d731",
+    "Textures/Things/R99_Agents/Arcanist/X_Thin_north.png": "92f18c945edc6ce0e765029e53cf2e7be272ea01c1f19f36dcb8e2cadb087e3c",
+    "Textures/Things/R99_Agents/Arcanist/X.png": "bf12bf3441da28213a2358c6541e52dc6a1e3d6cc10f2b186acc4fbec5679620"
+  },
+  "character_versions": {
+    "Vertin": "Vertin_v16_softpixel",
+    "Lilya": "Lilya_v3_softpixel",
+    "Regulus": "Regulus_v2_softpixel",
+    "X": "X_v3_softpixel",
+    "Sonetto": "Sonetto_v4_softpixel"
+  },
+  "documentation_updated": [
+    "AGENTS.md",
+    "Tools/PortraitToPawn/角色三视图制作规范.txt",
+    "Tools/PortraitToPawn/角色贴图Agent任务模板.txt",
+    "Tools/PortraitToPawn/使用说明.txt"
+  ],
+  "game_tested": false,
+  "user_visual_review": "pending",
+  "character": "X"
+}

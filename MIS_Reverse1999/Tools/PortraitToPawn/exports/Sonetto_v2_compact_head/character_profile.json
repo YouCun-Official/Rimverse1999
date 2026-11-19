@@ -1,0 +1,96 @@
+{
+  "character": "Sonetto",
+  "display_name": "十四行诗",
+  "date": "2026-11-08",
+  "primary_portrait": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\Ombrophobia\\data_infrastructure\\图片\\十四行诗.png",
+  "expression": {
+    "read": "serious/composed, attentive with mild questioning curiosity; subtly parted lips, no broad smile or angry scowl",
+    "mouth": "tiny slightly open natural mouth, near-level corners",
+    "brows": "slender soft angled eyebrows following the local reference, not exaggerated angry V or default happy arches",
+    "eyes": "muted grey-green, compact pawn-scale eyes; keep original hue"
+  },
+  "hair": {
+    "color": "copper-orange/auburn orange",
+    "structure": "long loose wavy hair with two small upper side-up gathers, swept curled fringe, one short braided sidelock on character left ending in a small gold clamp near the jaw",
+    "headband": "black-and-ivory checker/diamond band across crown, related small check ribbon at rear gather",
+    "side_braid_character_side": "left",
+    "front_screen_side": "right",
+    "east_visibility": "near-side braid visible",
+    "back_screen_side": "left, only if not occluded",
+    "long_hair": "head-layer-only, extends below the chin; main skull/face scale is matched separately from full hair bounds"
+  },
+  "facial_identity_details": {
+    "finding": "No obvious freckles, scars or burn marks in the primary face; skip conditional markings",
+    "action": "Do not inherit Vertin freckles"
+  },
+  "clothing": {
+    "bodice": "fitted ivory-white high-collared dress/tunic with black center lacing and small buttons",
+    "capelet": "short charcoal/slate grey shoulder cape with muted coral lining, black/ivory check lining on visible inner flap, gold circular clasp and short chain, sparse gold sun/star motifs and small crest",
+    "skirt": "short gently flared/pleated ivory hem, follows garment volume rather than an exaggerated tight hip outline",
+    "legs": "ivory tall stockings/boots; a small black bow on character-right upper leg and grey buckled bands on character-left thigh",
+    "shoes": "pale grey-white lace-front short compact toes, subdued dark sole; not full realistic long heels",
+    "arms_hands": "omit completely, only short shoulder clothing structure remains; keep capelet as a garment, not hanging arms",
+    "held_pen": "omitted from head/body sprite because hands and weapons are outside requested components"
+  },
+  "baseline_decision": {
+    "young_female": true,
+    "relatively_fitted_main_outfit": true,
+    "baseline": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v13_arknights_skin",
+    "body_type": "Thin",
+    "scope": "Face/skull, torso and leg scale from Vertin; natural skirt flare, cape drape and long-hair extensions follow Sonetto original clothing/hair rules"
+  },
+  "side_pose": "upright head; modest upper-body forward lean and stronger lower-body forward relationship, continuous slash silhouette, compact feet",
+  "inferred": [
+    "True-profile and back orthographic construction",
+    "Back cape continuation and understated seam layout",
+    "Back hair gathers and obscured ribbon arrangement; no new decorative motifs"
+  ],
+  "paths": {
+    "head_texPath": "Things/Hair/R99/Sonetto",
+    "apparel_wornGraphicPath": "Things/R99_Agents/Arcanist/Sonetto",
+    "item_texPath": "Things/R99_Agents/Arcanist/Sonetto",
+    "body_type": "Thin"
+  },
+  "calibration": {
+    "head": "Uniform x/y scaling; front eye anchor y145 and profile y146, shorter eye-to-chin span; back cranial scale reconciled.",
+    "hair_visibility": "Front lower curls leave the cape clasps visible; profile long hair falls behind the cape.",
+    "side_ankle_y240": {
+      "y": 240,
+      "x0": 73,
+      "x1_exclusive": 103,
+      "span_px": 30,
+      "scope": "脚踝/靴筒"
+    },
+    "body_east": "Source-redrawn calf plus saved native-row horizontal calibration; forward-slash centerline retained.",
+    "body_north": "Subtle 6% waist-row widening; loose cape and skirt retain source contours.",
+    "body_south": "Fitted body anchor with native-scale garment comparison; flared skirt remains a separate loose layer."
+  },
+  "head_proportion_revision": {
+    "version": "v2",
+    "changes": {
+      "date": "2026-11-08",
+      "mode": "Export calibration correction; no new artistic repaint",
+      "heads": {
+        "head_south": {
+          "old_scale_x": 0.10804020100502512,
+          "old_scale_y": 0.13076923076923078,
+          "old_vertical_to_horizontal_ratio": 1.2103756708407873,
+          "old_eye_to_chin_anchor_height": 34,
+          "new_uniform_scale": 0.10804020100502512,
+          "new_eye_to_chin_anchor_height": 28.09045226130653
+        },
+        "head_east": {
+          "old_scale_x": 0.10869565217391304,
+          "old_scale_y": 0.12781954887218044,
+          "old_vertical_to_horizontal_ratio": 1.17593984962406,
+          "old_eye_to_chin_anchor_height": 34,
+          "new_uniform_scale": 0.10869565217391304,
+          "new_eye_to_chin_anchor_height": 28.913043478260867
+        }
+      },
+      "back_head": "Uniform scale matched to the front/profile head; source artwork retained.",
+      "body": "All three bodies and item retained byte-identically."
+    },
+    "same_source_art": true
+  }
+}

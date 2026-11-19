@@ -1,0 +1,84 @@
+{
+  "units": "native pixels at 256x256",
+  "scopes": {
+    "v1": {
+      "face": {
+        "review_roi": [
+          120,
+          128,
+          178,
+          181
+        ],
+        "visible_eye_color_bbox": [
+          139,
+          148,
+          154,
+          155
+        ],
+        "visible_eye_color_width": 15,
+        "visible_eye_color_height": 7,
+        "chin_review": "short softly tapered, no new long sharp chin"
+      },
+      "headwear": {
+        "main_cap_goggles_review_roi": [
+          70,
+          85,
+          175,
+          136
+        ],
+        "method": "Same-coordinate visual comparison, separately from face and hair. Shape, details, color and approximate scale retained."
+      },
+      "complete_head": {
+        "solid_bbox": [
+          55,
+          85,
+          174,
+          231
+        ],
+        "head_rotation_degrees": 0
+      }
+    },
+    "v2": {
+      "face": {
+        "review_roi": [
+          120,
+          128,
+          178,
+          181
+        ],
+        "visible_eye_color_bbox": [
+          139,
+          148,
+          152,
+          155
+        ],
+        "visible_eye_color_width": 13,
+        "visible_eye_color_height": 7,
+        "chin_review": "short softly tapered, no new long sharp chin"
+      },
+      "headwear": {
+        "main_cap_goggles_review_roi": [
+          70,
+          85,
+          175,
+          136
+        ],
+        "method": "Same-coordinate visual comparison, separately from face and hair. Shape, details, color and approximate scale retained."
+      },
+      "complete_head": {
+        "solid_bbox": [
+          56,
+          85,
+          174,
+          230
+        ],
+        "head_rotation_degrees": 0
+      }
+    }
+  },
+  "notes": [
+    "Face/features, headwear and total head silhouette are separate controls.",
+    "Colored-eye bbox excludes eyelid and is a color-mask diagnostic, not a universal eye-size constraint.",
+    "Headwear is reviewed visually at the same coordinates and scale; generated protected areas are not claimed byte-identical."
+  ]
+}

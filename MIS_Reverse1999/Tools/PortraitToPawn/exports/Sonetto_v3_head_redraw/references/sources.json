@@ -1,0 +1,78 @@
+{
+  "primary": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\Ombrophobia\\data_infrastructure\\图片\\十四行诗.png",
+  "primary_sha256": "77338b68f2e18cfc94a627393bdd13440a4f15c21059607fec6cf220998976b8",
+  "style": {
+    "Texas_south.png": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Texas_south.png",
+      "sha256": "264239c05a87a9c15b3cc439757d2ddacee495b4f1738d995002417700fc5ee1"
+    },
+    "Texas_east.png": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Texas_east.png",
+      "sha256": "fb51d064091ef4f5ac6f7197e6eb72c91fba6a700b24c4b1a1936f57131cbbfb"
+    },
+    "Texas_north.png": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Texas_north.png",
+      "sha256": "30fc62f47c29d9f91eb179b5434f2e884d3318ea3cc994d15b1c345465c92da5"
+    },
+    "Zima_south.png": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Zima_south.png",
+      "sha256": "028c53c9be02dcb00d156cdf5244549fd1e50455478b1ba9445d13b0512aa3c8"
+    },
+    "Zima_east.png": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Zima_east.png",
+      "sha256": "ae830d816be8e52932c27641dc2fc2cb7115ceee682bbce5031b7ecbb75beed6"
+    },
+    "Zima_north.png": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Zima_north.png",
+      "sha256": "50d6d4c7e8b5284ef5bf70222bc673932aaf1eedd7fa62a71b5c56d121274464"
+    },
+    "Silence_south.png": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Medic\\Silence_south.png",
+      "sha256": "c47618cf6e557090fa0f559f7cb9b490deb346135b4b5ccce6f9716bd6ab1eed"
+    },
+    "Silence_east.png": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Medic\\Silence_east.png",
+      "sha256": "928b4f89a5ac514f711d3f46f6b8837d12416c9326805b5be80d906dd1a78caf"
+    },
+    "Silence_north.png": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Medic\\Silence_north.png",
+      "sha256": "bd9c5743bdc249ff774859582f463e429f62d7e60d097b9c05deac4e5dfccd33"
+    },
+    "Vertin_south.png": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Textures\\Things\\Hair\\R99\\Vertin_south.png",
+      "sha256": "38313803bfbebcf626c201451bb46d09168be40b245ee38496632e953b11044a"
+    },
+    "Vertin_east.png": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Textures\\Things\\Hair\\R99\\Vertin_east.png",
+      "sha256": "0fba21b56edd8d13b3e9b4864fe1dacc1e8aa09a0524c87a4691b6f198c511c8"
+    },
+    "Vertin_north.png": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Textures\\Things\\Hair\\R99\\Vertin_north.png",
+      "sha256": "b73b76a4259ea05eced26dfc832991b613a42d8225d2991d4c1046646a8acffe"
+    },
+    "Lilya_south.png": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Textures\\Things\\Hair\\R99\\Lilya_south.png",
+      "sha256": "fbecd77049c6287a55b20feca4d64953798cc2856c6cfe19beebfa07350f290f"
+    },
+    "Lilya_east.png": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Textures\\Things\\Hair\\R99\\Lilya_east.png",
+      "sha256": "38d37c3193b429ca77b3b438fd8e93b53498d4aa2a1d8fb532a0123eab47cc03"
+    },
+    "Lilya_north.png": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Textures\\Things\\Hair\\R99\\Lilya_north.png",
+      "sha256": "7cc09ab5a79a3c5897e48b991cc280a2433b1b0c6f6c56e72fd2b8348875cffa"
+    },
+    "X_south.png": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Textures\\Things\\Hair\\R99\\X_south.png",
+      "sha256": "3524782085e9c3076a371e62871ee8304f257e4bb085c20f02946b155728ed6d"
+    },
+    "X_east.png": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Textures\\Things\\Hair\\R99\\X_east.png",
+      "sha256": "fbc598e7f5838df18a06b094435e1f3283b82fdce4d2443aabfe68853a538f38"
+    },
+    "X_north.png": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Textures\\Things\\Hair\\R99\\X_north.png",
+      "sha256": "b04c2275fdfb24749a65469465f6bf57b9836c93c721780f38a52dc445c44943"
+    }
+  }
+}

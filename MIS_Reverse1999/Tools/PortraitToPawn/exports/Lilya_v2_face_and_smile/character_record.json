@@ -1,0 +1,87 @@
+{
+  "character": "Lilya",
+  "display_name": "红弩箭",
+  "updated_date": "2026-11-08",
+  "working_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v2_face_and_smile",
+  "status": "textures_updated_and_statically_verified",
+  "user_review": "v2 produced from user feedback; awaiting visual review",
+  "game_tested": false,
+  "installation_receipt": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v2_face_and_smile\\installation_receipt.json",
+  "paths": {
+    "head_texPath": "Things/Hair/R99/Lilya",
+    "apparel_wornGraphicPath": "Things/R99_Agents/Arcanist/Lilya",
+    "item_texPath": "Things/R99_Agents/Arcanist/Lilya",
+    "body_type": "Thin",
+    "directions": [
+      "south",
+      "east",
+      "north"
+    ]
+  },
+  "primary_reference": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\Ombrophobia\\data_infrastructure\\图片\\红弩箭.png",
+  "primary_reference_sha256": "9d45244d6f3489ee87c13d5d113f25897dfa24ff82f361b58baba51a4cad1680",
+  "constraints_file": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\角色三视图制作规范.txt",
+  "generator_recipe": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v2_face_and_smile\\recipe.json",
+  "generator_entrypoint": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v2_face_and_smile\\format_assets.py",
+  "prompts_file": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v2_face_and_smile\\imagegen_prompts.json",
+  "reference_manifest": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v2_face_and_smile\\references\\sources.json",
+  "expression": "Restrained closed-mouth smile with short softly upturned lip line, relaxed brow/eye tension; no visible teeth or open happy grin. Explicit latest user direction supersedes v1 tooth-showing interpretation.",
+  "facial_identity_details": "No obvious freckles, scars, burns or birthmarks in local reference; conditional face-mark rule skipped. Do not inherit Vertin freckles.",
+  "clothing_fit": {
+    "outer": "Loose open brown leather aviation jacket with cream shearling collar; retain hanging outer panels and hip-length hem. Full arms/hands omitted; only short shoulder caps.",
+    "inner": "Fitted olive green cropped tank top, small midriff interval; flat modest pawn treatment.",
+    "lower": "Dark brown-purple shorts with cream fur hems, black waist belt with gold star buckle cluster, dark tall boots, bare knee/thigh intervals.",
+    "accessories": "Dark aviation respirator hanging at neck (body part), two small gold stars on character right collar, small belt tag, two dark bands and compact holster on character right thigh, hanging rectangular dark canister with muted red star on character left hip."
+  },
+  "size_basis": "Mixed fit: fitted inner tank/shorts but loose outer aviation jacket. Therefore do not force the whole body to the fitted Vertin silhouette. Calibrate visible underlying body and head/face near existing pawn references; garment silhouette takes priority.",
+  "physical_sides": {
+    "character_right": [
+      "cap gold star",
+      "collar star badges",
+      "two thigh bands and holster"
+    ],
+    "character_left": [
+      "longer face-framing hair/bang",
+      "hip canister"
+    ]
+  },
+  "hidden_view_inference": "Back is not supplied orthographically. Infer plain brown jacket back with cream back collar and simple seams; same hem/short/boot heights. Do not copy chest badges, crop-top opening, respirator front or star belt buckle onto back.",
+  "head_rotation_degrees": 0,
+  "preview_head_offset": [
+    0,
+    -65
+  ],
+  "head_hashes": {
+    "south": "fbecd77049c6287a55b20feca4d64953798cc2856c6cfe19beebfa07350f290f",
+    "east": "38d37c3193b429ca77b3b438fd8e93b53498d4aa2a1d8fb532a0123eab47cc03",
+    "north": "7cc09ab5a79a3c5897e48b991cc280a2433b1b0c6f6c56e72fd2b8348875cffa"
+  },
+  "body_hashes": {
+    "south": "11727c5c347857390bab9775e4386028b0e5e4b78113932de50aee2e3dc4644b",
+    "east": "77bfbd26c663252eaa5ac1b9297138969369e0d0a77a74d1a0466d8aa2b7f495",
+    "north": "03fb8d933a3e5a1f36557dbb8609d5cb72ac11c6b7d2b78251f1d1c75b9ff2a6"
+  },
+  "formal_files": [
+    "Textures/Things/Hair/R99/Lilya_south.png",
+    "Textures/Things/Hair/R99/Lilya_east.png",
+    "Textures/Things/Hair/R99/Lilya_north.png",
+    "Textures/Things/R99_Agents/Arcanist/Lilya_Thin_south.png",
+    "Textures/Things/R99_Agents/Arcanist/Lilya_Thin_east.png",
+    "Textures/Things/R99_Agents/Arcanist/Lilya_Thin_north.png",
+    "Textures/Things/R99_Agents/Arcanist/Lilya.png"
+  ],
+  "validation": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v2_face_and_smile\\validation.json",
+  "notes": "Texture assets only. No character Def or recruitment configuration created. Existing characters and UI assets preserved.",
+  "previous_working_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v1",
+  "head_face_revision": "Profile face and features adjusted locally; face/headwear/complete-head envelope checked separately against Vertin, Texas and Zima. Front face proportions retained while mouth is revised.",
+  "body_source_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v1",
+  "head_scale_checks": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v2_face_and_smile\\face_headwear_scale_checks.json",
+  "backup_directory": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v2_face_and_smile\\installation_backup",
+  "revision_history": [
+    {
+      "date": "2026-11-08",
+      "revision": "v2_face_and_smile",
+      "change": "Local profile face/eye aspect correction; front/profile subtle closed-mouth smile. Rear head, body/item and other textures retained."
+    }
+  ]
+}

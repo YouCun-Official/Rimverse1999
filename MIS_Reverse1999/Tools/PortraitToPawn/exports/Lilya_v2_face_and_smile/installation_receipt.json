@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-08",
+  "character": "Lilya",
+  "revision": "v2_face_and_smile",
+  "replaced_files": {
+    "Textures/Things/Hair/R99/Lilya_south.png": {
+      "before": "2a15a06763856c25649bca3be7bba5340f13de889cdfe972c65ef3af30cd0589",
+      "after": "fbecd77049c6287a55b20feca4d64953798cc2856c6cfe19beebfa07350f290f"
+    },
+    "Textures/Things/Hair/R99/Lilya_east.png": {
+      "before": "8b969e566c998b1dcf4987b2661319860f1989b4d1c20b1649f6dedf6b743027",
+      "after": "38d37c3193b429ca77b3b438fd8e93b53498d4aa2a1d8fb532a0123eab47cc03"
+    }
+  },
+  "created_texture_files": [],
+  "preserved_texture_count": 35,
+  "rear_head_and_body_item_unchanged": true,
+  "all_other_textures_unchanged": true,
+  "other_character_records_and_rules_unchanged": true,
+  "export_installed_reproduced_identical": true,
+  "backup_directory": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v2_face_and_smile\\installation_backup",
+  "game_tested": false
+}

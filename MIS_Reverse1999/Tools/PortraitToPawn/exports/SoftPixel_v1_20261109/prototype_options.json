@@ -1,0 +1,35 @@
+{
+  "A 轻微": {
+    "median_local_limit": 20,
+    "protection_feather_px": 2,
+    "dark_stroke_luma": 72,
+    "max_dark_stroke_lightening": 5,
+    "guide_grid": 224,
+    "pixel_mix": 0.4,
+    "median_mix": 0.12,
+    "color_step": 4,
+    "max_channel_delta": 10
+  },
+  "B 轻度": {
+    "median_local_limit": 20,
+    "protection_feather_px": 2,
+    "dark_stroke_luma": 72,
+    "max_dark_stroke_lightening": 5,
+    "guide_grid": 192,
+    "pixel_mix": 0.5,
+    "median_mix": 0.18,
+    "color_step": 6,
+    "max_channel_delta": 16
+  },
+  "C 较明显": {
+    "median_local_limit": 20,
+    "protection_feather_px": 2,
+    "dark_stroke_luma": 72,
+    "max_dark_stroke_lightening": 5,
+    "guide_grid": 160,
+    "pixel_mix": 0.55,
+    "median_mix": 0.2,
+    "color_step": 8,
+    "max_channel_delta": 20
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "character": "Vertin",
+  "installed_at": "2026-10-29T19:28:03.364110+08:00",
+  "status": "head_textures_updated_and_verified",
+  "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v2_head_style",
+  "destination": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Textures",
+  "backup": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\TextureBackups\\Vertin_before_v2_heads_20261029_192803_364110.zip",
+  "replaced_files": [
+    "Textures/Things/Hair/R99/Vertin_south.png",
+    "Textures/Things/Hair/R99/Vertin_east.png",
+    "Textures/Things/Hair/R99/Vertin_north.png"
+  ],
+  "all_body_textures_unchanged": true,
+  "all_other_textures_unchanged": true,
+  "xml_unchanged": true,
+  "game_tested": false,
+  "hashes": {
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_south.png": "9076d08e6ec07ea938b8b01cac46a6ab31ffbd31e31e1081217b85bf1a1b1e63",
+    "Textures/Things/Hair/R99/Vertin_south.png": "e66c211c07c0fb5c57db3980b950205436fc3eef36ac1beb8adb02ddb3c3847c",
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_east.png": "fcdd976d690618ed919d17b42a27686d0092138b063c4ef33fae0b05da19039b",
+    "Textures/Things/Hair/R99/Vertin_east.png": "396d850dd9e9b050c70a78781a0c5eddcc70070ffcc86c8a3e2871952fc1267d",
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_north.png": "1238a227cdfa2049a35d03f22794141a475cd2016bf7ee49f075f4a32f6346a4",
+    "Textures/Things/Hair/R99/Vertin_north.png": "b04c17a1689834d4be042752620cfb764d5494566c38d41fa906f63e7b00a959",
+    "Textures/Things/R99_Agents/Arcanist/Vertin.png": "9076d08e6ec07ea938b8b01cac46a6ab31ffbd31e31e1081217b85bf1a1b1e63"
+  }
+}

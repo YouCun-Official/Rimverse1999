@@ -1,0 +1,113 @@
+{
+  "name": "Vertin",
+  "display_name": "维尔汀",
+  "version": "v2_head_style",
+  "source_images": {
+    "head_south": "source_art/head_south.png",
+    "body_south": "source_art/body_south.png",
+    "head_east": "source_art/head_east.png",
+    "head_north": "source_art/head_north.png",
+    "body_east": "source_art/body_east.png",
+    "body_north": "source_art/body_north.png"
+  },
+  "body_frames": {
+    "south": [
+      86,
+      90,
+      170,
+      252
+    ],
+    "east": [
+      98,
+      90,
+      160,
+      252
+    ],
+    "north": [
+      86,
+      90,
+      170,
+      252
+    ]
+  },
+  "head_registration": {
+    "south": {
+      "source_anchor": [
+        630,
+        1060
+      ],
+      "target_anchor": [
+        129,
+        173
+      ],
+      "scale": 0.098
+    },
+    "east": {
+      "source_anchor": [
+        1018,
+        1048
+      ],
+      "target_anchor": [
+        164,
+        173
+      ],
+      "scale": 0.098
+    },
+    "north": {
+      "source_anchor": [
+        700,
+        1044
+      ],
+      "target_anchor": [
+        128,
+        176
+      ],
+      "scale": 0.098
+    }
+  },
+  "east_pose": {
+    "fixed_above_y": 110,
+    "waist_y": 148,
+    "upper_degrees": 7,
+    "lower_degrees": 18,
+    "head_rotation": 0
+  },
+  "head_soften_radius_px": 0.18,
+  "body_soften_radius_px": 0.45,
+  "supersample": 4,
+  "source_portrait": "portrait_reference.png",
+  "detail_policy": {
+    "preserved": [
+      "ash-beige side-swept short curled hair",
+      "gray-green eyes",
+      "dark plum top hat",
+      "blue-gray bow and dark-tipped ribbons",
+      "ivory layered cravat",
+      "violet coat and black patterned trim",
+      "smoky blue-teal tailcoat lining",
+      "dark trousers",
+      "high plum boots with square buckles and indigo tabs"
+    ],
+    "adapted": [
+      "hat worn on head instead of floating",
+      "no arms or hands; very short shoulder caps",
+      "compact closed legs and downward boot silhouette"
+    ],
+    "inferred": [
+      "standing coat front hidden by curled pose",
+      "back seam and center split",
+      "rear hairstyle and rear boot structure"
+    ]
+  },
+  "head_style_revision": {
+    "reference": "MIS_arknights head textures: Texas, Thorns, Platinum, plus accepted earlier local reference (removed)",
+    "change": [
+      "tapered longer face and chin",
+      "compact almond eyes",
+      "clearer ink contours",
+      "larger simplified hair locks",
+      "less fluffy hair and gloss"
+    ],
+    "body_policy": "body textures remain byte-identical to v1"
+  }
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "name": "Vertin",
+    "direction": "south",
+    "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Textures\\Things\\Hair\\R99\\Vertin_south.png",
+    "local": "inputs\\Vertin_south.png",
+    "sha256": "a04c2cdaaebbf6f0ad55bda664ea14ed41ae7be2f385390676ab37446e6cdcb6",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "name": "Vertin",
+    "direction": "east",
+    "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Textures\\Things\\Hair\\R99\\Vertin_east.png",
+    "local": "inputs\\Vertin_east.png",
+    "sha256": "c4d18364716eb79f1e471911cb43375baa48d6639fe15c7dd9b4ad13c8b712bc",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "name": "Texas",
+    "direction": "south",
+    "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Texas_south.png",
+    "local": "inputs\\Texas_south.png",
+    "sha256": "264239c05a87a9c15b3cc439757d2ddacee495b4f1738d995002417700fc5ee1",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "name": "Texas",
+    "direction": "east",
+    "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Texas_east.png",
+    "local": "inputs\\Texas_east.png",
+    "sha256": "fb51d064091ef4f5ac6f7197e6eb72c91fba6a700b24c4b1a1936f57131cbbfb",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "name": "Zima",
+    "direction": "south",
+    "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Zima_south.png",
+    "local": "inputs\\Zima_south.png",
+    "sha256": "028c53c9be02dcb00d156cdf5244549fd1e50455478b1ba9445d13b0512aa3c8",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "name": "Zima",
+    "direction": "east",
+    "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Zima_east.png",
+    "local": "inputs\\Zima_east.png",
+    "sha256": "ae830d816be8e52932c27641dc2fc2cb7115ceee682bbce5031b7ecbb75beed6",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "name": "Amiya",
+    "direction": "south",
+    "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Caster\\Amiya_south.png",
+    "local": "inputs\\Amiya_south.png",
+    "sha256": "0dc7e0f317d90d2087f16d5774cd60d125247c4cd5b723171097b93b9960ae17",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "name": "Amiya",
+    "direction": "east",
+    "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Caster\\Amiya_east.png",
+    "local": "inputs\\Amiya_east.png",
+    "sha256": "ef580b5553c714f353178dfec73cd9fb67262e649baf5c95ab4b02b01062fa67",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "name": "Exusiai",
+    "direction": "south",
+    "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Sniper\\Exusiai_south.png",
+    "local": "inputs\\Exusiai_south.png",
+    "sha256": "f8b6a28c86249421bdac04262b6023b7ab1282d14159343d5c9f906b4e5d3cd2",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "name": "Exusiai",
+    "direction": "east",
+    "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Sniper\\Exusiai_east.png",
+    "local": "inputs\\Exusiai_east.png",
+    "sha256": "9443075ae852903a2098e5c1e51f7d67e5132a95cc7789f70100c6ab4934297f",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "name": "Angelina",
+    "direction": "south",
+    "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Supporter\\Angelina_south.png",
+    "local": "inputs\\Angelina_south.png",
+    "sha256": "f969ce5a91f56b9cf6d886ee09c24d0bfd5359849ab88b70e6df25647b1389ef",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "name": "Angelina",
+    "direction": "east",
+    "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Supporter\\Angelina_east.png",
+    "local": "inputs\\Angelina_east.png",
+    "sha256": "deccebaabf046ab3bc85bf2ebda9e72c56a118456c1a61f940a30e19cd939cb9",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "name": "Thorns",
+    "direction": "south",
+    "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Guard\\Thorns_south.png",
+    "local": "inputs\\Thorns_south.png",
+    "sha256": "ae9bf10692a05a80c88df564d3c16e14bfe8edfe37d2e0b46b73c98ab64c292b",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "name": "Thorns",
+    "direction": "east",
+    "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Guard\\Thorns_east.png",
+    "local": "inputs\\Thorns_east.png",
+    "sha256": "486771148607ea371f968ccaf40a2346c7601c5ce0bc3924b3ca0449e1e108b9",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "name": "Silence",
+    "direction": "south",
+    "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Medic\\Silence_south.png",
+    "local": "inputs\\Silence_south.png",
+    "sha256": "c47618cf6e557090fa0f559f7cb9b490deb346135b4b5ccce6f9716bd6ab1eed",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "name": "Silence",
+    "direction": "east",
+    "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Medic\\Silence_east.png",
+    "local": "inputs\\Silence_east.png",
+    "sha256": "928b4f89a5ac514f711d3f46f6b8837d12416c9326805b5be80d906dd1a78caf",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA"
+  }
+]

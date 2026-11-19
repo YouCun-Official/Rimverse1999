@@ -1,0 +1,84 @@
+{
+  "character": "Sonetto",
+  "display_name": "十四行诗",
+  "updated_date": "2026-11-08",
+  "working_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v1",
+  "status": "textures_added_and_statically_verified",
+  "user_visual_approval": "pending",
+  "game_tested": false,
+  "primary_portrait": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\Ombrophobia\\data_infrastructure\\图片\\十四行诗.png",
+  "installation_receipt": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v1\\installation_receipt.json",
+  "generator_entrypoint": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v1\\format_assets.py",
+  "generator_recipe": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v1\\recipe.json",
+  "generation_mode": "built-in image_gen",
+  "constraints_file": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\角色三视图制作规范.txt",
+  "size_baseline": {
+    "young_female": true,
+    "relatively_fitted_main_outfit": true,
+    "baseline": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v13_arknights_skin",
+    "body_type": "Thin",
+    "scope": "Face/skull, torso and leg scale from Vertin; natural skirt flare, cape drape and long-hair extensions follow Sonetto original clothing/hair rules"
+  },
+  "paths": {
+    "head_texPath": "Things/Hair/R99/Sonetto",
+    "apparel_wornGraphicPath": "Things/R99_Agents/Arcanist/Sonetto",
+    "item_texPath": "Things/R99_Agents/Arcanist/Sonetto",
+    "body_type": "Thin",
+    "directions": [
+      "south",
+      "east",
+      "north"
+    ]
+  },
+  "expression": {
+    "read": "serious/composed, attentive with mild questioning curiosity; subtly parted lips, no broad smile or angry scowl",
+    "mouth": "tiny slightly open natural mouth, near-level corners",
+    "brows": "slender soft angled eyebrows following the local reference, not exaggerated angry V or default happy arches",
+    "eyes": "muted grey-green, compact pawn-scale eyes; keep original hue"
+  },
+  "hair": {
+    "color": "copper-orange/auburn orange",
+    "structure": "long loose wavy hair with two small upper side-up gathers, swept curled fringe, one short braided sidelock on character left ending in a small gold clamp near the jaw",
+    "headband": "black-and-ivory checker/diamond band across crown, related small check ribbon at rear gather",
+    "side_braid_character_side": "left",
+    "front_screen_side": "right",
+    "east_visibility": "near-side braid visible",
+    "back_screen_side": "left, only if not occluded",
+    "long_hair": "head-layer-only, extends below the chin; main skull/face scale is matched separately from full hair bounds"
+  },
+  "clothing_fit": {
+    "bodice": "fitted ivory-white high-collared dress/tunic with black center lacing and small buttons",
+    "capelet": "short charcoal/slate grey shoulder cape with muted coral lining, black/ivory check lining on visible inner flap, gold circular clasp and short chain, sparse gold sun/star motifs and small crest",
+    "skirt": "short gently flared/pleated ivory hem, follows garment volume rather than an exaggerated tight hip outline",
+    "legs": "ivory tall stockings/boots; a small black bow on character-right upper leg and grey buckled bands on character-left thigh",
+    "shoes": "pale grey-white lace-front short compact toes, subdued dark sole; not full realistic long heels",
+    "arms_hands": "omit completely, only short shoulder clothing structure remains; keep capelet as a garment, not hanging arms",
+    "held_pen": "omitted from head/body sprite because hands and weapons are outside requested components"
+  },
+  "facial_identity_details": {
+    "finding": "No obvious freckles, scars or burn marks in the primary face; skip conditional markings",
+    "action": "Do not inherit Vertin freckles"
+  },
+  "inferred": [
+    "True-profile and back orthographic construction",
+    "Back cape continuation and understated seam layout",
+    "Back hair gathers and obscured ribbon arrangement; no new decorative motifs"
+  ],
+  "backup_archive": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\TextureBackups\\Sonetto_before_addition_20261108.zip",
+  "head_hashes": {
+    "south": "2d354a3c9c6c1eec22df3ac90a564ce618d68531f6543e966d9a59015dc86a2e",
+    "east": "f37e48c1c2d1a3622bc16711bb547828b3775fa1dba18f3df7a06edbf165558d",
+    "north": "b1a8cd7198d2c95a83f9c9b13d53db4622e0cf0627678fe28d01f883d07fd46d"
+  },
+  "body_hashes": {
+    "south": "2c452cbf0b3ba129b0ede6de05a872dad8b33b6fb39b91fbf869b9e639c3ea48",
+    "east": "8968314fdc00ef934987c06e0c1d4aacc98a550a847abd8828b46fb997ca739f",
+    "north": "2a4450adb316d64b95a3f74f94416bb604597fe0dcf548b4d32b45bd534e751d"
+  },
+  "preview": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v1\\three_views_final.png",
+  "preview_head_offset": [
+    0,
+    -65
+  ],
+  "preview_offset_note": "Static same-scale comparison convention; not a verified game rendering configuration."
+}

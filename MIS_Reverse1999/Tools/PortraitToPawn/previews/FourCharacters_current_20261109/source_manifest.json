@@ -1,0 +1,162 @@
+{
+  "date": "2026-11-09",
+  "source": "currently installed formal Textures; no cancelled trial used",
+  "characters": {
+    "Lilya": {
+      "display_name": "红弩箭",
+      "working_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v2_face_and_smile",
+      "files": {
+        "south": {
+          "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Textures\\Things\\Hair\\R99\\Lilya_south.png",
+          "sha256": "fbecd77049c6287a55b20feca4d64953798cc2856c6cfe19beebfa07350f290f",
+          "alpha_bbox": [
+            72,
+            84,
+            184,
+            231
+          ]
+        },
+        "east": {
+          "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Textures\\Things\\Hair\\R99\\Lilya_east.png",
+          "sha256": "38d37c3193b429ca77b3b438fd8e93b53498d4aa2a1d8fb532a0123eab47cc03",
+          "alpha_bbox": [
+            55,
+            84,
+            175,
+            231
+          ]
+        },
+        "north": {
+          "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Textures\\Things\\Hair\\R99\\Lilya_north.png",
+          "sha256": "7cc09ab5a79a3c5897e48b991cc280a2433b1b0c6f6c56e72fd2b8348875cffa",
+          "alpha_bbox": [
+            72,
+            84,
+            184,
+            231
+          ]
+        }
+      }
+    },
+    "Sonetto": {
+      "display_name": "十四行诗",
+      "working_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v2_compact_head",
+      "files": {
+        "south": {
+          "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Textures\\Things\\Hair\\R99\\Sonetto_south.png",
+          "sha256": "10162a0b8ddee818b79faf96c55dd5c24f04aea3a3af4144b39ea2f18d56f5e4",
+          "alpha_bbox": [
+            79,
+            95,
+            175,
+            205
+          ]
+        },
+        "east": {
+          "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Textures\\Things\\Hair\\R99\\Sonetto_east.png",
+          "sha256": "7df0ea12b7d5f16e2c8c22a1fcd334d50147d1685a45eacc4f6224bea474b4b7",
+          "alpha_bbox": [
+            70,
+            94,
+            174,
+            211
+          ]
+        },
+        "north": {
+          "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Textures\\Things\\Hair\\R99\\Sonetto_north.png",
+          "sha256": "fb7356d734e02b7589e17067ddc226c7101bc5a3845824e47eb7f606e1fdde1a",
+          "alpha_bbox": [
+            84,
+            95,
+            172,
+            208
+          ]
+        }
+      }
+    },
+    "X": {
+      "display_name": "X",
+      "working_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v2_soft_smile",
+      "files": {
+        "south": {
+          "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Textures\\Things\\Hair\\R99\\X_south.png",
+          "sha256": "3524782085e9c3076a371e62871ee8304f257e4bb085c20f02946b155728ed6d",
+          "alpha_bbox": [
+            79,
+            78,
+            177,
+            175
+          ]
+        },
+        "east": {
+          "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Textures\\Things\\Hair\\R99\\X_east.png",
+          "sha256": "fbc598e7f5838df18a06b094435e1f3283b82fdce4d2443aabfe68853a538f38",
+          "alpha_bbox": [
+            85,
+            81,
+            178,
+            176
+          ]
+        },
+        "north": {
+          "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Textures\\Things\\Hair\\R99\\X_north.png",
+          "sha256": "b04c2275fdfb24749a65469465f6bf57b9836c93c721780f38a52dc445c44943",
+          "alpha_bbox": [
+            81,
+            79,
+            177,
+            173
+          ]
+        }
+      }
+    },
+    "Regulus": {
+      "display_name": "星锑",
+      "working_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v1",
+      "files": {
+        "south": {
+          "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Textures\\Things\\Hair\\R99\\Regulus_south.png",
+          "sha256": "89bade225614e4e6699038f6815c7523458c8110320861dd9dcdb76d39c9ae8d",
+          "alpha_bbox": [
+            82,
+            74,
+            174,
+            180
+          ]
+        },
+        "east": {
+          "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Textures\\Things\\Hair\\R99\\Regulus_east.png",
+          "sha256": "387b2ceb9ac0e89c364d78fd59a7870b0e35eb00c1eddeabe53ad4af8454448b",
+          "alpha_bbox": [
+            76,
+            74,
+            175,
+            180
+          ]
+        },
+        "north": {
+          "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Textures\\Things\\Hair\\R99\\Regulus_north.png",
+          "sha256": "20b11d6e416804b2930e5aa6521c2c179a3a2f9149f17617f48cf2d4df5edd75",
+          "alpha_bbox": [
+            82,
+            74,
+            174,
+            180
+          ]
+        }
+      }
+    }
+  },
+  "shared_crop_xyxy": [
+    48,
+    64,
+    192,
+    240
+  ],
+  "comparison_native_scale": 2,
+  "individual_native_scale": 3,
+  "resampling": "nearest; preview only",
+  "source_files_unchanged": true,
+  "sources_match_character_records_and_active_exports": true,
+  "all_head_alpha_extents_inside_common_crop": true
+}

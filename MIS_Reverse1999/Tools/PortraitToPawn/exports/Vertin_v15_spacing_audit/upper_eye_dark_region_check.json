@@ -1,0 +1,78 @@
+{
+  "method": "Count pixels with max(R,G,B)<90 in fixed upper-eye ROIs; dark iris may contribute, so these are upper-eye dark regions rather than anatomically isolated eyelids.",
+  "measurements": {
+    "Vertin_v14": {
+      "left": {
+        "roi": [
+          113,
+          140,
+          123,
+          146
+        ],
+        "dark_pixel_counts_by_row_140_to_145": [
+          1,
+          4,
+          10,
+          1,
+          0,
+          0
+        ],
+        "first_row_at_least_3_dark_pixels": 141
+      },
+      "right": {
+        "roi": [
+          134,
+          140,
+          145,
+          146
+        ],
+        "dark_pixel_counts_by_row_140_to_145": [
+          0,
+          3,
+          11,
+          2,
+          0,
+          0
+        ],
+        "first_row_at_least_3_dark_pixels": 141
+      }
+    },
+    "Vertin_trial": {
+      "left": {
+        "roi": [
+          113,
+          140,
+          123,
+          146
+        ],
+        "dark_pixel_counts_by_row_140_to_145": [
+          0,
+          10,
+          9,
+          8,
+          4,
+          4
+        ],
+        "first_row_at_least_3_dark_pixels": 141
+      },
+      "right": {
+        "roi": [
+          134,
+          140,
+          145,
+          146
+        ],
+        "dark_pixel_counts_by_row_140_to_145": [
+          0,
+          11,
+          9,
+          8,
+          4,
+          4
+        ],
+        "first_row_at_least_3_dark_pixels": 141
+      }
+    }
+  },
+  "interpretation": "Upper-edge position remains around the same row; the copied upper dark band has more weight. Brows were not moved."
+}

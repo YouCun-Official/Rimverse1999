@@ -1,0 +1,28 @@
+{
+  "character": "Vertin",
+  "revision": "v8_pawn_eyes",
+  "head_south_east_source": "built-in image_gen eye style/proportion edits to v7",
+  "head_north_source_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v5_original_hairstyle",
+  "body_source_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v4_side_and_outline",
+  "textures": {
+    "Textures/Things/Hair/R99/Vertin_east.png": "914e0b80306fde2150784d26f164111684492828e5411cd9dfa8a01d37a8ff22",
+    "Textures/Things/Hair/R99/Vertin_north.png": "b5dc1d5060a0a73ebb43df58dbf8c6c429116b99833636cbcad4dc3afbec3acd",
+    "Textures/Things/Hair/R99/Vertin_south.png": "331dc39f961b09f53728da6409c2cc023831c9c859263c33f5efbe6e13f8c3d9",
+    "Textures/Things/R99_Agents/Arcanist/Vertin.png": "49163822bfdf4e2a4b6e874c8c51d0c2c079b6447f25ebf490bfdcbe6a14957c",
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_east.png": "d4780b9360a535c7668df19ac3f5836241dc87b1d662194cb565df8e0a6cae92",
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_north.png": "af2475c5769648d51ac98fae53820aaa0e411e4626a5cbadc1e414f9d8735713",
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_south.png": "49163822bfdf4e2a4b6e874c8c51d0c2c079b6447f25ebf490bfdcbe6a14957c"
+  },
+  "source_art": {
+    "source_art/body_east.png": "7b248485112ed3b15933c6b5d552b780021681fbf06877a9c227bb6b056f8eef",
+    "source_art/body_north.png": "fd58926f817fd0fe6d5d2738948e340cf4dce70eafb4f78d83e280cc2974127c",
+    "source_art/body_south.png": "bd7c84845a61cb13ae32b60f384682cb2b2143cccdce3728bfbe0b1e7861c6e7",
+    "source_art/head_east.png": "8e6bd7abcf7289d30d9d6555ca72bd3ed58fee20d0067b86e2470d5428444756",
+    "source_art/head_north.png": "28b9c334f24ce7da38fa00cab609edd19864eafa8de4d5124ee401cd7910e0cb",
+    "source_art/head_south.png": "813d5c8495f7443c0268e011d973b0bf4e7bb5d8dc6ef94866488f319b7a8a61"
+  },
+  "prompt_set": "imagegen_prompts.json",
+  "reference_manifest": "references/sources.json",
+  "recipe": "recipe.json",
+  "canonical_constraints": "角色三视图制作规范.txt"
+}

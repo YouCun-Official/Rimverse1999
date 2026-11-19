@@ -1,0 +1,137 @@
+{
+  "character": "Sonetto",
+  "version": "Sonetto_v3_head_redraw",
+  "method": "Built-in image_gen redraw of all three heads from original portrait and accepted local pawn references; no v1/v2 Sonetto head artwork or cancelled eye transplant used as input.",
+  "files": {
+    "head_south": {
+      "path": "Textures/Things/Hair/R99/Sonetto_south.png",
+      "sha256": "128cd40a4d515b046b7c2fde2e7890c93077b7c65c4f8a3ef52c43c23bbfdf27",
+      "mode": "RGBA",
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bbox": [
+        78,
+        85,
+        185,
+        214
+      ],
+      "copied_byte_identically": false,
+      "source_sha256": "f42462c043f7ae4e6cbd7dfef896ff9793ec8c0e7630a31743630348a5ce6861",
+      "transparent_border": true
+    },
+    "head_east": {
+      "path": "Textures/Things/Hair/R99/Sonetto_east.png",
+      "sha256": "7262266f41e6fb090c17c5b384379524ff2d8eb451abaf48a946beb73743eb1b",
+      "mode": "RGBA",
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bbox": [
+        78,
+        88,
+        175,
+        223
+      ],
+      "copied_byte_identically": false,
+      "source_sha256": "7fa8360e7f934a5a40bb065973864fec59093917701773abced6b0fab1eaeaf2",
+      "transparent_border": true
+    },
+    "head_north": {
+      "path": "Textures/Things/Hair/R99/Sonetto_north.png",
+      "sha256": "b14262bff106cd32332e72857116a79628d0bca113c1b0d3ae3533e5ffd9b923",
+      "mode": "RGBA",
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bbox": [
+        83,
+        85,
+        173,
+        215
+      ],
+      "copied_byte_identically": false,
+      "source_sha256": "124dcdd60382d78f68b016d65d661bbcad1cc3d24144ce3d8ded6288fd53e83f",
+      "transparent_border": true
+    },
+    "body_south": {
+      "path": "Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_south.png",
+      "sha256": "2c452cbf0b3ba129b0ede6de05a872dad8b33b6fb39b91fbf869b9e639c3ea48",
+      "mode": "RGBA",
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bbox": [
+        83,
+        89,
+        174,
+        253
+      ],
+      "copied_byte_identically": true,
+      "source_sha256": "2c452cbf0b3ba129b0ede6de05a872dad8b33b6fb39b91fbf869b9e639c3ea48",
+      "transparent_border": true
+    },
+    "body_east": {
+      "path": "Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_east.png",
+      "sha256": "8968314fdc00ef934987c06e0c1d4aacc98a550a847abd8828b46fb997ca739f",
+      "mode": "RGBA",
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bbox": [
+        71,
+        88,
+        159,
+        253
+      ],
+      "copied_byte_identically": true,
+      "source_sha256": "8968314fdc00ef934987c06e0c1d4aacc98a550a847abd8828b46fb997ca739f",
+      "transparent_border": true
+    },
+    "body_north": {
+      "path": "Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_north.png",
+      "sha256": "2a4450adb316d64b95a3f74f94416bb604597fe0dcf548b4d32b45bd534e751d",
+      "mode": "RGBA",
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bbox": [
+        83,
+        89,
+        174,
+        253
+      ],
+      "copied_byte_identically": true,
+      "source_sha256": "2a4450adb316d64b95a3f74f94416bb604597fe0dcf548b4d32b45bd534e751d",
+      "transparent_border": true
+    },
+    "item": {
+      "path": "Textures/Things/R99_Agents/Arcanist/Sonetto.png",
+      "sha256": "2c452cbf0b3ba129b0ede6de05a872dad8b33b6fb39b91fbf869b9e639c3ea48",
+      "mode": "RGBA",
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bbox": [
+        83,
+        89,
+        174,
+        253
+      ],
+      "copied_byte_identically": true,
+      "source_sha256": "2c452cbf0b3ba129b0ede6de05a872dad8b33b6fb39b91fbf869b9e639c3ea48",
+      "transparent_border": true
+    }
+  },
+  "uniform_head_scaling": true,
+  "head_rotation_degrees": 0,
+  "body_item_retained_byte_identically": true,
+  "game_tested": false
+}

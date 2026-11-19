@@ -1,0 +1,51 @@
+红弩箭 Lilya v1 · 头部与躯干三视图
+日期：2026-11-08
+状态：已完成本地静态与同尺度视觉检查；等待用户审阅，游戏内尚未验证。
+
+一、依据和画风
+主要立绘：C:/Users/29232/Desktop/Lannuosprojects/Ombrophobia/data_infrastructure/图片/红弩箭.png。
+网络仅辅助核对英文名称 Lilya 与初始飞行员装束，来源见 references/sources.json。
+执行《角色三视图制作规范》2026-11-06 通用整合版（修订5）。参照 Vertin、Texas、Zima 等本地原尺寸 PNG 校准脸部、粗外轮廓、衣物表达与脚底基线。
+
+二、角色还原
+保留自信、略露齿的笑容和半睁的青蓝眼睛；鼻嘴不抹除，下巴短小。三向头部保持直立。
+金色长发、偏分刘海、飞行帽与护目镜均归入头部。正面角色左侧的前发更长；背面保留连续的长发层次，避免误画成短长两截的发型。
+颈挂呼吸面罩归入躯干；棕色毛领外套、绿色短上衣、毛边短裤、星形腰扣、腿带、挂罐和深色长靴按原设简化。
+双臂和手省略，仅留短肩袖；外套宽松、内搭较贴身，逐层遵守衣物轮廓。未将整件外套强制收成 Vertin 的紧身腰线。
+角色右侧：帽章、领口星章、肩章、双腿带及腿部小侧袋。角色左侧：较长前发和挂罐。east 看到左侧，远侧肩章被遮挡；背面不重复朝前的金色腿带扣。
+原立绘没有足够明显的雀斑、烧伤或疤痕，不额外添加。原画的手、手持物、载具均不包含在分件贴图内。
+侧面与背面不可见部分依据衣物结构补全：背部是简洁棕色外套、毛领、衣摆及接缝；不复制正面胸口、星形腰扣或面罩壳体。此部分是结构推断，不作为原作官方背面设计。
+
+三、绘制和格式化
+内置 image_gen 分别绘制六个部件，并修正前发、侧面肩章、背面腿带扣和长发。完整提示词与选稿记录见 imagegen_prompts.json；原稿在 source_art。
+后处理脚本不绘画新五官或服装，只执行透明边缘整理、4 倍采样缩放与定位、外描边、分件导出和预览合成。当前追加外描边：头部 0.5 原生像素，躯干 1.0 原生像素；不是总线宽。
+侧身原稿已具备连续前倾轮廓，未套用 Vertin 的逐行横向位移。头部额外旋转为 0°。预览头身偏移为 (0,-65)，不代表已写入游戏的头部偏移。
+recipe.json 保存本角色的具体包围框、描边和源图哈希；长发、帽子及宽松外套分别校准，不把配件外伸误当作人体宽度。
+
+四、正式输出
+256×256、RGBA、透明背景 PNG，共 7 张：
+Textures/Things/Hair/R99/Lilya_south.png
+Textures/Things/Hair/R99/Lilya_east.png
+Textures/Things/Hair/R99/Lilya_north.png
+Textures/Things/R99_Agents/Arcanist/Lilya_Thin_south.png
+Textures/Things/R99_Agents/Arcanist/Lilya_Thin_east.png
+Textures/Things/R99_Agents/Arcanist/Lilya_Thin_north.png
+Textures/Things/R99_Agents/Arcanist/Lilya.png
+
+Lilya.png 与正面躯干逐字节相同。Thin 是本项目细身躯干的贴图命名，本次没有新增角色 Def、招募配置或游戏内校准设置。
+素材与 Vertin 共用同级正式目录；该导出包 exports/Lilya_v1 与 Vertin 各版本导出目录同级。characters/Lilya.json 记录当前工作版本和正式 texPath。
+
+五、检查与复现
+three_views_final.png：头身合成三视图。
+heads_three_views.png / bodies_three_views.png：单独六个部件。
+pawn_reference_comparison.png、head_reference_comparison.png、body_reference_comparison.png：与现有角色同倍率、同裁切范围的对比。
+native_and_reduced.png：原尺寸与 50% 缩小检查。
+expression_reference.png：立绘与正侧面表情对照。
+measurements.json / validation.json：实际不透明包围框、分行宽度、alpha 连通性、文件哈希和复现检查。
+棋盘格、文字和背景只存在于预览，不写入正式 PNG。
+
+在本导出目录运行：
+python format_assets.py --recipe recipe.json --out 新的空目录
+依赖：Pillow、numpy。复现的是已经选定原稿的格式化结果，不重新生成图片。
+
+正式安装只新增本角色 7 张图片；已有 Vertin、星锑、X 与 UI 纹理保持不变。修改前的角色元数据和使用说明备份、旧纹理哈希见 installation_backup；新增记录见 installation_receipt.json。

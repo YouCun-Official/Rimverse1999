@@ -1,0 +1,169 @@
+{
+  "batch": "SoftPixel_v1_20261109",
+  "method": "User explicitly selected Python pixel postprocessing. Light premultiplied-alpha pixel grouping, restrained low-contrast median contribution and color grouping. No redraw, face transfer, warp, alpha edit, new expression, noise or dithering.",
+  "files": {
+    "X_head_south": {
+      "path": "Textures/Things/Hair/R99/X_south.png",
+      "source_sha256": "3524782085e9c3076a371e62871ee8304f257e4bb085c20f02946b155728ed6d",
+      "output_sha256": "e4ac2cf84218869044da1e939d9b19901c00d04f1b1b2f3c4d1fac66a7b27d69",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        79,
+        78,
+        177,
+        175
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [
+        [
+          106,
+          135,
+          150,
+          168
+        ]
+      ],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 4813,
+      "mean_abs_rgb_delta_over_visible": 2.3182,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "X_body_south": {
+      "path": "Textures/Things/R99_Agents/Arcanist/X_Thin_south.png",
+      "source_sha256": "75815d62132e4f17d8b4ad7d20ccc9ee92b4f0307b8b4aae4510aaf90390ead4",
+      "output_sha256": "bf12bf3441da28213a2358c6541e52dc6a1e3d6cc10f2b186acc4fbec5679620",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        77,
+        89,
+        179,
+        253
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 12644,
+      "mean_abs_rgb_delta_over_visible": 3.2519,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "X_head_east": {
+      "path": "Textures/Things/Hair/R99/X_east.png",
+      "source_sha256": "fbc598e7f5838df18a06b094435e1f3283b82fdce4d2443aabfe68853a538f38",
+      "output_sha256": "ac6fbfddbb13d895cf824bca49d65390b05976cad5d169f9d3269f1b59312f72",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        85,
+        81,
+        178,
+        176
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [
+        [
+          137,
+          134,
+          167,
+          166
+        ]
+      ],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 4931,
+      "mean_abs_rgb_delta_over_visible": 2.4813,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "X_body_east": {
+      "path": "Textures/Things/R99_Agents/Arcanist/X_Thin_east.png",
+      "source_sha256": "1dcb9105b9fb68ed0fe08f924df9a2dc8bf159a5c3635f70566a5dc7bc41b2e7",
+      "output_sha256": "cc5f4aa10e62078714b0c2ca965613fd17ee801bd7628780ba93fbd983aca87d",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        73,
+        89,
+        173,
+        253
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 9590,
+      "mean_abs_rgb_delta_over_visible": 2.5226,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "X_head_north": {
+      "path": "Textures/Things/Hair/R99/X_north.png",
+      "source_sha256": "b04c2275fdfb24749a65469465f6bf57b9836c93c721780f38a52dc445c44943",
+      "output_sha256": "15e29731d4fffa38b2c07be51c6a3793ee253c3f270349c71d3aac257830d731",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        81,
+        79,
+        177,
+        173
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 5930,
+      "mean_abs_rgb_delta_over_visible": 2.2131,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "X_body_north": {
+      "path": "Textures/Things/R99_Agents/Arcanist/X_Thin_north.png",
+      "source_sha256": "6989754e81a8fafc657f40522b0eaba00e534c08b4b9aadd69d3b7f483a9d344",
+      "output_sha256": "92f18c945edc6ce0e765029e53cf2e7be272ea01c1f19f36dcb8e2cadb087e3c",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        77,
+        89,
+        179,
+        253
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 12484,
+      "mean_abs_rgb_delta_over_visible": 1.86,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    }
+  },
+  "items": {
+    "X": {
+      "path": "Textures/Things/R99_Agents/Arcanist/X.png",
+      "sha256": "bf12bf3441da28213a2358c6541e52dc6a1e3d6cc10f2b186acc4fbec5679620",
+      "front_body_sha256": "bf12bf3441da28213a2358c6541e52dc6a1e3d6cc10f2b186acc4fbec5679620",
+      "byte_identical_to_front_body": true
+    }
+  },
+  "all_alpha_and_placement_unchanged": true,
+  "all_protected_features_pixel_identical": true,
+  "game_tested": false
+}

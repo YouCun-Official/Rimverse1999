@@ -1,0 +1,187 @@
+{
+  "date": "2026-11-08",
+  "primary": {
+    "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\Ombrophobia\\data_infrastructure\\图片\\X.png",
+    "local_copy": "references/X_original.png",
+    "sha256": "b2fd18dd8e4fd7ff99168d232af67c9aedc28376e89da1ecdaded3b4b5a0092c",
+    "dimensions": [
+      820,
+      1792
+    ],
+    "face_crop_xyxy": [
+      205,
+      0,
+      517,
+      287
+    ]
+  },
+  "web_auxiliary": [
+    {
+      "url": "https://www.4gamer.net/games/724/G072407/20231017005/",
+      "type": "Bluepoch press release reproduced by 4Gamer",
+      "use": "Corroborates male identity and approachable smiling expression; local portrait remains primary for all colors, clothing, expression and physical sides.",
+      "access": "read"
+    },
+    {
+      "url": "https://reverse1999.fandom.com/wiki/X/Gallery",
+      "use": "Search discovery only; page fetch returned 402, not used as image evidence.",
+      "access": "unavailable"
+    },
+    {
+      "url": "https://moegirl.icu/X%28%E9%87%8D%E8%BF%94%E6%9C%AA%E6%9D%A5%EF%BC%9A1999%29",
+      "type": "secondary character reference, search snippet",
+      "use": "Corroborates right eye gold and left eye blue; colors and placement are already visible in local primary portrait."
+    },
+    {
+      "url": "https://www.zerochan.net/4509346",
+      "type": "secondary image index tagged Bluepoch",
+      "use": "Search corroboration of dark scleral detail only; no image downloaded or used to override local portrait."
+    }
+  ],
+  "style_references": [
+    {
+      "character": "Thorns",
+      "part": "head",
+      "direction": "south",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Guard\\Thorns_south.png",
+      "local_copy": "references\\Thorns_head_south.png",
+      "sha256": "ae9bf10692a05a80c88df564d3c16e14bfe8edfe37d2e0b46b73c98ab64c292b"
+    },
+    {
+      "character": "Thorns",
+      "part": "head",
+      "direction": "east",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Guard\\Thorns_east.png",
+      "local_copy": "references\\Thorns_head_east.png",
+      "sha256": "486771148607ea371f968ccaf40a2346c7601c5ce0bc3924b3ca0449e1e108b9"
+    },
+    {
+      "character": "Thorns",
+      "part": "head",
+      "direction": "north",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Guard\\Thorns_north.png",
+      "local_copy": "references\\Thorns_head_north.png",
+      "sha256": "871a21a4a75c7c393238ead7e52a9bc9c47c6adb89fd9e6e5336a2d44147d023"
+    },
+    {
+      "character": "Thorns",
+      "part": "body",
+      "direction": "south",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Guard\\Thorns_Thin_south.png",
+      "local_copy": "references\\Thorns_body_south.png",
+      "sha256": "be9bd51a5ad2de12c8cf0dc593c7b25bf9a07e2c18a3742b1a2166a47facb357"
+    },
+    {
+      "character": "Thorns",
+      "part": "body",
+      "direction": "east",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Guard\\Thorns_Thin_east.png",
+      "local_copy": "references\\Thorns_body_east.png",
+      "sha256": "af2ab438651bcfaf2ac6c5de2f182e41523578752ba343b0309bb28f0c170346"
+    },
+    {
+      "character": "Thorns",
+      "part": "body",
+      "direction": "north",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Guard\\Thorns_Thin_north.png",
+      "local_copy": "references\\Thorns_body_north.png",
+      "sha256": "a335ef656cd13d67eea1d25485463169fbe74fa3b01479ace5c1c09f10a23e46"
+    },
+    {
+      "character": "Gnosis",
+      "part": "head",
+      "direction": "south",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Supporter\\Gnosis_south.png",
+      "local_copy": "references\\Gnosis_head_south.png",
+      "sha256": "2a5bc412e1699f520c0c127ebc9199748d968189463f3c9585c9256cb93faebf"
+    },
+    {
+      "character": "Gnosis",
+      "part": "head",
+      "direction": "east",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Supporter\\Gnosis_east.png",
+      "local_copy": "references\\Gnosis_head_east.png",
+      "sha256": "443c172b087aa89abdced11ff606c7936d97a5e8720a8f59b353c6385a2a02f1"
+    },
+    {
+      "character": "Gnosis",
+      "part": "head",
+      "direction": "north",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Supporter\\Gnosis_north.png",
+      "local_copy": "references\\Gnosis_head_north.png",
+      "sha256": "43e06e1c28a99843d69d2d08b82c43e4a1db39333cdd6c99b76cac1e5a12437e"
+    },
+    {
+      "character": "Gnosis",
+      "part": "body",
+      "direction": "south",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Supporter\\Gnosis_Thin_south.png",
+      "local_copy": "references\\Gnosis_body_south.png",
+      "sha256": "2e0c1afe85a5aa06450410c516bbdf733b5ebd25f32135eb87f016b0ed0e8ef0"
+    },
+    {
+      "character": "Gnosis",
+      "part": "body",
+      "direction": "east",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Supporter\\Gnosis_Thin_east.png",
+      "local_copy": "references\\Gnosis_body_east.png",
+      "sha256": "9192cfec014951c6c59d28bd8b9cbcde85c997a72286165106258499a5d005e8"
+    },
+    {
+      "character": "Gnosis",
+      "part": "body",
+      "direction": "north",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Supporter\\Gnosis_Thin_north.png",
+      "local_copy": "references\\Gnosis_body_north.png",
+      "sha256": "7f61bcb16b532c3299052047edf0fa20eedf24c974aa2f628a43a8d1dd8b6b43"
+    },
+    {
+      "character": "Executor",
+      "part": "head",
+      "direction": "south",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Sniper\\Executor_south.png",
+      "local_copy": "references\\Executor_head_south.png",
+      "sha256": "f5493e7b2532f311e100ef70c4f496045595b997c1ee13f176f95a6d3c7e0b9f"
+    },
+    {
+      "character": "Executor",
+      "part": "head",
+      "direction": "east",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Sniper\\Executor_east.png",
+      "local_copy": "references\\Executor_head_east.png",
+      "sha256": "e6d67410e53e8f3c4f4b7a7ebaadd2a97006ffd5bb8b7c1429e61beedc577624"
+    },
+    {
+      "character": "Executor",
+      "part": "head",
+      "direction": "north",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Sniper\\Executor_north.png",
+      "local_copy": "references\\Executor_head_north.png",
+      "sha256": "593c4dc182fd7b1e8a452abfcb43960badc19f441112029a89b78f89bd4c6e88"
+    },
+    {
+      "character": "Executor",
+      "part": "body",
+      "direction": "south",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Sniper\\Executor_Thin_south.png",
+      "local_copy": "references\\Executor_body_south.png",
+      "sha256": "009dc85d730ef79adc010313a3dbef76e764569e782269beff90a051e3bff943"
+    },
+    {
+      "character": "Executor",
+      "part": "body",
+      "direction": "east",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Sniper\\Executor_Thin_east.png",
+      "local_copy": "references\\Executor_body_east.png",
+      "sha256": "7de3020256b788db824a1447d536be221028752fecb063a5f7795aea961cf02a"
+    },
+    {
+      "character": "Executor",
+      "part": "body",
+      "direction": "north",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Sniper\\Executor_Thin_north.png",
+      "local_copy": "references\\Executor_body_north.png",
+      "sha256": "c5ea77e00454198974dc68300995c16b46bd320833c3a764203fc5c95d4006a4"
+    }
+  ]
+}

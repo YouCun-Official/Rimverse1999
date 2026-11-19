@@ -1,0 +1,115 @@
+{
+  "character": "X",
+  "revision": "v2_soft_smile",
+  "date": "2026-11-08",
+  "canvas": [
+    256,
+    256
+  ],
+  "assets": {
+    "head_south": {
+      "source": "source_art/head_south.png",
+      "relative_path": "Textures/Things/Hair/R99/X_south.png",
+      "target_solid_bbox": [
+        80,
+        79,
+        176,
+        174
+      ],
+      "outer_ink_px": 0.5
+    },
+    "head_east": {
+      "source": "source_art/head_east.png",
+      "relative_path": "Textures/Things/Hair/R99/X_east.png",
+      "target_solid_bbox": [
+        86,
+        82,
+        177,
+        175
+      ],
+      "outer_ink_px": 0.5
+    },
+    "head_north": {
+      "source": "source_art/head_north.png",
+      "relative_path": "Textures/Things/Hair/R99/X_north.png",
+      "target_solid_bbox": [
+        82,
+        80,
+        176,
+        172
+      ],
+      "outer_ink_px": 0.5
+    },
+    "body_south": {
+      "source": "source_art/body_south.png",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/X_Thin_south.png",
+      "target_solid_bbox": [
+        78,
+        90,
+        178,
+        252
+      ],
+      "outer_ink_px": 0.5
+    },
+    "body_east": {
+      "source": "source_art/body_east.png",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/X_Thin_east.png",
+      "target_solid_bbox": [
+        74,
+        90,
+        172,
+        252
+      ],
+      "outer_ink_px": 0.5
+    },
+    "body_north": {
+      "source": "source_art/body_north.png",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/X_Thin_north.png",
+      "target_solid_bbox": [
+        78,
+        90,
+        178,
+        252
+      ],
+      "outer_ink_px": 0.5
+    }
+  },
+  "item_relative_path": "Textures/Things/R99_Agents/Arcanist/X.png",
+  "head_rotation_degrees": 0,
+  "head_offset_preview": [
+    0,
+    -72
+  ],
+  "method": "Built-in image_gen locally edits only front/profile mouths to closed smiles. Existing formatter and dimensions retained; east target shifted 4 native pixels right. Rear head and all body/item outputs preserved byte-identically.",
+  "size_rule": "Male and loose-clothing: Vertin fitted-young-female dimensions are not applied. Full garment bounds include hanging coat panels, not anatomical hip width.",
+  "reference_manifest": "references/sources.json",
+  "character_brief": "character_brief.json",
+  "source_art_sha256": {
+    "head_south": "60e1f89a1ed77c189591c77bf2e3bd8e1bc62379d74a519f5c02352b4d763582",
+    "head_east": "7128865ee2a75fc9102fb84df387ba2fcae2445372fc039d159f3e7ebe2dba78",
+    "head_north": "01e6f215fe74296dda5a51724d2d892a554fb22183475376f987f7f02ac545a2",
+    "body_south": "ae9e7d402cb9227cc1144a51200a2254b5692674a2110c42722a7858d93e5c05",
+    "body_east": "09cfdc365c4e7a17aa58bbdc1142d499acc295563c96e22a61d4004df48d7b64",
+    "body_north": "3d490252885b5197409be6d47aa94ccfc168f9d7323803cbe4be2bd84bddbcd0"
+  },
+  "generated_sources": {
+    "head_south": "C:/Users/29232/.codex/generated_images/01a1aef2-3ca6-7473-a5cd-221d3e1ac209/exec-ec26ec57-01f0-443c-8d22-a484b21389ea.png",
+    "body_south": "C:/Users/29232/.codex/generated_images/01a1aef2-3ca6-7473-a5cd-221d3e1ac209/exec-4ddf41d6-865e-4dba-a7ec-6a5d7c268b2a.png",
+    "head_east": "C:/Users/29232/.codex/generated_images/01a1aef2-3ca6-7473-a5cd-221d3e1ac209/exec-45db1811-3194-4d31-812a-53397885a1cb.png",
+    "head_north": "C:/Users/29232/.codex/generated_images/01a1aef2-3ca6-7473-a5cd-221d3e1ac209/exec-ed7a3136-51b0-46ee-bdc1-04d31644de58.png",
+    "body_east": "C:/Users/29232/.codex/generated_images/01a1aef2-3ca6-7473-a5cd-221d3e1ac209/exec-6848a969-bd42-4133-81b5-b96516a55a65.png",
+    "body_north": "C:/Users/29232/.codex/generated_images/01a1aef2-3ca6-7473-a5cd-221d3e1ac209/exec-71838341-7706-433d-8e4c-79bdf9537f6e.png"
+  },
+  "alpha_cleanup": "Remove alpha below 96 and linearly remap the rest; rebuild clean AA during premultiplied downsampling; clear RGB when alpha<8.",
+  "side_pose": "Generated continuous forward slash with loose garment drape; no inherited Vertin row warp.",
+  "view_consistency": "Right-facing profile shows anatomical left BLUE eye and left instrument strap. Back cape remains anatomical right = screen right; strap left = screen left.",
+  "previous_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v1",
+  "revision_scope": [
+    "head_south mouth",
+    "head_east mouth and +4 native-pixel forward translation"
+  ],
+  "head_east_translation_from_v1": [
+    4,
+    0
+  ]
+}

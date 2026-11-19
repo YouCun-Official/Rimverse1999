@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-09",
+  "batch": "SoftPixel_v1_20261109",
+  "backup_archive": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\TextureBackups\\AllCharacters_before_SoftPixel_v1_20261109_5bd9c9f0.zip",
+  "backup_sha256": "09a5ac15fdac3e489cfe3dc1adbbf945edb00a3158df523c16f6c3db8ffb799b",
+  "changed_formal_textures": [
+    "Textures/Things/Hair/R99/Lilya_south.png",
+    "Textures/Things/R99_Agents/Arcanist/Lilya_Thin_south.png",
+    "Textures/Things/Hair/R99/Lilya_east.png",
+    "Textures/Things/R99_Agents/Arcanist/Lilya_Thin_east.png",
+    "Textures/Things/Hair/R99/Lilya_north.png",
+    "Textures/Things/R99_Agents/Arcanist/Lilya_Thin_north.png",
+    "Textures/Things/R99_Agents/Arcanist/Lilya.png"
+  ],
+  "changed_count": 7,
+  "unchanged_ui_count": 2,
+  "export_reproduction_install_hashes_equal": true,
+  "all_alpha_pixel_identical": true,
+  "canvas_and_geometry_unchanged": true,
+  "protected_face_pixels_identical": true,
+  "no_new_grin_or_eye_transfer": true,
+  "item_front_body_byte_identical": true,
+  "installed": {
+    "Textures/Things/Hair/R99/Lilya_south.png": "0a0726ea94cb7923c2e1ffc29d32bfe1f10e4bbc862f5135e9d7586f9e156d8d",
+    "Textures/Things/R99_Agents/Arcanist/Lilya_Thin_south.png": "3b7295feff059f3f5e94c98f11cf77a1f437498485a67bb190a9c86ad695d7e6",
+    "Textures/Things/Hair/R99/Lilya_east.png": "973f4a02ac58f7d19edef5a36ade5e629bc27f579eac702cc7331403f8c3e5e1",
+    "Textures/Things/R99_Agents/Arcanist/Lilya_Thin_east.png": "af31e6be6734d96fce62b1bef00e2f3e239c64930f9f05c20f08534136364311",
+    "Textures/Things/Hair/R99/Lilya_north.png": "0f230af7ff290c1cebefd59a94b82dc5ec3e76e947addd07db198d05a2a4abf3",
+    "Textures/Things/R99_Agents/Arcanist/Lilya_Thin_north.png": "189ee331da6ca5893010693a6ebff0e9e0041249812e7b964962c54b0eec5c37",
+    "Textures/Things/R99_Agents/Arcanist/Lilya.png": "3b7295feff059f3f5e94c98f11cf77a1f437498485a67bb190a9c86ad695d7e6"
+  },
+  "character_versions": {
+    "Vertin": "Vertin_v16_softpixel",
+    "Lilya": "Lilya_v3_softpixel",
+    "Regulus": "Regulus_v2_softpixel",
+    "X": "X_v3_softpixel",
+    "Sonetto": "Sonetto_v4_softpixel"
+  },
+  "documentation_updated": [
+    "AGENTS.md",
+    "Tools/PortraitToPawn/角色三视图制作规范.txt",
+    "Tools/PortraitToPawn/角色贴图Agent任务模板.txt",
+    "Tools/PortraitToPawn/使用说明.txt"
+  ],
+  "game_tested": false,
+  "user_visual_review": "pending",
+  "character": "Lilya"
+}

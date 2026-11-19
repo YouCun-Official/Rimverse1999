@@ -1,0 +1,110 @@
+{
+  "character": "Lilya",
+  "display_name": "红弩箭",
+  "revision": "v1",
+  "date": "2026-11-08",
+  "canvas": [
+    256,
+    256
+  ],
+  "head_rotation_degrees": 0,
+  "head_offset_preview": [
+    0,
+    -65
+  ],
+  "method": "Built-in image_gen draws six separate parts from the local original portrait; deterministic 4x formatting calibrates source placement and outline.",
+  "alpha_cleanup": "alpha below 96 removed, remaining alpha linearly remapped; premultiplied Lanczos resizing; zero RGB when alpha<8",
+  "size_basis": "Reference-pawn face/body scale and common foot baseline; loose outer jacket/long hair calibrated independently. Fitted Vertin size rule does not override loose outer garment contour.",
+  "body_type": "Thin",
+  "reference_manifest": "references/sources.json",
+  "character_brief": "character_brief.json",
+  "assets": {
+    "head_south": {
+      "source": "source_art/head_south.png",
+      "relative_path": "Textures/Things/Hair/R99/Lilya_south.png",
+      "target_solid_bbox": [
+        73,
+        85,
+        183,
+        230
+      ],
+      "outer_ink_px": 0.5
+    },
+    "head_east": {
+      "source": "source_art/head_east.png",
+      "relative_path": "Textures/Things/Hair/R99/Lilya_east.png",
+      "target_solid_bbox": [
+        56,
+        85,
+        174,
+        230
+      ],
+      "outer_ink_px": 0.5
+    },
+    "head_north": {
+      "source": "source_art/head_north.png",
+      "relative_path": "Textures/Things/Hair/R99/Lilya_north.png",
+      "target_solid_bbox": [
+        73,
+        85,
+        183,
+        230
+      ],
+      "outer_ink_px": 0.5
+    },
+    "body_south": {
+      "source": "source_art/body_south.png",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Lilya_Thin_south.png",
+      "target_solid_bbox": [
+        80,
+        90,
+        178,
+        251
+      ],
+      "outer_ink_px": 1.0
+    },
+    "body_east": {
+      "source": "source_art/body_east.png",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Lilya_Thin_east.png",
+      "target_solid_bbox": [
+        70,
+        90,
+        158,
+        251
+      ],
+      "outer_ink_px": 1.0
+    },
+    "body_north": {
+      "source": "source_art/body_north.png",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Lilya_Thin_north.png",
+      "target_solid_bbox": [
+        80,
+        90,
+        178,
+        251
+      ],
+      "outer_ink_px": 1.0
+    }
+  },
+  "item_copy": {
+    "from_asset": "body_south",
+    "relative_path": "Textures/Things/R99_Agents/Arcanist/Lilya.png"
+  },
+  "pose_note": "Source east body already leans as a continuous slash; no inherited Vertin row-warp is applied. Head always unrotated.",
+  "generated_sources": {
+    "head_south": "C:/Users/29232/.codex/generated_images/01a1861f-9a30-7ac2-8cf4-4f87a0509258/exec-0a640690-66e0-4cd2-aec9-d6e77c7b2c5b.png",
+    "head_east": "C:/Users/29232/.codex/generated_images/01a1861f-9a30-7ac2-8cf4-4f87a0509258/exec-49bf8e00-4dc3-4088-b559-a892c6daf350.png",
+    "head_north": "C:/Users/29232/.codex/generated_images/01a1861f-9a30-7ac2-8cf4-4f87a0509258/exec-6c45c458-2af0-44c5-8ae3-c039d3be1ee7.png",
+    "body_south": "C:/Users/29232/.codex/generated_images/01a1861f-9a30-7ac2-8cf4-4f87a0509258/exec-1d59e59d-b8c9-4043-b0ac-fe76579d0653.png",
+    "body_east": "C:/Users/29232/.codex/generated_images/01a1861f-9a30-7ac2-8cf4-4f87a0509258/exec-7681d92a-5c15-4fff-b2ab-198d737914f9.png",
+    "body_north": "C:/Users/29232/.codex/generated_images/01a1861f-9a30-7ac2-8cf4-4f87a0509258/exec-1790116e-06dc-4157-9058-3f62121caf78.png"
+  },
+  "source_sha256": {
+    "head_south": "a7ef73c9b8ad9eab1bed882af86f862f19ffec0e3ebf5af71c54da4e39181008",
+    "head_east": "c6625ba756da4de262b57c977219438d885e49269c6569de5bee553af7eba222",
+    "head_north": "9ee13f20d2041663ee09a441472633fea42af63801023cc1721e1aeba36c3c51",
+    "body_south": "41c826c1a8b23f0f4043034621451f8e6ff623d8657fc6a7d7d3ea2b65ea1933",
+    "body_east": "7eedf776d8baa1f965116b6425cd672af02be7f0e1c896213c34d740d4c6bfe5",
+    "body_north": "468c2169945387f511ae791f046142b726d7897bbdd9d67a03d125803d4a0013"
+  }
+}

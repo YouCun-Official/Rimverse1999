@@ -1,0 +1,30 @@
+十四行诗 Sonetto v2：头部比例校正
+2026-11-08
+
+本次修正
+v1 的头部导出使用了不相等的横纵缩放：正面纵向/横向约 1.2104，侧面约 1.1759，导致原稿脸型被额外拉长。
+本次直接修正这层导出变形，三向头部采用等比缩放。正面、侧面重新以眼线和下巴定位，背面同步校准颅顶和发梢高度。
+用于定位的眼线—下巴锚点跨度：正面由 34 变为 28.09 原生像素，侧面由 34 变为 28.91 原生像素。该数值是配方的定位跨度，不冒充自动测得的脸部边界。
+这次没有调用生图重绘原稿；六张原稿仍为 v1 已保存的内置生图成果，详见 original_imagegen_prompts.json。发型、瞳色、鼻嘴与神情内容由原稿保留。
+三向躯干、物品图与其他角色素材保持原文件；正式安装仅替换 Sonetto 的三张头部 PNG。
+
+文件
+正式格式：256×256 RGBA 透明 PNG，保留整张画布。
+head_before_after_comparison.png：v1、v2、Vertin v13、Texas 的头部同尺度三向比较。
+face_before_after_comparison.png：正面与侧面五官的同倍率近看。
+pawn_before_after.png：头身合成前后对比。
+heads_three_views.png、bodys_three_views.png、three_views_final.png：当前完整套装预览。
+native_and_reduced.png：原尺寸与 50% 缩小。
+proportion_changes.json：旧/新缩放比例与定位跨度。
+recipe.json、format_assets.py：可复现的格式化参数与脚本。
+before/Textures：用于前后对照的 v1 贴图。
+
+复现
+安装依赖：python -m pip install -r requirements.txt
+在本目录执行：python format_assets.py --recipe recipe.json --out 新的空目录
+该流程从保存的原稿重新导出七张贴图，不调用生图模型，不覆盖正式素材。
+完整人物预览统一采用头部相对躯干 (0,-65)，该参数不等于经过验证的游戏内配置。
+
+验证状态
+已核对同倍率脸型与五官、头身连接、线宽、透明边缘、PNG 格式和配方复现。
+安装与保留项的哈希记录见 installation_receipt.json。游戏内显示未验证，当前修订待用户视觉反馈。

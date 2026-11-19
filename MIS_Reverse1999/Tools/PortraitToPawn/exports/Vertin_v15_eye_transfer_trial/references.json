@@ -1,0 +1,41 @@
+{
+  "sources": {
+    "Vertin": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Textures\\Things\\Hair\\R99\\Vertin_south.png",
+      "copy": "inputs/Vertin_south.png",
+      "sha256": "38313803bfbebcf626c201451bb46d09168be40b245ee38496632e953b11044a"
+    },
+    "Thorns": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Guard\\Thorns_south.png",
+      "copy": "inputs/Thorns_south.png",
+      "sha256": "ae9bf10692a05a80c88df564d3c16e14bfe8edfe37d2e0b46b73c98ab64c292b"
+    },
+    "Courier": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Courier_south.png",
+      "copy": "inputs/Courier_south.png",
+      "sha256": "d37b94690e9ac568889fbe9574fb470ca665da7f1df18f2a338b0cebe65f9306"
+    },
+    "Silverash": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Guard\\Silverash_south.png",
+      "copy": "inputs/Silverash_south.png",
+      "sha256": "77a16c1b61820e7abca4f53f9443dff4836fce557e5140735d0521e4338588df"
+    },
+    "Executor": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Sniper\\Executor_south.png",
+      "copy": "inputs/Executor_south.png",
+      "sha256": "f5493e7b2532f311e100ef70c4f496045595b997c1ee13f176f95a6d3c7e0b9f"
+    },
+    "Texas": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Texas_south.png",
+      "copy": "inputs/Texas_south.png",
+      "sha256": "264239c05a87a9c15b3cc439757d2ddacee495b4f1738d995002417700fc5ee1"
+    },
+    "Zima": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Zima_south.png",
+      "copy": "inputs/Zima_south.png",
+      "sha256": "028c53c9be02dcb00d156cdf5244549fd1e50455478b1ba9445d13b0512aa3c8"
+    }
+  },
+  "donor_interpretation": "异性角色 interpreted literally as male characters relative to Vertin; Thorns/Courier shortlisted from local PNGs.",
+  "scope": "Front-eye transfer trials only; no modification of installed textures or active character metadata."
+}

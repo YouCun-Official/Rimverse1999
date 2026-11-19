@@ -1,0 +1,224 @@
+{
+  "date": "2026-11-08",
+  "primary_precedence": true,
+  "references": [
+    {
+      "file": "primary_local.png",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\Ombrophobia\\data_infrastructure\\图片\\星锑.png",
+      "role": "primary identity, outfit, color and expression reference; takes priority over web variants",
+      "sha256": "899224e6f7d8d8e491c6cc6dd44cfe92931bd5e7ee4a34eb26a586caff3a748c"
+    },
+    {
+      "file": "Texas_head_south.png",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Texas_south.png",
+      "role": "pawn style reference only",
+      "sha256": "264239c05a87a9c15b3cc439757d2ddacee495b4f1738d995002417700fc5ee1"
+    },
+    {
+      "file": "Texas_body_south.png",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Vanguard\\Texas_Thin_south.png",
+      "role": "pawn style reference only",
+      "sha256": "c15f16e531b46c2a6344ba23e78fe6d3abf9b044116e750bc8f76f7b6a60307e"
+    },
+    {
+      "file": "Texas_head_east.png",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Texas_east.png",
+      "role": "pawn style reference only",
+      "sha256": "fb51d064091ef4f5ac6f7197e6eb72c91fba6a700b24c4b1a1936f57131cbbfb"
+    },
+    {
+      "file": "Texas_body_east.png",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Vanguard\\Texas_Thin_east.png",
+      "role": "pawn style reference only",
+      "sha256": "d2f6833733c1a75913082c98c140e78c51bf9d2f939412c34a624bed6ba14693"
+    },
+    {
+      "file": "Texas_head_north.png",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Texas_north.png",
+      "role": "pawn style reference only",
+      "sha256": "30fc62f47c29d9f91eb179b5434f2e884d3318ea3cc994d15b1c345465c92da5"
+    },
+    {
+      "file": "Texas_body_north.png",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Vanguard\\Texas_Thin_north.png",
+      "role": "pawn style reference only",
+      "sha256": "b6aaff58dc90d1057c55698736f7a67c898a461fd7df5c7785db0adcd019becf"
+    },
+    {
+      "file": "Silence_head_south.png",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Medic\\Silence_south.png",
+      "role": "pawn style reference only",
+      "sha256": "c47618cf6e557090fa0f559f7cb9b490deb346135b4b5ccce6f9716bd6ab1eed"
+    },
+    {
+      "file": "Silence_body_south.png",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Medic\\Silence_Thin_south.png",
+      "role": "pawn style reference only",
+      "sha256": "418ca6b1872db1f26fb02b818d5ecef5004429dd7b64981fa8156a029500448b"
+    },
+    {
+      "file": "Silence_head_east.png",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Medic\\Silence_east.png",
+      "role": "pawn style reference only",
+      "sha256": "928b4f89a5ac514f711d3f46f6b8837d12416c9326805b5be80d906dd1a78caf"
+    },
+    {
+      "file": "Silence_body_east.png",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Medic\\Silence_Thin_east.png",
+      "role": "pawn style reference only",
+      "sha256": "c4cf5bb82b15c96210e4e3ba9503a11567b0c04ade2d7340e0e637c678be38db"
+    },
+    {
+      "file": "Silence_head_north.png",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Medic\\Silence_north.png",
+      "role": "pawn style reference only",
+      "sha256": "bd9c5743bdc249ff774859582f463e429f62d7e60d097b9c05deac4e5dfccd33"
+    },
+    {
+      "file": "Silence_body_north.png",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Medic\\Silence_Thin_north.png",
+      "role": "pawn style reference only",
+      "sha256": "681bf20381c3869a37672e6340c7351133ec00fcad8a73282b2d446bc700f48e"
+    },
+    {
+      "file": "Exusiai_head_south.png",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Sniper\\Exusiai_south.png",
+      "role": "pawn style reference only",
+      "sha256": "f8b6a28c86249421bdac04262b6023b7ab1282d14159343d5c9f906b4e5d3cd2"
+    },
+    {
+      "file": "Exusiai_body_south.png",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Sniper\\Exusiai_Thin_south.png",
+      "role": "pawn style reference only",
+      "sha256": "e68487abe5177c72c81f9e12704ec9b31ff9dbfd9b67ce8dbca43eb03b6638a8"
+    },
+    {
+      "file": "Exusiai_head_east.png",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Sniper\\Exusiai_east.png",
+      "role": "pawn style reference only",
+      "sha256": "9443075ae852903a2098e5c1e51f7d67e5132a95cc7789f70100c6ab4934297f"
+    },
+    {
+      "file": "Exusiai_body_east.png",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Sniper\\Exusiai_Thin_east.png",
+      "role": "pawn style reference only",
+      "sha256": "9aced0733182cf9ba65642333ac86f7aad150cff5912d3d8d556f61b7abcf9a9"
+    },
+    {
+      "file": "Exusiai_head_north.png",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Sniper\\Exusiai_north.png",
+      "role": "pawn style reference only",
+      "sha256": "1cd30c230e9b687d22a0647004a769782b99e641a08e71b32e02641ea5a9017b"
+    },
+    {
+      "file": "Exusiai_body_north.png",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Sniper\\Exusiai_Thin_north.png",
+      "role": "pawn style reference only",
+      "sha256": "f3a2f32466d882a23511afa4abc143d35ee4babcf7a22ce533c198c17290b576"
+    },
+    {
+      "file": "Perfumer_head_south.png",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Medic\\Perfumer_south.png",
+      "role": "pawn style reference only",
+      "sha256": "89772c547b884856006523ba9c76327db5ff851c7d00d41d432ad4f3b65acadb"
+    },
+    {
+      "file": "Perfumer_body_south.png",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Medic\\Perfumer_Thin_south.png",
+      "role": "pawn style reference only",
+      "sha256": "7498fd3bf955a2f05826c1b2b77c40876ca3e0c81e4dde3409920129dec5e6fd"
+    },
+    {
+      "file": "Perfumer_head_east.png",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Medic\\Perfumer_east.png",
+      "role": "pawn style reference only",
+      "sha256": "cc74abd8def799853d2701ba414c68aef7c6ff74f23697594cd98dc933d372bb"
+    },
+    {
+      "file": "Perfumer_body_east.png",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Medic\\Perfumer_Thin_east.png",
+      "role": "pawn style reference only",
+      "sha256": "86a541dafaa5e3c930085a61253f7fd7455067ddc13c0e799ecc3c017dc77755"
+    },
+    {
+      "file": "Perfumer_head_north.png",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Medic\\Perfumer_north.png",
+      "role": "pawn style reference only",
+      "sha256": "d3d33eea1d8869ab77fa24ee516ab596647bd6c400c407f3a0069e5df4631815"
+    },
+    {
+      "file": "Perfumer_body_north.png",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Medic\\Perfumer_Thin_north.png",
+      "role": "pawn style reference only",
+      "sha256": "c7cbb2267410eb3f3027fb70e9908e42c1b6b461ac6c5646447be1e418fca2a9"
+    },
+    {
+      "file": "Vertin_head_south.png",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v13_arknights_skin\\Textures\\Things\\Hair\\R99\\Vertin_south.png",
+      "role": "same-project scale/format reference; fitted silhouette does not override Regulus loose garments",
+      "sha256": "6f50731fbc169255e55e675f3cb545abb418fd9aa461f14ee179cbe959706153"
+    },
+    {
+      "file": "Vertin_body_south.png",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v13_arknights_skin\\Textures\\Things\\R99_Agents\\Arcanist\\Vertin_Thin_south.png",
+      "role": "same-project scale/format reference; fitted silhouette does not override Regulus loose garments",
+      "sha256": "d12802758d07b58e8681449101af7383f5c25ed127334cc0624c4ed7bc42f9db"
+    },
+    {
+      "file": "Vertin_head_east.png",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v13_arknights_skin\\Textures\\Things\\Hair\\R99\\Vertin_east.png",
+      "role": "same-project scale/format reference; fitted silhouette does not override Regulus loose garments",
+      "sha256": "368104ec239f41614ceb1e532b07109acda9e0eb7444439ad1cfcf0bae5bd47e"
+    },
+    {
+      "file": "Vertin_body_east.png",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v13_arknights_skin\\Textures\\Things\\R99_Agents\\Arcanist\\Vertin_Thin_east.png",
+      "role": "same-project scale/format reference; fitted silhouette does not override Regulus loose garments",
+      "sha256": "d4780b9360a535c7668df19ac3f5836241dc87b1d662194cb565df8e0a6cae92"
+    },
+    {
+      "file": "Vertin_head_north.png",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v13_arknights_skin\\Textures\\Things\\Hair\\R99\\Vertin_north.png",
+      "role": "same-project scale/format reference; fitted silhouette does not override Regulus loose garments",
+      "sha256": "b73b76a4259ea05eced26dfc832991b613a42d8225d2991d4c1046646a8acffe"
+    },
+    {
+      "file": "Vertin_body_north.png",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v13_arknights_skin\\Textures\\Things\\R99_Agents\\Arcanist\\Vertin_Thin_north.png",
+      "role": "same-project scale/format reference; fitted silhouette does not override Regulus loose garments",
+      "sha256": "917490eef61b66664bc25045cd31533d5600f97f22126a7fc5430a06a56ac90c"
+    },
+    {
+      "file": "web_base_portrait.png",
+      "url": "https://patchwiki.biligame.com/images/reverse1999/1/1b/7y6ut5128y4orra7thvkzopc3ozondl.png",
+      "page": "https://wiki.biligame.com/reverse1999/%E6%98%9F%E9%94%91",
+      "role": "secondary: Original base outfit corroboration",
+      "sha256": "899224e6f7d8d8e491c6cc6dd44cfe92931bd5e7ee4a34eb26a586caff3a748c",
+      "retrieved_date": "2026-11-08"
+    },
+    {
+      "file": "web_pendant.png",
+      "url": "https://patchwiki.biligame.com/images/reverse1999/2/20/2clepgbgvzh5nzsi9xvmdehpvjxeyya.png",
+      "page": "https://wiki.biligame.com/reverse1999/%E6%98%9F%E9%94%91",
+      "role": "secondary: Backpack pendant detail",
+      "sha256": "69c7de92126e341cca0e9f5af2fc95cd0dc1498805d466f28a2722cdf8a446c7",
+      "retrieved_date": "2026-11-08"
+    },
+    {
+      "file": "web_sunglasses.png",
+      "url": "https://patchwiki.biligame.com/images/reverse1999/0/02/qzc1pxrxqhm8g86hrn91lfmvk0j2w7z.png",
+      "page": "https://wiki.biligame.com/reverse1999/%E6%98%9F%E9%94%91",
+      "role": "secondary: Opaque dark sunglasses construction",
+      "sha256": "4afe3b919ea3a22a94a1665042d4ed25bca95907fb26a49b15ba78a53a3944e8",
+      "retrieved_date": "2026-11-08"
+    },
+    {
+      "file": "web_backpack.png",
+      "url": "https://patchwiki.biligame.com/images/reverse1999/5/50/k9wsz5apnyucz847ftfecate1jaredl.png",
+      "page": "https://wiki.biligame.com/reverse1999/%E6%98%9F%E9%94%91",
+      "role": "secondary: Original backpack panel/strap construction",
+      "sha256": "dc172addcf224e60109165fd8cac3a25ae0ffdbdf9574d3b64a05f7d97decb2e",
+      "retrieved_date": "2026-11-08"
+    }
+  ]
+}

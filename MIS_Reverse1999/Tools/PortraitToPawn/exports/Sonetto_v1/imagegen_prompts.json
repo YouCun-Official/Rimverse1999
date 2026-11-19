@@ -1,0 +1,385 @@
+{
+  "character": "Sonetto",
+  "date": "2026-11-08",
+  "mode": "built-in image_gen",
+  "jobs": [
+    {
+      "part": "head_south",
+      "prompt": "Use case: style-transfer. Create a production RimWorld 2D pawn HEAD asset of Sonetto (十四行诗), TRUE FRONT VIEW, on real transparent background.\nInput roles: image 1 is the authoritative local character head/expression reference; image 2 gives her full original hair length/outfit context; image 3 is the already approved Vertin game-head style/compact face-proportion reference ONLY; image 4 is another native game-head reference ONLY.\nDraw only the head, face, ears, hair and hair accessories, with no shoulders, torso, clothing, hands or props. Keep the head upright, not tilted. Translate her face into the compact game-pawn proportions of image 3: modest eye size, short softly tapered chin, distinct tiny nose and small natural mouth, thick near-black outer silhouette, subordinate sparse inner lines. Do not copy Vertin's hat, hair, expression, freckles or palette.\nIdentity: warm copper-orange long wavy hair, two small upper side-up gathered locks with the bulk of the hair remaining loose and long (not two fully tied pigtails), curled swept fringe, a black-and-ivory checkered hairband across the crown. One short braided sidelock on HER LEFT (viewer RIGHT in this frontal view) ending in a small muted-gold clamp by the jaw; the opposite front lock is loose and swept. Draw long loose broad curls downward on both sides and behind the head to about twice the chin-to-crown height in total; leave a transparent central opening beneath the chin so a separate torso can show. Full long hair stays on the head asset. Simplify curls into a few broad joined locks, no dense individual strands.\nExpression must match image 1: composed, attentive, mildly questioning/earnest, not cheerful, not angry, not exaggerated sad. Muted grey-green irises with one simple highlight, thin softly angled natural eyebrows. Very small slightly parted mouth with near-level corners; recognizable small nose. No freckles, scars or invented facial marks.\nFlat matte 2D game sprite, 2-3 color tones per material, bold near-black exterior with native 3-4-pixel visual line weight when reduced, weaker internal strokes. No shiny anime eye rendering, no gradients, no photoreal texture. Long-hair extensions do not make the main face smaller. Whole head/hair centered, isolated, margins around all tips, one single front head only, no text, no grid or floor shadow.",
+      "referenced_image_paths": [
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/references/sonetto_head_reference.png",
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/references/sonetto_primary.png",
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/references/vertin_head_south_source.png",
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/references/Texas_head_south.png"
+      ],
+      "generated_source": "C:/Users/29232/.codex/generated_images/01a1aef2-6786-7861-a3fa-db43e30a3c8e/exec-413b5262-18c3-4c73-983c-36f9ec927d52.png",
+      "sequence": 1,
+      "batch": "front_prompts.json",
+      "archived_output": "generation_archive/01_head_south.png",
+      "sha256": "c8528deab6447e53e55b93ef5f8fd8c5645176b424d71ed839b3fee4e8f0fc23",
+      "transparent_background": true,
+      "input_copies": [
+        {
+          "original": "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/references/sonetto_head_reference.png",
+          "local_copy": "references/sonetto_head_reference.png"
+        },
+        {
+          "original": "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/references/sonetto_primary.png",
+          "local_copy": "references/sonetto_primary.png"
+        },
+        {
+          "original": "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/references/vertin_head_south_source.png",
+          "local_copy": "references/vertin_head_south_source.png"
+        },
+        {
+          "original": "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/references/Texas_head_south.png",
+          "local_copy": "references/Texas_head_south.png"
+        }
+      ]
+    },
+    {
+      "part": "body_south",
+      "prompt": "Use case: style-transfer. Create a production RimWorld 2D pawn BODY ONLY for Sonetto (十四行诗), orthographic TRUE FRONT VIEW, transparent background.\nInput roles: image 1 is the authoritative local full-body character outfit reference; image 2 is the approved Vertin BODY used for squat game-pawn proportions, silhouette weight, short compact legs and armless construction; image 3 is an existing native Texas pawn BODY style reference. Preserve Sonetto's clothing identity rather than Vertin clothing.\nOnly collar, armless torso, short dress hem, legs and shoes. NO head, hair, face, complete arms, hands or held pen. Omit the long sleeves/arms: keep only tiny shoulder caps under her short capelet. Do not draw empty long sleeves dangling beside the waist. The shoulder cape is a short garment, not arms.\nProportions: compact sturdy game-pawn body like image 2, moderately fitted white bodice with sufficient chest/waist thickness, no deeply pinched waist. Hips/short skirt moderately wider than underlying shoulders; slim but not thin stick legs. Natural gentle A-line dress hem, not trousers. Keep the two legs close, tapering down to compact pale boots whose toes point DOWN, no outward duck feet or long horizontal shoes. Do not copy the tall fashion-illustration body in image 1.\nOutfit: ivory-white high stand collar with tiny subdued gold collar marks; fitted ivory short uniform dress, simple black center lace-up closure with a few black toggles, two small lower gold buttons, gently flared short paneled/pleated ivory hem. Short slate/charcoal grey shoulder capelet, open in front, small muted coral inner panels and restrained black/ivory checker lining glimpsed at its inner flap. Small circular aged-gold shoulder clasp on HER LEFT (viewer RIGHT) connected by a short decorative gold cord across the upper chest to a small loop/clasp opposite. Sparse gold sun/star marks and one small simplified heraldic crest on the cape, drawn as legible little shapes not intricate embroidery. Cape reaches only upper waist, not a full cloak.\nIvory-white tall legwear/boots; small BLACK BOW near HER RIGHT upper thigh (viewer LEFT), two subdued grey narrow buckled bands at HER LEFT upper thigh (viewer RIGHT). Pale grey-white shoe front with 2-3 small dark lacing marks and a thin dark sole; short gathered toe/heel shapes.\nStyle exactly flat 2D game-pawn shapes, heavy near-black outer contour (3-4px visual at final 256 canvas), internal lines clearly finer and less dark; use 2-3 matte tones, no glossy highlights, realistic fabric texture or complex shading. No unrelated belts, bags, tactical gear or weapon. One single front body from neck collar to soles, vertically centered and with generous transparent margin. No text, ground, border or background.",
+      "referenced_image_paths": [
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/references/sonetto_primary.png",
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/references/vertin_body_south_source.png",
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/references/Texas_body_south.png"
+      ],
+      "generated_source": "C:/Users/29232/.codex/generated_images/01a1aef2-6786-7861-a3fa-db43e30a3c8e/exec-5f6fc4f1-3959-4366-b80d-470b3626d7de.png",
+      "sequence": 2,
+      "batch": "front_prompts.json",
+      "archived_output": "generation_archive/02_body_south.png",
+      "sha256": "cffbb6216579ccdf0d4fbaf9793094c64c7ac01fdaac3aa47d03192d11a70e82",
+      "transparent_background": true,
+      "input_copies": [
+        {
+          "original": "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/references/sonetto_primary.png",
+          "local_copy": "references/sonetto_primary.png"
+        },
+        {
+          "original": "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/references/vertin_body_south_source.png",
+          "local_copy": "references/vertin_body_south_source.png"
+        },
+        {
+          "original": "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/references/Texas_body_south.png",
+          "local_copy": "references/Texas_body_south.png"
+        }
+      ]
+    },
+    {
+      "part": "head_south_correction",
+      "prompt": "Use case: precise-object-edit. Image 1 is the target generated Sonetto front head. Image 2 is the authoritative original local hair/expression reference. Correct ONLY the two high gathered hair tips above the head: the current two broad pointed shapes read like cat ears. Sonetto is human. Replace those broad symmetrical ear-like triangles with much smaller narrow upward/backward CURLED HAIR LOCKS, with visible hair-flow strokes and tiny dark ties, similar to the little two-side-up tufts in image 2. Reduce their height and width greatly, make them a little asymmetric and swept outward, never animal ears and never inner-ear triangles. Keep a normal rounded human head crown and the existing checkered headband. Also keep the existing face dimensions, grey-green eyes, tiny nose, slightly parted neutral mouth, thoughtful serious expression, single short braid on viewer-right, gold braid clamp, long loose wavy orange hair, palette, heavy outer outline and weaker inner lines. Do not add a hat, horns or other ornaments. No shoulders or clothes. Whole head/hair framing preserved, real transparent background.",
+      "referenced_image_paths": [
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/source_art/head_south.png",
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/references/sonetto_head_reference.png"
+      ],
+      "generated_source": "C:/Users/29232/.codex/generated_images/01a1aef2-6786-7861-a3fa-db43e30a3c8e/exec-8b9a4708-6fc2-4f49-94bc-7860b7e50629.png",
+      "sequence": 3,
+      "batch": "second_prompts.json",
+      "archived_output": "generation_archive/03_head_south_correction.png",
+      "sha256": "2d9cdea0c6b9694c436e1a22d9d62b5e92270c15d817ffed6eecb913d7f4538b",
+      "transparent_background": true,
+      "input_copies": [
+        {
+          "original": "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/source_art/head_south.png",
+          "local_copy": "generation_archive/01_head_south.png"
+        },
+        {
+          "original": "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/references/sonetto_head_reference.png",
+          "local_copy": "references/sonetto_head_reference.png"
+        }
+      ]
+    },
+    {
+      "part": "body_east",
+      "prompt": "Use case: style-transfer. Production armless RimWorld BODY ONLY for Sonetto, matching image 1's approved front outfit and simplified flat game style. Image 1 is the generated front outfit consistency reference, image 2 is the authoritative LOCAL original illustration for identity, image 3 is the corresponding Vertin body for pawn proportions and posture only. No head, hair, face, arms, hands, gloves or held pen. The short grey shoulder cape is a garment only, not sleeves or arms. Same ivory high-collared short fitted dress, moderate natural waist, gently flared paneled short hem, slate-grey capelet with muted coral/checker lining, restrained gold edging/sun-star marks and crest, pale tall legwear and compact pale laced shoes. No bags or invented equipment. Maintain enough chest, waist, thigh and ankle thickness, approximately the sturdy compact scale of image 3. Thick near-black external contours, clearly weaker internal details, 2-3 flat matte color blocks per material, no gradients, glossy rendering, glow or shadow behind the subject. Single isolated full body collar-to-soles, real transparent background, no text or diagram.\nDirection: TRUE RIGHT-FACING SIDE PROFILE, not a three-quarter view. Use a continuous forward-slash body axis: upper torso inclines a little toward screen RIGHT, lower torso/legs align in a stronger forward diagonal, with feet at screen LEFT of the neck. No sharp waist kink, deep hollow back or greater-than-sign pose. Torso and leg must retain real thickness. The short skirt hangs naturally over the upper legs instead of being a skin-tight wedge. Near side is character LEFT: show the gold circular cape clasp/crest in profile and the two muted grey thigh straps on the visible near leg. The black bow belongs to the far RIGHT thigh and should be mostly occluded, not swapped onto the near side. Front black closures only barely visible along front edge, not a full front view copied sideways. Pale shoe toe is short and follows the lower-leg direction, heel tucked in; no big horizontal L-shaped foot.",
+      "referenced_image_paths": [
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/source_art/body_south.png",
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/references/sonetto_primary.png",
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/references/vertin_body_east_source.png"
+      ],
+      "generated_source": "C:/Users/29232/.codex/generated_images/01a1aef2-6786-7861-a3fa-db43e30a3c8e/exec-45098f0c-3ab8-4bd3-8cbb-dba14d7cc044.png",
+      "sequence": 4,
+      "batch": "second_prompts.json",
+      "archived_output": "generation_archive/04_body_east.png",
+      "sha256": "baee3bfa06f40a444d30a7d59c570e2df7ffacd7670d1ee92fd7e68d8ece3309",
+      "transparent_background": true,
+      "input_copies": [
+        {
+          "original": "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/source_art/body_south.png",
+          "local_copy": "generation_archive/02_body_south.png"
+        },
+        {
+          "original": "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/references/sonetto_primary.png",
+          "local_copy": "references/sonetto_primary.png"
+        },
+        {
+          "original": "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/references/vertin_body_east_source.png",
+          "local_copy": "references/vertin_body_east_source.png"
+        }
+      ]
+    },
+    {
+      "part": "body_north",
+      "prompt": "Use case: style-transfer. Production armless RimWorld BODY ONLY for Sonetto, matching image 1's approved front outfit and simplified flat game style. Image 1 is the generated front outfit consistency reference, image 2 is the authoritative LOCAL original illustration for identity, image 3 is the corresponding Vertin body for pawn proportions and posture only. No head, hair, face, arms, hands, gloves or held pen. The short grey shoulder cape is a garment only, not sleeves or arms. Same ivory high-collared short fitted dress, moderate natural waist, gently flared paneled short hem, slate-grey capelet with muted coral/checker lining, restrained gold edging/sun-star marks and crest, pale tall legwear and compact pale laced shoes. No bags or invented equipment. Maintain enough chest, waist, thigh and ankle thickness, approximately the sturdy compact scale of image 3. Thick near-black external contours, clearly weaker internal details, 2-3 flat matte color blocks per material, no gradients, glossy rendering, glow or shadow behind the subject. Single isolated full body collar-to-soles, real transparent background, no text or diagram.\nDirection: TRUE BACK VIEW, facing away, symmetric body stance but keep physical accessory sides. Draw a continuous short grey cape across the upper back, conservative simple structure with restrained gold hem edging and only a few small existing sun/star motifs. White stand collar back; fitted white dress back with only sparse seam marks and same short flared hem. Do NOT copy front black lace closures, chest chain, round chest clasp or front gold buttons onto the back. No backpack or new rear ornament. Character LEFT is viewer LEFT here: the grey double thigh bands may wrap around that leg; character RIGHT is viewer RIGHT: only a small side glimpse of the black thigh bow, rather than a second full frontal bow. Boots seen from rear have small heel/seam indications, no front laces on the heel. Legs narrow downward together, feet point down and gather rather than splay sideways.",
+      "referenced_image_paths": [
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/source_art/body_south.png",
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/references/sonetto_primary.png",
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/references/vertin_body_north_source.png"
+      ],
+      "generated_source": "C:/Users/29232/.codex/generated_images/01a1aef2-6786-7861-a3fa-db43e30a3c8e/exec-da09b663-b848-4412-9b1a-00061f8bd080.png",
+      "sequence": 5,
+      "batch": "second_prompts.json",
+      "archived_output": "generation_archive/05_body_north.png",
+      "sha256": "4b9ebcc5f5730816a09c3e065c6aad1781ebf3e9805b6833a12511ac4b1d806a",
+      "transparent_background": true,
+      "input_copies": [
+        {
+          "original": "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/source_art/body_south.png",
+          "local_copy": "generation_archive/02_body_south.png"
+        },
+        {
+          "original": "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/references/sonetto_primary.png",
+          "local_copy": "references/sonetto_primary.png"
+        },
+        {
+          "original": "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/references/vertin_body_north_source.png",
+          "local_copy": "references/vertin_body_north_source.png"
+        }
+      ]
+    },
+    {
+      "part": "head_east",
+      "prompt": "Use case: style-transfer. A single transparent RimWorld pawn HEAD of Sonetto matching the completed FRONT HEAD in image 1. Image 2 is the authoritative local original head/expression reference and image 3 shows original full hair length and costume context. Only head, face if visible, ears, hair and its accessories; no neck clothing, shoulders or torso. Keep exactly the same compact face/skull scale relative to the hairstyle, copper-orange hair with a few broad matte shades, grey-green eyes when visible, black/ivory checkered crown headband, one short left-side braided sidelock with a gold clamp, and long loose broad wavy hair. The two tiny tied crown locks are ordinary HAIR tufts swept outward, not cat ears or horns. Heavy near-black outer contour, subordinate sparse inner lines, flat 2D pawn style, no elaborate realistic strands or glossy shading. Preserve the thoughtful/serious but calm, mildly questioning local expression; tiny slightly parted natural mouth, no smile or angry scowl. No invented freckles or scars. Upright head with no global tilt. Long loose hair stays on the head layer, with its tips at the same relative height as the front reference. Real alpha background, no text, collage, frame or shadow.\nView: TRUE RIGHT-FACING PROFILE, one visible near eye, not a three-quarter face. The visible near side is her LEFT, so her single short braided sidelock and small gold clamp must be seen just forward of the ear by the jaw, not duplicated on both sides. Nose-lips-chin profile is compact and softly tapered, not a long nose or chin. Two upper little hair gathers project consistently, far gather can be partly hidden. Include the small black/ivory checked ribbon glimpsed behind the near-side braid in the original. Most long wavy hair falls down and behind to screen LEFT, with a few separated broad tapered ends, leaving the face/collar connection clear.",
+      "referenced_image_paths": [
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/source_art/head_south.png",
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/references/sonetto_head_reference.png",
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/references/sonetto_primary.png"
+      ],
+      "sequence": 6,
+      "batch": "third_prompts.json",
+      "generated_source": "C:\\Users\\29232\\.codex\\generated_images\\01a1aef2-6786-7861-a3fa-db43e30a3c8e\\exec-fd06a35a-96c6-447f-a83c-1e62385d654b.png",
+      "archived_output": "generation_archive/06_head_east.png",
+      "sha256": "d5d1a32a701617aff81d6c9ea3282b6c727694d18cf9278d7de17c6424886020",
+      "transparent_background": true,
+      "input_copies": [
+        {
+          "original": "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/source_art/head_south.png",
+          "local_copy": "generation_archive/03_head_south_correction.png"
+        },
+        {
+          "original": "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/references/sonetto_head_reference.png",
+          "local_copy": "references/sonetto_head_reference.png"
+        },
+        {
+          "original": "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/references/sonetto_primary.png",
+          "local_copy": "references/sonetto_primary.png"
+        }
+      ]
+    },
+    {
+      "part": "head_north",
+      "prompt": "Use case: style-transfer. A single transparent RimWorld pawn HEAD of Sonetto matching the completed FRONT HEAD in image 1. Image 2 is the authoritative local original head/expression reference and image 3 shows original full hair length and costume context. Only head, face if visible, ears, hair and its accessories; no neck clothing, shoulders or torso. Keep exactly the same compact face/skull scale relative to the hairstyle, copper-orange hair with a few broad matte shades, grey-green eyes when visible, black/ivory checkered crown headband, one short left-side braided sidelock with a gold clamp, and long loose broad wavy hair. The two tiny tied crown locks are ordinary HAIR tufts swept outward, not cat ears or horns. Heavy near-black outer contour, subordinate sparse inner lines, flat 2D pawn style, no elaborate realistic strands or glossy shading. Preserve the thoughtful/serious but calm, mildly questioning local expression; tiny slightly parted natural mouth, no smile or angry scowl. No invented freckles or scars. Upright head with no global tilt. Long loose hair stays on the head layer, with its tips at the same relative height as the front reference. Real alpha background, no text, collage, frame or shadow.\nView: TRUE BACK OF HEAD, facing completely away, NO face, eyes, nose or mouth anywhere. Show the rounded rear crown and two small upper side-up hair gathers continuing into the long loose wavy orange hair, consistent with front. The headband is over the crown; only a narrow appropriate rear/top glimpse of its black/ivory check pattern, not a new broad belt around the back of the head. A small checked ribbon belongs at the character-left gather (viewer LEFT in this back view). The left front braid is mainly occluded by the head; no new central full-length back braid or second braid. Long hair falls as a broad central rear mass to the same length as the front, with simplified overlapping waves and a gently uneven lower edge. No body or shoulder shapes beneath the hair.",
+      "referenced_image_paths": [
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/source_art/head_south.png",
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/references/sonetto_head_reference.png",
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/references/sonetto_primary.png"
+      ],
+      "sequence": 7,
+      "batch": "third_prompts.json",
+      "generated_source": "C:\\Users\\29232\\.codex\\generated_images\\01a1aef2-6786-7861-a3fa-db43e30a3c8e\\exec-99926611-34c6-4718-83ec-436c0c723e3c.png",
+      "archived_output": "generation_archive/07_head_north.png",
+      "sha256": "dab45c97b73e6fded743ace481f603dfc95a7850d4e8dd7398ed9b142200ccee",
+      "transparent_background": true,
+      "input_copies": [
+        {
+          "original": "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/source_art/head_south.png",
+          "local_copy": "generation_archive/03_head_south_correction.png"
+        },
+        {
+          "original": "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/references/sonetto_head_reference.png",
+          "local_copy": "references/sonetto_head_reference.png"
+        },
+        {
+          "original": "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/references/sonetto_primary.png",
+          "local_copy": "references/sonetto_primary.png"
+        }
+      ]
+    },
+    {
+      "part": "body_east_correction",
+      "prompt": "Use case: precise-object-edit. Image 1 is the target Sonetto RIGHT-FACING SIDE body sprite, image 2 is the corresponding front outfit. Make ONLY a focused boot/ankle correction in image 1: shorten the toe projecting to the RIGHT and tuck in the heel so the foot continues the diagonal lower-leg line as a compact tapered rounded end. The existing foot forms too much of a horizontal L. Keep a very short pale shoe tip and thin sole, and 2 simple small lace marks; no tall separate heel. Do not make the calf thinner. Preserve all collar, short capelet, gold clasp and motifs, coral/check lining, white fitted dress, skirt flare, thigh straps and forward-slash torso posture. No head, hair, arms or hands. Same canvas and flat near-black outline style, real transparent background, no added glow, floor shadow or text.",
+      "referenced_image_paths": [
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/source_art/body_east.png",
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/source_art/body_south.png"
+      ],
+      "sequence": 8,
+      "batch": "third_prompts.json",
+      "generated_source": "C:\\Users\\29232\\.codex\\generated_images\\01a1aef2-6786-7861-a3fa-db43e30a3c8e\\exec-b2b2dbd6-7212-4d44-9a17-d0ecaaa82a54.png",
+      "archived_output": "generation_archive/08_body_east_correction.png",
+      "sha256": "1ab5791365e125b1f39a2137df93a9f2cfddfa47997a4b15262b480f2f4dc723",
+      "transparent_background": true,
+      "input_copies": [
+        {
+          "original": "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/source_art/body_east.png",
+          "local_copy": "generation_archive/04_body_east.png"
+        },
+        {
+          "original": "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/source_art/body_south.png",
+          "local_copy": "generation_archive/02_body_south.png"
+        }
+      ]
+    },
+    {
+      "part": "body_north_correction",
+      "prompt": "Use case: precise-object-edit. Image 1 is the target Sonetto BACK body sprite. Image 2 is the matching front body; image 3 is the local original clothing. Correct accessory continuity ONLY. In the front, the sun/clasp side belongs to character LEFT, which becomes viewer LEFT when seen from behind. Move the large partial gold sun and accompanying small star currently on the rear cape's viewer-right to the cape's viewer-left side. Keep it an understated continuation of the same shoulder motif, not a new central emblem. The opposite side may keep one small simple star. The thigh straps on viewer LEFT correctly belong to character LEFT, but their FRONT gold buckles should not be duplicated on the back: retain two plain wrapping grey bands with a tiny seam only, remove the large rear square buckle faces. Keep the small black bow glimpse on viewer RIGHT, rear white boot seams, plain dress back without front laces, and all silhouette/waist/hem proportions unchanged. No front chain, no backpack, no new ornaments. Preserve flat colors, bold exterior and weak interior lines. Real transparent background, single armless headless back body, no text.",
+      "referenced_image_paths": [
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/source_art/body_north.png",
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/source_art/body_south.png",
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/references/sonetto_primary.png"
+      ],
+      "sequence": 9,
+      "batch": "third_prompts.json",
+      "generated_source": "C:\\Users\\29232\\.codex\\generated_images\\01a1aef2-6786-7861-a3fa-db43e30a3c8e\\exec-3b3c762d-6fdf-49fd-aa60-f898598040ed.png",
+      "archived_output": "generation_archive/09_body_north_correction.png",
+      "sha256": "e0027b701279a5d8e6e5425a4fe8a4493efccacc5a79acce9f68bdbe1f65d919",
+      "transparent_background": true,
+      "input_copies": [
+        {
+          "original": "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/source_art/body_north.png",
+          "local_copy": "generation_archive/05_body_north.png"
+        },
+        {
+          "original": "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/source_art/body_south.png",
+          "local_copy": "generation_archive/02_body_south.png"
+        },
+        {
+          "original": "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/sonetto_v1_20261108/references/sonetto_primary.png",
+          "local_copy": "references/sonetto_primary.png"
+        }
+      ]
+    },
+    {
+      "part": "head_south_visibility",
+      "prompt": "Use case: precise-object-edit. Edit image 1, a standalone Sonetto FRONT head game sprite. Image 2 is her authoritative portrait. Image 3 shows the assembled sprite: its hair currently hides almost the entire dark capelet, unlike the portrait. Fix ONLY the long hair below the jaw so that the fitted outfit and gold shoulder clasp can remain visible in a head-over-body game composition. Keep the face, eyebrows, grey-green eyes, parted small neutral mouth, chin, forehead curl, check headband, two small human hair gathers, and single short braid with gold clamp exactly in the same position and scale as image 1. Keep a straight upright front head, calm attentive mildly questioning expression. Below the chin, shift the loose long side curls outward and make them narrower, with a MUCH WIDER transparent central opening. At the original roughly 1293-wide canvas, long lower locks should lie approximately x110-370 on viewer-left and x900-1160 on viewer-right, leaving the central chest/shoulder region empty. The curls still reach the same bottom height; they are long hair, not a bob. Keep outer outline bold, internal broad auburn/orange matte shapes simple and flat. Do not add shoulders, clothing, cape, neck, arms or body to the output. The body in image 3 is context only. Return ONLY the edited isolated full head with long hair on actual transparency, same composition and canvas as image 1, with clean transparent edges and no labels or shadow.",
+      "referenced_image_paths": [
+        "C:\\Users\\29232\\Documents\\ChatGPT\\Ombrophobia\\outputs\\sonetto_v1_20261108\\source_art\\head_south.png",
+        "C:\\Users\\29232\\Documents\\ChatGPT\\Ombrophobia\\outputs\\sonetto_v1_20261108\\references\\sonetto_primary.png",
+        "C:\\Users\\29232\\Documents\\ChatGPT\\Ombrophobia\\outputs\\sonetto_v1_20261108\\three_views_final.png"
+      ],
+      "sequence": 10,
+      "batch": "fourth_prompts.json",
+      "generated_source": "C:\\Users\\29232\\.codex\\generated_images\\01a1aef2-6786-7861-a3fa-db43e30a3c8e\\exec-10e1f841-f811-4801-b62b-fc2c7435035e.png",
+      "archived_output": "generation_archive/10_head_south_visibility.png",
+      "sha256": "aef392979d2344b2d48e44c0a474e9d2298d87b82097768b9395c58eb3c6658d",
+      "transparent_background": true,
+      "input_copies": [
+        {
+          "original": "C:\\Users\\29232\\Documents\\ChatGPT\\Ombrophobia\\outputs\\sonetto_v1_20261108\\source_art\\head_south.png",
+          "local_copy": "generation_archive/03_head_south_correction.png"
+        },
+        {
+          "original": "C:\\Users\\29232\\Documents\\ChatGPT\\Ombrophobia\\outputs\\sonetto_v1_20261108\\references\\sonetto_primary.png",
+          "local_copy": "references/sonetto_primary.png"
+        },
+        {
+          "original": "C:\\Users\\29232\\Documents\\ChatGPT\\Ombrophobia\\outputs\\sonetto_v1_20261108\\three_views_final.png",
+          "local_copy": "candidates/before_visibility_and_leg/three_views_final.png"
+        }
+      ]
+    },
+    {
+      "part": "head_east_visibility",
+      "prompt": "Use case: precise-object-edit. Edit image 1, standalone RIGHT PROFILE Sonetto head. Image 2 is authoritative portrait; image 3 assembled current game sprite shows excessive hair covering the capelet. Change ONLY the loose long hair behind/below the ear: sweep this lower mass noticeably BACKWARD to screen LEFT, so it falls behind the shoulder rather than in front of the cape. At original roughly1294-wide canvas, hair below y800 should sit mostly x140-500 and end at the same y1160, not extend forward to x700. Leave a large transparent area behind/under the chin for the capelet and shoulder clasp. Preserve the SHORT near-side braid/clamp at the jaw, ear, exact face/profile outline, nose, grey-green eye, eyebrow and tiny parted neutral mouth, and all hair above/around the skull at their existing positions. Preserve checker band and small checked ribbon. Upright head, no head tilt, true right profile. Calm serious attentive, mildly questioning, never angry/smiling. Keep bold near-black outlines and broad flat copper orange hair shapes with limited matte shading, no glossy fine strands. Output ONLY a head/long-hair sprite on actual transparency, same canvas/composition, no clothing/body/neck/arms/shadows/text.",
+      "referenced_image_paths": [
+        "C:\\Users\\29232\\Documents\\ChatGPT\\Ombrophobia\\outputs\\sonetto_v1_20261108\\source_art\\head_east.png",
+        "C:\\Users\\29232\\Documents\\ChatGPT\\Ombrophobia\\outputs\\sonetto_v1_20261108\\references\\sonetto_primary.png",
+        "C:\\Users\\29232\\Documents\\ChatGPT\\Ombrophobia\\outputs\\sonetto_v1_20261108\\three_views_final.png"
+      ],
+      "sequence": 11,
+      "batch": "fourth_prompts.json",
+      "generated_source": "C:\\Users\\29232\\.codex\\generated_images\\01a1aef2-6786-7861-a3fa-db43e30a3c8e\\exec-eb48746c-8fe0-46a0-9301-6d5f480d7f54.png",
+      "archived_output": "generation_archive/11_head_east_visibility.png",
+      "sha256": "597c6e7106177d6746ba2c2abfca5afc8ce8f1af21a86b5cb593d4161eaa8cb3",
+      "transparent_background": true,
+      "input_copies": [
+        {
+          "original": "C:\\Users\\29232\\Documents\\ChatGPT\\Ombrophobia\\outputs\\sonetto_v1_20261108\\source_art\\head_east.png",
+          "local_copy": "generation_archive/06_head_east.png"
+        },
+        {
+          "original": "C:\\Users\\29232\\Documents\\ChatGPT\\Ombrophobia\\outputs\\sonetto_v1_20261108\\references\\sonetto_primary.png",
+          "local_copy": "references/sonetto_primary.png"
+        },
+        {
+          "original": "C:\\Users\\29232\\Documents\\ChatGPT\\Ombrophobia\\outputs\\sonetto_v1_20261108\\three_views_final.png",
+          "local_copy": "candidates/before_visibility_and_leg/three_views_final.png"
+        }
+      ]
+    },
+    {
+      "part": "body_east_thickness",
+      "prompt": "Use case: precise-object-edit. Edit image 1, the isolated RIGHT PROFILE Sonetto body. Image 2 is the native existing Vertin size reference in a comparison board: its sturdy leg thickness is the target, not its costume. Improve ONLY the thin lower leg and ankle of image1. Increase the front-to-back thickness of the visible leg: roughly 25% at upper thigh, 40% at calf and 55% at ankle, with a smooth taper and slightly fuller short shoe. Keep the leg centerline on the same forward-slash diagonal, original height, and the compact toe/heel shape; never create a long horizontal L-shaped shoe. Preserve original two grey thigh straps with small gold buckles, pale legwear, ankle seam and short dark laces. Preserve all upper-body clothing, capelet motifs, gold clasp, check lining, coral lining, white skirt and collar, and the current continuous posture. Keep ivory legs flat 2D without muscle modeling or gradients, bold near-black external ink, subdued internal lines. No head, hair, arms, hands or background. Full standalone body, same canvas and foot baseline, actual transparent background without glow or ground shadow.",
+      "referenced_image_paths": [
+        "C:\\Users\\29232\\Documents\\ChatGPT\\Ombrophobia\\outputs\\sonetto_v1_20261108\\source_art\\body_east.png",
+        "C:\\Users\\29232\\Documents\\ChatGPT\\Ombrophobia\\outputs\\sonetto_v1_20261108\\body_style_comparison.png"
+      ],
+      "sequence": 12,
+      "batch": "fourth_prompts.json",
+      "generated_source": "C:\\Users\\29232\\.codex\\generated_images\\01a1aef2-6786-7861-a3fa-db43e30a3c8e\\exec-fc5fa045-95e7-46db-8992-08c950a668ec.png",
+      "archived_output": "generation_archive/12_body_east_thickness.png",
+      "sha256": "e81c067cf76307f68d6a8369ff7d30930c4864e7e5cc6332a06adb09aa6a1079",
+      "transparent_background": true,
+      "input_copies": [
+        {
+          "original": "C:\\Users\\29232\\Documents\\ChatGPT\\Ombrophobia\\outputs\\sonetto_v1_20261108\\source_art\\body_east.png",
+          "local_copy": "generation_archive/08_body_east_correction.png"
+        },
+        {
+          "original": "C:\\Users\\29232\\Documents\\ChatGPT\\Ombrophobia\\outputs\\sonetto_v1_20261108\\body_style_comparison.png",
+          "local_copy": "candidates/before_visibility_and_leg/body_style_comparison.png"
+        }
+      ]
+    }
+  ],
+  "selected": {
+    "body_east": {
+      "source": "source_art/body_east.png",
+      "sha256": "e81c067cf76307f68d6a8369ff7d30930c4864e7e5cc6332a06adb09aa6a1079",
+      "selected_generation_sequence": 12,
+      "archived_output": "generation_archive/12_body_east_thickness.png"
+    },
+    "body_north": {
+      "source": "source_art/body_north.png",
+      "sha256": "e0027b701279a5d8e6e5425a4fe8a4493efccacc5a79acce9f68bdbe1f65d919",
+      "selected_generation_sequence": 9,
+      "archived_output": "generation_archive/09_body_north_correction.png"
+    },
+    "body_south": {
+      "source": "source_art/body_south.png",
+      "sha256": "cffbb6216579ccdf0d4fbaf9793094c64c7ac01fdaac3aa47d03192d11a70e82",
+      "selected_generation_sequence": 2,
+      "archived_output": "generation_archive/02_body_south.png"
+    },
+    "head_east": {
+      "source": "source_art/head_east.png",
+      "sha256": "597c6e7106177d6746ba2c2abfca5afc8ce8f1af21a86b5cb593d4161eaa8cb3",
+      "selected_generation_sequence": 11,
+      "archived_output": "generation_archive/11_head_east_visibility.png"
+    },
+    "head_north": {
+      "source": "source_art/head_north.png",
+      "sha256": "dab45c97b73e6fded743ace481f603dfc95a7850d4e8dd7398ed9b142200ccee",
+      "selected_generation_sequence": 7,
+      "archived_output": "generation_archive/07_head_north.png"
+    },
+    "head_south": {
+      "source": "source_art/head_south.png",
+      "sha256": "aef392979d2344b2d48e44c0a474e9d2298d87b82097768b9395c58eb3c6658d",
+      "selected_generation_sequence": 10,
+      "archived_output": "generation_archive/10_head_south_visibility.png"
+    }
+  },
+  "reference_policy": "Local portrait authoritative; web only corroborates. Prior generated versions are retained to interpret edit inputs.",
+  "reproduction": "Image generation is stochastic; format_assets.py reproduces the saved selected art deterministically."
+}

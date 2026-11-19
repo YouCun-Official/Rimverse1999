@@ -1,0 +1,158 @@
+{
+  "Vertin_v14": {
+    "eye_centers": [
+      [
+        117.0,
+        145.5
+      ],
+      [
+        139.0,
+        145.5
+      ]
+    ],
+    "eye_widths": [
+      13,
+      13
+    ],
+    "eye_box_center_spacing": 22.0,
+    "inner_gap": 9,
+    "mean_eye_y": 145.5,
+    "nose_y": 153,
+    "mouth_y": 161,
+    "eye_to_nose_y": 7.5,
+    "nose_to_mouth_y": 8,
+    "visible_cheek_width_approx": 37,
+    "bounds_evidence": "manual visual bounds; hair-obscured edge is approximate",
+    "nontransfer_measurement_precision": "approximately ±1 pixel"
+  },
+  "Vertin_trial": {
+    "eye_centers": [
+      [
+        117.0,
+        145.5
+      ],
+      [
+        138.5,
+        145.5
+      ]
+    ],
+    "eye_widths": [
+      15,
+      16
+    ],
+    "eye_box_center_spacing": 21.5,
+    "inner_gap": 6,
+    "mean_eye_y": 145.5,
+    "nose_y": 153,
+    "mouth_y": 161,
+    "eye_to_nose_y": 7.5,
+    "nose_to_mouth_y": 8,
+    "visible_cheek_width_approx": 37,
+    "bounds_evidence": "exact transferred pixel mapping from transfer_validation.json",
+    "nontransfer_measurement_precision": "approximately ±1 pixel"
+  },
+  "Courier": {
+    "eye_centers": [
+      [
+        114.0,
+        146.5
+      ],
+      [
+        139.5,
+        146.5
+      ]
+    ],
+    "eye_widths": [
+      15,
+      16
+    ],
+    "eye_box_center_spacing": 25.5,
+    "inner_gap": 10,
+    "mean_eye_y": 146.5,
+    "nose_y": 154,
+    "mouth_y": 161.5,
+    "eye_to_nose_y": 7.5,
+    "nose_to_mouth_y": 7.5,
+    "visible_cheek_width_approx": 42,
+    "bounds_evidence": "the exact selected source pixels used in transfer; excludes donor hair and skin",
+    "nontransfer_measurement_precision": "approximately ±1 pixel"
+  },
+  "Thorns": {
+    "eye_centers": [
+      [
+        112.5,
+        141.0
+      ],
+      [
+        142.0,
+        141.0
+      ]
+    ],
+    "eye_widths": [
+      18,
+      17
+    ],
+    "eye_box_center_spacing": 29.5,
+    "inner_gap": 12,
+    "mean_eye_y": 141.0,
+    "nose_y": 150.5,
+    "mouth_y": 157.5,
+    "eye_to_nose_y": 9.5,
+    "nose_to_mouth_y": 7.0,
+    "visible_cheek_width_approx": 41,
+    "bounds_evidence": "manual visual bounds",
+    "nontransfer_measurement_precision": "approximately ±1 pixel"
+  },
+  "Texas": {
+    "eye_centers": [
+      [
+        115.0,
+        146.5
+      ],
+      [
+        140.5,
+        146.5
+      ]
+    ],
+    "eye_widths": [
+      15,
+      14
+    ],
+    "eye_box_center_spacing": 25.5,
+    "inner_gap": 11,
+    "mean_eye_y": 146.5,
+    "nose_y": 153,
+    "mouth_y": 162,
+    "eye_to_nose_y": 6.5,
+    "nose_to_mouth_y": 9,
+    "visible_cheek_width_approx": 37,
+    "bounds_evidence": "manual visual bounds; nose is a faint simplified mark",
+    "nontransfer_measurement_precision": "approximately ±1 pixel"
+  },
+  "Zima": {
+    "eye_centers": [
+      [
+        115.5,
+        145.0
+      ],
+      [
+        140.5,
+        145.0
+      ]
+    ],
+    "eye_widths": [
+      14,
+      14
+    ],
+    "eye_box_center_spacing": 25.0,
+    "inner_gap": 11,
+    "mean_eye_y": 145.0,
+    "nose_y": 152,
+    "mouth_y": 160,
+    "eye_to_nose_y": 7.0,
+    "nose_to_mouth_y": 8,
+    "visible_cheek_width_approx": 38,
+    "bounds_evidence": "manual visual bounds; fringe slightly occludes upper edge",
+    "nontransfer_measurement_precision": "approximately ±1 pixel"
+  }
+}

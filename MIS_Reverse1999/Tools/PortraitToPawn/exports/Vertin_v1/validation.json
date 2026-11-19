@@ -1,0 +1,129 @@
+{
+  "png_checks": {
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_south.png": {
+      "mode": "RGBA",
+      "size": [
+        256,
+        256
+      ],
+      "solid_bbox": [
+        86,
+        90,
+        170,
+        252
+      ],
+      "transparent_fraction": 0.8423
+    },
+    "Textures/Things/Hair/R99/Vertin_south.png": {
+      "mode": "RGBA",
+      "size": [
+        256,
+        256
+      ],
+      "solid_bbox": [
+        81,
+        81,
+        189,
+        176
+      ],
+      "transparent_fraction": 0.8852
+    },
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_east.png": {
+      "mode": "RGBA",
+      "size": [
+        256,
+        256
+      ],
+      "solid_bbox": [
+        74,
+        90,
+        159,
+        252
+      ],
+      "transparent_fraction": 0.8948
+    },
+    "Textures/Things/Hair/R99/Vertin_east.png": {
+      "mode": "RGBA",
+      "size": [
+        256,
+        256
+      ],
+      "solid_bbox": [
+        78,
+        85,
+        176,
+        179
+      ],
+      "transparent_fraction": 0.8942
+    },
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_north.png": {
+      "mode": "RGBA",
+      "size": [
+        256,
+        256
+      ],
+      "solid_bbox": [
+        86,
+        90,
+        170,
+        252
+      ],
+      "transparent_fraction": 0.8563
+    },
+    "Textures/Things/Hair/R99/Vertin_north.png": {
+      "mode": "RGBA",
+      "size": [
+        256,
+        256
+      ],
+      "solid_bbox": [
+        67,
+        88,
+        173,
+        182
+      ],
+      "transparent_fraction": 0.8858
+    },
+    "Textures/Things/R99_Agents/Arcanist/Vertin.png": {
+      "mode": "RGBA",
+      "size": [
+        256,
+        256
+      ],
+      "solid_bbox": [
+        86,
+        90,
+        170,
+        252
+      ],
+      "transparent_fraction": 0.8423
+    }
+  },
+  "preview_and_export_identical": true,
+  "directional_assets_distinct": true,
+  "front_item_matches_front_body": true,
+  "side_pose_checks": {
+    "130": {
+      "actual_px": -2.504,
+      "expected_px": -2.517
+    },
+    "145": {
+      "actual_px": -4.339,
+      "expected_px": -4.359
+    },
+    "180": {
+      "actual_px": -15.201,
+      "expected_px": -15.226
+    },
+    "210": {
+      "actual_px": -24.959,
+      "expected_px": -24.973
+    },
+    "240": {
+      "actual_px": -34.709,
+      "expected_px": -34.721
+    }
+  },
+  "head_pose_rotation": 0,
+  "game_tested": false
+}

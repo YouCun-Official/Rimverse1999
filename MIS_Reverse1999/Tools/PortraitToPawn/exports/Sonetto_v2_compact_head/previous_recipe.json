@@ -1,0 +1,205 @@
+{
+  "character": "Sonetto",
+  "display_name": "十四行诗",
+  "version": "Sonetto_v1",
+  "date": "2026-11-08",
+  "generator": "Built-in imagegen; deterministic 4x premultiplied-alpha formatting",
+  "size": [
+    256,
+    256
+  ],
+  "head_rotation_degrees": 0,
+  "preview_head_offset": [
+    0,
+    -65
+  ],
+  "supersampling": 4,
+  "alpha_cleanup": {
+    "threshold": 96,
+    "remaining_range_remapped_to_255": true,
+    "final_zero_threshold": 8
+  },
+  "size_baseline": "Vertin_v13_arknights_skin",
+  "baseline_scope": "Anatomical head/face and fitted torso/leg scale. Long hair, capelet and flared skirt retain their own garment/hair extent.",
+  "assets": {
+    "head_south": {
+      "source": "source_art/head_south.png",
+      "relative_path": "Textures/Things/Hair/R99/Sonetto_south.png",
+      "transform_mode": "landmark",
+      "source_anchor_box": [
+        440,
+        590,
+        838,
+        850
+      ],
+      "target_anchor_box": [
+        107,
+        141,
+        150,
+        175
+      ],
+      "anchor_note": "Facial feature span and eye-to-chin region; long hair is not used to normalize face size.",
+      "outer_ink_px": 0.75
+    },
+    "head_east": {
+      "source": "source_art/head_east.png",
+      "relative_path": "Textures/Things/Hair/R99/Sonetto_east.png",
+      "transform_mode": "landmark",
+      "source_anchor_box": [
+        690,
+        542,
+        920,
+        808
+      ],
+      "target_anchor_box": [
+        139,
+        143,
+        164,
+        177
+      ],
+      "anchor_note": "Near-side face and eye-to-chin span; upright skull, natural rear long-hair extent.",
+      "outer_ink_px": 0.75
+    },
+    "head_north": {
+      "source": "source_art/head_north.png",
+      "relative_path": "Textures/Things/Hair/R99/Sonetto_north.png",
+      "target_solid_bbox": [
+        80,
+        85,
+        178,
+        216
+      ],
+      "anchor_note": "Rear crown width and hair endpoint reconciled with front/profile anatomy; contains no face.",
+      "outer_ink_px": 0.75
+    },
+    "body_south": {
+      "source": "source_art/body_south.png",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_south.png",
+      "target_solid_bbox": [
+        84,
+        90,
+        173,
+        252
+      ],
+      "outer_ink_px": 0.5,
+      "garment_note": "Fitted bodice, naturally loose capelet and flared skirt; no full arms or hands."
+    },
+    "body_east": {
+      "source": "source_art/body_east.png",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_east.png",
+      "target_solid_bbox": [
+        72,
+        89,
+        158,
+        251.5
+      ],
+      "outer_ink_px": 0.75,
+      "row_warp": [],
+      "pose_note": "Source art supplies continuous slash and compact shoe. Native-row horizontal scale [y,scale,pivot_x] calibrates calf/ankle thickness to the pinned size baseline; no inherited row shifts or head rotation.",
+      "row_scale": [
+        [
+          0,
+          1,
+          128
+        ],
+        [
+          180,
+          1,
+          113
+        ],
+        [
+          190,
+          1,
+          110
+        ],
+        [
+          205,
+          1.07,
+          100
+        ],
+        [
+          220,
+          1.2,
+          92
+        ],
+        [
+          230,
+          1.35,
+          89
+        ],
+        [
+          235,
+          1.45,
+          88.5
+        ],
+        [
+          240,
+          1.45,
+          88
+        ],
+        [
+          245,
+          1.25,
+          90
+        ],
+        [
+          249,
+          1.2,
+          91
+        ],
+        [
+          255,
+          1.2,
+          92
+        ]
+      ]
+    },
+    "body_north": {
+      "source": "source_art/body_north.png",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_north.png",
+      "target_solid_bbox": [
+        84,
+        90,
+        173,
+        252
+      ],
+      "outer_ink_px": 0.5,
+      "provenance_note": "Conservative rear clothing reconstruction; sun motif on character left; no front clasps copied onto back.",
+      "row_scale": [
+        [
+          0,
+          1,
+          128.5
+        ],
+        [
+          138,
+          1,
+          128.5
+        ],
+        [
+          143,
+          1.06,
+          128.5
+        ],
+        [
+          146,
+          1.06,
+          128.5
+        ],
+        [
+          154,
+          1,
+          128.5
+        ],
+        [
+          255,
+          1,
+          128.5
+        ]
+      ],
+      "calibration_note": "A 6% local horizontal scale at visible fitted rear waist smooths the waist toward the v13 baseline; loose cape and skirt unchanged by this row transform."
+    }
+  },
+  "item_relative_path": "Textures/Things/R99_Agents/Arcanist/Sonetto.png",
+  "outline_note": "Ink radius is specified in native pixels and applied at 4x; 0.75px equals a three-subsample radius. It supplements the generated existing line, not total line width."
+}

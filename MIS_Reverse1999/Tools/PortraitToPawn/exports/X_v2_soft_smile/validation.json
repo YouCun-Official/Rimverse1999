@@ -1,0 +1,145 @@
+{
+  "date": "2026-11-08",
+  "character": "X",
+  "checks": {
+    "Textures/Things/Hair/R99/X_east.png": {
+      "sha256": "fbc598e7f5838df18a06b094435e1f3283b82fdce4d2443aabfe68853a538f38",
+      "solid_bbox": [
+        86,
+        82,
+        177,
+        175
+      ],
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true,
+      "alpha_components": [
+        6059
+      ]
+    },
+    "Textures/Things/Hair/R99/X_north.png": {
+      "sha256": "b04c2275fdfb24749a65469465f6bf57b9836c93c721780f38a52dc445c44943",
+      "solid_bbox": [
+        82,
+        80,
+        176,
+        172
+      ],
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true,
+      "alpha_components": [
+        6035
+      ]
+    },
+    "Textures/Things/Hair/R99/X_south.png": {
+      "sha256": "3524782085e9c3076a371e62871ee8304f257e4bb085c20f02946b155728ed6d",
+      "solid_bbox": [
+        79,
+        79,
+        176,
+        174
+      ],
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true,
+      "alpha_components": [
+        6352
+      ]
+    },
+    "Textures/Things/R99_Agents/Arcanist/X.png": {
+      "sha256": "75815d62132e4f17d8b4ad7d20ccc9ee92b4f0307b8b4aae4510aaf90390ead4",
+      "solid_bbox": [
+        78,
+        90,
+        178,
+        252
+      ],
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true,
+      "alpha_components": [
+        13137
+      ]
+    },
+    "Textures/Things/R99_Agents/Arcanist/X_Thin_east.png": {
+      "sha256": "1dcb9105b9fb68ed0fe08f924df9a2dc8bf159a5c3635f70566a5dc7bc41b2e7",
+      "solid_bbox": [
+        74,
+        90,
+        172,
+        252
+      ],
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true,
+      "alpha_components": [
+        10218,
+        1
+      ]
+    },
+    "Textures/Things/R99_Agents/Arcanist/X_Thin_north.png": {
+      "sha256": "6989754e81a8fafc657f40522b0eaba00e534c08b4b9aadd69d3b7f483a9d344",
+      "solid_bbox": [
+        78,
+        90,
+        178,
+        252
+      ],
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true,
+      "alpha_components": [
+        12714
+      ]
+    },
+    "Textures/Things/R99_Agents/Arcanist/X_Thin_south.png": {
+      "sha256": "75815d62132e4f17d8b4ad7d20ccc9ee92b4f0307b8b4aae4510aaf90390ead4",
+      "solid_bbox": [
+        78,
+        90,
+        178,
+        252
+      ],
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true,
+      "alpha_components": [
+        13137
+      ]
+    }
+  },
+  "native_count": 7,
+  "format_reproduction_passed": true,
+  "existing_X_files_unchanged_before_install": true,
+  "head_rotation_degrees": 0,
+  "preview_head_offset": [
+    0,
+    -72
+  ],
+  "size_rule": "male loose outerwear; independent native-scale calibration",
+  "facial_detail_rule": "No obvious marks in reference; skipped",
+  "side_back_inferences": "See character_brief.json",
+  "visual_review": "passed_static_review",
+  "game_tested": false,
+  "visual_notes": [
+    "Front and profile mouths are closed gentle smiles; no visible pink opening, teeth or grin.",
+    "Compared v1/v2 at identical scale, inspected native and 50% composite; hairstyle, iris colors, relaxed brows, eye size, nose and short chin visually retained.",
+    "East head translated +4px right in native texture coordinates with no rotation; target dimensions and vertical placement retained; neck/collar connection visually checked.",
+    "Rear head, all three bodies and item verified byte-identical to v1. Regenerated head artwork is not asserted pixel-identical outside edited mouth."
+  ],
+  "user_visual_review": "pending",
+  "modified_components": [
+    "Textures/Things/Hair/R99/X_south.png",
+    "Textures/Things/Hair/R99/X_east.png"
+  ],
+  "unchanged_X_components": [
+    "Textures/Things/Hair/R99/X_north.png",
+    "Textures/Things/R99_Agents/Arcanist/X.png",
+    "Textures/Things/R99_Agents/Arcanist/X_Thin_east.png",
+    "Textures/Things/R99_Agents/Arcanist/X_Thin_north.png",
+    "Textures/Things/R99_Agents/Arcanist/X_Thin_south.png"
+  ],
+  "head_east_translation_from_v1_native_px": [
+    4,
+    0
+  ],
+  "archived_export_reproduction_passed": true,
+  "installed_matches_export": true,
+  "preserved_texture_count": 35,
+  "all_other_texture_hashes_unchanged": true,
+  "other_character_records_and_universal_rules_unchanged": true
+}

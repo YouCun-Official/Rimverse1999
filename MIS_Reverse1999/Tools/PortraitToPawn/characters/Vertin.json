@@ -1,0 +1,350 @@
+{
+  "character": "Vertin",
+  "display_name": "维尔汀",
+  "working_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v16_softpixel",
+  "status": "softpixel_pass_installed_and_statically_verified",
+  "installation_receipt": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v16_softpixel\\installation_receipt.json",
+  "paths": {
+    "head_texPath": "Things/Hair/R99/Vertin",
+    "apparel_wornGraphicPath": "Things/R99_Agents/Arcanist/Vertin",
+    "item_texPath": "Things/R99_Agents/Arcanist/Vertin",
+    "body_type": "Thin",
+    "directions": [
+      "south",
+      "east",
+      "north"
+    ]
+  },
+  "game_tested": false,
+  "previous_working_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v14_facial_details",
+  "backup_archive": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\TextureBackups\\AllCharacters_before_SoftPixel_v1_20261109_5bd9c9f0.zip",
+  "body_source_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v11_midpoint_waist",
+  "revision_history": [
+    {
+      "date": "2026-11-04T16:36:28.755111+08:00",
+      "from": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v2_head_style",
+      "to": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v3_bold",
+      "change": "All six head/body views redrawn with bold black contours and simplified broad matte shapes."
+    },
+    {
+      "date": "2026-11-05T10:39:00.894264+08:00",
+      "from": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v3_bold",
+      "to": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v4_side_and_outline",
+      "change": "Thicker continuous diagonal side body, compact boots, bold outline across all six parts, selective broken inner seams."
+    },
+    {
+      "date": "2026-11-05T11:08:36.824942+08:00",
+      "from": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v4_side_and_outline",
+      "to": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v5_original_hairstyle",
+      "change": "Corrected all three head hairstyles from shaggy short bob to original asymmetrical long forelock and one low side coil; ash-silver grey-green palette. Kept v4 body/item hashes unchanged."
+    },
+    {
+      "date": "2026-11-05T11:32:11.526881+08:00",
+      "from": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v5_original_hairstyle",
+      "to": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v6_compact_faces",
+      "change": "Shortened and rounded front/side faces to reference-pawn proportions, simplified eyebrows/eyes/nose/mouth and side ear, matched bold jaw lines. Rear head, v4 bodies and item retained byte-identically."
+    },
+    {
+      "date": "2026-11-05T11:50:35.631985+08:00",
+      "from": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v6_compact_faces",
+      "to": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v7_balanced_faces",
+      "change": "Balanced v5 taper and v6 compactness; restored visible nose and natural mouth in front and profile, keeping bold outlines and original hairstyle. Rear head, v4 bodies and item retained byte-identically."
+    },
+    {
+      "date": "2026-11-05T12:06:09.464601+08:00",
+      "from": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v7_balanced_faces",
+      "to": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v8_pawn_eyes",
+      "change": "Aligned front/profile eyes toward local pawn references with taller opening, simple eyelid and visible pupil; grey-green iris, v7 nose/lips and short soft chin retained. Rear head, bodies and item byte-identical."
+    },
+    {
+      "date": "2026-11-05T13:47:21.162075+08:00",
+      "from": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v8_pawn_eyes",
+      "to": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v9_soft_brows",
+      "change": "Softened front/profile brows to a slimmer near-level line, reducing sternness with original portrait expression as reference. Approved eye/nose/mouth/chin style visually preserved; rear head, bodies and item byte-identical."
+    },
+    {
+      "date": "2026-11-05T14:59:44.578485+08:00",
+      "from": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v9_soft_brows",
+      "to": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v10_waist_balance",
+      "change": "Widened fitted front/back waist, softened waist-to-hip transition and kept hips wider than shoulders; all heads and east body byte-identical. Added garment fit/ease and guide-measurement rules to universal spec/task template."
+    },
+    {
+      "date": "2026-11-05T15:28:50.069325+08:00",
+      "from": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v10_waist_balance",
+      "to": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v11_midpoint_waist",
+      "change": "Adjusted fitted front/back waist to widths strictly between v9 and v10; hips remain wider than shoulders. Three heads and side body byte-identical. Universal rules now specify male shoulder >= waist/hip with no waist-cinching requirement, and garment-first contours for trench/loose clothing regardless of gender."
+    },
+    {
+      "date": "2026-11-05T16:12:15.509668+08:00",
+      "from": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v11_midpoint_waist",
+      "to": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v12_sampled_skin",
+      "change": "Recolored three head skin palettes toward original portrait sample average #CBB0A5 (8 random 7x7 face blocks, seed 20261105). Body/item files byte-identical. Universal spec and Agent template now require per-character face block sampling and averaging for skin color."
+    },
+    {
+      "date": "2026-11-05T17:21:05.891685+08:00",
+      "from": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v12_sampled_skin",
+      "to": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v13_arknights_skin",
+      "change": "User discarded v12 portrait-sampled skin. Recolored all three heads toward directly referenced Zima fair base #FCEBD3. Body/item and unrelated textures byte-identical; eyes not intentionally resized. Generic spec records explicit skin reference override priority."
+    },
+    {
+      "date": "2026-11-06",
+      "from": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v13_arknights_skin",
+      "to": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v14_facial_details",
+      "change": "Added reference-supported sparse freckles across the upper nose bridge and adjacent upper cheek area to front/profile heads. Kept the v13 size target and upright pose; rear head, bodies, item and unrelated textures byte-identical. Added conditional facial identity-detail rules to universal spec and task template."
+    },
+    {
+      "date": "2026-11-09",
+      "from": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v14_facial_details",
+      "to": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v16_softpixel",
+      "change": "Applied user-selected Python light pixel grouping and restrained low-contrast rubbing to six existing parts; preserved all alpha, canvas, position and protected facial pixels. Item recopied from processed front body. No redrawing or eye transplant. Added no-toothy-grin and noncumulative postprocess rules."
+    }
+  ],
+  "updated_date": "2026-11-09",
+  "generator_recipe": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v16_softpixel\\recipe.json",
+  "generator_entrypoint": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v16_softpixel\\soft_pixel.py",
+  "requested_style": {
+    "rendering": "Heavy near-black outer silhouette with subordinate selective/broken internal cloth strokes; broad matte colors.",
+    "arms": "omitted",
+    "hands": "omitted",
+    "sleeves": "short shoulder caps",
+    "soften_radius_px": 0,
+    "leg_pose": "Coherent forward slash-like side mass, fuller chest/waist/ankle, compact toe and integrated heel; upright unrotated head.",
+    "stroke_target_native_px": "Approximately 3-4px on broad outer contours; calibrated with 0.5px extra silhouette ink and 1px on the east body.",
+    "side_geometry_correction": "Measured row offsets stored in recipe.json; no extra global head rotation.",
+    "face_detail_density": "Compact upright eye openings aligned to local pawn references, distinct pupil and original iris hue with sparse tones; retain approved nose/lips and short soft chin, no long narrow realistic eyes or layered eyelid detail.",
+    "brow_expression": "Portrait-guided relaxed grey-brown brows: slimmer, near-level shallow arch, no inward-downward frown; preserve approved v8 eye/nose/mouth/chin.",
+    "waist_balance": "Intermediate between v9 and v10; slightly narrower fitted waist than v10 with hips wider than shoulders. Latest instruction replaces earlier exact Texas-size suggestion.",
+    "skin_tone": "Use existing Arknights Zima fair skin base #FCEBD3 (252,235,211), replacing v12 #CBB0A5. Face, ears and nape share reference; do not blend original portrait skin back in.",
+    "facial_identity_details": "Reference-supported sparse subtle freckles across upper nose bridge and adjoining upper cheeks, simplified for native pawn size; no invented scars or burns."
+  },
+  "head_sources": {
+    "south": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v16_softpixel\\native_inputs\\Textures\\Things\\Hair\\R99\\Vertin_south.png",
+    "east": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v16_softpixel\\native_inputs\\Textures\\Things\\Hair\\R99\\Vertin_east.png",
+    "north": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v16_softpixel\\native_inputs\\Textures\\Things\\Hair\\R99\\Vertin_north.png"
+  },
+  "head_hashes": {
+    "south": "80c970efec396665c3daa7158764db1c54e0717b141d3394a67e196825429d02",
+    "east": "8d0aa1b7a728132d22ccecba07f11f7095b0a055d843dd7058fd74cb412bc850",
+    "north": "3ff314b0ff92ee08502f98ad2182f087f3ebe5650078a03a9b5f295e238f823b"
+  },
+  "head_source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v16_softpixel\\native_inputs\\Textures\\Things\\Hair\\R99\\Vertin_south.png",
+  "head_sha256": "80c970efec396665c3daa7158764db1c54e0717b141d3394a67e196825429d02",
+  "head_hairstyle": {
+    "revision": "v5",
+    "hair_color": "ash-silver with muted grey-green undertone",
+    "structure": "deep side part; long face-framing lock; one low coiled side bun",
+    "bun_character_side": "right",
+    "front_bun_screen_side": "left",
+    "rear_bun_screen_side": "right",
+    "east_bun_visibility": "partial far-side lobe at rear nape",
+    "reference_manifest": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v5_original_hairstyle\\references\\sources.json"
+  },
+  "constraints_file": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\角色三视图制作规范.txt",
+  "head_face_style": {
+    "revision": "v9",
+    "geometry": "compact taller eye openings and small softly tapered chin; upright true right profile",
+    "features": "v8 compact pawn eyes, muted grey-green iris and readable pupil, approved nose/lip marks and short soft chin visually preserved; eyebrow-only artistic intent",
+    "rendering": "flat game-pawn facial shapes with bold outer contour, no stacked eyelid folds or intricate realistic eye rendering",
+    "references": [
+      "Texas",
+      "Zima",
+      "Silence",
+      "Thorns"
+    ],
+    "comparison": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v9_soft_brows\\brow_before_after.png",
+    "rear_head_retained": true,
+    "revision_basis": "User accepted overall v8 appearance and requested a final less-stern brow refinement matching portrait expression; v9 is the produced revision, not yet user-reviewed.",
+    "expression": "slimmer near-level softly tapered grey-brown brows; relaxed composed mood aligned with user portrait",
+    "skin_color_revision": "v13",
+    "skin_color_note": "Zima pale ivory skin base by explicit user request; no intentional eye size/spacing, eyebrow expression or nose/lip/jaw redesign. Non-skin details visually reviewed, not claimed pixel-identical.",
+    "facial_detail_revision": "v14",
+    "facial_detail_comparison": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v14_facial_details\\facial_detail_closeup.png"
+  },
+  "accepted_base_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v8_pawn_eyes",
+  "previous_body_source_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v10_waist_balance",
+  "clothing_fit": {
+    "revision": "v11",
+    "jacket_torso": "fitted; waist between previous narrow and wide versions; no loose-garment conversion",
+    "waistcoat": "fitted",
+    "trousers": "fitted",
+    "tails": "retain existing split-tail layers and length; no new loose-garment conversion",
+    "constraint": "hips wider than shoulders in front/back clothed silhouette"
+  },
+  "body_shape": {
+    "revision": "v11",
+    "comparison": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v11_midpoint_waist\\waist_three_versions.png",
+    "measurements": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v11_midpoint_waist\\measurements.json",
+    "waist_row_140": {
+      "south": {
+        "v9": 49,
+        "v10": 56,
+        "v11": 54
+      },
+      "north": {
+        "v9": 41,
+        "v10": 48,
+        "v11": 46
+      }
+    },
+    "measurement_scope": "Fixed native-pixel clothed cross-sections; front hip y170 across all versions, rear y165. Not anatomy or universal ratios.",
+    "east_retained_byte_identically": true,
+    "user_review": "new revision produced; pending user visual review"
+  },
+  "body_sources": {
+    "south": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v16_softpixel\\native_inputs\\Textures\\Things\\R99_Agents\\Arcanist\\Vertin_Thin_south.png",
+    "east": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v16_softpixel\\native_inputs\\Textures\\Things\\R99_Agents\\Arcanist\\Vertin_Thin_east.png",
+    "north": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v16_softpixel\\native_inputs\\Textures\\Things\\R99_Agents\\Arcanist\\Vertin_Thin_north.png"
+  },
+  "body_hashes": {
+    "south": "b2b1899c2d99049b9e1d3993f108a01f1f854a7cc96340fee1186de03b028189",
+    "east": "9d52c4d64e93766f65bb42349985ae31666e5f9c34f925d93bde0f28f07a3a3d",
+    "north": "dc77c5497abe789e3af379913dcc559c05cd20490d2b05b161122275e75dfb8d"
+  },
+  "body_part_provenance": {
+    "south": "v11 first edit, selected intermediate waist",
+    "north": "v11 first edit, selected intermediate waist",
+    "east": "v4 retained through v10; byte-identical in v11"
+  },
+  "skin_palette": {
+    "revision": "v13",
+    "source_mode": "explicit_user_reference_override",
+    "reference_character": "Zima",
+    "reference_source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Zima_south.png",
+    "reference_sha256": "028c53c9be02dcb00d156cdf5244549fd1e50455478b1ba9445d13b0512aa3c8",
+    "color_space": "sRGB",
+    "base_rgb": [
+      252,
+      235,
+      211
+    ],
+    "base_hex": "#FCEBD3",
+    "method": "Directly reuse the most frequent existing RGB in visually verified flat face-skin blocks; no averaging with original portrait or other characters.",
+    "reference_record": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v13_arknights_skin\\skin_palette_reference.json",
+    "reference_board": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v13_arknights_skin\\skin_reference_board.png",
+    "native_check": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v13_arknights_skin\\skin_color_check.json",
+    "comparison": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v13_arknights_skin\\skin_before_after.png",
+    "actual_measured_colors": {
+      "south": {
+        "actual_native_patch_mean": [
+          250,
+          233,
+          206
+        ],
+        "delta_from_base": [
+          -2,
+          -2,
+          -5
+        ]
+      },
+      "east": {
+        "actual_native_patch_mean": [
+          250,
+          234,
+          208
+        ],
+        "delta_from_base": [
+          -2,
+          -1,
+          -3
+        ]
+      },
+      "north": {
+        "actual_source_nape_mean": [
+          250,
+          237,
+          210
+        ],
+        "delta_from_base": [
+          -2,
+          2,
+          -1
+        ],
+        "note": "Nape is only a few native pixels tall; source interior avoids outline/AA blending."
+      }
+    },
+    "supersedes": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v12_sampled_skin\\skin_sampling.json",
+    "note": "This records the v13 Zima-based palette used in existing textures. Universal skin-color rules were removed at the user request on 2026-11-05; historical color records remain for provenance. No textures were changed by this documentation revision."
+  },
+  "documentation_updates": [
+    {
+      "date": "2026-11-05T17:27:01.316705+08:00",
+      "change": "Removed universal skin-color rules from specification, task template and AGENTS; cleaned associated workflow/QA/delivery requirements. Existing texture version and all image hashes unchanged."
+    },
+    {
+      "date": "2026-11-06",
+      "change": "Spec revision 5 adds conditional facial identity-detail preservation, corresponding input field and visual checks; absent/unclear details may be skipped. Existing pinned v13 size baseline and removal of universal skin-color rules retained."
+    },
+    {
+      "date": "2026-11-09",
+      "change": "General spec revision 6 adds no broad/toothy grin and a controlled light half-pixel postprocess; no common eye spacing or skin-color rules added."
+    }
+  ],
+  "facial_identity_details": {
+    "revision": "v14",
+    "feature": "freckles",
+    "reference_audit": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v14_facial_details\\facial_detail_audit.json",
+    "location": "upper nose bridge and adjacent upper cheeks",
+    "views": {
+      "south": "sparse visible cluster",
+      "east": "near-side visible cluster; simplified perspective inference",
+      "north": "not visible; original head retained"
+    },
+    "no_other_confirmed_marks": "No characteristic scars/burns established by the reviewed portrait references.",
+    "review": "Static/native/reduced preview reviewed; game display untested."
+  },
+  "accepted_preprocessing_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v14_facial_details",
+  "user_visual_approval": "Pre-pass five-character designs accepted; this light texture pass awaits visual review.",
+  "generation_mode": "user_selected_python_softpixel_postprocessing_of_existing_native_artwork",
+  "preview": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v16_softpixel\\previews\\three_views_final.png",
+  "preview_head_offset": [
+    0,
+    -65
+  ],
+  "head_preview": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v16_softpixel\\previews\\heads_three_views.png",
+  "body_preview": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v16_softpixel\\previews\\bodys_three_views.png",
+  "texture_processing": {
+    "version": "SoftPixel_v1_20261109",
+    "batch_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\SoftPixel_v1_20261109",
+    "recipe": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v16_softpixel\\recipe.json",
+    "source_policy": "Use frozen native_inputs; do not cumulatively filter current output",
+    "alpha_and_geometry_pixel_identical": true,
+    "face_protection_pixel_identical": true,
+    "no_eye_transfer": true,
+    "no_grin_rule": "No broad toothy/open grin; happiness uses restrained closed-mouth smile. Existing expressions retained.",
+    "protected_boxes": {
+      "south": [
+        [
+          106,
+          134,
+          151,
+          167
+        ]
+      ],
+      "east": [
+        [
+          149,
+          136,
+          168,
+          167
+        ]
+      ],
+      "north": []
+    },
+    "parameters": {
+      "median_local_limit": 20,
+      "protection_feather_px": 2,
+      "dark_stroke_luma": 72,
+      "max_dark_stroke_lightening": 5,
+      "guide_grid": 192,
+      "pixel_mix": 0.5,
+      "median_mix": 0.18,
+      "color_step": 6,
+      "max_channel_delta": 16
+    },
+    "before_after": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\SoftPixel_v1_20261109\\previews\\all_characters_before_after.png",
+    "reference_comparison": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\SoftPixel_v1_20261109\\previews\\material_closeups_before_after_reference.png"
+  },
+  "revision": "v16_softpixel",
+  "current_version": "Vertin_v16_softpixel",
+  "user_visual_review": "pending"
+}

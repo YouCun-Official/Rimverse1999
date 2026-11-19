@@ -1,0 +1,12 @@
+{
+  "Textures/Things/Hair/R99/Vertin_east.png": "0fba21b56edd8d13b3e9b4864fe1dacc1e8aa09a0524c87a4691b6f198c511c8",
+  "Textures/Things/Hair/R99/Vertin_north.png": "b73b76a4259ea05eced26dfc832991b613a42d8225d2991d4c1046646a8acffe",
+  "Textures/Things/Hair/R99/Vertin_south.png": "38313803bfbebcf626c201451bb46d09168be40b245ee38496632e953b11044a",
+  "Textures/Things/R99_Agents/Arcanist/Vertin.png": "d12802758d07b58e8681449101af7383f5c25ed127334cc0624c4ed7bc42f9db",
+  "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_east.png": "d4780b9360a535c7668df19ac3f5836241dc87b1d662194cb565df8e0a6cae92",
+  "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_north.png": "917490eef61b66664bc25045cd31533d5600f97f22126a7fc5430a06a56ac90c",
+  "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_south.png": "d12802758d07b58e8681449101af7383f5c25ed127334cc0624c4ed7bc42f9db",
+  "Textures/UI/Element/R99_Arcanist.png": "da2075932d0cc0d4f99f62af9606c3c63c712801233f37dc6d77fa6a151c0c38",
+  "Textures/UI/Element/R99_Reverse1999.png": "69e704e49e63d0620943ba461cd09816f9e52f6da6e33177412c342153e25cf2",
+  "Tools/PortraitToPawn/characters/Vertin.json": "a4e096bd8919b4400a63f28bf607577fbbc3936645a4fc111df3775e0fd49a8d"
+}

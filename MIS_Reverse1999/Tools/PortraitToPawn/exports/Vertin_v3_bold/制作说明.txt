@@ -1,0 +1,18 @@
+Vertin — 2026-11-04 加粗轮廓版（AI 辅助制作）
+
+依据反馈统一加粗人物外轮廓及头发、衣片、口袋、靴子的主要分界。
+用更大的局部色块取代细发丝、布料暗纹、微小反光和密集褶皱。
+保留人物设定、主要配饰、无手臂构型、收腰轮廓、并拢腿型和既有侧身前倾。
+此版本使用内置 image_gen 对六张原有部件独立重绘，再由本地脚本统一透明画布和原生坐标。
+没有在格式化时叠加模糊、再次前倾或再次旋转头部。
+
+Textures/ 内共 7 张 256×256 RGBA PNG；south/east/north 分别是正、侧、后视。
+正面物品图与 south 躯干图逐字节相同。头部和躯干仍独立分层。
+source_art/ 是六张高分辨率生图原稿，imagegen_prompts.json 是完整提示词。
+bold_recipe.json 保存原生位置与尺寸，format_bold_assets.py 可复现所有最终 PNG。
+复现命令（在本目录运行）：
+python format_bold_assets.py --recipe bold_recipe.json --out 新输出目录
+依赖 Pillow、NumPy；拒绝写入非空目录。此格式化脚本不从单张立绘自动推断三视图。
+
+静态检查和同尺度视觉对比已完成；未进行游戏内验证。
+安装位置与旧版本备份见 installation_receipt.json。

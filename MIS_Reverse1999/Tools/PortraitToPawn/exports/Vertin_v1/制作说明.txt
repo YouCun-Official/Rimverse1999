@@ -1,0 +1,16 @@
+维尔汀 Vertin v1 — 角色头部与躯干三向贴图（AI 辅助制作）
+
+新增 7 张 256×256 RGBA PNG：头部 south/east/north、Thin 躯干 south/east/north、无后缀正面物品图。
+保留灰米色短卷发、灰绿眼睛、深紫黑礼帽、蓝灰缎带与深色尾端、白色层叠褶领、暗纹领边、紫色外套、蓝灰内衬、长靴扣饰。
+礼帽从立绘中的悬浮状态改为戴在头上，合并进三向头部贴图；头部保持直立。
+身体采用已确认的无双臂 Q 版结构与相同画布；侧面上段 7 度、下段 18 度横向剪切，腰线按本角色衣着设在 y=148。
+原立绘为蜷坐姿，未展示的站姿正面结构、后背剪裁、后脑发型和靴后结构据可见服装合理补全，详见 recipe.json 的 detail_policy。
+
+生成方式：内置 image_gen 分别生成六张原稿；本地脚本做透明边缘清理、画布定位、缩小、轻度柔化及侧身姿态。
+source_art/ 保存六张高分辨率原稿；portrait_reference.png 为用户立绘；imagegen_prompts.json 为完整生成提示词。
+本地复现（需要 Pillow、NumPy）：
+python assemble_character_set.py --recipe recipe.json --out 新输出目录
+此脚本处理已经生成的六张图像，不会自动识别新立绘并重建人物。
+
+正式素材位置：C:\Users\29232\Desktop\Lannuosprojects\MIS_Lannuosproject\MIS_Reverse1999\Textures
+静态检查通过，尚未进行游戏内验证。

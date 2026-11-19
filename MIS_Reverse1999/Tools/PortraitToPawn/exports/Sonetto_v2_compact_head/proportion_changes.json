@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-08",
+  "mode": "Export calibration correction; no new artistic repaint",
+  "heads": {
+    "head_south": {
+      "old_scale_x": 0.10804020100502512,
+      "old_scale_y": 0.13076923076923078,
+      "old_vertical_to_horizontal_ratio": 1.2103756708407873,
+      "old_eye_to_chin_anchor_height": 34,
+      "new_uniform_scale": 0.10804020100502512,
+      "new_eye_to_chin_anchor_height": 28.09045226130653
+    },
+    "head_east": {
+      "old_scale_x": 0.10869565217391304,
+      "old_scale_y": 0.12781954887218044,
+      "old_vertical_to_horizontal_ratio": 1.17593984962406,
+      "old_eye_to_chin_anchor_height": 34,
+      "new_uniform_scale": 0.10869565217391304,
+      "new_eye_to_chin_anchor_height": 28.913043478260867
+    }
+  },
+  "back_head": "Uniform scale matched to the front/profile head; source artwork retained.",
+  "body": "All three bodies and item retained byte-identically."
+}

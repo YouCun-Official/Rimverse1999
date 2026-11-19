@@ -1,0 +1,26 @@
+{
+  "final_export_target": [
+    252,
+    235,
+    211
+  ],
+  "tool_only_compensation": {
+    "south": [
+      255,
+      242,
+      218
+    ],
+    "east": [
+      255,
+      243,
+      220
+    ],
+    "north": [
+      251,
+      241,
+      223
+    ]
+  },
+  "reason": "Built-in editing plus existing alpha formatting produced a small consistent warmer/darker offset. Compensated generation guidance is an intermediate; final reference remains unmodified Zima #FCEBD3.",
+  "before_pass3": "candidates/pass2/skin_color_check.json"
+}

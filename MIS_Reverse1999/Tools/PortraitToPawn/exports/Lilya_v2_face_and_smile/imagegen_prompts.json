@@ -1,0 +1,24 @@
+{
+  "character": "Lilya",
+  "revision": "v2_face_and_smile",
+  "tool": "Built-in image_gen",
+  "transparent_background": true,
+  "explicit_user_override": "Closed-mouth subtle smile replaces v1 tooth-showing expression; face, headwear and complete head scales are evaluated separately.",
+  "jobs": [
+    {
+      "part": "head_east",
+      "prompt": "Use case: precise-object-edit. Edit image 1, the existing Lilya/红弩箭 RIGHT-FACING PROFILE head texture. Image 2 is the same-scale facial proportion comparison with Vertin, Texas and Zima; use ONLY their simplified pawn facial proportions, not their identity, hair, hat or eye colors. Make a small localized correction to Lilya's FACE, not a new head design. Her face currently reads horizontally flattened: the visible profile eye is too wide and shallow and the cheek/jaw runs too horizontally. Refine the exposed skin/cheek, eye and lower facial contour into a naturally upright compact RimWorld profile. Make the visible eye moderately narrower horizontally and slightly more open vertically, simple upper eyelid and blue-green/turquoise iris with a clear pupil; approximate reference-pawn eye aspect rather than a stretched slit. Preserve relaxed mild brow tension, no raised excited brows or frown. Allow a modestly fuller vertical cheek transition, but keep a SHORT softly tapered chin, not a long sharp pointed jaw. Keep the small visible nose with a gentle contour. Replace the broad open toothy grin with a small closed-mouth smile: one thin short gently upturned lip line, no visible teeth, no open white mouth or broad laughing expression. Three distinct scale controls: (1) edit the local FACE anatomy and features; (2) keep the aviator CAP, ears/peaks and GOGGLES the same shape, size, position, details and colors; (3) keep the overall HEAD plus long-hair silhouette, upright orientation and canvas placement stable. Do not stretch or enlarge the whole head or cap to fix the face. Preserve all existing pale golden layered hair, bang sweep, forehead flap, missing far-side star as currently occluded, cap strap, outline thickness and transparent long-hair opening. Keep original face/eye placement near its current area so the head will join the existing body at the same anchor; only small local face-shape changes. Flat simple 2D game texture, bold dark outer jaw line but thin facial marks, sparse 2-3-tone colors, no photorealism or extra detail. One standalone head only, full original transparent square canvas, no shoulders, body, text, grid, background, glow or cropping.",
+      "referenced_image_paths": [
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/lilya_v2_face_and_smile/source_art/head_east.png",
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/lilya_v2_face_and_smile/side_face_grid_before.png"
+      ]
+    },
+    {
+      "part": "head_south",
+      "prompt": "Use case: precise-object-edit. Edit this existing FRONT head texture of Lilya/红弩箭. Change ONLY the mouth expression and the minimum immediately adjoining skin necessary: replace the wide tooth-showing grin with a small restrained CLOSED-MOUTH SMILE, a short thin gently upturned lip line. No teeth, no white mouth interior, no open mouth, no broad happy grin, no laughing expression, no smirk stretching across the cheek. The result should feel quietly friendly and composed, not sad, stern or angry. Preserve her current relaxed eyes, turquoise iris color, eyebrows, nose, short chin and face proportions. Preserve the entire aviator cap, goggles, fur-lined cap peaks, gold star, pale-golden side-swept hair, asymmetrical long forward lock, all colors, outline weight, head position, size and orientation. This is a localized mouth edit, not a redraw or global scaling of the face/hat/head. Do not enlarge eyes or change hat/hair silhouette. Keep flat 2D RimWorld pawn drawing, strong external outline, weak facial marks and limited color shades. Full original transparent square canvas, head and long hair only; no text, grid, background, glow, body or shoulders.",
+      "referenced_image_paths": [
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/lilya_v2_face_and_smile/source_art/head_south.png"
+      ]
+    }
+  ]
+}

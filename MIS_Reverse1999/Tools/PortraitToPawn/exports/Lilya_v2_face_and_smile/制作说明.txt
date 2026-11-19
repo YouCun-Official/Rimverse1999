@@ -1,0 +1,17 @@
+红弩箭 Lilya v2 · 侧脸比例与闭口微笑
+日期：2026-11-08
+本次按用户反馈修改正面、侧面两张头部：侧脸减弱横向压扁的观感，调整眼形与脸颊到下巴的过渡；正侧面取消露齿咧嘴笑，采用克制的闭口浅笑。保留原瞳色、短下巴、飞行帽、护目镜及长发身份特征。
+
+脸部、头饰、整个头部是三个单独核对的对象：脸部检查五官与下颌；头饰检查帽子护目镜的比例、结构与位置；整头检查包含长发的占图边界和头身连接。不用整头包围框代替脸型测量，也不通过整体缩放帽子或头部解决脸部问题。
+side_face_reference_comparison.png 保留与 Vertin、Texas、Zima 同倍率的整头和侧脸对比；face_before_after.png 展示正侧面前后变化。
+face_headwear_scale_checks.json 记录三个层次的核对范围。眼部有色区域的测量仅为诊断辅助，不等于眼睛完整边界，不作为新角色的固定约束。
+
+使用内置 image_gen 编辑两张原稿，完整提示词为 imagegen_prompts.json；上一版完整提示词在 imagegen_prompts_v1.json。原稿放在 source_art。脚本仅负责 4 倍采样格式化、透明边缘、定位及外描边，不手绘五官。生图保留区域经过视觉核对，不宣称逐像素不变。
+背面头部、三向躯干和物品图全部沿用 v1；正式文件仅替换 Lilya_south.png 与 Lilya_east.png。原文件与元数据保存在 installation_backup。
+
+全部 7 张正式贴图仍为 256×256 RGBA 透明 PNG，路径与 v1 一致。头部保持直立，预览偏移仍为 (0,-65)。该偏移不是游戏内通用配置。
+静态格式、透明边缘、文件一致性和格式化复现已检查；游戏内未验证。
+
+在本目录复现：
+python format_assets.py --recipe recipe.json --out 新的空目录
+依赖 Pillow、numpy。retained 中的未修改正式图会直接复制，保证与 v1 字节一致；source_art 中两张新原稿按 recipe.json 格式化。

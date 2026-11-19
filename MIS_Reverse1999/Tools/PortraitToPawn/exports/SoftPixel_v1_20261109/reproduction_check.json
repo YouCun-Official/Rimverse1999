@@ -1,0 +1,37 @@
+{
+  "batch_files": 35,
+  "batch_reproduction_matches": true,
+  "per_character": {
+    "Vertin": {
+      "version": "Vertin_v16_softpixel",
+      "complete_files": 7,
+      "reproduction_matches_reviewed_batch": true,
+      "alpha_and_protected_features_identical": true
+    },
+    "Lilya": {
+      "version": "Lilya_v3_softpixel",
+      "complete_files": 7,
+      "reproduction_matches_reviewed_batch": true,
+      "alpha_and_protected_features_identical": true
+    },
+    "Regulus": {
+      "version": "Regulus_v2_softpixel",
+      "complete_files": 7,
+      "reproduction_matches_reviewed_batch": true,
+      "alpha_and_protected_features_identical": true
+    },
+    "X": {
+      "version": "X_v3_softpixel",
+      "complete_files": 7,
+      "reproduction_matches_reviewed_batch": true,
+      "alpha_and_protected_features_identical": true
+    },
+    "Sonetto": {
+      "version": "Sonetto_v4_softpixel",
+      "complete_files": 7,
+      "reproduction_matches_reviewed_batch": true,
+      "alpha_and_protected_features_identical": true
+    }
+  },
+  "game_tested": false
+}

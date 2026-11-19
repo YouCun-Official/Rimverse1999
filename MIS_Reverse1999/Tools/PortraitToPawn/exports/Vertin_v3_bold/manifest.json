@@ -1,0 +1,21 @@
+{
+  "character": "Vertin",
+  "files": [
+    "Textures/Things/Hair/R99/Vertin_south.png",
+    "Textures/Things/Hair/R99/Vertin_east.png",
+    "Textures/Things/Hair/R99/Vertin_north.png",
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_south.png",
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_east.png",
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_north.png",
+    "Textures/Things/R99_Agents/Arcanist/Vertin.png"
+  ],
+  "hashes": {
+    "Textures/Things/Hair/R99/Vertin_south.png": "b8af14e2639e1ea2f6aadf7631dd4312e1172ea9cc8a7462aae8da060db5e18b",
+    "Textures/Things/Hair/R99/Vertin_east.png": "4b14061be044470d7b3e680a26e10a7fa34196eca9e9ea607c2a18634c4f7c67",
+    "Textures/Things/Hair/R99/Vertin_north.png": "9129b5419b2d74ece992a59079103a9b87c48aa7fbad38a268ce3b2d84b9ea8e",
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_south.png": "7f90c5323f0ddf2e0a2642c76efbb83da97fe392cb7907b0440b2aa5a810c7fc",
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_east.png": "1d4d87bc0dc83a7bee11adf0ea19dc4642d1824ee24e1035a79affffaa953aa6",
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_north.png": "447bd6192c019ad13e4e45e50f505b64d742b08925eac0f1d0d33d9893862231",
+    "Textures/Things/R99_Agents/Arcanist/Vertin.png": "7f90c5323f0ddf2e0a2642c76efbb83da97fe392cb7907b0440b2aa5a810c7fc"
+  }
+}

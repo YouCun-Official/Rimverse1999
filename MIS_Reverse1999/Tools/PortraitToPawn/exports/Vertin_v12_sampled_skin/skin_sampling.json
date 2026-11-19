@@ -1,0 +1,279 @@
+{
+  "source": "references/vertin_original.webp",
+  "source_sha256": "ab85d5206086fc9d38f42a031aa343381df2c901ed1bfab115b0a5c0e7f10314",
+  "original_size": [
+    1789,
+    1677
+  ],
+  "color_space": "sRGB",
+  "profile_handling": "no embedded ICC; assumed sRGB",
+  "seed": 20261105,
+  "patch_size": [
+    7,
+    7
+  ],
+  "sampling": "two non-overlapping random blocks per manually verified face-skin region; no brightness/hue gating",
+  "eligibility": {
+    "alpha_min": 250,
+    "max_channel_std_lt": 12,
+    "excluded": "hair, eyes/eyebrows, nose/lip marks, outlines, specular rim light, deep shadow, background"
+  },
+  "regions": [
+    {
+      "name": "额头",
+      "box": [
+        1107,
+        350,
+        1130,
+        376
+      ]
+    },
+    {
+      "name": "鼻梁侧皮肤",
+      "box": [
+        1090,
+        430,
+        1122,
+        459
+      ]
+    },
+    {
+      "name": "面颊",
+      "box": [
+        1140,
+        470,
+        1173,
+        507
+      ]
+    },
+    {
+      "name": "下颊",
+      "box": [
+        1176,
+        520,
+        1193,
+        538
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": 1,
+      "region": "额头",
+      "box_xyxy_exclusive": [
+        1122,
+        356,
+        1129,
+        363
+      ],
+      "pixels": 49,
+      "mean_srgb_unrounded": [
+        206.57142857142858,
+        179.3877551020408,
+        170.28571428571428
+      ],
+      "rgb": [
+        207,
+        179,
+        170
+      ],
+      "hex": "#CFB3AA"
+    },
+    {
+      "id": 2,
+      "region": "额头",
+      "box_xyxy_exclusive": [
+        1114,
+        368,
+        1121,
+        375
+      ],
+      "pixels": 49,
+      "mean_srgb_unrounded": [
+        202.53061224489795,
+        176.3673469387755,
+        164.75510204081633
+      ],
+      "rgb": [
+        203,
+        176,
+        165
+      ],
+      "hex": "#CBB0A5"
+    },
+    {
+      "id": 3,
+      "region": "鼻梁侧皮肤",
+      "box_xyxy_exclusive": [
+        1111,
+        445,
+        1118,
+        452
+      ],
+      "pixels": 49,
+      "mean_srgb_unrounded": [
+        194.83673469387756,
+        164.28571428571428,
+        152.12244897959184
+      ],
+      "rgb": [
+        195,
+        164,
+        152
+      ],
+      "hex": "#C3A498"
+    },
+    {
+      "id": 4,
+      "region": "鼻梁侧皮肤",
+      "box_xyxy_exclusive": [
+        1105,
+        434,
+        1112,
+        441
+      ],
+      "pixels": 49,
+      "mean_srgb_unrounded": [
+        194.6326530612245,
+        165.9795918367347,
+        154.0408163265306
+      ],
+      "rgb": [
+        195,
+        166,
+        154
+      ],
+      "hex": "#C3A69A"
+    },
+    {
+      "id": 5,
+      "region": "面颊",
+      "box_xyxy_exclusive": [
+        1154,
+        497,
+        1161,
+        504
+      ],
+      "pixels": 49,
+      "mean_srgb_unrounded": [
+        198.75510204081633,
+        171.9591836734694,
+        162.0408163265306
+      ],
+      "rgb": [
+        199,
+        172,
+        162
+      ],
+      "hex": "#C7ACA2"
+    },
+    {
+      "id": 6,
+      "region": "面颊",
+      "box_xyxy_exclusive": [
+        1155,
+        471,
+        1162,
+        478
+      ],
+      "pixels": 49,
+      "mean_srgb_unrounded": [
+        201.24489795918367,
+        169.79591836734693,
+        158.24489795918367
+      ],
+      "rgb": [
+        201,
+        170,
+        158
+      ],
+      "hex": "#C9AA9E"
+    },
+    {
+      "id": 7,
+      "region": "下颊",
+      "box_xyxy_exclusive": [
+        1184,
+        522,
+        1191,
+        529
+      ],
+      "pixels": 49,
+      "mean_srgb_unrounded": [
+        212.71428571428572,
+        189.28571428571428,
+        182.0612244897959
+      ],
+      "rgb": [
+        213,
+        189,
+        182
+      ],
+      "hex": "#D5BDB6"
+    },
+    {
+      "id": 8,
+      "region": "下颊",
+      "box_xyxy_exclusive": [
+        1177,
+        522,
+        1184,
+        529
+      ],
+      "pixels": 49,
+      "mean_srgb_unrounded": [
+        211.0,
+        187.3469387755102,
+        177.12244897959184
+      ],
+      "rgb": [
+        211,
+        187,
+        177
+      ],
+      "hex": "#D3BBB1"
+    }
+  ],
+  "aggregation": "equal arithmetic mean of the eight unrounded block means in encoded sRGB; round only final color",
+  "base_srgb_unrounded": [
+    202.78571428571428,
+    175.55102040816325,
+    165.08418367346937
+  ],
+  "base_rgb": [
+    203,
+    176,
+    165
+  ],
+  "base_hex": "#CBB0A5",
+  "previous_head_reference": {
+    "part": "head_south source_art",
+    "skin_rois": [
+      [
+        570,
+        630,
+        630,
+        680
+      ],
+      [
+        475,
+        835,
+        535,
+        880
+      ],
+      [
+        690,
+        835,
+        750,
+        880
+      ]
+    ],
+    "mean_rgb": [
+      253,
+      231,
+      224
+    ],
+    "mean_hex": "#FDE7E0"
+  },
+  "scope": "Base color from this portrait; source lighting retained. Not an estimate of illumination-independent physical skin reflectance."
+}

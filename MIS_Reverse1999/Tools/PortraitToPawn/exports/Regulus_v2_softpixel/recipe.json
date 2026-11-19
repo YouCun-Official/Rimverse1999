@@ -1,0 +1,114 @@
+{
+  "batch": "SoftPixel_v1_20261109",
+  "date": "2026-11-09",
+  "method": "User explicitly selected Python pixel postprocessing. Light premultiplied-alpha pixel grouping, restrained low-contrast median contribution and color grouping. No redraw, face transfer, warp, alpha edit, new expression, noise or dithering.",
+  "profiles": {
+    "light": {
+      "median_local_limit": 20,
+      "protection_feather_px": 2,
+      "dark_stroke_luma": 72,
+      "max_dark_stroke_lightening": 5,
+      "guide_grid": 192,
+      "pixel_mix": 0.5,
+      "median_mix": 0.18,
+      "color_step": 6,
+      "max_channel_delta": 16
+    }
+  },
+  "assets": {
+    "Regulus_head_south": {
+      "character": "Regulus",
+      "part": "head",
+      "direction": "south",
+      "source": "native_inputs/Textures/Things/Hair/R99/Regulus_south.png",
+      "source_sha256": "89bade225614e4e6699038f6815c7523458c8110320861dd9dcdb76d39c9ae8d",
+      "relative_path": "Textures/Things/Hair/R99/Regulus_south.png",
+      "profile": "light",
+      "protected_boxes": [
+        [
+          100,
+          134,
+          155,
+          168
+        ]
+      ]
+    },
+    "Regulus_body_south": {
+      "character": "Regulus",
+      "part": "body",
+      "direction": "south",
+      "source": "native_inputs/Textures/Things/R99_Agents/Arcanist/Regulus_Thin_south.png",
+      "source_sha256": "c33add115cadacea5ecf4acb58de25c4a11d43d9f786bda0f3d82ea36fcf9971",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Regulus_Thin_south.png",
+      "profile": "light",
+      "protected_boxes": []
+    },
+    "Regulus_head_east": {
+      "character": "Regulus",
+      "part": "head",
+      "direction": "east",
+      "source": "native_inputs/Textures/Things/Hair/R99/Regulus_east.png",
+      "source_sha256": "387b2ceb9ac0e89c364d78fd59a7870b0e35eb00c1eddeabe53ad4af8454448b",
+      "relative_path": "Textures/Things/Hair/R99/Regulus_east.png",
+      "profile": "light",
+      "protected_boxes": [
+        [
+          135,
+          134,
+          169,
+          168
+        ]
+      ]
+    },
+    "Regulus_body_east": {
+      "character": "Regulus",
+      "part": "body",
+      "direction": "east",
+      "source": "native_inputs/Textures/Things/R99_Agents/Arcanist/Regulus_Thin_east.png",
+      "source_sha256": "6a1010e3465cae66e239fb305b1a25a87a61d877e0ed8c95fab30c0ba7847513",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Regulus_Thin_east.png",
+      "profile": "light",
+      "protected_boxes": []
+    },
+    "Regulus_head_north": {
+      "character": "Regulus",
+      "part": "head",
+      "direction": "north",
+      "source": "native_inputs/Textures/Things/Hair/R99/Regulus_north.png",
+      "source_sha256": "20b11d6e416804b2930e5aa6521c2c179a3a2f9149f17617f48cf2d4df5edd75",
+      "relative_path": "Textures/Things/Hair/R99/Regulus_north.png",
+      "profile": "light",
+      "protected_boxes": []
+    },
+    "Regulus_body_north": {
+      "character": "Regulus",
+      "part": "body",
+      "direction": "north",
+      "source": "native_inputs/Textures/Things/R99_Agents/Arcanist/Regulus_Thin_north.png",
+      "source_sha256": "f2e1dc12bd67283556a95c25a797bfbb1f7fad8ce54e4bc8657b05e36fb9e692",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Regulus_Thin_north.png",
+      "profile": "light",
+      "protected_boxes": []
+    }
+  },
+  "items": {
+    "Regulus": {
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Regulus.png",
+      "copy_from": "Regulus_body_south"
+    }
+  },
+  "expression_rule": "No broad open/toothy grin. Joy uses restrained closed-mouth smile; preserve existing composed/serious/curious expressions and small natural lip parting.",
+  "prior_exports": {
+    "Regulus": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v1"
+  },
+  "preview_head_offsets": {
+    "Regulus": [
+      0,
+      -65
+    ]
+  },
+  "fixed_alpha_and_canvas": true,
+  "source_policy": "Read fresh, unfiltered native_inputs only. Never cumulatively process this pass output.",
+  "character": "Regulus",
+  "version": "Regulus_v2_softpixel"
+}

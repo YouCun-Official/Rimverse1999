@@ -1,0 +1,203 @@
+{
+  "unit": "native pixels",
+  "alpha_threshold": 128,
+  "display_scale": 2,
+  "records": {
+    "Sonetto_before": {
+      "east": [
+        {
+          "y": 120,
+          "x0": 103,
+          "x1_exclusive": 159,
+          "span_px": 56,
+          "scope": "上身衣物"
+        },
+        {
+          "y": 220,
+          "x0": 80,
+          "x1_exclusive": 106,
+          "span_px": 26,
+          "scope": "腿/衣摆截面"
+        },
+        {
+          "y": 240,
+          "x0": 80,
+          "x1_exclusive": 96,
+          "span_px": 16,
+          "scope": "脚踝/靴筒"
+        }
+      ],
+      "south": [
+        {
+          "y": 115,
+          "x0": 93,
+          "x1_exclusive": 164,
+          "span_px": 71,
+          "scope": "肩部衣物"
+        },
+        {
+          "y": 150,
+          "x0": 99,
+          "x1_exclusive": 158,
+          "span_px": 59,
+          "scope": "可见腰部衣物"
+        },
+        {
+          "y": 175,
+          "x0": 84,
+          "x1_exclusive": 173,
+          "span_px": 89,
+          "scope": "裙摆"
+        }
+      ]
+    },
+    "Sonetto": {
+      "east": [
+        {
+          "y": 120,
+          "x0": 102,
+          "x1_exclusive": 159,
+          "span_px": 57,
+          "scope": "上身衣物"
+        },
+        {
+          "y": 220,
+          "x0": 75,
+          "x1_exclusive": 109,
+          "span_px": 34,
+          "scope": "腿/衣摆截面"
+        },
+        {
+          "y": 240,
+          "x0": 73,
+          "x1_exclusive": 103,
+          "span_px": 30,
+          "scope": "脚踝/靴筒"
+        }
+      ],
+      "south": [
+        {
+          "y": 115,
+          "x0": 93,
+          "x1_exclusive": 164,
+          "span_px": 71,
+          "scope": "肩部衣物"
+        },
+        {
+          "y": 150,
+          "x0": 99,
+          "x1_exclusive": 158,
+          "span_px": 59,
+          "scope": "可见腰部衣物"
+        },
+        {
+          "y": 175,
+          "x0": 84,
+          "x1_exclusive": 173,
+          "span_px": 89,
+          "scope": "裙摆"
+        }
+      ]
+    },
+    "Vertin_v13": {
+      "east": [
+        {
+          "y": 120,
+          "x0": 94,
+          "x1_exclusive": 157,
+          "span_px": 63,
+          "scope": "上身衣物"
+        },
+        {
+          "y": 220,
+          "x0": 72,
+          "x1_exclusive": 125,
+          "span_px": 53,
+          "scope": "腿/衣摆截面"
+        },
+        {
+          "y": 240,
+          "x0": 80,
+          "x1_exclusive": 115,
+          "span_px": 35,
+          "scope": "脚踝/靴筒"
+        }
+      ],
+      "south": [
+        {
+          "y": 115,
+          "x0": 92,
+          "x1_exclusive": 164,
+          "span_px": 72,
+          "scope": "肩部衣物"
+        },
+        {
+          "y": 140,
+          "x0": 101,
+          "x1_exclusive": 155,
+          "span_px": 54,
+          "scope": "可见腰部衣物"
+        },
+        {
+          "y": 170,
+          "x0": 91,
+          "x1_exclusive": 165,
+          "span_px": 74,
+          "scope": "髋部衣物/附件"
+        }
+      ]
+    },
+    "Texas": {
+      "east": [
+        {
+          "y": 120,
+          "x0": 102,
+          "x1_exclusive": 153,
+          "span_px": 51,
+          "scope": "上身衣物"
+        },
+        {
+          "y": 220,
+          "x0": 72,
+          "x1_exclusive": 122,
+          "span_px": 50,
+          "scope": "腿/衣摆截面"
+        },
+        {
+          "y": 240,
+          "x0": 89,
+          "x1_exclusive": 119,
+          "span_px": 30,
+          "scope": "脚踝/靴筒"
+        }
+      ],
+      "south": [
+        {
+          "y": 115,
+          "x0": 100,
+          "x1_exclusive": 156,
+          "span_px": 56,
+          "scope": "肩部衣物"
+        },
+        {
+          "y": 145,
+          "x0": 104,
+          "x1_exclusive": 153,
+          "span_px": 49,
+          "scope": "可见腰部衣物"
+        },
+        {
+          "y": 170,
+          "x0": 87,
+          "x1_exclusive": 169,
+          "span_px": 82,
+          "scope": "髋部衣物/附件"
+        }
+      ]
+    }
+  },
+  "scope": "Full clothed row extents, not an estimate of hidden anatomy. Sonetto cape/skirt are loose layers; Vertin coat tails contribute to some lower-leg rows.",
+  "baseline": "Vertin_v13_arknights_skin",
+  "head_calibration": "Facial anchor transforms in recipe.json; long-hair dimensions are independent extensions.",
+  "side_pose": "Upright head, continuous diagonal body; shoe sole baseline at native y252 exclusive."
+}

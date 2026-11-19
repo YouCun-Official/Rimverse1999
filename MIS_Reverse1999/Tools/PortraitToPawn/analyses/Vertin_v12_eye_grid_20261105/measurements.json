@@ -1,0 +1,17 @@
+{
+  "target_version": "Vertin_v12_sampled_skin",
+  "measurement_method": "人工核对原生像素网格后标注可见眼裂包围框；包含眼白和虹膜，不含眉毛、上眼线厚度、睫毛尾和最外圈混色。坐标为左闭右开 [x0,y0,x1,y1]，左/右指画面侧别。",
+  "uncertainty": "混色/抗锯齿边界的人工判读约有 1 原生像素不确定性；尺寸和间距为标注框统计，不是自动语义分割或精确解剖尺寸。",
+  "center_distance_definition": "两眼框几何中心的水平距离，不是瞳孔中心距。",
+  "inner_gap_definition": "右眼框 x0 减左眼框 x1，表示包围框内缘之间的水平间隔；不跟随弯曲眼角逐点测距。",
+  "face_width_definition": "双眼可见开度下沿所在行的可见面部横截宽 F，含眼部/皮肤，不含头发与粗外线；只作辅助归一化，不推算被刘海遮住的完整脸宽。face_span 为 [x0,y,x1]，右端不包含。",
+  "selection": "Texas、Zima 为优先参照；Amiya、Angelina 提供较大眼开度参照，Thorns 提供另一种较宽脸形参照。Exusiai 正面一眼被刘海遮挡、Silence 有眼镜，未纳入双眼定量表。不是全素材包统计。",
+  "characters": [
+    {"name":"Vertin","label":"维尔汀 v12","south":{"left":[112,143,123,150],"right":[133,143,145,150],"face_span":[109,149,148]},"east":{"eye":[150,146,159,153]}},
+    {"name":"Texas","label":"Texas","south":{"left":[109,143,123,152],"right":[133,143,147,152],"face_span":[109,151,148]},"east":{"eye":[138,138,150,148]}},
+    {"name":"Zima","label":"Zima","south":{"left":[109,142,124,151],"right":[133,142,148,151],"face_span":[109,150,148]},"east":{"eye":[137,142,148,151]}},
+    {"name":"Amiya","label":"Amiya","south":{"left":[108,142,122,152],"right":[132,142,146,152],"face_span":[109,151,145]},"east":{"eye":[136,137,149,148]}},
+    {"name":"Angelina","label":"Angelina","south":{"left":[108,139,122,152],"right":[132,139,147,152],"face_span":[110,151,148]},"east":{"eye":[133,140,146,151]}},
+    {"name":"Thorns","label":"Thorns","south":{"left":[106,137,121,146],"right":[135,137,150,146],"face_span":[105,145,151]},"east":{"eye":[136,138,148,148]}}
+  ]
+}

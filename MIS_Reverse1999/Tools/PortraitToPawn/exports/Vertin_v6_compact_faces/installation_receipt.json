@@ -1,0 +1,31 @@
+{
+  "installed_at": "2026-11-05T11:32:11.526881+08:00",
+  "previous_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v5_original_hairstyle",
+  "working_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v6_compact_faces",
+  "backup_archive": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\TextureBackups\\Vertin_before_v6_20261105_113211_526881.zip",
+  "changed_files": [
+    "Textures/Things/Hair/R99/Vertin_south.png",
+    "Textures/Things/Hair/R99/Vertin_east.png"
+  ],
+  "unchanged_files": [
+    "Textures/Things/Hair/R99/Vertin_north.png",
+    "Textures/Things/R99_Agents/Arcanist/Vertin.png",
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_east.png",
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_north.png",
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_south.png",
+    "Textures/UI/Element/R99_Arcanist.png",
+    "Textures/UI/Element/R99_Reverse1999.png"
+  ],
+  "installed_hashes": {
+    "Textures/Things/Hair/R99/Vertin_east.png": "2a8145fb5cfa397cd533f7764e78b958b2a7ff8ccbce496eb1c99dc40c263a54",
+    "Textures/Things/Hair/R99/Vertin_north.png": "b5dc1d5060a0a73ebb43df58dbf8c6c429116b99833636cbcad4dc3afbec3acd",
+    "Textures/Things/Hair/R99/Vertin_south.png": "126258da5a8efc2452275f6860adeba7048f245ce781fbc22a5a8368893ba013",
+    "Textures/Things/R99_Agents/Arcanist/Vertin.png": "49163822bfdf4e2a4b6e874c8c51d0c2c079b6447f25ebf490bfdcbe6a14957c",
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_east.png": "d4780b9360a535c7668df19ac3f5836241dc87b1d662194cb565df8e0a6cae92",
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_north.png": "af2475c5769648d51ac98fae53820aaa0e411e4626a5cbadc1e414f9d8735713",
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_south.png": "49163822bfdf4e2a4b6e874c8c51d0c2c079b6447f25ebf490bfdcbe6a14957c",
+    "Textures/UI/Element/R99_Arcanist.png": "da2075932d0cc0d4f99f62af9606c3c63c712801233f37dc6d77fa6a151c0c38",
+    "Textures/UI/Element/R99_Reverse1999.png": "69e704e49e63d0620943ba461cd09816f9e52f6da6e33177412c342153e25cf2"
+  },
+  "game_tested": false
+}

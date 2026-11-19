@@ -1,0 +1,110 @@
+{
+  "date": "2026-11-08",
+  "checks": {
+    "Textures/Things/Hair/R99/Sonetto_east.png": {
+      "sha256": "7df0ea12b7d5f16e2c8c22a1fcd334d50147d1685a45eacc4f6224bea474b4b7",
+      "solid_bbox": [
+        71,
+        94,
+        173,
+        211
+      ],
+      "format": "256x256 RGBA PNG",
+      "clear_canvas_border": true
+    },
+    "Textures/Things/Hair/R99/Sonetto_north.png": {
+      "sha256": "fb7356d734e02b7589e17067ddc226c7101bc5a3845824e47eb7f606e1fdde1a",
+      "solid_bbox": [
+        84,
+        95,
+        172,
+        207
+      ],
+      "format": "256x256 RGBA PNG",
+      "clear_canvas_border": true
+    },
+    "Textures/Things/Hair/R99/Sonetto_south.png": {
+      "sha256": "10162a0b8ddee818b79faf96c55dd5c24f04aea3a3af4144b39ea2f18d56f5e4",
+      "solid_bbox": [
+        80,
+        95,
+        174,
+        205
+      ],
+      "format": "256x256 RGBA PNG",
+      "clear_canvas_border": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Sonetto.png": {
+      "sha256": "2c452cbf0b3ba129b0ede6de05a872dad8b33b6fb39b91fbf869b9e639c3ea48",
+      "solid_bbox": [
+        84,
+        90,
+        173,
+        252
+      ],
+      "format": "256x256 RGBA PNG",
+      "clear_canvas_border": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_east.png": {
+      "sha256": "8968314fdc00ef934987c06e0c1d4aacc98a550a847abd8828b46fb997ca739f",
+      "solid_bbox": [
+        71,
+        88,
+        159,
+        252
+      ],
+      "format": "256x256 RGBA PNG",
+      "clear_canvas_border": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_north.png": {
+      "sha256": "2a4450adb316d64b95a3f74f94416bb604597fe0dcf548b4d32b45bd534e751d",
+      "solid_bbox": [
+        84,
+        89,
+        173,
+        252
+      ],
+      "format": "256x256 RGBA PNG",
+      "clear_canvas_border": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_south.png": {
+      "sha256": "2c452cbf0b3ba129b0ede6de05a872dad8b33b6fb39b91fbf869b9e639c3ea48",
+      "solid_bbox": [
+        84,
+        90,
+        173,
+        252
+      ],
+      "format": "256x256 RGBA PNG",
+      "clear_canvas_border": true
+    }
+  },
+  "format_reproduction_passed": true,
+  "head_rotation_degrees": 0,
+  "preview_head_offset": [
+    0,
+    -65
+  ],
+  "size_baseline": "Vertin_v13_arknights_skin",
+  "visual_review": "passed",
+  "game_tested": false,
+  "back_view_provenance": "Conservative reconstruction; no authoritative orthographic rear sheet found.",
+  "user_visual_approval": "pending",
+  "head_scaling": "Uniform scale in all directions; v1 vertical stretch removed.",
+  "source_art_unchanged": true,
+  "body_and_item_unchanged": true,
+  "compared_at_equal_pixel_scale": [
+    "Sonetto_v1",
+    "Vertin_v13",
+    "Texas",
+    "Silence"
+  ],
+  "reviewed_artifacts": [
+    "head_before_after_comparison.png",
+    "face_before_after_comparison.png",
+    "pawn_before_after.png",
+    "three_views_final.png",
+    "head_style_comparison.png",
+    "native_and_reduced.png"
+  ]
+}

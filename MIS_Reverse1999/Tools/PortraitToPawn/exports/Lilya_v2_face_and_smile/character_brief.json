@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-08",
+  "character": "Lilya",
+  "display_name": "红弩箭",
+  "primary_reference": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\Ombrophobia\\data_infrastructure\\图片\\红弩箭.png",
+  "primary_sha256": "9d45244d6f3489ee87c13d5d113f25897dfa24ff82f361b58baba51a4cad1680",
+  "expression": "Restrained closed-mouth smile with short softly upturned lip line, relaxed brow/eye tension; no visible teeth or open happy grin. Explicit latest user direction supersedes v1 tooth-showing interpretation.",
+  "head": "Long layered pale golden/straw-blonde hair; thick side-swept bang partly covers character left eye (front viewer right). Brown leather aviator cap, tan forehead flap, silver-grey framed amber goggles resting on cap, small pointed fur-lined cap peaks, gold star on character right side of cap. Long hair belongs only to head texture.",
+  "facial_identity_marks": "No obvious freckles, scars, burns or birthmarks in local reference; conditional face-mark rule skipped. Do not inherit Vertin freckles.",
+  "clothing": {
+    "outer": "Loose open brown leather aviation jacket with cream shearling collar; retain hanging outer panels and hip-length hem. Full arms/hands omitted; only short shoulder caps.",
+    "inner": "Fitted olive green cropped tank top, small midriff interval; flat modest pawn treatment.",
+    "lower": "Dark brown-purple shorts with cream fur hems, black waist belt with gold star buckle cluster, dark tall boots, bare knee/thigh intervals.",
+    "accessories": "Dark aviation respirator hanging at neck (body part), two small gold stars on character right collar, small belt tag, two dark bands and compact holster on character right thigh, hanging rectangular dark canister with muted red star on character left hip."
+  },
+  "sides": {
+    "character_right": [
+      "cap gold star",
+      "collar star badges",
+      "two thigh bands and holster"
+    ],
+    "character_left": [
+      "longer face-framing hair/bang",
+      "hip canister"
+    ]
+  },
+  "baseline_decision": "Mixed fit: fitted inner tank/shorts but loose outer aviation jacket. Therefore do not force the whole body to the fitted Vertin silhouette. Calibrate visible underlying body and head/face near existing pawn references; garment silhouette takes priority.",
+  "body_type": "Thin",
+  "body_type_reason": "Keep the existing project texture suffix for the slender underlying body; the outer jacket retains its own ease. This is an asset naming choice, not a new XML definition.",
+  "directions": {
+    "south": "front",
+    "east": "true right-facing profile; sees character left side",
+    "north": "back"
+  },
+  "pose": "Upright independent head; compact inward legs/feet; continuous inclined side body, with shoulder/upper body slightly forward and lower body diagonal; no > waist hinge.",
+  "back_inference": "Back is not supplied orthographically. Infer plain brown jacket back with cream back collar and simple seams; same hem/short/boot heights. Do not copy chest badges, crop-top opening, respirator front or star belt buckle onto back.",
+  "output_paths": {
+    "head": "Textures/Things/Hair/R99/Lilya_{south,east,north}.png",
+    "body": "Textures/Things/R99_Agents/Arcanist/Lilya_Thin_{south,east,north}.png",
+    "item": "Textures/Things/R99_Agents/Arcanist/Lilya.png"
+  },
+  "game_tested": false,
+  "revision": "v2_face_and_smile",
+  "facial_scale_revision": "Profile face and features adjusted locally; face/headwear/complete-head envelope checked separately against Vertin, Texas and Zima. Front face proportions retained while mouth is revised.",
+  "unchanged_parts": [
+    "head_north",
+    "body_south",
+    "body_east",
+    "body_north",
+    "item"
+  ]
+}

@@ -1,0 +1,11 @@
+维尔汀 v9 — 放松眉形（AI 辅助制作）
+
+在用户认可 v8 整体效果后，用内置 image_gen 微调正面、侧面眉毛。参考用户提供立绘中的平静神情，眉线略细、斜度放缓、尾端柔和，减轻眉头压低带来的严肃感。
+保留 v8 眼睛尺寸、灰绿色虹膜、瞳孔、鼻子和嘴的表现，以及短小柔和的下巴；保持头部直立和既有发帽结构。该保留经视觉检查，不宣称生图区域外每个像素完全相同。
+背面头部、三向躯干和物品图保持上版字节一致。正式更新 2 张头部，完整套装仍为 7 张 256×256 RGBA PNG。
+参考立绘原文件与表情裁切见 references；裁切仅用于眉形神情，不把立绘写实眼睛或倾斜姿态带入贴图。
+源图见 source_art，完整提示词见 imagegen_prompts.json，后处理参数见 recipe.json。提示词的眉线百分比及像素位移仅为视觉指导。
+检查了眉形前后对比、三向头部、原尺寸与 50% 缩小合成；格式、透明边缘、朝向差异、图标副本、变更范围、复现和安装哈希检查通过。尚未游戏内测试。
+复现：python format_assets.py --recipe recipe.json --out 新输出目录
+输出目录必须为空；不自动覆盖正式 Textures。
+备份：C:\Users\29232\Desktop\Lannuosprojects\MIS_Lannuosproject\MIS_Reverse1999\Tools\TextureBackups\Vertin_before_v9_20261105_134721_162075.zip

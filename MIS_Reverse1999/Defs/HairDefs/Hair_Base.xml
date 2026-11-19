@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- 发型贴图里画了整张脸；AK_Agents 分类 + 需要 Skin_Melanin1 基因，普通殖民者不会随机到 -->
+	<HairDef Name="R99_HairBase" Abstract="True">
+		<styleGender>Female</styleGender>
+		<category>AK_Agents</category>
+		<requiredGene>Skin_Melanin1</requiredGene>
+	</HairDef>
+
+</Defs>

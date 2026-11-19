@@ -1,0 +1,160 @@
+{
+  "units": "native texture pixels",
+  "alpha_threshold": 128,
+  "scope": "Visible clothed cross-sections, including short shoulder caps and fitted upper-hip panels; excludes long tails at lower rows. Not unclothed anatomy.",
+  "fixed_rows": {
+    "south": {
+      "shoulder": 110,
+      "waist": 140,
+      "hip": 160
+    },
+    "north": {
+      "shoulder": 115,
+      "waist": 140,
+      "hip": 165
+    }
+  },
+  "versions": {
+    "before": {
+      "south": {
+        "shoulder": {
+          "y": 110,
+          "x_left": 93,
+          "x_right_exclusive": 163,
+          "width": 70,
+          "method": "alpha>=128 outer clothed cross-section at annotated row"
+        },
+        "waist": {
+          "y": 140,
+          "x_left": 103,
+          "x_right_exclusive": 152,
+          "width": 49,
+          "method": "alpha>=128 outer clothed cross-section at annotated row"
+        },
+        "hip": {
+          "y": 160,
+          "x_left": 91,
+          "x_right_exclusive": 165,
+          "width": 74,
+          "method": "alpha>=128 outer clothed cross-section at annotated row"
+        }
+      },
+      "north": {
+        "shoulder": {
+          "y": 115,
+          "x_left": 96,
+          "x_right_exclusive": 161,
+          "width": 65,
+          "method": "alpha>=128 outer clothed cross-section at annotated row"
+        },
+        "waist": {
+          "y": 140,
+          "x_left": 108,
+          "x_right_exclusive": 149,
+          "width": 41,
+          "method": "alpha>=128 outer clothed cross-section at annotated row"
+        },
+        "hip": {
+          "y": 165,
+          "x_left": 93,
+          "x_right_exclusive": 163,
+          "width": 70,
+          "method": "alpha>=128 outer clothed cross-section at annotated row"
+        }
+      }
+    },
+    "staging": {
+      "south": {
+        "shoulder": {
+          "y": 110,
+          "x_left": 93,
+          "x_right_exclusive": 163,
+          "width": 70,
+          "method": "alpha>=128 outer clothed cross-section at annotated row"
+        },
+        "waist": {
+          "y": 140,
+          "x_left": 100,
+          "x_right_exclusive": 156,
+          "width": 56,
+          "method": "alpha>=128 outer clothed cross-section at annotated row"
+        },
+        "hip": {
+          "y": 160,
+          "x_left": 91,
+          "x_right_exclusive": 165,
+          "width": 74,
+          "method": "alpha>=128 outer clothed cross-section at annotated row"
+        }
+      },
+      "north": {
+        "shoulder": {
+          "y": 115,
+          "x_left": 96,
+          "x_right_exclusive": 160,
+          "width": 64,
+          "method": "alpha>=128 outer clothed cross-section at annotated row"
+        },
+        "waist": {
+          "y": 140,
+          "x_left": 104,
+          "x_right_exclusive": 152,
+          "width": 48,
+          "method": "alpha>=128 outer clothed cross-section at annotated row"
+        },
+        "hip": {
+          "y": 165,
+          "x_left": 93,
+          "x_right_exclusive": 162,
+          "width": 69,
+          "method": "alpha>=128 outer clothed cross-section at annotated row"
+        }
+      }
+    }
+  },
+  "reference_guides": {
+    "note": "Manually located visible garment/body-main-mass guides; occlusion by open coats and equipment makes them schematic, drawn dashed, not used for numeric ratios.",
+    "guides": {
+      "Texas": {
+        "shoulder": {
+          "y": 112,
+          "x_left": 100,
+          "x_right_exclusive": 156,
+          "estimated": true
+        },
+        "waist": {
+          "y": 145,
+          "x_left": 110,
+          "x_right_exclusive": 148,
+          "estimated": true
+        },
+        "hip": {
+          "y": 178,
+          "x_left": 100,
+          "x_right_exclusive": 157,
+          "estimated": true
+        }
+      },
+      "Lappland": {
+        "shoulder": {
+          "y": 120,
+          "x_left": 105,
+          "x_right_exclusive": 166,
+          "estimated": true
+        },
+        "waist": {
+          "y": 154,
+          "x_left": 110,
+          "x_right_exclusive": 160,
+          "estimated": true
+        },
+        "hip": {
+          "y": 185,
+          "x_left": 101,
+          "x_right_exclusive": 168,
+          "estimated": true
+        }
+      }
+    }
+  }
+}

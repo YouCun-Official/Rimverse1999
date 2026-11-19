@@ -1,0 +1,18 @@
+维尔汀 v12 · 原画采样肤色
+
+取色：原始立绘面部 4 个经目视确认的皮肤候选区域，各随机 2 块，共 8 块；每块 7×7 原始像素。
+固定随机种子 20261105；每块先取 RGB 均值，再等权平均未取整均值，最后取整，得到 sRGB (203,176,165) / #CBB0A5。
+取样避开五官、发丝、轮廓、强高光、深阴影和透明背景。原图无 ICC，按 sRGB 处理。
+旧版头部原稿参考色约 #FDE7E0；这与格式化后的原生贴图采样数值有所不同，具体见 skin_color_check.json。
+
+三向头部用内置 image_gen 局部校准肤色，保留已确认五官和发型的表现。正式正面皮肤采样约 #CEB1A6，侧面约 #CCAC9F，与基准的最大通道差分别为 3 和 6；背面后颈原稿内部约 #CCB0A6。
+这些是基准附近的实际输出，未声称每个肤色像素都精确等于 HEX。脸/耳/后颈采用同一基准；保留少量原有层次。
+三向躯干、物品图及无关纹理哈希不变。正式仅替换三张头部，原稿内非皮肤区域的保留通过视觉核查，不声称逐像素不变。
+
+查看：skin_sampling_board.png（采样位置及色板）、skin_before_after.png、three_views_final.png、head_style_comparison.png、native_and_reduced.png。
+取色记录：skin_sampling.json。运行 python sample_skin.py 可重现该角色的已确认候选区随机取样和色板；候选区域是本角色专用，不能直接套给其他角色。
+格式化复现：python format_assets.py --recipe recipe.json --out 新的空目录
+完整生图提示词：imagegen_prompts.json；采样/旧稿输入在 inputs 和 references，六张采用的源图在 source_art。
+
+通用规范与 Agent 任务模板已增加“从各自原始立绘的面部随机取多个小块并平均确定肤色”，保留男性体形和衣物轮廓优先等现有规则。
+已完成采样均值重算、肤色偏差检查、同尺度与缩小图视觉检查、格式复现及安装核对；游戏内显示未验证。

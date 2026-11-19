@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-09",
+  "batch": "SoftPixel_v1_20261109",
+  "backup_archive": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\TextureBackups\\AllCharacters_before_SoftPixel_v1_20261109_5bd9c9f0.zip",
+  "backup_sha256": "09a5ac15fdac3e489cfe3dc1adbbf945edb00a3158df523c16f6c3db8ffb799b",
+  "changed_formal_textures": [
+    "Textures/Things/Hair/R99/Sonetto_south.png",
+    "Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_south.png",
+    "Textures/Things/Hair/R99/Sonetto_east.png",
+    "Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_east.png",
+    "Textures/Things/Hair/R99/Sonetto_north.png",
+    "Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_north.png",
+    "Textures/Things/R99_Agents/Arcanist/Sonetto.png"
+  ],
+  "changed_count": 7,
+  "unchanged_ui_count": 2,
+  "export_reproduction_install_hashes_equal": true,
+  "all_alpha_pixel_identical": true,
+  "canvas_and_geometry_unchanged": true,
+  "protected_face_pixels_identical": true,
+  "no_new_grin_or_eye_transfer": true,
+  "item_front_body_byte_identical": true,
+  "installed": {
+    "Textures/Things/Hair/R99/Sonetto_south.png": "2fb8ef88fec5402c82f6f203036511cb883df4fecf4b539c6a558efc2ac4a68b",
+    "Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_south.png": "3ad4f284115eb982b116f7289d1b68fce31b4bbdde4ab06fc9ce3ddea993c59d",
+    "Textures/Things/Hair/R99/Sonetto_east.png": "a3f3639194f28cd80d91dbd190fec80918f4a41baf8b13a8fb6171e9576fe149",
+    "Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_east.png": "9d84ec8d37c3ae0d3c969b201b8369626d7c085c186955f0be0ffe7a79c2e8ae",
+    "Textures/Things/Hair/R99/Sonetto_north.png": "791fb0e873126b9fc1ae344bd99a3795d3e410b04fde26cf83a94086806034f0",
+    "Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_north.png": "38e24193d5ca8e9814aad82f50174fd756e64a2ee08b03591479246db108702b",
+    "Textures/Things/R99_Agents/Arcanist/Sonetto.png": "3ad4f284115eb982b116f7289d1b68fce31b4bbdde4ab06fc9ce3ddea993c59d"
+  },
+  "character_versions": {
+    "Vertin": "Vertin_v16_softpixel",
+    "Lilya": "Lilya_v3_softpixel",
+    "Regulus": "Regulus_v2_softpixel",
+    "X": "X_v3_softpixel",
+    "Sonetto": "Sonetto_v4_softpixel"
+  },
+  "documentation_updated": [
+    "AGENTS.md",
+    "Tools/PortraitToPawn/角色三视图制作规范.txt",
+    "Tools/PortraitToPawn/角色贴图Agent任务模板.txt",
+    "Tools/PortraitToPawn/使用说明.txt"
+  ],
+  "game_tested": false,
+  "user_visual_review": "pending",
+  "character": "Sonetto"
+}

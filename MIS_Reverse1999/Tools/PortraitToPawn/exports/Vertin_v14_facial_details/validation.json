@@ -1,0 +1,167 @@
+{
+  "date": "2026-11-06",
+  "checks": {
+    "Textures/Things/Hair/R99/Vertin_east.png": {
+      "sha256": "0fba21b56edd8d13b3e9b4864fe1dacc1e8aa09a0524c87a4691b6f198c511c8",
+      "changed_vs_v13": true,
+      "solid_bbox": [
+        70,
+        79,
+        186,
+        180
+      ],
+      "prior_solid_bbox": [
+        70,
+        79,
+        186,
+        180
+      ],
+      "silhouette_iou_vs_v13": 0.988661,
+      "rgb_mean_absolute_difference_common_solid": 10.2006,
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true
+    },
+    "Textures/Things/Hair/R99/Vertin_north.png": {
+      "sha256": "b73b76a4259ea05eced26dfc832991b613a42d8225d2991d4c1046646a8acffe",
+      "changed_vs_v13": false,
+      "solid_bbox": [
+        64,
+        83,
+        180,
+        176
+      ],
+      "prior_solid_bbox": [
+        64,
+        83,
+        180,
+        176
+      ],
+      "silhouette_iou_vs_v13": 1.0,
+      "rgb_mean_absolute_difference_common_solid": 0.0,
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true
+    },
+    "Textures/Things/Hair/R99/Vertin_south.png": {
+      "sha256": "38313803bfbebcf626c201451bb46d09168be40b245ee38496632e953b11044a",
+      "changed_vs_v13": true,
+      "solid_bbox": [
+        76,
+        77,
+        190,
+        177
+      ],
+      "prior_solid_bbox": [
+        76,
+        77,
+        190,
+        177
+      ],
+      "silhouette_iou_vs_v13": 0.988854,
+      "rgb_mean_absolute_difference_common_solid": 6.6607,
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Vertin.png": {
+      "sha256": "d12802758d07b58e8681449101af7383f5c25ed127334cc0624c4ed7bc42f9db",
+      "changed_vs_v13": false,
+      "solid_bbox": [
+        86,
+        90,
+        171,
+        252
+      ],
+      "prior_solid_bbox": [
+        86,
+        90,
+        171,
+        252
+      ],
+      "silhouette_iou_vs_v13": 1.0,
+      "rgb_mean_absolute_difference_common_solid": 0.0,
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_east.png": {
+      "sha256": "d4780b9360a535c7668df19ac3f5836241dc87b1d662194cb565df8e0a6cae92",
+      "changed_vs_v13": false,
+      "solid_bbox": [
+        72,
+        89,
+        158,
+        252
+      ],
+      "prior_solid_bbox": [
+        72,
+        89,
+        158,
+        252
+      ],
+      "silhouette_iou_vs_v13": 1.0,
+      "rgb_mean_absolute_difference_common_solid": 0.0,
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_north.png": {
+      "sha256": "917490eef61b66664bc25045cd31533d5600f97f22126a7fc5430a06a56ac90c",
+      "changed_vs_v13": false,
+      "solid_bbox": [
+        86,
+        90,
+        170,
+        252
+      ],
+      "prior_solid_bbox": [
+        86,
+        90,
+        170,
+        252
+      ],
+      "silhouette_iou_vs_v13": 1.0,
+      "rgb_mean_absolute_difference_common_solid": 0.0,
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_south.png": {
+      "sha256": "d12802758d07b58e8681449101af7383f5c25ed127334cc0624c4ed7bc42f9db",
+      "changed_vs_v13": false,
+      "solid_bbox": [
+        86,
+        90,
+        171,
+        252
+      ],
+      "prior_solid_bbox": [
+        86,
+        90,
+        171,
+        252
+      ],
+      "silhouette_iou_vs_v13": 1.0,
+      "rgb_mean_absolute_difference_common_solid": 0.0,
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true
+    }
+  },
+  "changed_parts": [
+    "head_south",
+    "head_east"
+  ],
+  "rear_head_bodies_item_byte_identical": true,
+  "format_reproduction_passed": true,
+  "head_rotation_degrees": 0,
+  "preview_head_offset": [
+    0,
+    -65
+  ],
+  "dimension_baseline_remains": "Vertin_v13_arknights_skin",
+  "artistic_edit_scope": "Reference-supported freckles; other face/hair/hat features visually checked rather than claimed pixel-identical.",
+  "visual_review": "passed",
+  "game_tested": false,
+  "visual_review_notes": [
+    "Inspected original game/official portrait evidence, source edits, native pixel closeups, complete three-view previews, native/50-percent display and same-scale Arknights comparison.",
+    "Selected pass 2: sparse warm muted freckles remain discernible in the native pixel closeup without merging into a dark band; side shows only the visible near-side cluster.",
+    "Approved eye/nose/lip/brow/hair/hat style visually retained; no pixel-identity claim for regenerated front/profile heads.",
+    "All six final alpha>=128 solid bounds equal the v13 bounds; east source-fit top calibrated by 0.5 native pixel on the 4x canvas.",
+    "Back head, three bodies and item remain byte-identical. In-game appearance has not been tested."
+  ]
+}

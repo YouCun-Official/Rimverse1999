@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-09",
+  "scope": "Read-only front-face spacing audit; no art edit or installation.",
+  "exact_findings": {
+    "donor_widths": [
+      15,
+      16
+    ],
+    "trial_widths": [
+      15,
+      16
+    ],
+    "donor_eye_box_center_spacing": 25.5,
+    "trial_eye_box_center_spacing": 21.5,
+    "donor_inner_gap": 10,
+    "trial_inner_gap": 6,
+    "spacing_loss_from_translation": 4,
+    "nose_mouth_not_moved": true
+  },
+  "interpretation": "The horizontal layout is the clearest problem. Native donor eyes were placed inward on a narrower visible recipient face; copied eye widths and thicker dark marks consume the whitespace. The vertical eye-nose-mouth distances are within the range of the checked references.",
+  "recommended_next_trial": "Open horizontal space first: consider each eye outward by about 1 px and reducing each eye width about 1 px while preserving source style. Calibrate within the existing hair/face outline; do not blindly move the wider donor eyes outward until they cross the facial boundary. Keep nose/mouth and overall face/headwear size stable initially.",
+  "uncertainty": "Manual reference bounds and nose/mouth centers are approximately ±1 native pixel; compare trends rather than enforce a universal numeric face ratio.",
+  "preserved_existing_textures": 37,
+  "formal_textures_and_active_record_unchanged": true,
+  "trial_unchanged": true,
+  "game_tested": false
+}

@@ -1,0 +1,445 @@
+{
+  "previous_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v11_midpoint_waist",
+  "scope": "Skin color only: sampled original portrait face. All body and item textures retained.",
+  "references": [
+    {
+      "character": "Texas",
+      "part": "body",
+      "view": "south",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Vanguard\\Texas_Thin_south.png",
+      "local": "references/Texas_body_south.png",
+      "sha256": "c15f16e531b46c2a6344ba23e78fe6d3abf9b044116e750bc8f76f7b6a60307e"
+    },
+    {
+      "character": "Texas",
+      "part": "head",
+      "view": "south",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Texas_south.png",
+      "local": "references/Texas_head_south.png",
+      "sha256": "264239c05a87a9c15b3cc439757d2ddacee495b4f1738d995002417700fc5ee1"
+    },
+    {
+      "character": "Texas",
+      "part": "body",
+      "view": "east",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Vanguard\\Texas_Thin_east.png",
+      "local": "references/Texas_body_east.png",
+      "sha256": "d2f6833733c1a75913082c98c140e78c51bf9d2f939412c34a624bed6ba14693"
+    },
+    {
+      "character": "Texas",
+      "part": "head",
+      "view": "east",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Texas_east.png",
+      "local": "references/Texas_head_east.png",
+      "sha256": "fb51d064091ef4f5ac6f7197e6eb72c91fba6a700b24c4b1a1936f57131cbbfb"
+    },
+    {
+      "character": "Texas",
+      "part": "body",
+      "view": "north",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Vanguard\\Texas_Thin_north.png",
+      "local": "references/Texas_body_north.png",
+      "sha256": "b6aaff58dc90d1057c55698736f7a67c898a461fd7df5c7785db0adcd019becf"
+    },
+    {
+      "character": "Texas",
+      "part": "head",
+      "view": "north",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Texas_north.png",
+      "local": "references/Texas_head_north.png",
+      "sha256": "30fc62f47c29d9f91eb179b5434f2e884d3318ea3cc994d15b1c345465c92da5"
+    },
+    {
+      "character": "Platinum",
+      "part": "body",
+      "view": "south",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Sniper\\Platinum_Thin_south.png",
+      "local": "references/Platinum_body_south.png",
+      "sha256": "b90d2f595994e3a8582d9c9baf324410b35ec480d0360e27a8b819704a030b24"
+    },
+    {
+      "character": "Platinum",
+      "part": "head",
+      "view": "south",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Sniper\\Platinum_south.png",
+      "local": "references/Platinum_head_south.png",
+      "sha256": "b1c952461bc040a7af6c229ede2a0e2d842ea58fc776ccfdb05403b169a46504"
+    },
+    {
+      "character": "Platinum",
+      "part": "body",
+      "view": "east",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Sniper\\Platinum_Thin_east.png",
+      "local": "references/Platinum_body_east.png",
+      "sha256": "2bd856aa047cce037a375ed5fc73fbbb5d77be4e450e3ef3fbb24b7f1f316e91"
+    },
+    {
+      "character": "Platinum",
+      "part": "head",
+      "view": "east",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Sniper\\Platinum_east.png",
+      "local": "references/Platinum_head_east.png",
+      "sha256": "53b115e1065c25a535e0be354d077e7d2292b705fd66246cac59c7e0362b8e85"
+    },
+    {
+      "character": "Platinum",
+      "part": "body",
+      "view": "north",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Sniper\\Platinum_Thin_north.png",
+      "local": "references/Platinum_body_north.png",
+      "sha256": "cc31cefa99951bbde1d05b8e4ed4f6026a419ac251b311c7dc29af7771e95efb"
+    },
+    {
+      "character": "Platinum",
+      "part": "head",
+      "view": "north",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Sniper\\Platinum_north.png",
+      "local": "references/Platinum_head_north.png",
+      "sha256": "0160a449c95d2e410d2218189ca5fd5bf1820ca8421b8a9d8287a6590c62f8ad"
+    },
+    {
+      "character": "Schwarz",
+      "part": "body",
+      "view": "south",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Sniper\\Schwarz_Thin_south.png",
+      "local": "references/Schwarz_body_south.png",
+      "sha256": "d7053bc0a6f4b62ede63f9b95be364a5a9ba514f8fd0a427cc53d4fc68fa43d3"
+    },
+    {
+      "character": "Schwarz",
+      "part": "head",
+      "view": "south",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Sniper\\Schwarz_south.png",
+      "local": "references/Schwarz_head_south.png",
+      "sha256": "a42ac3f64f3788b70dcf9e9bba3f7160e6b348274c6df17ce64cafdd3ee1f29d"
+    },
+    {
+      "character": "Schwarz",
+      "part": "body",
+      "view": "east",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Sniper\\Schwarz_Thin_east.png",
+      "local": "references/Schwarz_body_east.png",
+      "sha256": "22742abce7ca29326f18a370bb87ba9006a02a5bb75b45526f2ffd8fb68987a9"
+    },
+    {
+      "character": "Schwarz",
+      "part": "head",
+      "view": "east",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Sniper\\Schwarz_east.png",
+      "local": "references/Schwarz_head_east.png",
+      "sha256": "35c34f016b71c0d7275a59d96981e0931126f123e60e5ab0afcbe325f60036e8"
+    },
+    {
+      "character": "Schwarz",
+      "part": "body",
+      "view": "north",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Sniper\\Schwarz_Thin_north.png",
+      "local": "references/Schwarz_body_north.png",
+      "sha256": "ebde49e619d5caacc10f043e74607b63f5805d24e3763d58fdb5eb4420a2967e"
+    },
+    {
+      "character": "Schwarz",
+      "part": "head",
+      "view": "north",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Sniper\\Schwarz_north.png",
+      "local": "references/Schwarz_head_north.png",
+      "sha256": "a65395ba6d424c99bc54e8eb630ca2f8dffaf0caa1f79a0a95f5b2ec39ecf117"
+    },
+    {
+      "character": "Skadi",
+      "part": "body",
+      "view": "south",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Guard\\Skadi_Thin_south.png",
+      "local": "references/Skadi_body_south.png",
+      "sha256": "e77d2029e961bc624fba3cfa01263b8fa2e25f4226e8a295b3a34300b0f7b475"
+    },
+    {
+      "character": "Skadi",
+      "part": "head",
+      "view": "south",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Guard\\Skadi_south.png",
+      "local": "references/Skadi_head_south.png",
+      "sha256": "a8bb78a0652f77516c512a918cc242f38c850917fb075e9672d32efbcff88e63"
+    },
+    {
+      "character": "Skadi",
+      "part": "body",
+      "view": "east",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Guard\\Skadi_Thin_east.png",
+      "local": "references/Skadi_body_east.png",
+      "sha256": "b3d482170d67f7568d9fbef393fe15894ec6fd4511e2787e14c6530b9d66b73c"
+    },
+    {
+      "character": "Skadi",
+      "part": "head",
+      "view": "east",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Guard\\Skadi_east.png",
+      "local": "references/Skadi_head_east.png",
+      "sha256": "c592b840f85832890df7f8d0c69f862cefb6562af403b8a6f0f425b10bb6d151"
+    },
+    {
+      "character": "Skadi",
+      "part": "body",
+      "view": "north",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Guard\\Skadi_Thin_north.png",
+      "local": "references/Skadi_body_north.png",
+      "sha256": "4d2eea763086d108a5550170dc0f8ca0980d1fdf63a24059fc8683185b4c9403"
+    },
+    {
+      "character": "Skadi",
+      "part": "head",
+      "view": "north",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Guard\\Skadi_north.png",
+      "local": "references/Skadi_head_north.png",
+      "sha256": "0c1e534d8cd7c01ac0baab3c708b532424eacaf5d7cc8426d59f9f787f061b66"
+    },
+    {
+      "character": "Lappland",
+      "part": "body",
+      "view": "south",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Guard\\Lappland_Thin_south.png",
+      "local": "references/Lappland_body_south.png",
+      "sha256": "22b3cb8eff5c44041e7a51fb35c68c8bf975038cd158ef0e1084c8aa664fec8c"
+    },
+    {
+      "character": "Lappland",
+      "part": "head",
+      "view": "south",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Guard\\Lappland_south.png",
+      "local": "references/Lappland_head_south.png",
+      "sha256": "4ec687dae88b1b5d5c8d779d35ab23db569217333f7d6fe4dad82476b3c2d5ca"
+    },
+    {
+      "character": "Lappland",
+      "part": "body",
+      "view": "east",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Guard\\Lappland_Thin_east.png",
+      "local": "references/Lappland_body_east.png",
+      "sha256": "5bb7393e21fcc80e8ee25e3fd5639c344233e95641980d769d1d5c3b6529b629"
+    },
+    {
+      "character": "Lappland",
+      "part": "head",
+      "view": "east",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Guard\\Lappland_east.png",
+      "local": "references/Lappland_head_east.png",
+      "sha256": "48ab15edd87517409a2698a4196793e7cae216fe832d5c90318ca85136f57047"
+    },
+    {
+      "character": "Lappland",
+      "part": "body",
+      "view": "north",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Guard\\Lappland_Thin_north.png",
+      "local": "references/Lappland_body_north.png",
+      "sha256": "499e5892b376d4e7b95eeb95dd5ee753929a5b8c3efccdc93c6189de85d918bc"
+    },
+    {
+      "character": "Lappland",
+      "part": "head",
+      "view": "north",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Guard\\Lappland_north.png",
+      "local": "references/Lappland_head_north.png",
+      "sha256": "7455119ad99cdb694aa4ac238dd63fb31186d51e81e360ed1632dc5655036252"
+    },
+    {
+      "character": "Zima",
+      "part": "body",
+      "view": "south",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Vanguard\\Zima_Thin_south.png",
+      "local": "references/Zima_body_south.png",
+      "sha256": "756c456e31baedacd2d638ecafa09ee74d29a1d742558f28bdd30d1a7d4a851e"
+    },
+    {
+      "character": "Zima",
+      "part": "head",
+      "view": "south",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Zima_south.png",
+      "local": "references/Zima_head_south.png",
+      "sha256": "028c53c9be02dcb00d156cdf5244549fd1e50455478b1ba9445d13b0512aa3c8"
+    },
+    {
+      "character": "Zima",
+      "part": "body",
+      "view": "east",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Vanguard\\Zima_Thin_east.png",
+      "local": "references/Zima_body_east.png",
+      "sha256": "6507266c8bb5b04224b275dbb0c3a85847c84ad4e703149972ec91d5472c86f8"
+    },
+    {
+      "character": "Zima",
+      "part": "head",
+      "view": "east",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Zima_east.png",
+      "local": "references/Zima_head_east.png",
+      "sha256": "ae830d816be8e52932c27641dc2fc2cb7115ceee682bbce5031b7ecbb75beed6"
+    },
+    {
+      "character": "Zima",
+      "part": "body",
+      "view": "north",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Vanguard\\Zima_Thin_north.png",
+      "local": "references/Zima_body_north.png",
+      "sha256": "c9aedb52c3b57f0e3edaf6534a491a6f29f19fd088c1a53358bf1391dbcd066d"
+    },
+    {
+      "character": "Zima",
+      "part": "head",
+      "view": "north",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Zima_north.png",
+      "local": "references/Zima_head_north.png",
+      "sha256": "50d6d4c7e8b5284ef5bf70222bc673932aaf1eedd7fa62a71b5c56d121274464"
+    },
+    {
+      "character": "Silence",
+      "part": "body",
+      "view": "south",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Medic\\Silence_Thin_south.png",
+      "local": "references/Silence_body_south.png",
+      "sha256": "418ca6b1872db1f26fb02b818d5ecef5004429dd7b64981fa8156a029500448b"
+    },
+    {
+      "character": "Silence",
+      "part": "head",
+      "view": "south",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Medic\\Silence_south.png",
+      "local": "references/Silence_head_south.png",
+      "sha256": "c47618cf6e557090fa0f559f7cb9b490deb346135b4b5ccce6f9716bd6ab1eed"
+    },
+    {
+      "character": "Silence",
+      "part": "body",
+      "view": "east",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Medic\\Silence_Thin_east.png",
+      "local": "references/Silence_body_east.png",
+      "sha256": "c4cf5bb82b15c96210e4e3ba9503a11567b0c04ade2d7340e0e637c678be38db"
+    },
+    {
+      "character": "Silence",
+      "part": "head",
+      "view": "east",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Medic\\Silence_east.png",
+      "local": "references/Silence_head_east.png",
+      "sha256": "928b4f89a5ac514f711d3f46f6b8837d12416c9326805b5be80d906dd1a78caf"
+    },
+    {
+      "character": "Silence",
+      "part": "body",
+      "view": "north",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Medic\\Silence_Thin_north.png",
+      "local": "references/Silence_body_north.png",
+      "sha256": "681bf20381c3869a37672e6340c7351133ec00fcad8a73282b2d446bc700f48e"
+    },
+    {
+      "character": "Silence",
+      "part": "head",
+      "view": "north",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Medic\\Silence_north.png",
+      "local": "references/Silence_head_north.png",
+      "sha256": "bd9c5743bdc249ff774859582f463e429f62d7e60d097b9c05deac4e5dfccd33"
+    },
+    {
+      "character": "Kaltsit",
+      "part": "body",
+      "view": "south",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Medic\\Kaltsit_Thin_south.png",
+      "local": "references/Kaltsit_body_south.png",
+      "sha256": "5069ace1e3dc03c872a73b37f4fa02983dd37930b11bc818703a0c206f3dd09f"
+    },
+    {
+      "character": "Kaltsit",
+      "part": "head",
+      "view": "south",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Medic\\Kaltsit_south.png",
+      "local": "references/Kaltsit_head_south.png",
+      "sha256": "06740fb5830c44c53d397ba6e1ebc86ecc058f857e9f83818ad42de54f864c1e"
+    },
+    {
+      "character": "Kaltsit",
+      "part": "body",
+      "view": "east",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Medic\\Kaltsit_Thin_east.png",
+      "local": "references/Kaltsit_body_east.png",
+      "sha256": "7575ac2b89625ba5749fdb3a626bf3b7eda5ed837033898c93dc8071067de260"
+    },
+    {
+      "character": "Kaltsit",
+      "part": "head",
+      "view": "east",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Medic\\Kaltsit_east.png",
+      "local": "references/Kaltsit_head_east.png",
+      "sha256": "161f96c9014e457f1c310e6011a7a7d069f11ebf74236bc2008fbd5490d387c5"
+    },
+    {
+      "character": "Kaltsit",
+      "part": "body",
+      "view": "north",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Medic\\Kaltsit_Thin_north.png",
+      "local": "references/Kaltsit_body_north.png",
+      "sha256": "6f6bf3ab2710137266fc0cfaf675ecfabdc3d286380e98a8ba9de571c85f6bd4"
+    },
+    {
+      "character": "Kaltsit",
+      "part": "head",
+      "view": "north",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Medic\\Kaltsit_north.png",
+      "local": "references/Kaltsit_head_north.png",
+      "sha256": "aa5befc496caa8661037c320955ad59d595fc03f333e09da1f0471c7962f0545"
+    },
+    {
+      "character": "Meteorite",
+      "part": "body",
+      "view": "south",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Sniper\\Meteorite_Thin_south.png",
+      "local": "references/Meteorite_body_south.png",
+      "sha256": "4904137d9e0cd50483cd8e15827533f12d6becc340104471901df8090eafcf18"
+    },
+    {
+      "character": "Meteorite",
+      "part": "head",
+      "view": "south",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Sniper\\Meteorite_south.png",
+      "local": "references/Meteorite_head_south.png",
+      "sha256": "6ae0886f4fc2a42b17df19b5783fabc66841ac67dff021c66d8c341bed43770a"
+    },
+    {
+      "character": "Meteorite",
+      "part": "body",
+      "view": "east",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Sniper\\Meteorite_Thin_east.png",
+      "local": "references/Meteorite_body_east.png",
+      "sha256": "44b867d70e9b10cb5cefb64f7341426a8caab19c5bddc985f977b43dff4bd55b"
+    },
+    {
+      "character": "Meteorite",
+      "part": "head",
+      "view": "east",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Sniper\\Meteorite_east.png",
+      "local": "references/Meteorite_head_east.png",
+      "sha256": "76be56ea82952ec5a2096ce4891fa042c15af0c5c3de483c3e96740f5041ddf0"
+    },
+    {
+      "character": "Meteorite",
+      "part": "body",
+      "view": "north",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Sniper\\Meteorite_Thin_north.png",
+      "local": "references/Meteorite_body_north.png",
+      "sha256": "07db397410564ad2aa7ea698cf7498558c140a6173054f8c922b3411a37a7397"
+    },
+    {
+      "character": "Meteorite",
+      "part": "head",
+      "view": "north",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Sniper\\Meteorite_north.png",
+      "local": "references/Meteorite_head_north.png",
+      "sha256": "aba6d995938f3c7a5804deaa68ccb2636340c1ebf7fef108f77c274ee575de76"
+    }
+  ],
+  "skin_reference": {
+    "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\Ombrophobia\\data_infrastructure\\图片\\维尔汀.webp",
+    "local": "references/vertin_original.webp",
+    "sha256": "ab85d5206086fc9d38f42a031aa343381df2c901ed1bfab115b0a5c0e7f10314",
+    "role": "sample facial skin base color, not face shape/style"
+  },
+  "skin_sampling_record": "skin_sampling.json"
+}

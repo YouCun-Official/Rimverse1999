@@ -1,0 +1,9 @@
+X · X_v3_softpixel
+本次按用户选择使用 Python 对既有原生贴图做轻度半像素揉擦，未重新生图或移植五官。
+6 张分件的原 alpha、画布、占图边界和位置保持不变，正侧面五官保护区域逐像素不变。
+物品图直接复制处理后正面躯干，共 7 张 256×256 RGBA PNG。
+原稿与历史生图提示词见 artwork_provenance.json 指向的上一版本；本次参数见 recipe.json。
+复现：python soft_pixel.py --recipe recipe.json --out 新的空目录
+必须使用记录的 native_inputs，不从揉擦后的 PNG 反复叠加。
+已核验所有 7 张输出与批次/独立复现哈希一致。游戏内尚未验证。
+全角色前后与 Arknights 对比保存在 C:\Users\29232\Desktop\Lannuosprojects\MIS_Lannuosproject\MIS_Reverse1999\Tools\PortraitToPawn\exports\SoftPixel_v1_20261109 的 previews 目录。

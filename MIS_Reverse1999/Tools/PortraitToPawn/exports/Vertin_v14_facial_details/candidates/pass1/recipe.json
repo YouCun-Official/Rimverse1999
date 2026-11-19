@@ -1,0 +1,196 @@
+{
+  "character": "Vertin",
+  "canvas": [
+    256,
+    256
+  ],
+  "method": "Built-in image_gen adds reference-supported freckles to front/profile heads; original 4x formatter and all size/outline parameters retained.",
+  "head_rotation_degrees": 0,
+  "head_offset_preview": [
+    0,
+    -65
+  ],
+  "alpha_cleanup": "alpha below 96 removed; remaining alpha linearly remapped",
+  "assets": {
+    "head_south": {
+      "source": "source_art/head_south.png",
+      "relative_path": "Textures/Things/Hair/R99/Vertin_south.png",
+      "target_solid_bbox": [
+        76,
+        77,
+        190,
+        177
+      ],
+      "outer_ink_px": 0.5
+    },
+    "head_east": {
+      "source": "source_art/head_east.png",
+      "relative_path": "Textures/Things/Hair/R99/Vertin_east.png",
+      "target_solid_bbox": [
+        70,
+        79,
+        186,
+        180
+      ],
+      "outer_ink_px": 0.5
+    },
+    "head_north": {
+      "source": "source_art/head_north.png",
+      "relative_path": "Textures/Things/Hair/R99/Vertin_north.png",
+      "target_solid_bbox": [
+        64,
+        83,
+        180,
+        176
+      ],
+      "outer_ink_px": 0.5
+    },
+    "body_south": {
+      "source": "source_art/body_south.png",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_south.png",
+      "target_solid_bbox": [
+        86,
+        90,
+        170,
+        252
+      ],
+      "outer_ink_px": 0.5
+    },
+    "body_east": {
+      "source": "source_art/body_east.png",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_east.png",
+      "target_solid_bbox": [
+        68,
+        90,
+        164,
+        251
+      ],
+      "outer_ink_px": 1,
+      "row_warp": [
+        [
+          0,
+          0
+        ],
+        [
+          90,
+          0
+        ],
+        [
+          100,
+          0
+        ],
+        [
+          110,
+          -3
+        ],
+        [
+          125,
+          -7
+        ],
+        [
+          140,
+          -6
+        ],
+        [
+          155,
+          -3
+        ],
+        [
+          170,
+          0
+        ],
+        [
+          185,
+          1
+        ],
+        [
+          200,
+          3
+        ],
+        [
+          215,
+          5
+        ],
+        [
+          230,
+          4
+        ],
+        [
+          235,
+          2
+        ],
+        [
+          240,
+          -1
+        ],
+        [
+          245,
+          -4
+        ],
+        [
+          251,
+          -7
+        ],
+        [
+          256,
+          -7
+        ]
+      ]
+    },
+    "body_north": {
+      "source": "source_art/body_north.png",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_north.png",
+      "target_solid_bbox": [
+        86,
+        90,
+        170,
+        252
+      ],
+      "outer_ink_px": 0.5
+    }
+  },
+  "revision": "v14_facial_details",
+  "reference_manifest": "facial_detail_audit.json",
+  "head_identity": "Ash-silver grey-green deep side part, long front lock, one low coil on character right opposite the hat bow; east sees mostly far-side occluded bun.",
+  "face_style": "Relaxed near-level softly tapered brows; approved v8 grey-green simple pawn eyes, nose/lips and small soft chin visually preserved.",
+  "changed_parts": [
+    "head_south",
+    "head_east"
+  ],
+  "preserved_parts": [
+    "head_north",
+    "body_south",
+    "body_east",
+    "body_north"
+  ],
+  "clothing_fit": "Fitted; waist between v9 and v10, hips wider than shoulders. No exact matching to Texas width.",
+  "generated_sources": {
+    "head_south": "C:\\Users\\29232\\.codex\\generated_images\\01a1861f-9a30-7ac2-8cf4-4f87a0509258\\exec-1f903b30-f0d5-4225-9d99-3586d44098dc.png",
+    "head_east": "C:\\Users\\29232\\.codex\\generated_images\\01a1861f-9a30-7ac2-8cf4-4f87a0509258\\exec-7b58a719-d46f-494f-abcb-bd92a9959dfa.png",
+    "head_north": "C:\\Users\\29232\\.codex\\generated_images\\01a1861f-9a30-7ac2-8cf4-4f87a0509258\\exec-4c77c53c-0de8-4759-8ef2-570698f2acbe.png"
+  },
+  "head_base_export": "Vertin_v13_arknights_skin",
+  "body_source_export": "Vertin_v11_midpoint_waist",
+  "skin_palette": {
+    "base_hex": "#FCEBD3",
+    "base_rgb": [
+      252,
+      235,
+      211
+    ],
+    "reference_character": "Zima",
+    "reference_record": "references/skin_palette_reference_v13.json",
+    "color_space": "sRGB",
+    "source_mode": "explicit_user_reference_override"
+  },
+  "facial_details": {
+    "type": "sparse light warm-brown freckles",
+    "location": "upper nose bridge and immediately adjacent upper cheeks",
+    "views": {
+      "south": "visible central cluster",
+      "east": "near-side visible cluster, simplified perspective interpretation",
+      "north": "not visible, unchanged"
+    },
+    "source_evidence": "facial_detail_evidence.png"
+  }
+}

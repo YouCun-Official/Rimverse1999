@@ -1,0 +1,152 @@
+{
+  "date": "2026-11-08",
+  "checks": {
+    "head_south": {
+      "relative_path": "Textures/Things/Hair/R99/Lilya_south.png",
+      "sha256": "2a15a06763856c25649bca3be7bba5340f13de889cdfe972c65ef3af30cd0589",
+      "format": "256x256 RGBA PNG",
+      "solid_bbox": [
+        73,
+        85,
+        183,
+        231
+      ],
+      "transparent_boundary": true,
+      "alpha_components": [
+        9561
+      ]
+    },
+    "head_east": {
+      "relative_path": "Textures/Things/Hair/R99/Lilya_east.png",
+      "sha256": "8b969e566c998b1dcf4987b2661319860f1989b4d1c20b1649f6dedf6b743027",
+      "format": "256x256 RGBA PNG",
+      "solid_bbox": [
+        55,
+        85,
+        174,
+        231
+      ],
+      "transparent_boundary": true,
+      "alpha_components": [
+        11382
+      ]
+    },
+    "head_north": {
+      "relative_path": "Textures/Things/Hair/R99/Lilya_north.png",
+      "sha256": "7cc09ab5a79a3c5897e48b991cc280a2433b1b0c6f6c56e72fd2b8348875cffa",
+      "format": "256x256 RGBA PNG",
+      "solid_bbox": [
+        73,
+        85,
+        183,
+        230
+      ],
+      "transparent_boundary": true,
+      "alpha_components": [
+        11780
+      ]
+    },
+    "body_south": {
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Lilya_Thin_south.png",
+      "sha256": "11727c5c347857390bab9775e4386028b0e5e4b78113932de50aee2e3dc4644b",
+      "format": "256x256 RGBA PNG",
+      "solid_bbox": [
+        79,
+        89,
+        179,
+        252
+      ],
+      "transparent_boundary": true,
+      "alpha_components": [
+        10931
+      ]
+    },
+    "body_east": {
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Lilya_Thin_east.png",
+      "sha256": "77bfbd26c663252eaa5ac1b9297138969369e0d0a77a74d1a0466d8aa2b7f495",
+      "format": "256x256 RGBA PNG",
+      "solid_bbox": [
+        69,
+        89,
+        159,
+        252
+      ],
+      "transparent_boundary": true,
+      "alpha_components": [
+        8691
+      ]
+    },
+    "body_north": {
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Lilya_Thin_north.png",
+      "sha256": "03fb8d933a3e5a1f36557dbb8609d5cb72ac11c6b7d2b78251f1d1c75b9ff2a6",
+      "format": "256x256 RGBA PNG",
+      "solid_bbox": [
+        79,
+        89,
+        179,
+        252
+      ],
+      "transparent_boundary": true,
+      "alpha_components": [
+        10918
+      ]
+    }
+  },
+  "item_sha256": "11727c5c347857390bab9775e4386028b0e5e4b78113932de50aee2e3dc4644b",
+  "item_byte_identical_to_front": true,
+  "reproduction_passed": true,
+  "original_textures_unchanged": true,
+  "rules_and_vertin_record_unchanged": true,
+  "metadata_changes_observed": {
+    "Tools/PortraitToPawn/使用说明.txt": {
+      "before": "da22a3f0bfcdda0db85cb759779bb667679c6e56fbddc2be3b4257c903be0a1e",
+      "current": "00a40b42bd8b60f20d41c84389874e2cf91d79e0dc51d7ed774176db437d8b2a"
+    }
+  },
+  "concurrently_added_texture_count": 14,
+  "head_rotation_degrees": 0,
+  "preview_head_offset": [
+    0,
+    -65
+  ],
+  "visual_review": {
+    "status": "passed",
+    "reviewer": "assistant",
+    "user_review": "not yet reviewed by user",
+    "inspected": [
+      "heads_three_views.png",
+      "bodies_three_views.png",
+      "three_views_final.png",
+      "head_reference_comparison.png",
+      "body_reference_comparison.png",
+      "pawn_reference_comparison.png",
+      "native_and_reduced.png",
+      "expression_reference.png"
+    ],
+    "findings": [
+      "Front and right-profile retain the confident small tooth-showing smile, half-open blue-green eyes and short chin.",
+      "Six pieces use strong outer contours and subordinate internal detail; final alpha has no clipping at the canvas boundary or opaque detached components.",
+      "Head is upright independently of the diagonal body; neck joins, collar and respirator remain coherent at the common preview offset.",
+      "Loose jacket has independent ease; no full arms/hands; compact legs and short boot toes.",
+      "Gold right-side cap/collar marks and thigh bands are distinct from left-side canister; back-facing band surfaces omit front buckle faces.",
+      "Back hair was corrected into a continuous layered curtain with only modest asymmetry; back clothing details remain documented inferences."
+    ],
+    "limitations": [
+      "Static native/reduced previews only; game rendering and character Def integration are not tested."
+    ]
+  },
+  "game_tested": false,
+  "runtime": {
+    "python": "3.12.14",
+    "Pillow": "13.0.0",
+    "numpy": "2.3.5"
+  },
+  "installation": {
+    "export_matches_installed": true,
+    "preserved_texture_count": 23,
+    "existing_textures_unchanged": true,
+    "existing_character_records_and_rules_unchanged": true
+  },
+  "export_package_reproduction_passed": true,
+  "export_manifest_verified_before_final_update": true
+}

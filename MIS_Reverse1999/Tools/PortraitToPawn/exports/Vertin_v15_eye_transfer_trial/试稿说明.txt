@@ -1,0 +1,24 @@
+维尔汀正面眼睛移植试稿
+日期：2026-11-09
+试稿状态：仅作对照审阅，未替换正式 Textures，当前 Vertin 记录仍指向 v14。
+
+本次按“直接将其他异性角色的眼睛迁移过来并更换颜色”的明确要求执行原生像素移植。
+“异性角色”按相对于维尔汀的男性角色理解。对照 Thorns、Courier、SilverAsh、Executor 以及 Texas、Zima 的正面贴图后，选择 Courier 作首个来源：眼线与瞳孔结构清楚，眼形较平缓。
+
+从 Courier_south.png 提取双眼的原有像素，原生 1:1 复制，不缩放眼睛或头部；仅调整两眼在目标脸部上的平移位置。排除邻接的来源肤色与头发。原有眉形、脸型与帽饰均不移植。
+只对虹膜的有色像素换色，取 Vertin 当前正面虹膜中已核对的像素作颜色参考。主参考色为 RGB(152,141,112)，保留来源眼睛自身的深浅、瞳孔和高光结构。这里记录的是本次眼睛换色，不新增通用肤色法则。
+旧眼睛范围先以其邻近既有脸部底色局部恢复，再合成眼部像素；不改变两眼区域以外的任何 RGBA 像素。眉毛、鼻嘴、下巴、发型、头饰与雀斑保留。
+
+试稿文件：trial/Vertin_south.png（256×256 RGBA，透明背景）。
+eye_transfer_comparison.png：原版、来源 Courier、移植后的同倍率对比，另含原生及 50% 缩小图。
+reference_comparison_with_trial.png：试稿与 Vertin 原版、Courier、Thorns、Texas、Zima 的同尺度对照。
+front_head_reference_comparison.png：移植前的更多角色参考。
+protected_regions_check.png：原版、试稿与变化像素标示。
+transfer_recipe.json：精确提取行、位移、换色采样点与局部处理范围。
+transfer_validation.json：像素映射、哈希和保留检查。diagnostics 存放实际移植像素与变化遮罩。
+
+本次采用直接像素复制和换色，没有生图提示词；不将生成重绘称为原像素移植。
+复现命令：
+python transfer_eyes.py --recipe transfer_recipe.json --out 新的空目录
+依赖 Pillow、numpy。
+原有正式贴图与角色版本记录均保持不变。未进行游戏内验证。

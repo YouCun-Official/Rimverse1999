@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-08",
+  "primary": {
+    "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\Ombrophobia\\data_infrastructure\\图片\\十四行诗.png",
+    "local_copy": "sonetto_primary.png",
+    "sha256": "77338b68f2e18cfc94a627393bdd13440a4f15c21059607fec6cf220998976b8",
+    "role": "Authoritative identity, outfit and expression for this task"
+  },
+  "web_auxiliary": [
+    {
+      "page": "https://wiki.biligame.com/reverse1999/十四行诗",
+      "image": "https://patchwiki.biligame.com/images/reverse1999/b/bc/0z7ek36a3c7nr9hnvwufl6d488006cv.png",
+      "local_copy": "sonetto_wiki_initial.png",
+      "status": "downloaded as production reference",
+      "role": "Auxiliary game-art reference, never overrides the supplied local portrait",
+      "visual_result": "Initial costume illustration matches the supplied local portrait; no authoritative independent side/back view found in this reference."
+    }
+  ],
+  "style_library": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things",
+  "size_baseline": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v13_arknights_skin",
+  "reference_crops": {
+    "sonetto_head_reference.png": [
+      425,
+      0,
+      802,
+      405
+    ],
+    "sonetto_face_reference.png": [
+      488,
+      110,
+      673,
+      270
+    ],
+    "sonetto_outfit_reference.png": [
+      308,
+      245,
+      784,
+      1040
+    ]
+  },
+  "scope_note": "Internet search did not establish an authoritative orthographic back sheet; hidden back garment and hair are explicitly conservative reconstructions from visible design. AI-upscaled/fan reinterpretations are not used as identity authority."
+}

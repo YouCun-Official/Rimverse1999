@@ -1,0 +1,1016 @@
+{
+  "Vertin": {
+    "character": "Vertin",
+    "display_name": "维尔汀",
+    "working_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v16_softpixel",
+    "status": "softpixel_pass_installed_and_statically_verified",
+    "installation_receipt": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v16_softpixel\\installation_receipt.json",
+    "paths": {
+      "head_texPath": "Things/Hair/R99/Vertin",
+      "apparel_wornGraphicPath": "Things/R99_Agents/Arcanist/Vertin",
+      "item_texPath": "Things/R99_Agents/Arcanist/Vertin",
+      "body_type": "Thin",
+      "directions": [
+        "south",
+        "east",
+        "north"
+      ]
+    },
+    "game_tested": false,
+    "previous_working_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v14_facial_details",
+    "backup_archive": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\TextureBackups\\AllCharacters_before_SoftPixel_v1_20261109_5bd9c9f0.zip",
+    "body_source_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v11_midpoint_waist",
+    "revision_history": [
+      {
+        "date": "2026-11-04T16:36:28.755111+08:00",
+        "from": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v2_head_style",
+        "to": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v3_bold",
+        "change": "All six head/body views redrawn with bold black contours and simplified broad matte shapes."
+      },
+      {
+        "date": "2026-11-05T10:39:00.894264+08:00",
+        "from": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v3_bold",
+        "to": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v4_side_and_outline",
+        "change": "Thicker continuous diagonal side body, compact boots, bold outline across all six parts, selective broken inner seams."
+      },
+      {
+        "date": "2026-11-05T11:08:36.824942+08:00",
+        "from": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v4_side_and_outline",
+        "to": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v5_original_hairstyle",
+        "change": "Corrected all three head hairstyles from shaggy short bob to original asymmetrical long forelock and one low side coil; ash-silver grey-green palette. Kept v4 body/item hashes unchanged."
+      },
+      {
+        "date": "2026-11-05T11:32:11.526881+08:00",
+        "from": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v5_original_hairstyle",
+        "to": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v6_compact_faces",
+        "change": "Shortened and rounded front/side faces to reference-pawn proportions, simplified eyebrows/eyes/nose/mouth and side ear, matched bold jaw lines. Rear head, v4 bodies and item retained byte-identically."
+      },
+      {
+        "date": "2026-11-05T11:50:35.631985+08:00",
+        "from": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v6_compact_faces",
+        "to": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v7_balanced_faces",
+        "change": "Balanced v5 taper and v6 compactness; restored visible nose and natural mouth in front and profile, keeping bold outlines and original hairstyle. Rear head, v4 bodies and item retained byte-identically."
+      },
+      {
+        "date": "2026-11-05T12:06:09.464601+08:00",
+        "from": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v7_balanced_faces",
+        "to": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v8_pawn_eyes",
+        "change": "Aligned front/profile eyes toward local pawn references with taller opening, simple eyelid and visible pupil; grey-green iris, v7 nose/lips and short soft chin retained. Rear head, bodies and item byte-identical."
+      },
+      {
+        "date": "2026-11-05T13:47:21.162075+08:00",
+        "from": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v8_pawn_eyes",
+        "to": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v9_soft_brows",
+        "change": "Softened front/profile brows to a slimmer near-level line, reducing sternness with original portrait expression as reference. Approved eye/nose/mouth/chin style visually preserved; rear head, bodies and item byte-identical."
+      },
+      {
+        "date": "2026-11-05T14:59:44.578485+08:00",
+        "from": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v9_soft_brows",
+        "to": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v10_waist_balance",
+        "change": "Widened fitted front/back waist, softened waist-to-hip transition and kept hips wider than shoulders; all heads and east body byte-identical. Added garment fit/ease and guide-measurement rules to universal spec/task template."
+      },
+      {
+        "date": "2026-11-05T15:28:50.069325+08:00",
+        "from": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v10_waist_balance",
+        "to": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v11_midpoint_waist",
+        "change": "Adjusted fitted front/back waist to widths strictly between v9 and v10; hips remain wider than shoulders. Three heads and side body byte-identical. Universal rules now specify male shoulder >= waist/hip with no waist-cinching requirement, and garment-first contours for trench/loose clothing regardless of gender."
+      },
+      {
+        "date": "2026-11-05T16:12:15.509668+08:00",
+        "from": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v11_midpoint_waist",
+        "to": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v12_sampled_skin",
+        "change": "Recolored three head skin palettes toward original portrait sample average #CBB0A5 (8 random 7x7 face blocks, seed 20261105). Body/item files byte-identical. Universal spec and Agent template now require per-character face block sampling and averaging for skin color."
+      },
+      {
+        "date": "2026-11-05T17:21:05.891685+08:00",
+        "from": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v12_sampled_skin",
+        "to": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v13_arknights_skin",
+        "change": "User discarded v12 portrait-sampled skin. Recolored all three heads toward directly referenced Zima fair base #FCEBD3. Body/item and unrelated textures byte-identical; eyes not intentionally resized. Generic spec records explicit skin reference override priority."
+      },
+      {
+        "date": "2026-11-06",
+        "from": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v13_arknights_skin",
+        "to": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v14_facial_details",
+        "change": "Added reference-supported sparse freckles across the upper nose bridge and adjacent upper cheek area to front/profile heads. Kept the v13 size target and upright pose; rear head, bodies, item and unrelated textures byte-identical. Added conditional facial identity-detail rules to universal spec and task template."
+      },
+      {
+        "date": "2026-11-09",
+        "from": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v14_facial_details",
+        "to": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v16_softpixel",
+        "change": "Applied user-selected Python light pixel grouping and restrained low-contrast rubbing to six existing parts; preserved all alpha, canvas, position and protected facial pixels. Item recopied from processed front body. No redrawing or eye transplant. Added no-toothy-grin and noncumulative postprocess rules."
+      }
+    ],
+    "updated_date": "2026-11-09",
+    "generator_recipe": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v16_softpixel\\recipe.json",
+    "generator_entrypoint": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v16_softpixel\\soft_pixel.py",
+    "requested_style": {
+      "rendering": "Heavy near-black outer silhouette with subordinate selective/broken internal cloth strokes; broad matte colors.",
+      "arms": "omitted",
+      "hands": "omitted",
+      "sleeves": "short shoulder caps",
+      "soften_radius_px": 0,
+      "leg_pose": "Coherent forward slash-like side mass, fuller chest/waist/ankle, compact toe and integrated heel; upright unrotated head.",
+      "stroke_target_native_px": "Approximately 3-4px on broad outer contours; calibrated with 0.5px extra silhouette ink and 1px on the east body.",
+      "side_geometry_correction": "Measured row offsets stored in recipe.json; no extra global head rotation.",
+      "face_detail_density": "Compact upright eye openings aligned to local pawn references, distinct pupil and original iris hue with sparse tones; retain approved nose/lips and short soft chin, no long narrow realistic eyes or layered eyelid detail.",
+      "brow_expression": "Portrait-guided relaxed grey-brown brows: slimmer, near-level shallow arch, no inward-downward frown; preserve approved v8 eye/nose/mouth/chin.",
+      "waist_balance": "Intermediate between v9 and v10; slightly narrower fitted waist than v10 with hips wider than shoulders. Latest instruction replaces earlier exact Texas-size suggestion.",
+      "skin_tone": "Use existing Arknights Zima fair skin base #FCEBD3 (252,235,211), replacing v12 #CBB0A5. Face, ears and nape share reference; do not blend original portrait skin back in.",
+      "facial_identity_details": "Reference-supported sparse subtle freckles across upper nose bridge and adjoining upper cheeks, simplified for native pawn size; no invented scars or burns."
+    },
+    "head_sources": {
+      "south": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v16_softpixel\\native_inputs\\Textures\\Things\\Hair\\R99\\Vertin_south.png",
+      "east": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v16_softpixel\\native_inputs\\Textures\\Things\\Hair\\R99\\Vertin_east.png",
+      "north": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v16_softpixel\\native_inputs\\Textures\\Things\\Hair\\R99\\Vertin_north.png"
+    },
+    "head_hashes": {
+      "south": "80c970efec396665c3daa7158764db1c54e0717b141d3394a67e196825429d02",
+      "east": "8d0aa1b7a728132d22ccecba07f11f7095b0a055d843dd7058fd74cb412bc850",
+      "north": "3ff314b0ff92ee08502f98ad2182f087f3ebe5650078a03a9b5f295e238f823b"
+    },
+    "head_source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v16_softpixel\\native_inputs\\Textures\\Things\\Hair\\R99\\Vertin_south.png",
+    "head_sha256": "80c970efec396665c3daa7158764db1c54e0717b141d3394a67e196825429d02",
+    "head_hairstyle": {
+      "revision": "v5",
+      "hair_color": "ash-silver with muted grey-green undertone",
+      "structure": "deep side part; long face-framing lock; one low coiled side bun",
+      "bun_character_side": "right",
+      "front_bun_screen_side": "left",
+      "rear_bun_screen_side": "right",
+      "east_bun_visibility": "partial far-side lobe at rear nape",
+      "reference_manifest": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v5_original_hairstyle\\references\\sources.json"
+    },
+    "constraints_file": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\角色三视图制作规范.txt",
+    "head_face_style": {
+      "revision": "v9",
+      "geometry": "compact taller eye openings and small softly tapered chin; upright true right profile",
+      "features": "v8 compact pawn eyes, muted grey-green iris and readable pupil, approved nose/lip marks and short soft chin visually preserved; eyebrow-only artistic intent",
+      "rendering": "flat game-pawn facial shapes with bold outer contour, no stacked eyelid folds or intricate realistic eye rendering",
+      "references": [
+        "Texas",
+        "Zima",
+        "Silence",
+        "Thorns"
+      ],
+      "comparison": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v9_soft_brows\\brow_before_after.png",
+      "rear_head_retained": true,
+      "revision_basis": "User accepted overall v8 appearance and requested a final less-stern brow refinement matching portrait expression; v9 is the produced revision, not yet user-reviewed.",
+      "expression": "slimmer near-level softly tapered grey-brown brows; relaxed composed mood aligned with user portrait",
+      "skin_color_revision": "v13",
+      "skin_color_note": "Zima pale ivory skin base by explicit user request; no intentional eye size/spacing, eyebrow expression or nose/lip/jaw redesign. Non-skin details visually reviewed, not claimed pixel-identical.",
+      "facial_detail_revision": "v14",
+      "facial_detail_comparison": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v14_facial_details\\facial_detail_closeup.png"
+    },
+    "accepted_base_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v8_pawn_eyes",
+    "previous_body_source_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v10_waist_balance",
+    "clothing_fit": {
+      "revision": "v11",
+      "jacket_torso": "fitted; waist between previous narrow and wide versions; no loose-garment conversion",
+      "waistcoat": "fitted",
+      "trousers": "fitted",
+      "tails": "retain existing split-tail layers and length; no new loose-garment conversion",
+      "constraint": "hips wider than shoulders in front/back clothed silhouette"
+    },
+    "body_shape": {
+      "revision": "v11",
+      "comparison": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v11_midpoint_waist\\waist_three_versions.png",
+      "measurements": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v11_midpoint_waist\\measurements.json",
+      "waist_row_140": {
+        "south": {
+          "v9": 49,
+          "v10": 56,
+          "v11": 54
+        },
+        "north": {
+          "v9": 41,
+          "v10": 48,
+          "v11": 46
+        }
+      },
+      "measurement_scope": "Fixed native-pixel clothed cross-sections; front hip y170 across all versions, rear y165. Not anatomy or universal ratios.",
+      "east_retained_byte_identically": true,
+      "user_review": "new revision produced; pending user visual review"
+    },
+    "body_sources": {
+      "south": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v16_softpixel\\native_inputs\\Textures\\Things\\R99_Agents\\Arcanist\\Vertin_Thin_south.png",
+      "east": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v16_softpixel\\native_inputs\\Textures\\Things\\R99_Agents\\Arcanist\\Vertin_Thin_east.png",
+      "north": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v16_softpixel\\native_inputs\\Textures\\Things\\R99_Agents\\Arcanist\\Vertin_Thin_north.png"
+    },
+    "body_hashes": {
+      "south": "b2b1899c2d99049b9e1d3993f108a01f1f854a7cc96340fee1186de03b028189",
+      "east": "9d52c4d64e93766f65bb42349985ae31666e5f9c34f925d93bde0f28f07a3a3d",
+      "north": "dc77c5497abe789e3af379913dcc559c05cd20490d2b05b161122275e75dfb8d"
+    },
+    "body_part_provenance": {
+      "south": "v11 first edit, selected intermediate waist",
+      "north": "v11 first edit, selected intermediate waist",
+      "east": "v4 retained through v10; byte-identical in v11"
+    },
+    "skin_palette": {
+      "revision": "v13",
+      "source_mode": "explicit_user_reference_override",
+      "reference_character": "Zima",
+      "reference_source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Zima_south.png",
+      "reference_sha256": "028c53c9be02dcb00d156cdf5244549fd1e50455478b1ba9445d13b0512aa3c8",
+      "color_space": "sRGB",
+      "base_rgb": [
+        252,
+        235,
+        211
+      ],
+      "base_hex": "#FCEBD3",
+      "method": "Directly reuse the most frequent existing RGB in visually verified flat face-skin blocks; no averaging with original portrait or other characters.",
+      "reference_record": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v13_arknights_skin\\skin_palette_reference.json",
+      "reference_board": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v13_arknights_skin\\skin_reference_board.png",
+      "native_check": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v13_arknights_skin\\skin_color_check.json",
+      "comparison": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v13_arknights_skin\\skin_before_after.png",
+      "actual_measured_colors": {
+        "south": {
+          "actual_native_patch_mean": [
+            250,
+            233,
+            206
+          ],
+          "delta_from_base": [
+            -2,
+            -2,
+            -5
+          ]
+        },
+        "east": {
+          "actual_native_patch_mean": [
+            250,
+            234,
+            208
+          ],
+          "delta_from_base": [
+            -2,
+            -1,
+            -3
+          ]
+        },
+        "north": {
+          "actual_source_nape_mean": [
+            250,
+            237,
+            210
+          ],
+          "delta_from_base": [
+            -2,
+            2,
+            -1
+          ],
+          "note": "Nape is only a few native pixels tall; source interior avoids outline/AA blending."
+        }
+      },
+      "supersedes": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v12_sampled_skin\\skin_sampling.json",
+      "note": "This records the v13 Zima-based palette used in existing textures. Universal skin-color rules were removed at the user request on 2026-11-05; historical color records remain for provenance. No textures were changed by this documentation revision."
+    },
+    "documentation_updates": [
+      {
+        "date": "2026-11-05T17:27:01.316705+08:00",
+        "change": "Removed universal skin-color rules from specification, task template and AGENTS; cleaned associated workflow/QA/delivery requirements. Existing texture version and all image hashes unchanged."
+      },
+      {
+        "date": "2026-11-06",
+        "change": "Spec revision 5 adds conditional facial identity-detail preservation, corresponding input field and visual checks; absent/unclear details may be skipped. Existing pinned v13 size baseline and removal of universal skin-color rules retained."
+      },
+      {
+        "date": "2026-11-09",
+        "change": "General spec revision 6 adds no broad/toothy grin and a controlled light half-pixel postprocess; no common eye spacing or skin-color rules added."
+      }
+    ],
+    "facial_identity_details": {
+      "revision": "v14",
+      "feature": "freckles",
+      "reference_audit": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v14_facial_details\\facial_detail_audit.json",
+      "location": "upper nose bridge and adjacent upper cheeks",
+      "views": {
+        "south": "sparse visible cluster",
+        "east": "near-side visible cluster; simplified perspective inference",
+        "north": "not visible; original head retained"
+      },
+      "no_other_confirmed_marks": "No characteristic scars/burns established by the reviewed portrait references.",
+      "review": "Static/native/reduced preview reviewed; game display untested."
+    },
+    "accepted_preprocessing_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v14_facial_details",
+    "user_visual_approval": "Pre-pass five-character designs accepted; this light texture pass awaits visual review.",
+    "generation_mode": "user_selected_python_softpixel_postprocessing_of_existing_native_artwork",
+    "preview": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v16_softpixel\\previews\\three_views_final.png",
+    "preview_head_offset": [
+      0,
+      -65
+    ],
+    "head_preview": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v16_softpixel\\previews\\heads_three_views.png",
+    "body_preview": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v16_softpixel\\previews\\bodys_three_views.png",
+    "texture_processing": {
+      "version": "SoftPixel_v1_20261109",
+      "batch_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\SoftPixel_v1_20261109",
+      "recipe": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v16_softpixel\\recipe.json",
+      "source_policy": "Use frozen native_inputs; do not cumulatively filter current output",
+      "alpha_and_geometry_pixel_identical": true,
+      "face_protection_pixel_identical": true,
+      "no_eye_transfer": true,
+      "no_grin_rule": "No broad toothy/open grin; happiness uses restrained closed-mouth smile. Existing expressions retained.",
+      "protected_boxes": {
+        "south": [
+          [
+            106,
+            134,
+            151,
+            167
+          ]
+        ],
+        "east": [
+          [
+            149,
+            136,
+            168,
+            167
+          ]
+        ],
+        "north": []
+      },
+      "parameters": {
+        "median_local_limit": 20,
+        "protection_feather_px": 2,
+        "dark_stroke_luma": 72,
+        "max_dark_stroke_lightening": 5,
+        "guide_grid": 192,
+        "pixel_mix": 0.5,
+        "median_mix": 0.18,
+        "color_step": 6,
+        "max_channel_delta": 16
+      },
+      "before_after": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\SoftPixel_v1_20261109\\previews\\all_characters_before_after.png",
+      "reference_comparison": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\SoftPixel_v1_20261109\\previews\\material_closeups_before_after_reference.png"
+    },
+    "revision": "v16_softpixel",
+    "current_version": "Vertin_v16_softpixel",
+    "user_visual_review": "pending"
+  },
+  "Lilya": {
+    "character": "Lilya",
+    "display_name": "红弩箭",
+    "updated_date": "2026-11-09",
+    "working_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v3_softpixel",
+    "status": "softpixel_pass_installed_and_statically_verified",
+    "user_review": "v2 produced from user feedback; awaiting visual review",
+    "game_tested": false,
+    "installation_receipt": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v3_softpixel\\installation_receipt.json",
+    "paths": {
+      "head_texPath": "Things/Hair/R99/Lilya",
+      "apparel_wornGraphicPath": "Things/R99_Agents/Arcanist/Lilya",
+      "item_texPath": "Things/R99_Agents/Arcanist/Lilya",
+      "body_type": "Thin",
+      "directions": [
+        "south",
+        "east",
+        "north"
+      ]
+    },
+    "primary_reference": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\Ombrophobia\\data_infrastructure\\图片\\红弩箭.png",
+    "primary_reference_sha256": "9d45244d6f3489ee87c13d5d113f25897dfa24ff82f361b58baba51a4cad1680",
+    "constraints_file": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\角色三视图制作规范.txt",
+    "generator_recipe": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v3_softpixel\\recipe.json",
+    "generator_entrypoint": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v3_softpixel\\soft_pixel.py",
+    "prompts_file": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v2_face_and_smile\\imagegen_prompts.json",
+    "reference_manifest": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v2_face_and_smile\\references\\sources.json",
+    "expression": "Restrained closed-mouth smile with short softly upturned lip line, relaxed brow/eye tension; no visible teeth or open happy grin. Explicit latest user direction supersedes v1 tooth-showing interpretation.",
+    "facial_identity_details": "No obvious freckles, scars, burns or birthmarks in local reference; conditional face-mark rule skipped. Do not inherit Vertin freckles.",
+    "clothing_fit": {
+      "outer": "Loose open brown leather aviation jacket with cream shearling collar; retain hanging outer panels and hip-length hem. Full arms/hands omitted; only short shoulder caps.",
+      "inner": "Fitted olive green cropped tank top, small midriff interval; flat modest pawn treatment.",
+      "lower": "Dark brown-purple shorts with cream fur hems, black waist belt with gold star buckle cluster, dark tall boots, bare knee/thigh intervals.",
+      "accessories": "Dark aviation respirator hanging at neck (body part), two small gold stars on character right collar, small belt tag, two dark bands and compact holster on character right thigh, hanging rectangular dark canister with muted red star on character left hip."
+    },
+    "size_basis": "Mixed fit: fitted inner tank/shorts but loose outer aviation jacket. Therefore do not force the whole body to the fitted Vertin silhouette. Calibrate visible underlying body and head/face near existing pawn references; garment silhouette takes priority.",
+    "physical_sides": {
+      "character_right": [
+        "cap gold star",
+        "collar star badges",
+        "two thigh bands and holster"
+      ],
+      "character_left": [
+        "longer face-framing hair/bang",
+        "hip canister"
+      ]
+    },
+    "hidden_view_inference": "Back is not supplied orthographically. Infer plain brown jacket back with cream back collar and simple seams; same hem/short/boot heights. Do not copy chest badges, crop-top opening, respirator front or star belt buckle onto back.",
+    "head_rotation_degrees": 0,
+    "preview_head_offset": [
+      0,
+      -65
+    ],
+    "head_hashes": {
+      "south": "0a0726ea94cb7923c2e1ffc29d32bfe1f10e4bbc862f5135e9d7586f9e156d8d",
+      "east": "973f4a02ac58f7d19edef5a36ade5e629bc27f579eac702cc7331403f8c3e5e1",
+      "north": "0f230af7ff290c1cebefd59a94b82dc5ec3e76e947addd07db198d05a2a4abf3"
+    },
+    "body_hashes": {
+      "south": "3b7295feff059f3f5e94c98f11cf77a1f437498485a67bb190a9c86ad695d7e6",
+      "east": "af31e6be6734d96fce62b1bef00e2f3e239c64930f9f05c20f08534136364311",
+      "north": "189ee331da6ca5893010693a6ebff0e9e0041249812e7b964962c54b0eec5c37"
+    },
+    "formal_files": [
+      "Textures/Things/Hair/R99/Lilya_south.png",
+      "Textures/Things/Hair/R99/Lilya_east.png",
+      "Textures/Things/Hair/R99/Lilya_north.png",
+      "Textures/Things/R99_Agents/Arcanist/Lilya_Thin_south.png",
+      "Textures/Things/R99_Agents/Arcanist/Lilya_Thin_east.png",
+      "Textures/Things/R99_Agents/Arcanist/Lilya_Thin_north.png",
+      "Textures/Things/R99_Agents/Arcanist/Lilya.png"
+    ],
+    "validation": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v2_face_and_smile\\validation.json",
+    "notes": "Texture assets only. No character Def or recruitment configuration created. Existing characters and UI assets preserved.",
+    "previous_working_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v2_face_and_smile",
+    "head_face_revision": "Profile face and features adjusted locally; face/headwear/complete-head envelope checked separately against Vertin, Texas and Zima. Front face proportions retained while mouth is revised.",
+    "body_source_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v1",
+    "head_scale_checks": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v2_face_and_smile\\face_headwear_scale_checks.json",
+    "backup_directory": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v2_face_and_smile\\installation_backup",
+    "revision_history": [
+      {
+        "date": "2026-11-08",
+        "revision": "v2_face_and_smile",
+        "change": "Local profile face/eye aspect correction; front/profile subtle closed-mouth smile. Rear head, body/item and other textures retained."
+      },
+      {
+        "date": "2026-11-09",
+        "from": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v2_face_and_smile",
+        "to": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v3_softpixel",
+        "change": "Applied user-selected Python light pixel grouping and restrained low-contrast rubbing to six existing parts; preserved all alpha, canvas, position and protected facial pixels. Item recopied from processed front body. No redrawing or eye transplant. Added no-toothy-grin and noncumulative postprocess rules."
+      }
+    ],
+    "accepted_preprocessing_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v2_face_and_smile",
+    "user_visual_approval": "Pre-pass five-character designs accepted; this light texture pass awaits visual review.",
+    "generation_mode": "user_selected_python_softpixel_postprocessing_of_existing_native_artwork",
+    "backup_archive": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\TextureBackups\\AllCharacters_before_SoftPixel_v1_20261109_5bd9c9f0.zip",
+    "head_sources": {
+      "south": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v3_softpixel\\native_inputs\\Textures\\Things\\Hair\\R99\\Lilya_south.png",
+      "east": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v3_softpixel\\native_inputs\\Textures\\Things\\Hair\\R99\\Lilya_east.png",
+      "north": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v3_softpixel\\native_inputs\\Textures\\Things\\Hair\\R99\\Lilya_north.png"
+    },
+    "body_sources": {
+      "south": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v3_softpixel\\native_inputs\\Textures\\Things\\R99_Agents\\Arcanist\\Lilya_Thin_south.png",
+      "east": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v3_softpixel\\native_inputs\\Textures\\Things\\R99_Agents\\Arcanist\\Lilya_Thin_east.png",
+      "north": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v3_softpixel\\native_inputs\\Textures\\Things\\R99_Agents\\Arcanist\\Lilya_Thin_north.png"
+    },
+    "preview": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v3_softpixel\\previews\\three_views_final.png",
+    "head_preview": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v3_softpixel\\previews\\heads_three_views.png",
+    "body_preview": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v3_softpixel\\previews\\bodys_three_views.png",
+    "texture_processing": {
+      "version": "SoftPixel_v1_20261109",
+      "batch_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\SoftPixel_v1_20261109",
+      "recipe": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v3_softpixel\\recipe.json",
+      "source_policy": "Use frozen native_inputs; do not cumulatively filter current output",
+      "alpha_and_geometry_pixel_identical": true,
+      "face_protection_pixel_identical": true,
+      "no_eye_transfer": true,
+      "no_grin_rule": "No broad toothy/open grin; happiness uses restrained closed-mouth smile. Existing expressions retained.",
+      "protected_boxes": {
+        "south": [
+          [
+            103,
+            135,
+            147,
+            168
+          ]
+        ],
+        "east": [
+          [
+            131,
+            135,
+            167,
+            169
+          ]
+        ],
+        "north": []
+      },
+      "parameters": {
+        "median_local_limit": 20,
+        "protection_feather_px": 2,
+        "dark_stroke_luma": 72,
+        "max_dark_stroke_lightening": 5,
+        "guide_grid": 192,
+        "pixel_mix": 0.5,
+        "median_mix": 0.18,
+        "color_step": 6,
+        "max_channel_delta": 16
+      },
+      "before_after": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\SoftPixel_v1_20261109\\previews\\all_characters_before_after.png",
+      "reference_comparison": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\SoftPixel_v1_20261109\\previews\\material_closeups_before_after_reference.png"
+    },
+    "documentation_updates": [
+      {
+        "date": "2026-11-09",
+        "change": "General spec revision 6 adds no broad/toothy grin and a controlled light half-pixel postprocess; no common eye spacing or skin-color rules added."
+      }
+    ],
+    "revision": "v3_softpixel",
+    "current_version": "Lilya_v3_softpixel",
+    "user_visual_review": "pending"
+  },
+  "Regulus": {
+    "character": "Regulus",
+    "display_name": "星锑",
+    "version": "v1",
+    "updated_date": "2026-11-09",
+    "working_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v2_softpixel",
+    "status": "softpixel_pass_installed_and_statically_verified",
+    "installation_receipt": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v2_softpixel\\installation_receipt.json",
+    "backup_archive": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\TextureBackups\\AllCharacters_before_SoftPixel_v1_20261109_5bd9c9f0.zip",
+    "paths": {
+      "head_texPath": "Things/Hair/R99/Regulus",
+      "apparel_wornGraphicPath": "Things/R99_Agents/Arcanist/Regulus",
+      "item_texPath": "Things/R99_Agents/Arcanist/Regulus",
+      "body_type": "Thin",
+      "directions": [
+        "south",
+        "east",
+        "north"
+      ]
+    },
+    "format": {
+      "canvas": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "background": "transparent",
+      "count": 7
+    },
+    "primary_reference": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\Ombrophobia\\data_infrastructure\\图片\\星锑.png",
+    "source_manifest": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v1\\references\\sources.json",
+    "character_brief": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v1\\character_brief.json",
+    "generator_recipe": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v2_softpixel\\recipe.json",
+    "generator_entrypoint": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v2_softpixel\\soft_pixel.py",
+    "imagegen_prompts": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v1\\imagegen_prompts.json",
+    "constraints_file": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\角色三视图制作规范.txt",
+    "requested_style": {
+      "rendering": "Flat simple 2D matte color masses, thick near-black outside outline, sparse weaker interior strokes.",
+      "arms": "No complete arms or hands; short shoulder sleeve caps only.",
+      "expression": "Local portrait sunglasses, visible small nose and closed slightly downturned mouth; cool, faintly stubborn pout, no broad smile.",
+      "clothing": "Loose cropped bomber and A-line dress; garment contour takes priority, no forced hourglass waist.",
+      "face_identity_marks": "No obvious freckles, scars or burns; conditional rule skipped.",
+      "side_pose": "Upright unrotated head; body follows a continuous mild forward diagonal, shortened gathered foot, no L-shaped toe.",
+      "accessory_side": "Bag carried from character left shoulder: front screen right, east profile behind toward screen left, rear screen left."
+    },
+    "strict_vertin_size_condition_applies": false,
+    "size_reference": "Vertin v13, Texas, Silence, Perfumer at equal native pixel scale; independent garment/position calibration.",
+    "preview_head_offset": [
+      0,
+      -65
+    ],
+    "reconstructed_details": [
+      "True profile/rear cap and hair surfaces",
+      "Rear jacket seams, scarf wrap and dress drape",
+      "Backpack side/rear occlusion"
+    ],
+    "head_sources": {
+      "south": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v2_softpixel\\native_inputs\\Textures\\Things\\Hair\\R99\\Regulus_south.png",
+      "east": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v2_softpixel\\native_inputs\\Textures\\Things\\Hair\\R99\\Regulus_east.png",
+      "north": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v2_softpixel\\native_inputs\\Textures\\Things\\Hair\\R99\\Regulus_north.png"
+    },
+    "head_hashes": {
+      "south": "7aff3a400b54093d247e27f0c15cb7b55f5eda05489700ce2e26ae9ed05ef506",
+      "east": "55a26cc865987a1b572aa75e0a22795118732024f06742ac380918f0bf3cb88e",
+      "north": "2853b3ecd0cb1cc9ed30dd446ae3397889570a25130f3081f6b359a53411f63f"
+    },
+    "body_hashes": {
+      "south": "4b132974003b27e2cd76852f50b07733d5b96ffb8de08f3d1fbfc49e56bc7729",
+      "east": "662af3a93a8ad42d373167b7cca6063be4b496034b7a2ebb94ef25a5600fc1fb",
+      "north": "13ab0fec0a999b9f828e365d4c9fa8db8a276529e229a628d3d974b938c7b7e1"
+    },
+    "item_sha256": "c33add115cadacea5ecf4acb58de25c4a11d43d9f786bda0f3d82ea36fcf9971",
+    "game_tested": false,
+    "recruitable_character_def_added": false,
+    "previous_working_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v1",
+    "accepted_preprocessing_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v1",
+    "user_visual_approval": "Pre-pass five-character designs accepted; this light texture pass awaits visual review.",
+    "generation_mode": "user_selected_python_softpixel_postprocessing_of_existing_native_artwork",
+    "body_sources": {
+      "south": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v2_softpixel\\native_inputs\\Textures\\Things\\R99_Agents\\Arcanist\\Regulus_Thin_south.png",
+      "east": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v2_softpixel\\native_inputs\\Textures\\Things\\R99_Agents\\Arcanist\\Regulus_Thin_east.png",
+      "north": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v2_softpixel\\native_inputs\\Textures\\Things\\R99_Agents\\Arcanist\\Regulus_Thin_north.png"
+    },
+    "preview": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v2_softpixel\\previews\\three_views_final.png",
+    "head_preview": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v2_softpixel\\previews\\heads_three_views.png",
+    "body_preview": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v2_softpixel\\previews\\bodys_three_views.png",
+    "texture_processing": {
+      "version": "SoftPixel_v1_20261109",
+      "batch_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\SoftPixel_v1_20261109",
+      "recipe": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v2_softpixel\\recipe.json",
+      "source_policy": "Use frozen native_inputs; do not cumulatively filter current output",
+      "alpha_and_geometry_pixel_identical": true,
+      "face_protection_pixel_identical": true,
+      "no_eye_transfer": true,
+      "no_grin_rule": "No broad toothy/open grin; happiness uses restrained closed-mouth smile. Existing expressions retained.",
+      "protected_boxes": {
+        "south": [
+          [
+            100,
+            134,
+            155,
+            168
+          ]
+        ],
+        "east": [
+          [
+            135,
+            134,
+            169,
+            168
+          ]
+        ],
+        "north": []
+      },
+      "parameters": {
+        "median_local_limit": 20,
+        "protection_feather_px": 2,
+        "dark_stroke_luma": 72,
+        "max_dark_stroke_lightening": 5,
+        "guide_grid": 192,
+        "pixel_mix": 0.5,
+        "median_mix": 0.18,
+        "color_step": 6,
+        "max_channel_delta": 16
+      },
+      "before_after": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\SoftPixel_v1_20261109\\previews\\all_characters_before_after.png",
+      "reference_comparison": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\SoftPixel_v1_20261109\\previews\\material_closeups_before_after_reference.png"
+    },
+    "revision_history": [
+      {
+        "date": "2026-11-09",
+        "from": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v1",
+        "to": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v2_softpixel",
+        "change": "Applied user-selected Python light pixel grouping and restrained low-contrast rubbing to six existing parts; preserved all alpha, canvas, position and protected facial pixels. Item recopied from processed front body. No redrawing or eye transplant. Added no-toothy-grin and noncumulative postprocess rules."
+      }
+    ],
+    "documentation_updates": [
+      {
+        "date": "2026-11-09",
+        "change": "General spec revision 6 adds no broad/toothy grin and a controlled light half-pixel postprocess; no common eye spacing or skin-color rules added."
+      }
+    ],
+    "revision": "v2_softpixel",
+    "current_version": "Regulus_v2_softpixel",
+    "user_visual_review": "pending"
+  },
+  "X": {
+    "character": "X",
+    "display_name": "X",
+    "gender": "Male",
+    "updated_date": "2026-11-09",
+    "revision": "v3_softpixel",
+    "working_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v3_softpixel",
+    "status": "softpixel_pass_installed_and_statically_verified",
+    "game_tested": false,
+    "user_visual_review": "pending",
+    "character_defs_created": false,
+    "paths": {
+      "head_texPath": "Things/Hair/R99/X",
+      "apparel_wornGraphicPath": "Things/R99_Agents/Arcanist/X",
+      "item_texPath": "Things/R99_Agents/Arcanist/X",
+      "body_type": "Thin",
+      "directions": [
+        "south",
+        "east",
+        "north"
+      ]
+    },
+    "body_type_reason": "Existing project and male Arknights texture naming convention; Thin is a resource suffix, not a demand for fitted garments.",
+    "primary_portrait": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\Ombrophobia\\data_infrastructure\\图片\\X.png",
+    "reference_manifest": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v2_soft_smile\\references\\sources.json",
+    "constraints_file": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\角色三视图制作规范.txt",
+    "character_brief": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v2_soft_smile\\character_brief.json",
+    "generator_mode": "user_selected_python_softpixel_postprocessing_of_existing_native_artwork",
+    "generator_recipe": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v3_softpixel\\recipe.json",
+    "generator_entrypoint": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v3_softpixel\\soft_pixel.py",
+    "imagegen_prompts": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v2_soft_smile\\imagegen_prompts.json",
+    "installation_receipt": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v3_softpixel\\installation_receipt.json",
+    "backup_archive": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\TextureBackups\\AllCharacters_before_SoftPixel_v1_20261109_5bd9c9f0.zip",
+    "head_sources": {
+      "south": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v3_softpixel\\native_inputs\\Textures\\Things\\Hair\\R99\\X_south.png",
+      "east": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v3_softpixel\\native_inputs\\Textures\\Things\\Hair\\R99\\X_east.png",
+      "north": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v3_softpixel\\native_inputs\\Textures\\Things\\Hair\\R99\\X_north.png"
+    },
+    "body_sources": {
+      "south": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v3_softpixel\\native_inputs\\Textures\\Things\\R99_Agents\\Arcanist\\X_Thin_south.png",
+      "east": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v3_softpixel\\native_inputs\\Textures\\Things\\R99_Agents\\Arcanist\\X_Thin_east.png",
+      "north": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v3_softpixel\\native_inputs\\Textures\\Things\\R99_Agents\\Arcanist\\X_Thin_north.png"
+    },
+    "head_hashes": {
+      "south": "e4ac2cf84218869044da1e939d9b19901c00d04f1b1b2f3c4d1fac66a7b27d69",
+      "east": "ac6fbfddbb13d895cf824bca49d65390b05976cad5d169f9d3269f1b59312f72",
+      "north": "15e29731d4fffa38b2c07be51c6a3793ee253c3f270349c71d3aac257830d731"
+    },
+    "body_hashes": {
+      "south": "bf12bf3441da28213a2358c6541e52dc6a1e3d6cc10f2b186acc4fbec5679620",
+      "east": "cc5f4aa10e62078714b0c2ca965613fd17ee801bd7628780ba93fbd983aca87d",
+      "north": "92f18c945edc6ce0e765029e53cf2e7be272ea01c1f19f36dcb8e2cadb087e3c"
+    },
+    "expression": "Gentle friendly closed-lip smile, no open mouth, teeth or broad grin; relaxed eyes and brows. Explicit user revision overrides v1 open-mouth interpretation.",
+    "eyes": {
+      "character_right": "Amber gold with dark scleral surround, viewer-left in south, as visible in primary face crop.",
+      "character_left": "blue, screen-right in south; visible in east true right profile",
+      "shape": "compact simplified pawn eyes, one small highlight, preserve heterochromia"
+    },
+    "facial_identity_marks": "No clear characteristic freckles/scars/burns in provided portrait; skip conditional mark rule.",
+    "clothing_fit": {
+      "outer": "Loose ivory/light grey calf-length open lab coat, near-straight hanging panels and slight hem spread, not waist-cinched; short shoulder caps only, no complete sleeves or arms.",
+      "upper": "Charcoal standing collar and asymmetric dark shoulder cape with cream/gold leaf-like motif on character right (front screen left).",
+      "inner": "Dark grey broad checked waistcoat; mint/aqua cloth crossed and tied in loose front bow with long ribbon tails; black knee-length shorts.",
+      "accessories": "Purple vertical strap over character left shoulder (front screen right), compact black rectangular instrument with round dial, hanging pale ID badge and turquoise loop cord, pale small chain, purple coat tabs; pen in opposite pocket.",
+      "legs": "Visible knee gap, dark grey high socks, brown buckle band on character right leg if visible, brown lace-up shoes; compact legs and downward short toe.",
+      "back": "Infer rear collar, plain coat back with center seam/vent, corresponding asymmetric cape on character right (back screen right) and narrow strap on left (back screen left); no duplicated chest dial, badge, bow or emblem on rear."
+    },
+    "size_baseline": "Not eligible for Vertin young-female/fitted baseline. Calibrate male head/loose coat against Thorns, Gnosis, Executor in native pixels.",
+    "head_rotation_degrees": 0,
+    "head_offset_preview": [
+      0,
+      -72
+    ],
+    "preview_offset_note": "Static composition only, not a game head-offset configuration.",
+    "inferential_details": [
+      "back coat seam/vent and rear cape extension",
+      "foreshortening/occlusion of shoulder instrument and badge in east",
+      "back of short hairstyle"
+    ],
+    "revision_history": [
+      {
+        "date": "2026-11-08",
+        "to": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v1",
+        "change": "New male X character from local portrait, loose-clothing-first silhouette, cheerful expression and consistent heterochromia; side pocket and shoe corrected before installation."
+      },
+      {
+        "date": "2026-11-08",
+        "from": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v1",
+        "to": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v2_soft_smile",
+        "change": "Front and profile head mouths changed to gentle closed-lip smiles; east head moved forward/right 4 native pixels without rotation. Rear head, bodies and item retained byte-identically."
+      },
+      {
+        "date": "2026-11-09",
+        "from": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v2_soft_smile",
+        "to": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v3_softpixel",
+        "change": "Applied user-selected Python light pixel grouping and restrained low-contrast rubbing to six existing parts; preserved all alpha, canvas, position and protected facial pixels. Item recopied from processed front body. No redrawing or eye transplant. Added no-toothy-grin and noncumulative postprocess rules."
+      }
+    ],
+    "previous_working_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v2_soft_smile",
+    "head_east_translation_from_v1_native_px": [
+      4,
+      0
+    ],
+    "body_source_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v1",
+    "accepted_preprocessing_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v2_soft_smile",
+    "user_visual_approval": "Pre-pass five-character designs accepted; this light texture pass awaits visual review.",
+    "generation_mode": "user_selected_python_softpixel_postprocessing_of_existing_native_artwork",
+    "preview": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v3_softpixel\\previews\\three_views_final.png",
+    "preview_head_offset": [
+      0,
+      -72
+    ],
+    "head_preview": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v3_softpixel\\previews\\heads_three_views.png",
+    "body_preview": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v3_softpixel\\previews\\bodys_three_views.png",
+    "texture_processing": {
+      "version": "SoftPixel_v1_20261109",
+      "batch_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\SoftPixel_v1_20261109",
+      "recipe": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v3_softpixel\\recipe.json",
+      "source_policy": "Use frozen native_inputs; do not cumulatively filter current output",
+      "alpha_and_geometry_pixel_identical": true,
+      "face_protection_pixel_identical": true,
+      "no_eye_transfer": true,
+      "no_grin_rule": "No broad toothy/open grin; happiness uses restrained closed-mouth smile. Existing expressions retained.",
+      "protected_boxes": {
+        "south": [
+          [
+            106,
+            135,
+            150,
+            168
+          ]
+        ],
+        "east": [
+          [
+            137,
+            134,
+            167,
+            166
+          ]
+        ],
+        "north": []
+      },
+      "parameters": {
+        "median_local_limit": 20,
+        "protection_feather_px": 2,
+        "dark_stroke_luma": 72,
+        "max_dark_stroke_lightening": 5,
+        "guide_grid": 192,
+        "pixel_mix": 0.5,
+        "median_mix": 0.18,
+        "color_step": 6,
+        "max_channel_delta": 16
+      },
+      "before_after": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\SoftPixel_v1_20261109\\previews\\all_characters_before_after.png",
+      "reference_comparison": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\SoftPixel_v1_20261109\\previews\\material_closeups_before_after_reference.png"
+    },
+    "documentation_updates": [
+      {
+        "date": "2026-11-09",
+        "change": "General spec revision 6 adds no broad/toothy grin and a controlled light half-pixel postprocess; no common eye spacing or skin-color rules added."
+      }
+    ],
+    "preprocessing_artwork_revision": "v2_soft_smile",
+    "current_version": "X_v3_softpixel",
+    "artwork_generator_mode": "built-in image_gen, then deterministic formatting"
+  },
+  "Sonetto": {
+    "character": "Sonetto",
+    "display_name": "十四行诗",
+    "updated_date": "2026-11-09",
+    "working_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v4_softpixel",
+    "status": "softpixel_pass_installed_and_statically_verified",
+    "user_visual_approval": "Pre-pass five-character designs accepted; this light texture pass awaits visual review.",
+    "game_tested": false,
+    "primary_portrait": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\Ombrophobia\\data_infrastructure\\图片\\十四行诗.png",
+    "installation_receipt": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v4_softpixel\\installation_receipt.json",
+    "generator_entrypoint": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v4_softpixel\\soft_pixel.py",
+    "generator_recipe": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v4_softpixel\\recipe.json",
+    "generation_mode": "user_selected_python_softpixel_postprocessing_of_existing_native_artwork",
+    "constraints_file": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\角色三视图制作规范.txt",
+    "size_baseline": {
+      "young_female": true,
+      "relatively_fitted_main_outfit": true,
+      "baseline": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v13_arknights_skin",
+      "body_type": "Thin",
+      "scope": "Face/skull, torso and leg scale from Vertin; natural skirt flare, cape drape and long-hair extensions follow Sonetto original clothing/hair rules"
+    },
+    "paths": {
+      "head_texPath": "Things/Hair/R99/Sonetto",
+      "apparel_wornGraphicPath": "Things/R99_Agents/Arcanist/Sonetto",
+      "item_texPath": "Things/R99_Agents/Arcanist/Sonetto",
+      "body_type": "Thin",
+      "directions": [
+        "south",
+        "east",
+        "north"
+      ]
+    },
+    "expression": {
+      "read": "serious/composed, attentive with mild questioning curiosity; subtly parted lips, no broad smile or angry scowl",
+      "mouth": "tiny slightly open natural mouth, near-level corners",
+      "brows": "slender soft angled eyebrows following the local reference, not exaggerated angry V or default happy arches",
+      "eyes": "muted grey-green, compact pawn-scale eyes; keep original hue"
+    },
+    "hair": {
+      "color": "copper-orange/auburn orange",
+      "structure": "copper-auburn long loose broad wavy locks; small close-to-skull swept-back upper gathers, coherent rolled forelock, one short braid on character-left temple with dull-gold jaw-level clasp",
+      "headband": "narrow black-and-ivory check/diamond strip across upper/front crown; modest narrow tail behind character-left gather",
+      "side_braid_character_side": "left",
+      "front_screen_side": "right",
+      "east_visibility": "near-side braid visible",
+      "back_screen_side": "left, only if not occluded",
+      "long_hair": "coherent loose waves, natural asymmetric tapered ends; no paired identical corkscrew ringlet pigtails; all hair remains in head layer"
+    },
+    "clothing_fit": {
+      "bodice": "fitted ivory-white high-collared dress/tunic with black center lacing and small buttons",
+      "capelet": "short charcoal/slate grey shoulder cape with muted coral lining, black/ivory check lining on visible inner flap, gold circular clasp and short chain, sparse gold sun/star motifs and small crest",
+      "skirt": "short gently flared/pleated ivory hem, follows garment volume rather than an exaggerated tight hip outline",
+      "legs": "ivory tall stockings/boots; a small black bow on character-right upper leg and grey buckled bands on character-left thigh",
+      "shoes": "pale grey-white lace-front short compact toes, subdued dark sole; not full realistic long heels",
+      "arms_hands": "omit completely, only short shoulder clothing structure remains; keep capelet as a garment, not hanging arms",
+      "held_pen": "omitted from head/body sprite because hands and weapons are outside requested components"
+    },
+    "facial_identity_details": {
+      "finding": "No obvious freckles, scars or burn marks in the primary face; skip conditional markings",
+      "action": "Do not inherit Vertin freckles"
+    },
+    "inferred": [
+      "True-profile and back orthographic construction",
+      "Back cape continuation and understated seam layout",
+      "Back hair gathers and obscured ribbon arrangement; no new decorative motifs"
+    ],
+    "backup_archive": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\TextureBackups\\AllCharacters_before_SoftPixel_v1_20261109_5bd9c9f0.zip",
+    "head_hashes": {
+      "south": "2fb8ef88fec5402c82f6f203036511cb883df4fecf4b539c6a558efc2ac4a68b",
+      "east": "a3f3639194f28cd80d91dbd190fec80918f4a41baf8b13a8fb6171e9576fe149",
+      "north": "791fb0e873126b9fc1ae344bd99a3795d3e410b04fde26cf83a94086806034f0"
+    },
+    "body_hashes": {
+      "south": "3ad4f284115eb982b116f7289d1b68fce31b4bbdde4ab06fc9ce3ddea993c59d",
+      "east": "9d84ec8d37c3ae0d3c969b201b8369626d7c085c186955f0be0ffe7a79c2e8ae",
+      "north": "38e24193d5ca8e9814aad82f50174fd756e64a2ee08b03591479246db108702b"
+    },
+    "preview": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v4_softpixel\\previews\\three_views_final.png",
+    "preview_head_offset": [
+      0,
+      -65
+    ],
+    "preview_offset_note": "Static same-scale comparison convention; not a verified game rendering configuration.",
+    "previous_working_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v3_head_redraw",
+    "head_proportion_revision": {
+      "version": "v3",
+      "method": "New imagegen artwork; uniform scale in each view, no anisotropic face scaling or head rotation",
+      "uniform_scales": {
+        "south": 0.12,
+        "east": 0.12,
+        "north": 0.127
+      },
+      "same_source_art": false,
+      "former_v1_v2_art_retained_only_as_history": true,
+      "cancelled_eye_transfer_used": false
+    },
+    "revision_history": [
+      {
+        "date": "2026-11-08",
+        "from": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v1",
+        "to": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v2_compact_head",
+        "change": "Removed 21% front and 18% profile extra vertical stretch, recalibrated eyes/chin and rear cranial scale using uniform scaling. Original source artwork/expression retained; body/item byte-identical."
+      },
+      {
+        "date": "2026-11-09",
+        "from": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v2_compact_head",
+        "to": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v3_head_redraw",
+        "change": "User rejected old Sonetto heads. Replaced all three with new built-in imagegen artwork from original portrait and accepted pawn style references; coherent loose hair/rolled fringe/thin check band and near-side temple braid. Uniform scale/position calibration; unchanged bodies/item and every other character. Not based on cancelled eye transplant."
+      },
+      {
+        "date": "2026-11-09",
+        "from": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v3_head_redraw",
+        "to": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v4_softpixel",
+        "change": "Applied user-selected Python light pixel grouping and restrained low-contrast rubbing to six existing parts; preserved all alpha, canvas, position and protected facial pixels. Item recopied from processed front body. No redrawing or eye transplant. Added no-toothy-grin and noncumulative postprocess rules."
+      }
+    ],
+    "generation_prompts": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v3_head_redraw\\imagegen_prompts.json",
+    "generation_provenance": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v3_head_redraw\\generation_provenance.json",
+    "head_sources": {
+      "south": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v4_softpixel\\native_inputs\\Textures\\Things\\Hair\\R99\\Sonetto_south.png",
+      "east": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v4_softpixel\\native_inputs\\Textures\\Things\\Hair\\R99\\Sonetto_east.png",
+      "north": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v4_softpixel\\native_inputs\\Textures\\Things\\Hair\\R99\\Sonetto_north.png"
+    },
+    "installed_head_files": {
+      "south": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Textures\\Things\\Hair\\R99\\Sonetto_south.png",
+      "east": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Textures\\Things\\Hair\\R99\\Sonetto_east.png",
+      "north": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Textures\\Things\\Hair\\R99\\Sonetto_north.png"
+    },
+    "body_source_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v2_compact_head",
+    "head_preview": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v4_softpixel\\previews\\heads_three_views.png",
+    "head_comparison": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v3_head_redraw\\previews\\heads_reference_comparison.png",
+    "accepted_preprocessing_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v3_head_redraw",
+    "body_sources": {
+      "south": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v4_softpixel\\native_inputs\\Textures\\Things\\R99_Agents\\Arcanist\\Sonetto_Thin_south.png",
+      "east": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v4_softpixel\\native_inputs\\Textures\\Things\\R99_Agents\\Arcanist\\Sonetto_Thin_east.png",
+      "north": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v4_softpixel\\native_inputs\\Textures\\Things\\R99_Agents\\Arcanist\\Sonetto_Thin_north.png"
+    },
+    "body_preview": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v4_softpixel\\previews\\bodys_three_views.png",
+    "texture_processing": {
+      "version": "SoftPixel_v1_20261109",
+      "batch_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\SoftPixel_v1_20261109",
+      "recipe": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v4_softpixel\\recipe.json",
+      "source_policy": "Use frozen native_inputs; do not cumulatively filter current output",
+      "alpha_and_geometry_pixel_identical": true,
+      "face_protection_pixel_identical": true,
+      "no_eye_transfer": true,
+      "no_grin_rule": "No broad toothy/open grin; happiness uses restrained closed-mouth smile. Existing expressions retained.",
+      "protected_boxes": {
+        "south": [
+          [
+            103,
+            133,
+            155,
+            167
+          ]
+        ],
+        "east": [
+          [
+            138,
+            134,
+            170,
+            168
+          ]
+        ],
+        "north": []
+      },
+      "parameters": {
+        "median_local_limit": 20,
+        "protection_feather_px": 2,
+        "dark_stroke_luma": 72,
+        "max_dark_stroke_lightening": 5,
+        "guide_grid": 192,
+        "pixel_mix": 0.5,
+        "median_mix": 0.18,
+        "color_step": 6,
+        "max_channel_delta": 16
+      },
+      "before_after": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\SoftPixel_v1_20261109\\previews\\all_characters_before_after.png",
+      "reference_comparison": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\SoftPixel_v1_20261109\\previews\\material_closeups_before_after_reference.png"
+    },
+    "documentation_updates": [
+      {
+        "date": "2026-11-09",
+        "change": "General spec revision 6 adds no broad/toothy grin and a controlled light half-pixel postprocess; no common eye spacing or skin-color rules added."
+      }
+    ],
+    "revision": "v4_softpixel",
+    "current_version": "Sonetto_v4_softpixel",
+    "user_visual_review": "pending"
+  }
+}

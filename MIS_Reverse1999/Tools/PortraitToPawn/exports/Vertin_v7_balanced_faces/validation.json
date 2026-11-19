@@ -1,0 +1,104 @@
+{
+  "checks": {
+    "Textures/Things/Hair/R99/Vertin_east.png": {
+      "sha256": "d9a88f6ef139e5481a35445a2b2b68ac8fb4a19abba7bd28441421672399d516",
+      "changed_vs_v6": true,
+      "solid_bbox": [
+        70,
+        79,
+        186,
+        180
+      ],
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true
+    },
+    "Textures/Things/Hair/R99/Vertin_north.png": {
+      "sha256": "b5dc1d5060a0a73ebb43df58dbf8c6c429116b99833636cbcad4dc3afbec3acd",
+      "changed_vs_v6": false,
+      "solid_bbox": [
+        64,
+        83,
+        180,
+        176
+      ],
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true
+    },
+    "Textures/Things/Hair/R99/Vertin_south.png": {
+      "sha256": "08eb87fef3531499c5a97a280d45c7a26f21aad726a8ff9d0898bd9d1d6e8efc",
+      "changed_vs_v6": true,
+      "solid_bbox": [
+        76,
+        77,
+        190,
+        177
+      ],
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Vertin.png": {
+      "sha256": "49163822bfdf4e2a4b6e874c8c51d0c2c079b6447f25ebf490bfdcbe6a14957c",
+      "changed_vs_v6": false,
+      "solid_bbox": [
+        86,
+        90,
+        170,
+        253
+      ],
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_east.png": {
+      "sha256": "d4780b9360a535c7668df19ac3f5836241dc87b1d662194cb565df8e0a6cae92",
+      "changed_vs_v6": false,
+      "solid_bbox": [
+        72,
+        89,
+        158,
+        252
+      ],
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_north.png": {
+      "sha256": "af2475c5769648d51ac98fae53820aaa0e411e4626a5cbadc1e414f9d8735713",
+      "changed_vs_v6": false,
+      "solid_bbox": [
+        86,
+        90,
+        170,
+        252
+      ],
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_south.png": {
+      "sha256": "49163822bfdf4e2a4b6e874c8c51d0c2c079b6447f25ebf490bfdcbe6a14957c",
+      "changed_vs_v6": false,
+      "solid_bbox": [
+        86,
+        90,
+        170,
+        253
+      ],
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true
+    }
+  },
+  "changed_parts": [
+    "head_south",
+    "head_east"
+  ],
+  "back_head_unchanged": true,
+  "body_and_item_unchanged": true,
+  "head_rotation_degrees": 0,
+  "preview_head_offset": [
+    0,
+    -65
+  ],
+  "visual_review": "Passed: inspected v5/v6/v7 at common coordinates, local Texas/Zima references, full head-body composite, native and 50% previews. V7 has a softly tapered shorter chin than v5, less round than v6, readable small front nose/lips and side nose/lip silhouette. Original hair/hat side placement retained.",
+  "game_tested": false,
+  "reproduction_hashes_match": true,
+  "numeric_prompt_note": "Prompt percentages are visual guidance, not measured final anatomical ratios.",
+  "small_scale_note": "Fine lip/nose marks naturally lose detail at 50%; their simple shape and the side profile remain the relevant small-sprite cues."
+}

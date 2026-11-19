@@ -1,0 +1,11 @@
+维尔汀 v7 — 脸型折中与鼻唇恢复（AI 辅助制作）
+
+依据用户最新反馈，结合 v5 和 v6 调整正面、朝右侧面头部。减弱 v6 过圆的下颌，恢复柔和内收与小下巴，同时较 v5 适度缩短收口；恢复简单可见的鼻部与自然唇线，保留平静眼神与粗外轮廓。
+艺术修改使用内置 image_gen，脚本仅完成尺寸、透明边缘、追加外描边、合成预览与验证。提示词见 imagegen_prompts.json，源图见 source_art，配方见 recipe.json。
+原有发型侧别、帽饰、配色保持；背面头部沿用 v5，躯干三向和物品图沿用 v4。正式仅替换 south/east 两张头部，其余原有七张纹理哈希保持不变。
+完整套装含 7 张 256×256 RGBA PNG。简化五官不等于删除鼻子与嘴；半像素风格不强制马赛克。生成提示词中的百分比只是视觉指导，不是精确测量声明。
+已检查三版同尺度对比、Texas/Zima 参考、完整头身合成、原尺寸和 50% 缩小图。小鼻唇在 50% 下会自然损失细部，以基本识别和侧脸轮廓为准。
+已通过格式、透明边界、朝向差异、图标副本、变更范围、复现及安装哈希检查。尚未游戏内验证。
+复现：python format_assets.py --recipe recipe.json --out 新输出目录
+输出目录须为空；复现命令不自动覆盖正式 Textures。
+备份：C:\Users\29232\Desktop\Lannuosprojects\MIS_Lannuosproject\MIS_Reverse1999\Tools\TextureBackups\Vertin_before_v7_20261105_115035_631985.zip

@@ -1,0 +1,56 @@
+[
+  {
+    "character": "Thorns",
+    "direction": "south",
+    "head": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Guard\\Thorns_south.png",
+    "body": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Guard\\Thorns_Thin_south.png"
+  },
+  {
+    "character": "Thorns",
+    "direction": "east",
+    "head": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Guard\\Thorns_east.png",
+    "body": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Guard\\Thorns_Thin_east.png"
+  },
+  {
+    "character": "Thorns",
+    "direction": "north",
+    "head": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Guard\\Thorns_north.png",
+    "body": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Guard\\Thorns_Thin_north.png"
+  },
+  {
+    "character": "Texas",
+    "direction": "south",
+    "head": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Texas_south.png",
+    "body": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Vanguard\\Texas_Thin_south.png"
+  },
+  {
+    "character": "Texas",
+    "direction": "east",
+    "head": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Texas_east.png",
+    "body": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Vanguard\\Texas_Thin_east.png"
+  },
+  {
+    "character": "Texas",
+    "direction": "north",
+    "head": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Texas_north.png",
+    "body": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Vanguard\\Texas_Thin_north.png"
+  },
+  {
+    "character": "Zima",
+    "direction": "south",
+    "head": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Zima_south.png",
+    "body": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Vanguard\\Zima_Thin_south.png"
+  },
+  {
+    "character": "Zima",
+    "direction": "east",
+    "head": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Zima_east.png",
+    "body": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Vanguard\\Zima_Thin_east.png"
+  },
+  {
+    "character": "Zima",
+    "direction": "north",
+    "head": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Zima_north.png",
+    "body": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Vanguard\\Zima_Thin_north.png"
+  }
+]

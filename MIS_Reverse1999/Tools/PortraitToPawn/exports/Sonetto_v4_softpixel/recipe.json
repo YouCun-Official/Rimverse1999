@@ -1,0 +1,114 @@
+{
+  "batch": "SoftPixel_v1_20261109",
+  "date": "2026-11-09",
+  "method": "User explicitly selected Python pixel postprocessing. Light premultiplied-alpha pixel grouping, restrained low-contrast median contribution and color grouping. No redraw, face transfer, warp, alpha edit, new expression, noise or dithering.",
+  "profiles": {
+    "light": {
+      "median_local_limit": 20,
+      "protection_feather_px": 2,
+      "dark_stroke_luma": 72,
+      "max_dark_stroke_lightening": 5,
+      "guide_grid": 192,
+      "pixel_mix": 0.5,
+      "median_mix": 0.18,
+      "color_step": 6,
+      "max_channel_delta": 16
+    }
+  },
+  "assets": {
+    "Sonetto_head_south": {
+      "character": "Sonetto",
+      "part": "head",
+      "direction": "south",
+      "source": "native_inputs/Textures/Things/Hair/R99/Sonetto_south.png",
+      "source_sha256": "128cd40a4d515b046b7c2fde2e7890c93077b7c65c4f8a3ef52c43c23bbfdf27",
+      "relative_path": "Textures/Things/Hair/R99/Sonetto_south.png",
+      "profile": "light",
+      "protected_boxes": [
+        [
+          103,
+          133,
+          155,
+          167
+        ]
+      ]
+    },
+    "Sonetto_body_south": {
+      "character": "Sonetto",
+      "part": "body",
+      "direction": "south",
+      "source": "native_inputs/Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_south.png",
+      "source_sha256": "2c452cbf0b3ba129b0ede6de05a872dad8b33b6fb39b91fbf869b9e639c3ea48",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_south.png",
+      "profile": "light",
+      "protected_boxes": []
+    },
+    "Sonetto_head_east": {
+      "character": "Sonetto",
+      "part": "head",
+      "direction": "east",
+      "source": "native_inputs/Textures/Things/Hair/R99/Sonetto_east.png",
+      "source_sha256": "7262266f41e6fb090c17c5b384379524ff2d8eb451abaf48a946beb73743eb1b",
+      "relative_path": "Textures/Things/Hair/R99/Sonetto_east.png",
+      "profile": "light",
+      "protected_boxes": [
+        [
+          138,
+          134,
+          170,
+          168
+        ]
+      ]
+    },
+    "Sonetto_body_east": {
+      "character": "Sonetto",
+      "part": "body",
+      "direction": "east",
+      "source": "native_inputs/Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_east.png",
+      "source_sha256": "8968314fdc00ef934987c06e0c1d4aacc98a550a847abd8828b46fb997ca739f",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_east.png",
+      "profile": "light",
+      "protected_boxes": []
+    },
+    "Sonetto_head_north": {
+      "character": "Sonetto",
+      "part": "head",
+      "direction": "north",
+      "source": "native_inputs/Textures/Things/Hair/R99/Sonetto_north.png",
+      "source_sha256": "b14262bff106cd32332e72857116a79628d0bca113c1b0d3ae3533e5ffd9b923",
+      "relative_path": "Textures/Things/Hair/R99/Sonetto_north.png",
+      "profile": "light",
+      "protected_boxes": []
+    },
+    "Sonetto_body_north": {
+      "character": "Sonetto",
+      "part": "body",
+      "direction": "north",
+      "source": "native_inputs/Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_north.png",
+      "source_sha256": "2a4450adb316d64b95a3f74f94416bb604597fe0dcf548b4d32b45bd534e751d",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_north.png",
+      "profile": "light",
+      "protected_boxes": []
+    }
+  },
+  "items": {
+    "Sonetto": {
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Sonetto.png",
+      "copy_from": "Sonetto_body_south"
+    }
+  },
+  "expression_rule": "No broad open/toothy grin. Joy uses restrained closed-mouth smile; preserve existing composed/serious/curious expressions and small natural lip parting.",
+  "prior_exports": {
+    "Sonetto": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v3_head_redraw"
+  },
+  "preview_head_offsets": {
+    "Sonetto": [
+      0,
+      -65
+    ]
+  },
+  "fixed_alpha_and_canvas": true,
+  "source_policy": "Read fresh, unfiltered native_inputs only. Never cumulatively process this pass output.",
+  "character": "Sonetto",
+  "version": "Sonetto_v4_softpixel"
+}

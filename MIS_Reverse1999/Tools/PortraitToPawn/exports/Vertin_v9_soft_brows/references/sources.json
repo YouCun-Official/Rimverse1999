@@ -1,0 +1,144 @@
+{
+  "character_identity_source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v5_original_hairstyle\\references\\sources.json",
+  "prior_version": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v8_pawn_eyes",
+  "style_references": [
+    {
+      "character": "Texas",
+      "direction": "south",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Texas_south.png",
+      "local": "references/Texas_south.png",
+      "sha256": "264239c05a87a9c15b3cc439757d2ddacee495b4f1738d995002417700fc5ee1",
+      "role": "local mod style/proportion reference; identity remains Vertin"
+    },
+    {
+      "character": "Texas",
+      "direction": "east",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Texas_east.png",
+      "local": "references/Texas_east.png",
+      "sha256": "fb51d064091ef4f5ac6f7197e6eb72c91fba6a700b24c4b1a1936f57131cbbfb",
+      "role": "local mod style/proportion reference; identity remains Vertin"
+    },
+    {
+      "character": "Texas",
+      "direction": "north",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Texas_north.png",
+      "local": "references/Texas_north.png",
+      "sha256": "30fc62f47c29d9f91eb179b5434f2e884d3318ea3cc994d15b1c345465c92da5",
+      "role": "local mod style/proportion reference; identity remains Vertin"
+    },
+    {
+      "character": "Zima",
+      "direction": "south",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Zima_south.png",
+      "local": "references/Zima_south.png",
+      "sha256": "028c53c9be02dcb00d156cdf5244549fd1e50455478b1ba9445d13b0512aa3c8",
+      "role": "local mod style/proportion reference; identity remains Vertin"
+    },
+    {
+      "character": "Zima",
+      "direction": "east",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Zima_east.png",
+      "local": "references/Zima_east.png",
+      "sha256": "ae830d816be8e52932c27641dc2fc2cb7115ceee682bbce5031b7ecbb75beed6",
+      "role": "local mod style/proportion reference; identity remains Vertin"
+    },
+    {
+      "character": "Zima",
+      "direction": "north",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Zima_north.png",
+      "local": "references/Zima_north.png",
+      "sha256": "50d6d4c7e8b5284ef5bf70222bc673932aaf1eedd7fa62a71b5c56d121274464",
+      "role": "local mod style/proportion reference; identity remains Vertin"
+    },
+    {
+      "character": "Silence",
+      "direction": "south",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Medic\\Silence_south.png",
+      "local": "references/Silence_south.png",
+      "sha256": "c47618cf6e557090fa0f559f7cb9b490deb346135b4b5ccce6f9716bd6ab1eed",
+      "role": "local mod style/proportion reference; identity remains Vertin"
+    },
+    {
+      "character": "Silence",
+      "direction": "east",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Medic\\Silence_east.png",
+      "local": "references/Silence_east.png",
+      "sha256": "928b4f89a5ac514f711d3f46f6b8837d12416c9326805b5be80d906dd1a78caf",
+      "role": "local mod style/proportion reference; identity remains Vertin"
+    },
+    {
+      "character": "Silence",
+      "direction": "north",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Medic\\Silence_north.png",
+      "local": "references/Silence_north.png",
+      "sha256": "bd9c5743bdc249ff774859582f463e429f62d7e60d097b9c05deac4e5dfccd33",
+      "role": "local mod style/proportion reference; identity remains Vertin"
+    },
+    {
+      "character": "Kaltsit",
+      "direction": "south",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Medic\\Kaltsit_south.png",
+      "local": "references/Kaltsit_south.png",
+      "sha256": "06740fb5830c44c53d397ba6e1ebc86ecc058f857e9f83818ad42de54f864c1e",
+      "role": "local mod style/proportion reference; identity remains Vertin"
+    },
+    {
+      "character": "Kaltsit",
+      "direction": "east",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Medic\\Kaltsit_east.png",
+      "local": "references/Kaltsit_east.png",
+      "sha256": "161f96c9014e457f1c310e6011a7a7d069f11ebf74236bc2008fbd5490d387c5",
+      "role": "local mod style/proportion reference; identity remains Vertin"
+    },
+    {
+      "character": "Kaltsit",
+      "direction": "north",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Medic\\Kaltsit_north.png",
+      "local": "references/Kaltsit_north.png",
+      "sha256": "aa5befc496caa8661037c320955ad59d595fc03f333e09da1f0471c7962f0545",
+      "role": "local mod style/proportion reference; identity remains Vertin"
+    },
+    {
+      "character": "Thorns",
+      "direction": "south",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Guard\\Thorns_south.png",
+      "local": "references/Thorns_south.png",
+      "sha256": "ae9bf10692a05a80c88df564d3c16e14bfe8edfe37d2e0b46b73c98ab64c292b",
+      "role": "local mod style/proportion reference; identity remains Vertin"
+    },
+    {
+      "character": "Thorns",
+      "direction": "east",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Guard\\Thorns_east.png",
+      "local": "references/Thorns_east.png",
+      "sha256": "486771148607ea371f968ccaf40a2346c7601c5ce0bc3924b3ca0449e1e108b9",
+      "role": "local mod style/proportion reference; identity remains Vertin"
+    },
+    {
+      "character": "Thorns",
+      "direction": "north",
+      "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Guard\\Thorns_north.png",
+      "local": "references/Thorns_north.png",
+      "sha256": "871a21a4a75c7c393238ead7e52a9bc9c47c6adb89fd9e6e5336a2d44147d023",
+      "role": "local mod style/proportion reference; identity remains Vertin"
+    }
+  ],
+  "comparison": "identical canvas coordinates and pixel scale; no per-character fitting",
+  "previous_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v8_pawn_eyes",
+  "earlier_face_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v5_original_hairstyle",
+  "revision_goal": "Brow-only expression adjustment: flatter softer brows and relaxed inner ends, guided by the user portrait. Preserve approved v8 eyes/nose/mouth/chin.",
+  "generated_revision": "v9_soft_brows",
+  "expression_reference": {
+    "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\Ombrophobia\\data_infrastructure\\图片\\维尔汀.webp",
+    "local": "references/vertin_user_portrait.webp",
+    "sha256": "ab85d5206086fc9d38f42a031aa343381df2c901ed1bfab115b0a5c0e7f10314",
+    "crop": [
+      960,
+      280,
+      1330,
+      610
+    ],
+    "crop_file": "references/portrait_expression_crop.png",
+    "role": "expression only; do not copy realistic eye rendering or pose"
+  }
+}

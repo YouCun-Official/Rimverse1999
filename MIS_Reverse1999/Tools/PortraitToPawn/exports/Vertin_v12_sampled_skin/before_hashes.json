@@ -1,0 +1,11 @@
+{
+  "Textures/Things/Hair/R99/Vertin_east.png": "6b6964f3005b0ffe9aa39636c9b9b487df0b2c52a22e729b74f42cc4beefff6b",
+  "Textures/Things/Hair/R99/Vertin_north.png": "b5dc1d5060a0a73ebb43df58dbf8c6c429116b99833636cbcad4dc3afbec3acd",
+  "Textures/Things/Hair/R99/Vertin_south.png": "191ebafb43a58f3a468d9aa7cf6fa58ca03be2d98eb1d1b462d9f930c226589b",
+  "Textures/Things/R99_Agents/Arcanist/Vertin.png": "d12802758d07b58e8681449101af7383f5c25ed127334cc0624c4ed7bc42f9db",
+  "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_east.png": "d4780b9360a535c7668df19ac3f5836241dc87b1d662194cb565df8e0a6cae92",
+  "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_north.png": "917490eef61b66664bc25045cd31533d5600f97f22126a7fc5430a06a56ac90c",
+  "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_south.png": "d12802758d07b58e8681449101af7383f5c25ed127334cc0624c4ed7bc42f9db",
+  "Textures/UI/Element/R99_Arcanist.png": "da2075932d0cc0d4f99f62af9606c3c63c712801233f37dc6d77fa6a151c0c38",
+  "Textures/UI/Element/R99_Reverse1999.png": "69e704e49e63d0620943ba461cd09816f9e52f6da6e33177412c342153e25cf2"
+}

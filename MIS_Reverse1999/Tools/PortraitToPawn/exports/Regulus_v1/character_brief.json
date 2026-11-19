@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-08",
+  "character": "Regulus",
+  "display_name": "星锑",
+  "task": "Create six head/body directional textures and a matching front-body item image in paths parallel to Vertin.",
+  "primary_reference": "references/primary_local.png",
+  "primary_original_path": "C:/Users/29232/Desktop/Lannuosprojects/Ombrophobia/data_infrastructure/图片/星锑.png",
+  "reference_priority": "Local original defines outfit and expression. Web images only corroborate the same default outfit and bag/accessory construction; no alternate garment or smiling expression substitution.",
+  "expression": {
+    "observed": "Opaque sunglasses over the eyes; visible closed mouth with a small downward turn/slight pout; composed, cool, faintly stubborn rather than broadly cheerful.",
+    "keep": ["sunglasses worn over eyes", "small visible nose", "closed slightly downturned mouth", "upright head", "compact short chin"],
+    "avoid": ["invented visible pupils through dark lenses", "happy grin", "open laugh", "crying", "deep angry eyebrows"]
+  },
+  "head": {
+    "hair": "Sandy light-brown layered chin-to-nape bob, lightly flicked ends, short swept bangs.",
+    "hat": "Off-white soft sailor/newsboy cap, black short visor, brick-red piping and side buttons, red-bordered dark heart badge on the front panel slightly toward character left.",
+    "glasses": "Large black rounded rectangular opaque dark-brown/near-black sunglasses with a distinct bridge; subdued flat lens accent only.",
+    "facial_identity_marks": "No obvious characteristic freckles, scars or burns in the local portrait; conditional facial-mark rule skipped.",
+    "head_body_partition": "Scarf belongs to the body; head contains no shoulders, scarf or torso."
+  },
+  "outfit": {
+    "jacket": "Rust-orange short open bomber with cream paired edge stripes, dark buttons on character right front; original complete sleeves/hands omitted per pawn convention, only short shoulder caps remain.",
+    "dress": "Loose deep navy A-line short dress, simple drape, narrow pale lilac hem stripe. No forced cinched waist or pants conversion.",
+    "scarf": "Blue-violet with large sparse cream polka dots, tied toward character left at the front neck; one front tail, one short lateral end.",
+    "legs": "Compact exposed knees/lower thighs, rust-orange tall socks, near-black boots with cream folded cuffs/bands and small bows. Feet turn downward and gather inward.",
+    "bag": "Original dark grey/navy record backpack carried from character left shoulder, lying behind left back/hip, with orange trim/handles, a few pale record sleeves, cream straps/buckles, orange peace-hand pin edged turquoise, a small silver star pendant and turquoise charm.",
+    "omitted": ["complete arms and hands", "long puffy sleeves", "floating APPLe companion", "unreferenced tactical gear"]
+  },
+  "physical_side_map": {
+    "front": "Character left is viewer right: scarf knot/lateral end, visible shoulder strap/pin and partial bag. Front heart badge is slightly viewer right.",
+    "east": "True right-facing profile exposes character left side. Bag lies behind body toward screen left; near shoulder pin/strap and visible scarf detail remain. Do not put bag in front of chest.",
+    "back": "Character left is viewer left: bag/strap/charms. No repeated front buttons, front scarf tail, peace pin or heart badge on the back panels unless actually visible around the side."
+  },
+  "dimension_rule": {
+    "young_female": true,
+    "relatively_fitted_clothing": false,
+    "strict_vertin_conditional_baseline_applies": false,
+    "reason": "The user local outfit is a loose cropped jacket over a loose A-line dress. Garment outline and drape take priority.",
+    "scale_reference": "Use the existing Vertin v13 and suitable Arknights pawn heads/bodies at the same native pixel scale to calibrate compact head/face size, neck join and overall height; do not impose Vertin's fitted waist/hip curve.",
+    "body_type": "Thin",
+    "body_type_note": "Asset naming/render-target choice consistent with the existing project's single pawn body family; not a requirement to draw a tight narrow waist."
+  },
+  "format": {
+    "canvas": [256, 256],
+    "mode": "RGBA",
+    "background": "transparent",
+    "directions": ["south", "east", "north"],
+    "head_rotation_degrees": 0,
+    "head_preview_offset_initial": [0, -65],
+    "side_body_pose": "Continuous mildly forward diagonal with coherent thickness; knees/boots continue down the line. Garment and bag follow their own cloth/construction contours without an abrupt > shaped waist.",
+    "head_relative_prefix": "Textures/Things/Hair/R99/Regulus",
+    "body_relative_prefix": "Textures/Things/R99_Agents/Arcanist/Regulus_Thin",
+    "item_relative_path": "Textures/Things/R99_Agents/Arcanist/Regulus.png"
+  },
+  "reconstructed_areas": [
+    "Exact orthographic profile/rear hair and cap shape inferred from the local front portrait.",
+    "Rear jacket seam, dress folds and scarf wrap inferred conservatively; no front ornaments copied to the back.",
+    "Bag's panels and contents corroborated by original single-item web images; placement and visible side/back occlusion reconstructed from its character-left carry position."
+  ],
+  "game_tested": false
+}

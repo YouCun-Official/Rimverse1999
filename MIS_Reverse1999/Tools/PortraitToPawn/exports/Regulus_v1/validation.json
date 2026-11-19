@@ -1,0 +1,193 @@
+{
+  "date": "2026-11-08",
+  "character": "Regulus",
+  "checks": {
+    "Textures/Things/Hair/R99/Regulus_east.png": {
+      "sha256": "387b2ceb9ac0e89c364d78fd59a7870b0e35eb00c1eddeabe53ad4af8454448b",
+      "mode": "RGBA",
+      "size": [
+        256,
+        256
+      ],
+      "solid_bbox": [
+        77,
+        75,
+        175,
+        180
+      ],
+      "alpha_bbox": [
+        76,
+        74,
+        175,
+        180
+      ],
+      "transparent_canvas_edges": true
+    },
+    "Textures/Things/Hair/R99/Regulus_north.png": {
+      "sha256": "20b11d6e416804b2930e5aa6521c2c179a3a2f9149f17617f48cf2d4df5edd75",
+      "mode": "RGBA",
+      "size": [
+        256,
+        256
+      ],
+      "solid_bbox": [
+        83,
+        75,
+        173,
+        179
+      ],
+      "alpha_bbox": [
+        82,
+        74,
+        174,
+        180
+      ],
+      "transparent_canvas_edges": true
+    },
+    "Textures/Things/Hair/R99/Regulus_south.png": {
+      "sha256": "89bade225614e4e6699038f6815c7523458c8110320861dd9dcdb76d39c9ae8d",
+      "mode": "RGBA",
+      "size": [
+        256,
+        256
+      ],
+      "solid_bbox": [
+        83,
+        75,
+        173,
+        179
+      ],
+      "alpha_bbox": [
+        82,
+        74,
+        174,
+        180
+      ],
+      "transparent_canvas_edges": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Regulus.png": {
+      "sha256": "c33add115cadacea5ecf4acb58de25c4a11d43d9f786bda0f3d82ea36fcf9971",
+      "mode": "RGBA",
+      "size": [
+        256,
+        256
+      ],
+      "solid_bbox": [
+        84,
+        90,
+        184,
+        252
+      ],
+      "alpha_bbox": [
+        83,
+        89,
+        185,
+        253
+      ],
+      "transparent_canvas_edges": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Regulus_Thin_east.png": {
+      "sha256": "6a1010e3465cae66e239fb305b1a25a87a61d877e0ed8c95fab30c0ba7847513",
+      "mode": "RGBA",
+      "size": [
+        256,
+        256
+      ],
+      "solid_bbox": [
+        81,
+        90,
+        172,
+        252
+      ],
+      "alpha_bbox": [
+        80,
+        89,
+        173,
+        253
+      ],
+      "transparent_canvas_edges": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Regulus_Thin_north.png": {
+      "sha256": "f2e1dc12bd67283556a95c25a797bfbb1f7fad8ce54e4bc8657b05e36fb9e692",
+      "mode": "RGBA",
+      "size": [
+        256,
+        256
+      ],
+      "solid_bbox": [
+        71,
+        90,
+        171,
+        252
+      ],
+      "alpha_bbox": [
+        70,
+        89,
+        172,
+        253
+      ],
+      "transparent_canvas_edges": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Regulus_Thin_south.png": {
+      "sha256": "c33add115cadacea5ecf4acb58de25c4a11d43d9f786bda0f3d82ea36fcf9971",
+      "mode": "RGBA",
+      "size": [
+        256,
+        256
+      ],
+      "solid_bbox": [
+        84,
+        90,
+        184,
+        252
+      ],
+      "alpha_bbox": [
+        83,
+        89,
+        185,
+        253
+      ],
+      "transparent_canvas_edges": true
+    }
+  },
+  "seven_assets": true,
+  "item_is_byte_identical_front_body": true,
+  "format_reproduction_passed": true,
+  "existing_textures_and_vertin_record_unchanged": true,
+  "head_rotation_degrees": 0,
+  "preview_head_offset": [
+    0,
+    -65
+  ],
+  "visual_review": {
+    "date": "2026-11-08",
+    "status": "passed",
+    "review_type": "visual inspection of actual formatted sprites, not a game screenshot",
+    "inspected": [
+      "heads_three_views.png",
+      "bodies_three_views.png",
+      "three_views_final.png",
+      "character_style_comparison.png",
+      "native_and_reduced.png",
+      "expression_reference.png",
+      "alignment_guides.png"
+    ],
+    "findings": {
+      "expression": "Matches the local portrait's opaque glasses, small nose and restrained slightly downturned closed mouth. No invented visible iris or cheerful grin.",
+      "identity": "Cap/heart, sandy bob, glasses, original orange jacket, polka-dot scarf, navy dress, orange socks, cuff bows and original bag/charm colors remain recognizable at native size.",
+      "proportions": "Same pixel-scale comparison with Vertin and Arknights references; small face and bold contour. Garment-first A-line silhouette, without imposing fitted waist proportions.",
+      "views": "True right profile and rear; upright head. Body inclines continuously, gathered compact side foot; no complete arms/hands. Bag follows character-left carry position across views.",
+      "occlusion": "Front scarf lateral end remains partly visible beyond bob; rear hidden neck accessories are not drawn through hair. Back has no front heart/visor or front coat buttons.",
+      "direction_consistency_corrections": "Removed the wrong-side jacket buttons and horizontal side toe; corrected back cap band; moved front scarf flap outward for composite visibility.",
+      "edges": "Clean transparent padding and distinct outside outline on checker and solid backgrounds; no observed clipping or loose glow in formatted images.",
+      "face_marks": "No obvious characteristic freckles/scars/burns in the local portrait; no added markings."
+    },
+    "limitations": [
+      "Profile/rear structures partly reconstructed from the local front portrait and corroborating item images.",
+      "No in-game validation; preview head offset is (0,-65) and is not a universal engine configuration."
+    ],
+    "preservation_claim": "Local generative edits were visually compared. They are not claimed to preserve all non-target pixels byte-for-byte."
+  },
+  "game_tested": false,
+  "export_bundle_reproduction_passed": true
+}

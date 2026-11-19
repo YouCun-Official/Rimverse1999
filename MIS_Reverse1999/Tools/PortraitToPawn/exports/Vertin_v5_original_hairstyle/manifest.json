@@ -1,0 +1,27 @@
+{
+  "character": "Vertin",
+  "revision": "v5_original_hairstyle",
+  "head_source": "built-in image_gen edits from multi-image hairstyle evidence",
+  "body_source_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v4_side_and_outline",
+  "textures": {
+    "Textures/Things/Hair/R99/Vertin_east.png": "53ef1913bdbb4bc1113190a1be6728e09c76eb0a7e8a602f96bab1de02d8cefb",
+    "Textures/Things/Hair/R99/Vertin_north.png": "b5dc1d5060a0a73ebb43df58dbf8c6c429116b99833636cbcad4dc3afbec3acd",
+    "Textures/Things/Hair/R99/Vertin_south.png": "d87e63b9101290042ad691416494590bc865bd56272a591309dbfc6c45453b49",
+    "Textures/Things/R99_Agents/Arcanist/Vertin.png": "49163822bfdf4e2a4b6e874c8c51d0c2c079b6447f25ebf490bfdcbe6a14957c",
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_east.png": "d4780b9360a535c7668df19ac3f5836241dc87b1d662194cb565df8e0a6cae92",
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_north.png": "af2475c5769648d51ac98fae53820aaa0e411e4626a5cbadc1e414f9d8735713",
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_south.png": "49163822bfdf4e2a4b6e874c8c51d0c2c079b6447f25ebf490bfdcbe6a14957c"
+  },
+  "source_art": {
+    "source_art/body_east.png": "7b248485112ed3b15933c6b5d552b780021681fbf06877a9c227bb6b056f8eef",
+    "source_art/body_north.png": "fd58926f817fd0fe6d5d2738948e340cf4dce70eafb4f78d83e280cc2974127c",
+    "source_art/body_south.png": "bd7c84845a61cb13ae32b60f384682cb2b2143cccdce3728bfbe0b1e7861c6e7",
+    "source_art/head_east.png": "0a754e64af6a5ea5c749832ffe01b7eebd7759e6a207c39e018c6f2488d3b3b8",
+    "source_art/head_north.png": "28b9c334f24ce7da38fa00cab609edd19864eafa8de4d5124ee401cd7910e0cb",
+    "source_art/head_south.png": "f40a4f2b80384f0a8ead4eec1baab4e205840e0a600dc54941a405ad8bc40263"
+  },
+  "reference_manifest": "references/sources.json",
+  "prompt_set": "imagegen_prompts.json",
+  "recipe": "recipe.json",
+  "canonical_constraints": "角色三视图制作规范.txt"
+}

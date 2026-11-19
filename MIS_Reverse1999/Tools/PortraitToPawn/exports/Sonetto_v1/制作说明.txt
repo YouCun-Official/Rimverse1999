@@ -1,0 +1,43 @@
+十四行诗 Sonetto v1
+日期：2026-11-08
+
+内容
+头部与躯干各 south/east/north 三向，共六张透明 256×256 RGBA PNG；另附 Sonetto.png，与正面躯干逐字节相同。
+头部：Textures/Things/Hair/R99/Sonetto_{south,east,north}.png
+躯干：Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_{south,east,north}.png
+物品：Textures/Things/R99_Agents/Arcanist/Sonetto.png
+上述路径既在版本包内保留，也安装到 MIS_Reverse1999 同名路径，与 Vertin 同级。
+
+依据与生成
+主参考为用户本地“十四行诗.png”，网络初始立绘仅辅助核对。身份、配色、瞳色、眉眼和微张嘴来自本地立绘。
+用内置 image_gen 分别绘制六个部件，并针对发束、背面配件、侧面短鞋、腿部厚度及长发遮挡做局部修订。
+保持认真、平静、略带疑问的神态，不改为笑脸或怒容。未发现明显固定面部伤痕或雀斑，不额外添加。
+发型保留长卷发、格纹发带、两处小束发、人物左侧短辫及金夹。正面两侧长发让出披肩扣饰；侧发向后落，使金色纹样可读。
+服装保留高领、黑色系带、小金扣、深灰披肩、金色图案、珊瑚与格纹内衬、白色裙摆、右腿黑蝴蝶结和左腿灰扣带。无完整双臂、手和持笔。
+躯干合体部位参考固定 Vertin v13 尺寸；披肩和裙摆按宽松衣物的原有线条处理。
+侧面头部直立，躯干与下肢连续前倾，短鞋随腿走线；脚踝横向校准已记录为逐行缩放，未复制旧角色的变形参数。
+
+流程与复现
+source_art/：最终六张生成原稿。
+generation_archive/：各轮原始生成结果；imagegen_prompts.json：完整提示词与选择记录。
+references/、character_profile.json、任务输入.txt：主立绘、风格与尺寸参照、配件侧别及推断。
+recipe.json：每张图的变换、面部锚点、外描边、透明处理与逐行几何参数。
+format_assets.py：确定性处理。使用 4 倍采样及预乘透明度缩放；描边只加在外侧，不膨胀五官。
+安装依赖：python -m pip install -r requirements.txt
+在本目录复现：python format_assets.py --recipe recipe.json --out 新的空目录
+此命令从已保存的原稿复现贴图，不重新调用生图模型，也不覆盖已发布版本。
+
+预览与核对
+heads_three_views.png、bodys_three_views.png：六张分件。
+three_views_final.png：完整人物三视图。
+head_style_comparison.png、body_style_comparison.png、pawn_style_comparison.png：与 Vertin v13、Texas、Silence 的同倍率比较。
+expression_reference_comparison.png：原立绘与正侧面表情。
+native_and_reduced.png：原尺寸及 50% 缩小检查。
+alignment_guides.png、measurements.json：同原生倍率参考线与着衣截面。披肩/裙摆/衣片不作为隐藏人体截面的精确测量。
+所有合成使用头部相对躯干 (0,-65) 的静态预览约定；不是经过游戏验证的偏移配置。
+
+状态与边界
+已检查六图风格、左右配件、透明边缘、原生尺寸、缩小效果，并验证配方复现。
+安装文件与版本包的哈希核对见 installation_receipt.json。此前已有的角色贴图与角色记录保持不变。
+人物侧背的不可见结构依据原设合理补全，不声称来自官方三视图。
+本次仅添加素材及其记录，未建立角色 XML/招募定义；游戏内显示未验证，用户视觉确认待反馈。

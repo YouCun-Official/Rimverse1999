@@ -1,0 +1,80 @@
+{
+  "south": {
+    "112": {
+      "x0": 86,
+      "x1": 170,
+      "width": 84,
+      "layer": "visible clothing silhouette"
+    },
+    "145": {
+      "x0": 86,
+      "x1": 168,
+      "width": 82,
+      "layer": "visible clothing silhouette"
+    },
+    "185": {
+      "x0": 81,
+      "x1": 175,
+      "width": 94,
+      "layer": "visible clothing silhouette"
+    },
+    "220": {
+      "x0": 83,
+      "x1": 173,
+      "width": 90,
+      "layer": "visible clothing silhouette"
+    }
+  },
+  "east": {
+    "112": {
+      "x0": 107,
+      "x1": 163,
+      "width": 56,
+      "layer": "visible clothing silhouette"
+    },
+    "145": {
+      "x0": 96,
+      "x1": 166,
+      "width": 70,
+      "layer": "visible clothing silhouette"
+    },
+    "185": {
+      "x0": 82,
+      "x1": 160,
+      "width": 78,
+      "layer": "visible clothing silhouette"
+    },
+    "220": {
+      "x0": 75,
+      "x1": 140,
+      "width": 65,
+      "layer": "visible clothing silhouette"
+    }
+  },
+  "north": {
+    "112": {
+      "x0": 89,
+      "x1": 169,
+      "width": 80,
+      "layer": "visible clothing silhouette"
+    },
+    "145": {
+      "x0": 90,
+      "x1": 167,
+      "width": 77,
+      "layer": "visible clothing silhouette"
+    },
+    "185": {
+      "x0": 81,
+      "x1": 175,
+      "width": 94,
+      "layer": "visible clothing silhouette"
+    },
+    "220": {
+      "x0": 81,
+      "x1": 174,
+      "width": 93,
+      "layer": "visible clothing silhouette"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "primary": {
+    "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\Ombrophobia\\data_infrastructure\\图片\\红弩箭.png",
+    "local_copy": "references/lilya_primary.png",
+    "sha256": "9d45244d6f3489ee87c13d5d113f25897dfa24ff82f361b58baba51a4cad1680",
+    "role": "Identity, clothing, colors and expression; primary authority"
+  },
+  "online_auxiliary": [
+    {
+      "url": "https://wiki.biligame.com/reverse1999/%E7%BA%A2%E5%BC%A9%E7%AE%AD",
+      "accessed": "2026-11-08",
+      "use": "Confirm English name Lilya and distinguish initial aviation outfit from alternate outfits; local portrait remains the visual authority."
+    }
+  ],
+  "style_references": {
+    "Bagpipe_body_east.png": "8d3714a28f8979c1c194579ea09fd04206f492fa5bd0512bb4d9017606349ede",
+    "Bagpipe_body_north.png": "eb2017a7acaa0a8fd0e971e172026903b296b54eb70cd29b97e71b12897a1281",
+    "Bagpipe_body_south.png": "d61f627892559bcb5c58fc769e67b194c37d00fb9a150e1138435b053a8670ee",
+    "Bagpipe_head_east.png": "3d441cba86b15bea5031f4abee403046a9b4ee12c0a6ae1ebd411051792d91c9",
+    "Bagpipe_head_north.png": "b18b533e4c00a6a9fb7b6cbf629d4252a889c3723469df374ba27d50075c8e7f",
+    "Bagpipe_head_south.png": "1375da1950cbca97aa44e0289d10a84d7831c2c41468d36d3d0cfbbe6f14e4d4",
+    "body_style_board.png": "fab285140af6db778b019d6f423861ecc94a00d2cfc5b9e9ee354d4fc97608a8",
+    "head_style_board.png": "5df6ef106656c73d2c8a341cfde163cb4c4033c526530c83426572cf84581fbe",
+    "Schwarz_body_east.png": "22742abce7ca29326f18a370bb87ba9006a02a5bb75b45526f2ffd8fb68987a9",
+    "Schwarz_body_north.png": "ebde49e619d5caacc10f043e74607b63f5805d24e3763d58fdb5eb4420a2967e",
+    "Schwarz_body_south.png": "d7053bc0a6f4b62ede63f9b95be364a5a9ba514f8fd0a427cc53d4fc68fa43d3",
+    "Schwarz_head_east.png": "35c34f016b71c0d7275a59d96981e0931126f123e60e5ab0afcbe325f60036e8",
+    "Schwarz_head_north.png": "a65395ba6d424c99bc54e8eb630ca2f8dffaf0caa1f79a0a95f5b2ec39ecf117",
+    "Schwarz_head_south.png": "a42ac3f64f3788b70dcf9e9bba3f7160e6b348274c6df17ce64cafdd3ee1f29d",
+    "Texas_body_east.png": "d2f6833733c1a75913082c98c140e78c51bf9d2f939412c34a624bed6ba14693",
+    "Texas_body_north.png": "b6aaff58dc90d1057c55698736f7a67c898a461fd7df5c7785db0adcd019becf",
+    "Texas_body_south.png": "c15f16e531b46c2a6344ba23e78fe6d3abf9b044116e750bc8f76f7b6a60307e",
+    "Texas_head_east.png": "fb51d064091ef4f5ac6f7197e6eb72c91fba6a700b24c4b1a1936f57131cbbfb",
+    "Texas_head_north.png": "30fc62f47c29d9f91eb179b5434f2e884d3318ea3cc994d15b1c345465c92da5",
+    "Texas_head_south.png": "264239c05a87a9c15b3cc439757d2ddacee495b4f1738d995002417700fc5ee1",
+    "Vertin_body_east.png": "d4780b9360a535c7668df19ac3f5836241dc87b1d662194cb565df8e0a6cae92",
+    "Vertin_body_north.png": "917490eef61b66664bc25045cd31533d5600f97f22126a7fc5430a06a56ac90c",
+    "Vertin_body_south.png": "d12802758d07b58e8681449101af7383f5c25ed127334cc0624c4ed7bc42f9db",
+    "Vertin_head_east.png": "0fba21b56edd8d13b3e9b4864fe1dacc1e8aa09a0524c87a4691b6f198c511c8",
+    "Vertin_head_north.png": "b73b76a4259ea05eced26dfc832991b613a42d8225d2991d4c1046646a8acffe",
+    "Vertin_head_south.png": "38313803bfbebcf626c201451bb46d09168be40b245ee38496632e953b11044a",
+    "Zima_body_east.png": "6507266c8bb5b04224b275dbb0c3a85847c84ad4e703149972ec91d5472c86f8",
+    "Zima_body_north.png": "c9aedb52c3b57f0e3edaf6534a491a6f29f19fd088c1a53358bf1391dbcd066d",
+    "Zima_body_south.png": "756c456e31baedacd2d638ecafa09ee74d29a1d742558f28bdd30d1a7d4a851e",
+    "Zima_head_east.png": "ae830d816be8e52932c27641dc2fc2cb7115ceee682bbce5031b7ecbb75beed6",
+    "Zima_head_north.png": "50d6d4c7e8b5284ef5bf70222bc673932aaf1eedd7fa62a71b5c56d121274464",
+    "Zima_head_south.png": "028c53c9be02dcb00d156cdf5244549fd1e50455478b1ba9445d13b0512aa3c8"
+  },
+  "notes": "No downloaded alternate outfit overrides local reference. Rear/hidden portions are labeled in character_brief.json."
+}

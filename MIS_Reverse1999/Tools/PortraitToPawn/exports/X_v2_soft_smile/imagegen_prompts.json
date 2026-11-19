@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-08",
+  "mode": "built-in image_gen",
+  "previous_prompt_set": "imagegen_prompts_v1.json",
+  "jobs": [
+    {
+      "part": "head_south",
+      "prompt": "Use case: precise-object-edit. Edit the supplied existing transparent RimWorld pawn head of X. This is a tiny mouth-expression correction, not a new head design.\nChange ONLY the mouth from the current wide open pink laugh to a restrained CLOSED-LIP smile: a short, thin, softly curved natural lip line with just a slight lift at the corner. No mouth opening, no teeth, no tongue, no pink mouth cavity, no broad grin, no smirk. Keep the overall expression gently happy and friendly through the already relaxed eyes and eyebrows. At the final pawn texture scale, the smile must read as a tiny subtle line, not a thick dark bar.\nPreserve all other details as closely as possible: same head orientation, exact hair silhouette and forelocks, smoky grey-lavender color, eyebrows, eye size and spacing and iris colors, nose mark/profile, skin tone, ear, short chin, heavy outer contour, thinner internal lines, compact proportions. Do not tilt, rotate, translate or enlarge the head; keep the entire head at the same position and scale in the canvas. No additional shading or details. Head only; genuinely transparent RGBA background.\nThis is the FRONT head. Keep heterochromia: viewer-left golden iris with dark surround, viewer-right blue iris. Replace the open smiling mouth with a very small symmetric closed-lip smile at the same mouth center. Preserve the tiny visible nose and all features above it.",
+      "referenced_image_paths": [
+        "C:/Users/29232/Desktop/Lannuosprojects/MIS_Lannuosproject/MIS_Reverse1999/Tools/PortraitToPawn/exports/X_v1/source_art/head_south.png"
+      ],
+      "transparent_background": true,
+      "generated_source": "C:/Users/29232/.codex/generated_images/01a1aef2-3ca6-7473-a5cd-221d3e1ac209/exec-ec26ec57-01f0-443c-8d22-a484b21389ea.png",
+      "input_archive": "source_art_before/head_south.png"
+    },
+    {
+      "part": "head_east",
+      "prompt": "Use case: precise-object-edit. Edit the supplied existing transparent RimWorld pawn head of X. This is a tiny mouth-expression correction, not a new head design.\nChange ONLY the mouth from the current wide open pink laugh to a restrained CLOSED-LIP smile: a short, thin, softly curved natural lip line with just a slight lift at the corner. No mouth opening, no teeth, no tongue, no pink mouth cavity, no broad grin, no smirk. Keep the overall expression gently happy and friendly through the already relaxed eyes and eyebrows. At the final pawn texture scale, the smile must read as a tiny subtle line, not a thick dark bar.\nPreserve all other details as closely as possible: same head orientation, exact hair silhouette and forelocks, smoky grey-lavender color, eyebrows, eye size and spacing and iris colors, nose mark/profile, skin tone, ear, short chin, heavy outer contour, thinner internal lines, compact proportions. Do not tilt, rotate, translate or enlarge the head; keep the entire head at the same position and scale in the canvas. No additional shading or details. Head only; genuinely transparent RGBA background.\nThis is the TRUE RIGHT-FACING profile. Keep only the visible BLUE eye. Replace the open pink mouth with a very short restrained closed smile line at the existing lips; return the mouth opening area to matching flat skin. Preserve the distinct small nose and short chin, with natural slight nose-lip-chin profile. Remain upright. The head's later forward positioning is handled separately; do not change its location in this image.",
+      "referenced_image_paths": [
+        "C:/Users/29232/Desktop/Lannuosprojects/MIS_Lannuosproject/MIS_Reverse1999/Tools/PortraitToPawn/exports/X_v1/source_art/head_east.png"
+      ],
+      "transparent_background": true,
+      "generated_source": "C:/Users/29232/.codex/generated_images/01a1aef2-3ca6-7473-a5cd-221d3e1ac209/exec-45db1811-3194-4d31-812a-53397885a1cb.png",
+      "input_archive": "source_art_before/head_east.png"
+    }
+  ],
+  "notes": "Mouth-only artistic edits; 4px east forward placement is a deterministic recipe adjustment, not a requested generative movement."
+}

@@ -1,0 +1,128 @@
+{
+  "checks": {
+    "Textures/Things/Hair/R99/Vertin_east.png": {
+      "sha256": "53ef1913bdbb4bc1113190a1be6728e09c76eb0a7e8a602f96bab1de02d8cefb",
+      "changed_vs_v4": true,
+      "solid_bbox": [
+        70,
+        79,
+        186,
+        180
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "clear_boundary": true
+    },
+    "Textures/Things/Hair/R99/Vertin_north.png": {
+      "sha256": "b5dc1d5060a0a73ebb43df58dbf8c6c429116b99833636cbcad4dc3afbec3acd",
+      "changed_vs_v4": true,
+      "solid_bbox": [
+        64,
+        83,
+        180,
+        176
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "clear_boundary": true
+    },
+    "Textures/Things/Hair/R99/Vertin_south.png": {
+      "sha256": "d87e63b9101290042ad691416494590bc865bd56272a591309dbfc6c45453b49",
+      "changed_vs_v4": true,
+      "solid_bbox": [
+        76,
+        77,
+        190,
+        177
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "clear_boundary": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Vertin.png": {
+      "sha256": "49163822bfdf4e2a4b6e874c8c51d0c2c079b6447f25ebf490bfdcbe6a14957c",
+      "changed_vs_v4": false,
+      "solid_bbox": [
+        86,
+        90,
+        170,
+        253
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "clear_boundary": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_east.png": {
+      "sha256": "d4780b9360a535c7668df19ac3f5836241dc87b1d662194cb565df8e0a6cae92",
+      "changed_vs_v4": false,
+      "solid_bbox": [
+        72,
+        89,
+        158,
+        252
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "clear_boundary": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_north.png": {
+      "sha256": "af2475c5769648d51ac98fae53820aaa0e411e4626a5cbadc1e414f9d8735713",
+      "changed_vs_v4": false,
+      "solid_bbox": [
+        86,
+        90,
+        170,
+        252
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "clear_boundary": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_south.png": {
+      "sha256": "49163822bfdf4e2a4b6e874c8c51d0c2c079b6447f25ebf490bfdcbe6a14957c",
+      "changed_vs_v4": false,
+      "solid_bbox": [
+        86,
+        90,
+        170,
+        253
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "clear_boundary": true
+    }
+  },
+  "only_three_heads_changed": true,
+  "body_and_item_unchanged": true,
+  "head_rotation_degrees": 0,
+  "preview_head_offset": [
+    0,
+    -65
+  ],
+  "game_tested": false,
+  "visual_review": "Passed: front/back single-bun side correspondence; far-side bun occlusion in east; six-direction assembled and native/reduced views inspected; heavy outer contours and clean attachment preserved.",
+  "reproduction_hashes_match": true,
+  "reference_count": 5,
+  "rear_hair_note": "Gathering pattern is an informed reconstruction from side/cinematic details, not a supplied orthographic back sheet."
+}

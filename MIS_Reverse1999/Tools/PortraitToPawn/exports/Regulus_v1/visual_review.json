@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-08",
+  "status": "passed",
+  "review_type": "visual inspection of actual formatted sprites, not a game screenshot",
+  "inspected": [
+    "heads_three_views.png",
+    "bodies_three_views.png",
+    "three_views_final.png",
+    "character_style_comparison.png",
+    "native_and_reduced.png",
+    "expression_reference.png",
+    "alignment_guides.png"
+  ],
+  "findings": {
+    "expression": "Matches the local portrait's opaque glasses, small nose and restrained slightly downturned closed mouth. No invented visible iris or cheerful grin.",
+    "identity": "Cap/heart, sandy bob, glasses, original orange jacket, polka-dot scarf, navy dress, orange socks, cuff bows and original bag/charm colors remain recognizable at native size.",
+    "proportions": "Same pixel-scale comparison with Vertin and Arknights references; small face and bold contour. Garment-first A-line silhouette, without imposing fitted waist proportions.",
+    "views": "True right profile and rear; upright head. Body inclines continuously, gathered compact side foot; no complete arms/hands. Bag follows character-left carry position across views.",
+    "occlusion": "Front scarf lateral end remains partly visible beyond bob; rear hidden neck accessories are not drawn through hair. Back has no front heart/visor or front coat buttons.",
+    "direction_consistency_corrections": "Removed the wrong-side jacket buttons and horizontal side toe; corrected back cap band; moved front scarf flap outward for composite visibility.",
+    "edges": "Clean transparent padding and distinct outside outline on checker and solid backgrounds; no observed clipping or loose glow in formatted images.",
+    "face_marks": "No obvious characteristic freckles/scars/burns in the local portrait; no added markings."
+  },
+  "limitations": [
+    "Profile/rear structures partly reconstructed from the local front portrait and corroborating item images.",
+    "No in-game validation; preview head offset is (0,-65) and is not a universal engine configuration."
+  ],
+  "preservation_claim": "Local generative edits were visually compared. They are not claimed to preserve all non-target pixels byte-for-byte."
+}

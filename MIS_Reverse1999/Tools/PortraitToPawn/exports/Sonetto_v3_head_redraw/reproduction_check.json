@@ -1,0 +1,28 @@
+{
+  "reproduced_from_packaged_inputs": true,
+  "all_seven_png_hashes_match": true,
+  "head_solid_connected_components": {
+    "south": [
+      9199
+    ],
+    "east": [
+      8402
+    ],
+    "north": [
+      8761
+    ]
+  },
+  "new_head_sources_are_imagegen_art": true,
+  "cancelled_eye_transplant_used": false,
+  "source_art_head_rotation_degrees": 0,
+  "uniform_head_scaling": true,
+  "game_tested": false,
+  "visual_review": [
+    "new front/profile/back consistency",
+    "original portrait hairstyle and expression",
+    "same-pixel-scale old/new comparison",
+    "same-scale accepted other characters and Arknights references",
+    "native and 50% view",
+    "head-body connection with unchanged body"
+  ]
+}

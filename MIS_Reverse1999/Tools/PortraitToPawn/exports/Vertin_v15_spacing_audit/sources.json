@@ -1,0 +1,32 @@
+{
+  "Vertin_v14": {
+    "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Textures\\Things\\Hair\\R99\\Vertin_south.png",
+    "local_copy": "inputs\\Vertin_v14.png",
+    "sha256": "38313803bfbebcf626c201451bb46d09168be40b245ee38496632e953b11044a"
+  },
+  "Vertin_trial": {
+    "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v15_eye_transfer_trial\\trial\\Vertin_south.png",
+    "local_copy": "inputs\\Vertin_trial.png",
+    "sha256": "c220e1b9059cf4aee766a044576c5ccfa13e688a61d888e6daf570eade842a8f"
+  },
+  "Courier": {
+    "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v15_eye_transfer_trial\\inputs\\Courier_south.png",
+    "local_copy": "inputs\\Courier.png",
+    "sha256": "d37b94690e9ac568889fbe9574fb470ca665da7f1df18f2a338b0cebe65f9306"
+  },
+  "Thorns": {
+    "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v15_eye_transfer_trial\\inputs\\Thorns_south.png",
+    "local_copy": "inputs\\Thorns.png",
+    "sha256": "ae9bf10692a05a80c88df564d3c16e14bfe8edfe37d2e0b46b73c98ab64c292b"
+  },
+  "Texas": {
+    "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v15_eye_transfer_trial\\inputs\\Texas_south.png",
+    "local_copy": "inputs\\Texas.png",
+    "sha256": "264239c05a87a9c15b3cc439757d2ddacee495b4f1738d995002417700fc5ee1"
+  },
+  "Zima": {
+    "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v15_eye_transfer_trial\\inputs\\Zima_south.png",
+    "local_copy": "inputs\\Zima.png",
+    "sha256": "028c53c9be02dcb00d156cdf5244549fd1e50455478b1ba9445d13b0512aa3c8"
+  }
+}

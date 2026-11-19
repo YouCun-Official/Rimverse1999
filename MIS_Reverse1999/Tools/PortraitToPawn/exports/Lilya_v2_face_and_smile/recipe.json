@@ -1,0 +1,132 @@
+{
+  "character": "Lilya",
+  "display_name": "红弩箭",
+  "revision": "v2_face_and_smile",
+  "date": "2026-11-08",
+  "canvas": [
+    256,
+    256
+  ],
+  "head_rotation_degrees": 0,
+  "head_offset_preview": [
+    0,
+    -65
+  ],
+  "method": "Built-in image_gen locally edits the profile face and front/profile mouths; deterministic formatting keeps original native placement. Unrelated five PNGs retained byte-identically.",
+  "alpha_cleanup": "alpha below 96 removed, remaining alpha linearly remapped; premultiplied Lanczos resizing; zero RGB when alpha<8",
+  "size_basis": "Reference-pawn face/body scale and common foot baseline; loose outer jacket/long hair calibrated independently. Fitted Vertin size rule does not override loose outer garment contour.",
+  "body_type": "Thin",
+  "reference_manifest": "references/sources.json",
+  "character_brief": "character_brief.json",
+  "assets": {
+    "head_south": {
+      "source": "source_art/head_south.png",
+      "relative_path": "Textures/Things/Hair/R99/Lilya_south.png",
+      "target_solid_bbox": [
+        73,
+        85,
+        183,
+        230
+      ],
+      "outer_ink_px": 0.5
+    },
+    "head_east": {
+      "source": "source_art/head_east.png",
+      "relative_path": "Textures/Things/Hair/R99/Lilya_east.png",
+      "target_solid_bbox": [
+        56,
+        85,
+        174,
+        230
+      ],
+      "outer_ink_px": 0.5
+    },
+    "head_north": {
+      "source": "source_art/head_north.png",
+      "relative_path": "Textures/Things/Hair/R99/Lilya_north.png",
+      "target_solid_bbox": [
+        73,
+        85,
+        183,
+        230
+      ],
+      "outer_ink_px": 0.5,
+      "copy_from": "retained/Textures/Things/Hair/R99/Lilya_north.png",
+      "retained_sha256": "7cc09ab5a79a3c5897e48b991cc280a2433b1b0c6f6c56e72fd2b8348875cffa"
+    },
+    "body_south": {
+      "source": "source_art/body_south.png",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Lilya_Thin_south.png",
+      "target_solid_bbox": [
+        80,
+        90,
+        178,
+        251
+      ],
+      "outer_ink_px": 1.0,
+      "copy_from": "retained/Textures/Things/R99_Agents/Arcanist/Lilya_Thin_south.png",
+      "retained_sha256": "11727c5c347857390bab9775e4386028b0e5e4b78113932de50aee2e3dc4644b"
+    },
+    "body_east": {
+      "source": "source_art/body_east.png",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Lilya_Thin_east.png",
+      "target_solid_bbox": [
+        70,
+        90,
+        158,
+        251
+      ],
+      "outer_ink_px": 1.0,
+      "copy_from": "retained/Textures/Things/R99_Agents/Arcanist/Lilya_Thin_east.png",
+      "retained_sha256": "77bfbd26c663252eaa5ac1b9297138969369e0d0a77a74d1a0466d8aa2b7f495"
+    },
+    "body_north": {
+      "source": "source_art/body_north.png",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Lilya_Thin_north.png",
+      "target_solid_bbox": [
+        80,
+        90,
+        178,
+        251
+      ],
+      "outer_ink_px": 1.0,
+      "copy_from": "retained/Textures/Things/R99_Agents/Arcanist/Lilya_Thin_north.png",
+      "retained_sha256": "03fb8d933a3e5a1f36557dbb8609d5cb72ac11c6b7d2b78251f1d1c75b9ff2a6"
+    }
+  },
+  "item_copy": {
+    "from_asset": "body_south",
+    "relative_path": "Textures/Things/R99_Agents/Arcanist/Lilya.png"
+  },
+  "pose_note": "Source east body already leans as a continuous slash; no inherited Vertin row-warp is applied. Head always unrotated.",
+  "generated_sources": {
+    "head_south": "C:/Users/29232/.codex/generated_images/01a1861f-9a30-7ac2-8cf4-4f87a0509258/exec-d68ecf52-3629-448c-9177-c843501e6ac8.png",
+    "head_east": "C:/Users/29232/.codex/generated_images/01a1861f-9a30-7ac2-8cf4-4f87a0509258/exec-f5b82916-7146-4243-9f18-1ef874267401.png",
+    "head_north": "C:/Users/29232/.codex/generated_images/01a1861f-9a30-7ac2-8cf4-4f87a0509258/exec-6c45c458-2af0-44c5-8ae3-c039d3be1ee7.png",
+    "body_south": "C:/Users/29232/.codex/generated_images/01a1861f-9a30-7ac2-8cf4-4f87a0509258/exec-1d59e59d-b8c9-4043-b0ac-fe76579d0653.png",
+    "body_east": "C:/Users/29232/.codex/generated_images/01a1861f-9a30-7ac2-8cf4-4f87a0509258/exec-7681d92a-5c15-4fff-b2ab-198d737914f9.png",
+    "body_north": "C:/Users/29232/.codex/generated_images/01a1861f-9a30-7ac2-8cf4-4f87a0509258/exec-1790116e-06dc-4157-9058-3f62121caf78.png"
+  },
+  "source_sha256": {
+    "head_south": "28a630dd235209ee12c7a7216aff13d9dc8e31befa2e69d44332ee6c1eb8a0f5",
+    "head_east": "a86bf981e3a95eaf35ade274df08a9e6639ed1a0937929c7b9b5fbd14d07ae08",
+    "head_north": "9ee13f20d2041663ee09a441472633fea42af63801023cc1721e1aeba36c3c51",
+    "body_south": "41c826c1a8b23f0f4043034621451f8e6ff623d8657fc6a7d7d3ea2b65ea1933",
+    "body_east": "7eedf776d8baa1f965116b6425cd672af02be7f0e1c896213c34d740d4c6bfe5",
+    "body_north": "468c2169945387f511ae791f046142b726d7897bbdd9d67a03d125803d4a0013"
+  },
+  "previous_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v1",
+  "changes": {
+    "head_east": "Local visible face/eye aspect and cheek-jaw transition; subtle closed-mouth smile. Cap/goggles and complete head envelope controlled separately.",
+    "head_south": "Closed-mouth subtle smile; retain face proportions and headwear.",
+    "retained": [
+      "head_north",
+      "body_south",
+      "body_east",
+      "body_north",
+      "item"
+    ]
+  },
+  "scale_control": "Three separate checks: exposed face/features; cap/goggles geometry; complete head+hair alpha extent. Whole-head bbox never substitutes for face measurement.",
+  "expression_override": "User explicitly replaces v1 tooth-showing grin with a restrained closed-mouth smile."
+}

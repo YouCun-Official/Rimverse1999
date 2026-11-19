@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- 连体戏服：贴图画的是整个身体（含皮肤），穿上后隐藏原版裸体与头部，脸在发型贴图里 -->
+	<ThingDef Name="R99_ArmorBase" ParentName="ApparelBase" Abstract="True">
+		<smeltable>false</smeltable>
+		<description>神秘学家的专属装束，只会随招募一同出现。</description>
+		<useHitPoints>false</useHitPoints>
+		<techLevel>Undefined</techLevel>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.50</drawSize>
+		</graphicData>
+		<statBases>
+			<Mass>4</Mass>
+			<Flammability>0</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<ArmorRating_Sharp>0.80</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.36</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.27</ArmorRating_Heat>
+			<Insulation_Cold>30</Insulation_Cold>
+			<Insulation_Heat>30</Insulation_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<thingCategories Inherit="false">
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="false">
+			<options>
+				<li>
+					<only>(255,255,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<burnableByRecipe>false</burnableByRecipe>
+		<relicChance>0</relicChance>
+		<tradeability>None</tradeability>
+		<tickerType>Never</tickerType>
+		<generateCommonality>0</generateCommonality>
+		<generateAllowChance>0</generateAllowChance>
+		<randomizeRotationOnSpawn>false</randomizeRotationOnSpawn>
+		<canLoadIntoCaravan>false</canLoadIntoCaravan>
+		<comps>
+			<li Class="CompProperties_Biocodable"/>
+			<!-- 不是在招募时生成的会被立刻销毁：开发者模式直接生成这件衣服会马上消失 -->
+			<li Class="AK_DLL.TCP_RemoveMe"/>
+			<li Class="SFLib.TCP_HideBody">
+				<hideBody>true</hideBody>
+				<hideHead>true</hideHead>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>

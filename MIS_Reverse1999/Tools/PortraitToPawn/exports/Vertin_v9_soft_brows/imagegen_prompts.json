@@ -1,0 +1,27 @@
+{
+  "revision": "v9_soft_brows",
+  "tool": "built-in image_gen",
+  "transparent_background": true,
+  "head_south": {
+    "prompt": "Use case: precise-object-edit.\nEdit INPUT 1, the approved v8 FRONT/south RimWorld pawn head. This is a VERY SMALL EYEBROW-ONLY expression refinement. The user is satisfied with the rest.\nINPUT 2 is a crop of the user's original Vertin portrait, provided ONLY for the relaxed, composed eyebrow expression. Do not copy its tilted pose, narrow realistic eyes, skin rendering or detail density.\n\nChange ONLY the TWO EYEBROWS:\n- Remove the stern inward/downward frown angle: gently lift the inner ends nearest the nose by about 1 native pixel, so the brows sit nearly level with a very shallow natural arch.\n- Make each brow a little slimmer (about 20-25% lighter stroke weight), softly tapered and mildly less dark, keeping the same muted warm grey-brown hue.\n- Relax the outer tails; one short clean line per eyebrow, not heavy diagonal bars.\n- Expression should be calm, approachable and quietly composed, matching the portrait's relaxed brow tension. Not angry, stern, surprised, worried, sad, raised-high in excitement, or exaggeratedly happy. Do not turn the eyebrows into strongly upside-down V worry brows.\n\nSTRICT PRESERVATION:\nKeep the EXACT v8 EYES: same larger compact eye openings, sizes, positions, upper eyelids, grey-green iris color, pupils and glints. DO NOT narrow or redraw the eyes. Do not add eyelid folds.\nKeep the approved nose wedge and mouth/lower-lip marks exactly as drawn; do not add a smile.\nKeep the current small softly tapered chin, cheek widths, face height and face contour; no lengthening, sharpening, rounding or jaw redesign.\nKeep the entire hair, hat, bow, ribbons, ear, bun, colors, silhouettes and overall image framing as close to pixel-identical as possible. Do not alter the original 2D flat game-sprite rendering.\nThe ONLY requested difference is the two softened, nearly level eyebrows. Keep upright front-facing isolated head, real transparent alpha, same canvas/framing and padding, no neck/body/background/text.",
+    "reference_order": [
+      "inputs/head_south_v8.png",
+      "references/portrait_expression_crop.png"
+    ],
+    "generated_original": "C:/Users/29232/.codex/generated_images/01a1861f-9a30-7ac2-8cf4-4f87a0509258/exec-b395552b-0ee8-470b-a6c2-04260e20a598.png"
+  },
+  "head_east": {
+    "prompt": "Use case: precise-object-edit.\nINPUT 1 is the approved v8 RIGHT-facing east profile game head, the edit target.\nINPUT 2 is the newly adjusted front head with relaxed brows, to keep the expression consistent.\nINPUT 3 is the user's portrait expression crop, for calm brow tension ONLY, not for eye shape, realistic rendering or pose.\n\nMake a tiny EYEBROW-ONLY edit to the ONE VISIBLE EYEBROW above the profile eye. Flatten the stern downward slope toward the nose. Gently lift its nose-side end by about 1 native pixel; keep the brow near its current height overall. Make it a thin, softly tapered muted grey-brown short stroke, around 20-25 percent slimmer than the old brow, nearly horizontal with a very shallow natural arch. Relaxed and quietly composed like the portrait and new front version; neither stern nor surprised, worried or sad. Keep brow subtle but legible when downsampled.\n\nPreserve EVERYTHING ELSE in input 1 as close to pixel-identical as possible: the v8 visible eye opening, position, larger eye size, upper eyelid, iris and pupil and small glint; exact muted grey-green eye color. DO NOT narrow or redraw the eye, do not add eyelid lines. Preserve nose profile and tiny nose mark, current lip line and neutral mouth, cheek shape and small soft chin, ear and face size. Do not change jaw/face length or add a smile.\nKeep ash-silver swept hair, single partly concealed low bun at rear image LEFT, plum hat, bow and exactly two ribbons, all existing framing, colors and outer outlines. Upright RIGHT-facing true profile head, no body/neck. Same flat small RimWorld sprite style, not a polished portrait. Entire isolated head with real transparent alpha, same padding and canvas framing, no text or background.\nONLY the eyebrow changes.",
+    "reference_order": [
+      "inputs/head_east_v8.png",
+      "source_art/head_south.png",
+      "references/portrait_expression_crop.png"
+    ],
+    "generated_original": "C:/Users/29232/.codex/generated_images/01a1861f-9a30-7ac2-8cf4-4f87a0509258/exec-3b3f17f7-d003-42e7-b1f8-d57ba38a1686.png"
+  },
+  "retained": {
+    "head_north": "v5 artwork / v8 exact bytes",
+    "bodies": "v4 artwork / v8 exact bytes"
+  },
+  "note": "Prompt percentages and 1px brow lift are visual guidance, not certified measurements. Artwork outside the brow region is visually preserved by image_gen; pixel identity is not assumed."
+}

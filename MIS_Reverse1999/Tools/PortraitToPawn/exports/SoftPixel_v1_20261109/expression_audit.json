@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-09",
+  "checked_views": [
+    "south",
+    "east"
+  ],
+  "characters": {
+    "Vertin": "composed neutral small mouth; no toothy grin",
+    "Lilya": "restrained closed-mouth smile; no exposed teeth",
+    "Regulus": "neutral/slightly downturned small mouth; no grin",
+    "X": "gentle short closed-lip smile; no broad grin",
+    "Sonetto": "composed questioning expression; tiny natural lip parting, not a smile"
+  },
+  "action": "Keep every protected face pixel identical; add the no-grin rule to future production constraints."
+}

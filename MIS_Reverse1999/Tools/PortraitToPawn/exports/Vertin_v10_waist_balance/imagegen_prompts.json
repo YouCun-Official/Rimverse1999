@@ -1,0 +1,64 @@
+{
+  "mode": "built-in image_gen edit",
+  "changed_parts": [
+    "body_south",
+    "body_north"
+  ],
+  "preserved_parts": [
+    "head_south",
+    "head_east",
+    "head_north",
+    "body_east"
+  ],
+  "retained_source_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v9_soft_brows",
+  "retained_art_note": "All retained parts are reproduced byte-identically from the previous source_art and recipe.",
+  "runs": [
+    {
+      "part": "body_south",
+      "iteration": 1,
+      "inputs": [
+        "inputs/body_south_v9.png"
+      ],
+      "result": "inputs/body_south_iteration1.png",
+      "prompt": "Use case: precise-object-edit.\nAsset: an existing RimWorld chibi pawn BODY ONLY sprite, transparent background.\nThe only image is the EDIT TARGET. Keep its identity, existing flat simplified coarse game texture style, matte muted plum/purple and charcoal clothing, blue-grey lining, ivory details, bold near-black outlines and much weaker interior lines. Preserve the existing body pose, shoulder size, collar, hip width, coat tail silhouette/length, leg and boot shapes, buckles, total height, and overall image framing. No head, no arms or hands. Keep real transparent background, with no text, guides, checkerboard or ground shadow.\nPrimary change: reduce the exaggerated corset/hourglass pinch of the WAIST by filling out only the concave waist-side contours and the immediately adjoining torso. Keep a clearly fitted tailored garment, an understated waist, and hips visibly wider than shoulders. Don't inflate shoulders or widen/flounce the coat skirts. Don't turn it into a loose coat, dress, straight box, muscular torso or overweight body. Keep the shapes broad and simple for a small RimWorld sprite; no new sheen, gradients, fine folds or extra accessories. Preserve all clothing layers and their original colors.\nDirection: true SOUTH FRONT body.\nModerately widen the narrowest waist at the height of the two small side-button pairs and the central waistcoat buttons, about 18 percent versus this input (visual guidance, not an exact pixel requirement). Smoothly taper this addition to zero above the lower ribs and below the upper hips. Ease the abrupt concave pinch on both sides, and slightly widen the waistcoat and adjacent plum torso panels so that the actual clothed trunk has more substance. Keep the ivory layered jabot and its size, charcoal center waistcoat, blue-grey lapel edging, pale button positions and count legible. The waist should remain narrower than the hips, with hips broader than the shoulders. Maintain the original narrow ankle/compact forward-facing boots and downward-converging legs. Reproduce the rest as faithfully as possible."
+    },
+    {
+      "part": "body_north",
+      "iteration": 1,
+      "inputs": [
+        "inputs/body_north_v9.png"
+      ],
+      "result": "inputs/body_north_iteration1.png",
+      "prompt": "Use case: precise-object-edit.\nAsset: an existing RimWorld chibi pawn BODY ONLY sprite, transparent background.\nThe only image is the EDIT TARGET. Keep its identity, existing flat simplified coarse game texture style, matte muted plum/purple and charcoal clothing, blue-grey lining, ivory details, bold near-black outlines and much weaker interior lines. Preserve the existing body pose, shoulder size, collar, hip width, coat tail silhouette/length, leg and boot shapes, buckles, total height, and overall image framing. No head, no arms or hands. Keep real transparent background, with no text, guides, checkerboard or ground shadow.\nPrimary change: reduce the exaggerated corset/hourglass pinch of the WAIST by filling out only the concave waist-side contours and the immediately adjoining torso. Keep a clearly fitted tailored garment, an understated waist, and hips visibly wider than shoulders. Don't inflate shoulders or widen/flounce the coat skirts. Don't turn it into a loose coat, dress, straight box, muscular torso or overweight body. Keep the shapes broad and simple for a small RimWorld sprite; no new sheen, gradients, fine folds or extra accessories. Preserve all clothing layers and their original colors.\nDirection: true NORTH BACK body.\nThis back currently has a deeper waist pinch than the front. Widen the narrowest back waist at the two pale back-waist buttons by about 30 percent versus this input (visual guidance, not an exact pixel requirement), bringing its width to about three quarters of the visible upper-hip span while keeping hips broader than shoulders. Smoothly blend this added torso mass into the lower ribs and upper hips, so the waist-to-hip shape is a gentle fitted transition, not a sharply cinched corset or a flared skirt. Preserve the rear collar, one center back seam, exactly two small pale back waist buttons, existing split tailcoat structure and lining, dark trousers and compact boots. Do not add front lapels, jabot or chest buttons on the back. Keep the approved overall framing, shoulders, hips, coat tails and lower body as faithful as possible."
+    },
+    {
+      "part": "body_south",
+      "iteration": 2,
+      "inputs": [
+        "inputs/body_south_iteration1.png",
+        "inputs/body_south_v9.png"
+      ],
+      "result": "inputs/body_south_iteration2.png",
+      "prompt": "Use case: precise-object-edit.\nTwo images: Image 1 is the edit target, the latest south/front BODY ONLY sprite. Image 2 is its previous version, reference ONLY for the original upper hip width and silhouette.\nPreserve the widened waist of image 1, especially the pair of side buttons region. Make one small correction: restore the upper hip outline to the broader ORIGINAL silhouette in image 2, without moving or widening the shoulders. The new image 1 has accidentally narrowed the upper hips; restore them so the upper hip span is visibly a little WIDER than the ENTIRE shoulder span including tiny shoulder caps. Widen the actual clothed pelvis slightly as needed; don't create empty flaring fabric wings to fake a wide body. Keep fitted tailored jacket and charcoal trousers. Blend gently from the fuller waist into the hips. No corset pinch.\nKeep all other features faithfully: upright front pose, collar and ivory jabot, exactly the existing charcoal waistcoat/buttons and blue-grey lapel border, original lower tailcoat length and width, converging lower legs, close-together short boots and buckles. Retain the already-approved art treatment: flat simple matte 2D game colors, thick nearblack outside contour, weaker inside lines, muted plum/charcoal/blue-grey/ivory palette, no new details or gloss. No full arms, no hands, no head. Same overall height and position, real transparent background. No diagrams, text, checkerboard, ground shadow."
+    },
+    {
+      "part": "body_north",
+      "iteration": 2,
+      "inputs": [
+        "inputs/body_north_iteration1.png"
+      ],
+      "result": "source_art/body_north.png",
+      "prompt": "Use case: precise-object-edit.\nThe provided image is the edit target: an existing north/BACK body-only RimWorld pawn texture.\nThe last waist change was far too small. WIDEN the narrowest WAIST SUBSTANTIALLY, about another 25 percent over THIS input, concentrated at the two pale rear waist buttons. Fill in both concave sides of the purple back panel with real torso volume, not fabric flares. The waist must no longer look sharply cinched. Aim for a relaxed, softly tapered FITTED shape: the narrowest waist width should be about 75 to 78 percent of the upper hip width. Upper hips stay wider than shoulders. This is still fitted tailoring with a visible modest waist, not a loose coat or boxy tunic.\nKeep the shoulder span and collar exactly as in the input. Keep current hip width, coat skirt length/width and legs and boots. Fill the lower ribcage to mid-waist concavity, smoothly merging into the existing upper hips. Reposition only the interior back seams enough to fit the wider back naturally, keep the two pale rear waist buttons and their size/count. Preserve existing tailcoat split and blue-grey lining, charcoal trousers, purple boots, small pale buckles. Avoid adding front lapels or chest details to the back.\nSame flat matte simplified 2D RimWorld texture style, thick nearblack outer line, weaker inner marks, no extra shading, gloss or small decorative details. No head, arms or hands. Real transparent background. Same total height, base point and framing. No text, guide lines, checkerboard or ground shadow."
+    },
+    {
+      "part": "body_south",
+      "iteration": 3,
+      "inputs": [
+        "inputs/body_south_iteration2.png"
+      ],
+      "result": "source_art/body_south.png",
+      "prompt": "Use case: precise-object-edit. This one transparent PNG is the edit target: SOUTH FRONT headless, armless RimWorld body sprite.\nPerform ONE local edit: widen the WAIST concavity. Keep everything else in place, particularly the already correct wider hips.\nIn this 977 by 1609 image the waist is too pinched around y=500 to 630. At y=550 the opaque body spans approximately x=264 to 713. Fill the left waist boundary OUTWARD to approximately x=230 and the right boundary OUTWARD to approximately x=750 at this level. These coordinates are visual guidance. At y=600 keep a similar expanded span. Blend the addition smoothly upward into the unchanged lower ribcage by y=420, and downward into the unchanged upper hip by y=700. Use plum jacket panels continuing the existing form, gently widen the charcoal waistcoat and soften the blue-grey lapel inward curves. Keep the visible small side buttons. The waist MUST visibly become thicker and less concave.\nLOCK the shoulders, neck, collar and white layered jabot. LOCK upper hip width: around y=750 maintain the current broad x=163 to 814 silhouette. Hips remain wider than the entire shoulder span, but do not add extra flare or swell the hips. LOCK all lower trousers, tailcoat and boots below y=800. Keep garment fitted and tailored, not baggy or loose. No added accessories.\nRetain identical palette and approved small-game style: flat simplified muted plum, charcoal, blue-grey and ivory; thick nearblack outer line, subtle sparse internal marks. No new gradients, texture or gloss. Keep the existing pose, height, layout, no head/hands/arms. Real transparent background. No labels, guides, checkerboard, shadow or other figures."
+    }
+  ],
+  "measurement_policy": "Prompt percentages/coordinates are guidance. Actual native-pixel results are recorded separately in measurements.json."
+}

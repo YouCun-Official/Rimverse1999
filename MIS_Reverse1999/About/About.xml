@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>[MIS] - Reverse: 1999</name>
+	<author>Lannuos</author>
+	<packageId>lannuos.mis.reverse1999</packageId>
+	<supportedVersions>
+		<li>1.7</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>MIS.Framework</packageId>
+			<displayName>[MIS] - Framework</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2910194921</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>MIS.Framework</li>
+	</loadAfter>
+	<description>基于 M.I.S - Framework 招募框架的《重返未来：1999》同人扩展，在招募台中加入「重返未来：1999」系列。
+
+当前为开发版，保留系列分类和通用角色定义基础。维尔汀材质已制作，尚未添加可招募角色定义。
+
+[AI 辅助生成]</description>
+</ModMetaData>

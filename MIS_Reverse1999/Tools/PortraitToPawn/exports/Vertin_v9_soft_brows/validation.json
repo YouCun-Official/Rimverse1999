@@ -1,0 +1,104 @@
+{
+  "checks": {
+    "Textures/Things/Hair/R99/Vertin_east.png": {
+      "sha256": "6b6964f3005b0ffe9aa39636c9b9b487df0b2c52a22e729b74f42cc4beefff6b",
+      "changed_vs_v8": true,
+      "solid_bbox": [
+        70,
+        79,
+        186,
+        180
+      ],
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true
+    },
+    "Textures/Things/Hair/R99/Vertin_north.png": {
+      "sha256": "b5dc1d5060a0a73ebb43df58dbf8c6c429116b99833636cbcad4dc3afbec3acd",
+      "changed_vs_v8": false,
+      "solid_bbox": [
+        64,
+        83,
+        180,
+        176
+      ],
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true
+    },
+    "Textures/Things/Hair/R99/Vertin_south.png": {
+      "sha256": "191ebafb43a58f3a468d9aa7cf6fa58ca03be2d98eb1d1b462d9f930c226589b",
+      "changed_vs_v8": true,
+      "solid_bbox": [
+        76,
+        76,
+        190,
+        177
+      ],
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Vertin.png": {
+      "sha256": "49163822bfdf4e2a4b6e874c8c51d0c2c079b6447f25ebf490bfdcbe6a14957c",
+      "changed_vs_v8": false,
+      "solid_bbox": [
+        86,
+        90,
+        170,
+        253
+      ],
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_east.png": {
+      "sha256": "d4780b9360a535c7668df19ac3f5836241dc87b1d662194cb565df8e0a6cae92",
+      "changed_vs_v8": false,
+      "solid_bbox": [
+        72,
+        89,
+        158,
+        252
+      ],
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_north.png": {
+      "sha256": "af2475c5769648d51ac98fae53820aaa0e411e4626a5cbadc1e414f9d8735713",
+      "changed_vs_v8": false,
+      "solid_bbox": [
+        86,
+        90,
+        170,
+        252
+      ],
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_south.png": {
+      "sha256": "49163822bfdf4e2a4b6e874c8c51d0c2c079b6447f25ebf490bfdcbe6a14957c",
+      "changed_vs_v8": false,
+      "solid_bbox": [
+        86,
+        90,
+        170,
+        253
+      ],
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true
+    }
+  },
+  "changed_parts": [
+    "head_south",
+    "head_east"
+  ],
+  "back_head_unchanged": true,
+  "body_and_item_unchanged": true,
+  "head_rotation_degrees": 0,
+  "preview_head_offset": [
+    0,
+    -65
+  ],
+  "visual_review": "Passed: same-coordinate v8/v9 brow closeups and head views, native/50% composites, and user portrait expression crop inspected. Brows are slimmer and less downward-angled; approved v8 eye size/color/pupils, nose/lip expression, soft chin and hairstyle remain visually consistent.",
+  "game_tested": false,
+  "reproduction_hashes_match": true,
+  "numeric_prompt_note": "Brow lift and weight percentages in prompts are visual guidance, not measured exact final values.",
+  "preservation_note": "Non-brow features of the regenerated heads are visually preserved, not claimed byte-identical. Rear head, bodies and item remain byte-identical."
+}

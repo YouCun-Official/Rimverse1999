@@ -1,0 +1,25 @@
+十四行诗 Sonetto v3：头部三视图重绘
+
+本次采用内置 image_gen 重新绘制 south / east / north 三张头部。
+身份以本地十四行诗.png 为主，已认可的其他角色及 Arknights 素材仅用于比例与画风参考。
+旧 Sonetto v1/v2 头部和已取消的 Courier 眼睛移植试稿均未用于新图生成。
+
+主要修订：重新梳理卷刘海、窄黑白菱格发带、人物左侧短编发和披散长发；减少旧版规则对称卷发。
+保留克制、略带疑问的神情、灰绿/橄榄灰瞳色、小鼻部及轻微张开的自然唇线。
+正面编发在画面右侧，右侧面为可见近侧；背面大部分被头发遮挡，飘带保持人物左侧。
+头部始终直立，按新原稿等比例校准，未使用 v1 的额外纵向拉伸。
+发帽外伸与脸部主体分开校准，不用整头包围框挤压脸型。
+
+正式图为 256×256 RGBA 透明 PNG。三向躯干与物品图逐字节沿用当前版本。
+仅丢弃生成原稿 alpha < 8 的几乎透明杂点，保留其余 alpha；4 倍采样缩放，追加 0.5 原生像素外轮廓。
+0.5 像素是额外补强量，不是最终总线宽；五官内部没有统一加粗。
+
+复现：在此目录运行 python format_assets.py --recipe recipe.json --out 新的空目录
+该命令复现已保存的原稿，不重新调用生图。全部 7 张输出已与复现结果进行 SHA-256 核验。
+previews/heads_three_views.png：最终头部三视图。
+previews/heads_before_after.png：旧 v2 / 新 v3 同尺度比较。
+previews/heads_reference_comparison.png：与其他角色及 Arknights 的同尺度比较。
+previews/three_views_full_character.png：新头部和原躯干的静态合成。
+previews/native_and_reduced.png：原尺寸与缩小检查。
+
+原绘画法规范未修改。本版本待用户视觉审阅；游戏内未验证。

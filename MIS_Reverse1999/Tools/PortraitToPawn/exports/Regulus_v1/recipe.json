@@ -1,0 +1,97 @@
+{
+  "character": "Regulus",
+  "version": "v1",
+  "date": "2026-11-08",
+  "canvas": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "supersampling": 4,
+  "alpha_cleanup": {
+    "floor": 96,
+    "remap_to": 255,
+    "final_zero_below": 8
+  },
+  "preview_head_offset": [
+    0,
+    -65
+  ],
+  "head_rotation_degrees": 0,
+  "calibration_note": "Independent calibration for loose cropped bomber and A-line dress, at existing pawn pixel scale. Regulus does not meet the relatively-fitted clothing condition for strict Vertin dimensions.",
+  "assets": {
+    "head_south": {
+      "source": "source_art/head_south.png",
+      "target_solid_bbox": [
+        83,
+        75,
+        173,
+        179
+      ],
+      "outer_ink_px": 0.5,
+      "row_warp": null,
+      "relative_path": "Textures/Things/Hair/R99/Regulus_south.png"
+    },
+    "head_east": {
+      "source": "source_art/head_east.png",
+      "target_solid_bbox": [
+        77,
+        75,
+        174,
+        179
+      ],
+      "outer_ink_px": 0.5,
+      "row_warp": null,
+      "relative_path": "Textures/Things/Hair/R99/Regulus_east.png"
+    },
+    "head_north": {
+      "source": "source_art/head_north.png",
+      "target_solid_bbox": [
+        83,
+        75,
+        173,
+        179
+      ],
+      "outer_ink_px": 0.5,
+      "row_warp": null,
+      "relative_path": "Textures/Things/Hair/R99/Regulus_north.png"
+    },
+    "body_south": {
+      "source": "source_art/body_south.png",
+      "target_solid_bbox": [
+        84,
+        90,
+        184,
+        252
+      ],
+      "outer_ink_px": 0.5,
+      "row_warp": null,
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Regulus_Thin_south.png"
+    },
+    "body_east": {
+      "source": "source_art/body_east.png",
+      "target_solid_bbox": [
+        81,
+        90,
+        172,
+        252
+      ],
+      "outer_ink_px": 0.5,
+      "row_warp": null,
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Regulus_Thin_east.png"
+    },
+    "body_north": {
+      "source": "source_art/body_north.png",
+      "target_solid_bbox": [
+        71,
+        90,
+        171,
+        252
+      ],
+      "outer_ink_px": 0.5,
+      "row_warp": null,
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Regulus_Thin_north.png"
+    }
+  },
+  "item_relative_path": "Textures/Things/R99_Agents/Arcanist/Regulus.png"
+}

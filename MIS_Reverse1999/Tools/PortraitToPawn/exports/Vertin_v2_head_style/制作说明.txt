@@ -1,0 +1,14 @@
+维尔汀 Vertin v2 — 头部画风调整（AI 辅助制作）
+
+正式 Textures 仅替换 Vertin_south.png、Vertin_east.png、Vertin_north.png 三张头部图。
+头部参照 MIS_arknights 的 Thorns、Texas、Platinum：收窄拉长脸型、明确下颌、简化眼睛和发丝，保留角色特征。
+保留维尔汀灰绿眼睛、侧分短发、深色礼帽、蓝灰缎带与深色带尾。帽子随本轮画风重绘为更平稳的佩戴形状。
+三个方向均独立重绘，头部不跟随躯干前倾；原侧身姿态保持不变。
+
+生成方式：内置 image_gen；完整头部提示词见 imagegen_prompts.json，未改动的躯干原稿提示词见 body_generation_prompts.json。
+source_art/ 包含最终三张头部原稿和 v1 三张躯干原稿；recipe.json 和 assemble_character_set.py 可复现本地格式化。
+python assemble_character_set.py --recipe recipe.json --out 新输出目录
+依赖 Pillow、NumPy。输出均为 256×256 RGBA PNG。
+
+备份：C:\Users\29232\Desktop\Lannuosprojects\MIS_Lannuosproject\MIS_Reverse1999\Tools\TextureBackups\Vertin_before_v2_heads_20261029_192803_364110.zip
+静态检查、头身组合与参考图对照已完成；尚未进行游戏内验证。

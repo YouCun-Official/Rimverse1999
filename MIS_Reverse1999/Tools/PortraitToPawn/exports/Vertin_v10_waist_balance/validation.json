@@ -1,0 +1,112 @@
+{
+  "checks": {
+    "Textures/Things/Hair/R99/Vertin_east.png": {
+      "sha256": "6b6964f3005b0ffe9aa39636c9b9b487df0b2c52a22e729b74f42cc4beefff6b",
+      "changed_vs_v9": false,
+      "solid_bbox": [
+        70,
+        79,
+        186,
+        180
+      ],
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true
+    },
+    "Textures/Things/Hair/R99/Vertin_north.png": {
+      "sha256": "b5dc1d5060a0a73ebb43df58dbf8c6c429116b99833636cbcad4dc3afbec3acd",
+      "changed_vs_v9": false,
+      "solid_bbox": [
+        64,
+        83,
+        180,
+        176
+      ],
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true
+    },
+    "Textures/Things/Hair/R99/Vertin_south.png": {
+      "sha256": "191ebafb43a58f3a468d9aa7cf6fa58ca03be2d98eb1d1b462d9f930c226589b",
+      "changed_vs_v9": false,
+      "solid_bbox": [
+        76,
+        76,
+        190,
+        177
+      ],
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Vertin.png": {
+      "sha256": "b0b00b8a08e99ade23d09911b9ac3590e8257fe3f29018b65c48fcfe5c0664b5",
+      "changed_vs_v9": true,
+      "solid_bbox": [
+        86,
+        90,
+        170,
+        252
+      ],
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_east.png": {
+      "sha256": "d4780b9360a535c7668df19ac3f5836241dc87b1d662194cb565df8e0a6cae92",
+      "changed_vs_v9": false,
+      "solid_bbox": [
+        72,
+        89,
+        158,
+        252
+      ],
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_north.png": {
+      "sha256": "554602684f75c7ad020c52049b6a5706a64965a6efb54e29232312b36ce3fa92",
+      "changed_vs_v9": true,
+      "solid_bbox": [
+        85,
+        89,
+        170,
+        253
+      ],
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_south.png": {
+      "sha256": "b0b00b8a08e99ade23d09911b9ac3590e8257fe3f29018b65c48fcfe5c0664b5",
+      "changed_vs_v9": true,
+      "solid_bbox": [
+        86,
+        90,
+        170,
+        252
+      ],
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true
+    }
+  },
+  "changed_parts": [
+    "body_south",
+    "body_north",
+    "item_copy"
+  ],
+  "all_heads_and_east_body_unchanged": true,
+  "format_reproduction_passed": true,
+  "reference_files_unchanged": true,
+  "hips_wider_than_shoulders_at_annotated_rows": true,
+  "head_rotation_degrees": 0,
+  "preview_head_offset": [
+    0,
+    -65
+  ],
+  "visual_review": "passed",
+  "game_tested": false,
+  "visual_review_notes": [
+    "Reviewed fixed-scale waist/shoulder/hip guides against Texas and Lappland.",
+    "Front and rear waist concavities are softened; upper-hip clothed span remains wider than shoulder span.",
+    "Reviewed independent bodies, unchanged heads, combined three views, native size and 50-percent previews.",
+    "Fitted plum jacket, charcoal waistcoat/trousers, ivory jabot, pale buttons, lining and compact boots remain recognizable.",
+    "Generated south/north preservation regions checked visually; exact pixel preservation is asserted only for three unchanged heads and east body.",
+    "No guide lines or backgrounds are baked into production textures."
+  ]
+}

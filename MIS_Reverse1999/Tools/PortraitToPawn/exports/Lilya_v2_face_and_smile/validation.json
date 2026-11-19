@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-08",
+  "changed_parts": [
+    "head_south",
+    "head_east"
+  ],
+  "checks": {
+    "head_south": {
+      "sha256": "fbecd77049c6287a55b20feca4d64953798cc2856c6cfe19beebfa07350f290f",
+      "solid_bbox": [
+        73,
+        84,
+        183,
+        230
+      ],
+      "format": "256x256 RGBA PNG",
+      "relative_path": "Textures/Things/Hair/R99/Lilya_south.png"
+    },
+    "head_east": {
+      "sha256": "38d37c3193b429ca77b3b438fd8e93b53498d4aa2a1d8fb532a0123eab47cc03",
+      "solid_bbox": [
+        56,
+        85,
+        174,
+        230
+      ],
+      "format": "256x256 RGBA PNG",
+      "relative_path": "Textures/Things/Hair/R99/Lilya_east.png"
+    },
+    "head_north": {
+      "sha256": "7cc09ab5a79a3c5897e48b991cc280a2433b1b0c6f6c56e72fd2b8348875cffa",
+      "solid_bbox": [
+        73,
+        85,
+        183,
+        230
+      ],
+      "format": "256x256 RGBA PNG",
+      "relative_path": "Textures/Things/Hair/R99/Lilya_north.png"
+    },
+    "body_south": {
+      "sha256": "11727c5c347857390bab9775e4386028b0e5e4b78113932de50aee2e3dc4644b",
+      "solid_bbox": [
+        79,
+        89,
+        179,
+        252
+      ],
+      "format": "256x256 RGBA PNG",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Lilya_Thin_south.png"
+    },
+    "body_east": {
+      "sha256": "77bfbd26c663252eaa5ac1b9297138969369e0d0a77a74d1a0466d8aa2b7f495",
+      "solid_bbox": [
+        69,
+        89,
+        159,
+        252
+      ],
+      "format": "256x256 RGBA PNG",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Lilya_Thin_east.png"
+    },
+    "body_north": {
+      "sha256": "03fb8d933a3e5a1f36557dbb8609d5cb72ac11c6b7d2b78251f1d1c75b9ff2a6",
+      "solid_bbox": [
+        79,
+        89,
+        179,
+        252
+      ],
+      "format": "256x256 RGBA PNG",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Lilya_Thin_north.png"
+    }
+  },
+  "item_byte_identical_to_v1_and_front": true,
+  "rear_head_bodies_item_unchanged": true,
+  "reproduction_passed": true,
+  "head_rotation_degrees": 0,
+  "preview_head_offset": [
+    0,
+    -65
+  ],
+  "visual_review": {
+    "status": "passed",
+    "reviewer": "assistant",
+    "user_review": "pending",
+    "images": [
+      "face_before_after.png",
+      "side_face_reference_comparison.png",
+      "three_views_final.png",
+      "native_and_reduced.png"
+    ],
+    "findings": [
+      "Profile visible eye is less horizontally stretched; cheek/jaw transition reads more upright and retains a short chin.",
+      "Front and profile use short closed-mouth smile lines without visible teeth.",
+      "Face, cap/goggles and complete head envelope were reviewed separately at equal native scale.",
+      "Cap/hair identity and upright orientation are visually retained; generated images are not assumed pixel-identical outside the requested local edit.",
+      "Head-body join remains coherent at (0,-65); rear head, all bodies and item remain byte-identical."
+    ]
+  },
+  "game_tested": false,
+  "installation": {
+    "date": "2026-11-08",
+    "character": "Lilya",
+    "revision": "v2_face_and_smile",
+    "created_texture_files": [],
+    "preserved_texture_count": 35,
+    "rear_head_and_body_item_unchanged": true,
+    "all_other_textures_unchanged": true,
+    "other_character_records_and_rules_unchanged": true,
+    "export_installed_reproduced_identical": true,
+    "backup_directory": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v2_face_and_smile\\installation_backup",
+    "game_tested": false
+  }
+}

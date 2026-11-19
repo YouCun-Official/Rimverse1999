@@ -1,0 +1,82 @@
+{
+  "prior_working_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v1",
+  "prior_character_record": {
+    "character": "Regulus",
+    "display_name": "星锑",
+    "version": "v1",
+    "updated_date": "2026-11-08",
+    "working_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v1",
+    "status": "textures_added_and_verified",
+    "installation_receipt": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v1\\installation_receipt.json",
+    "backup_archive": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\TextureBackups\\Regulus_before_addition_20261108_eb53481f.zip",
+    "paths": {
+      "head_texPath": "Things/Hair/R99/Regulus",
+      "apparel_wornGraphicPath": "Things/R99_Agents/Arcanist/Regulus",
+      "item_texPath": "Things/R99_Agents/Arcanist/Regulus",
+      "body_type": "Thin",
+      "directions": [
+        "south",
+        "east",
+        "north"
+      ]
+    },
+    "format": {
+      "canvas": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "background": "transparent",
+      "count": 7
+    },
+    "primary_reference": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\Ombrophobia\\data_infrastructure\\图片\\星锑.png",
+    "source_manifest": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v1\\references\\sources.json",
+    "character_brief": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v1\\character_brief.json",
+    "generator_recipe": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v1\\recipe.json",
+    "generator_entrypoint": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v1\\format_assets.py",
+    "imagegen_prompts": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v1\\imagegen_prompts.json",
+    "constraints_file": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\角色三视图制作规范.txt",
+    "requested_style": {
+      "rendering": "Flat simple 2D matte color masses, thick near-black outside outline, sparse weaker interior strokes.",
+      "arms": "No complete arms or hands; short shoulder sleeve caps only.",
+      "expression": "Local portrait sunglasses, visible small nose and closed slightly downturned mouth; cool, faintly stubborn pout, no broad smile.",
+      "clothing": "Loose cropped bomber and A-line dress; garment contour takes priority, no forced hourglass waist.",
+      "face_identity_marks": "No obvious freckles, scars or burns; conditional rule skipped.",
+      "side_pose": "Upright unrotated head; body follows a continuous mild forward diagonal, shortened gathered foot, no L-shaped toe.",
+      "accessory_side": "Bag carried from character left shoulder: front screen right, east profile behind toward screen left, rear screen left."
+    },
+    "strict_vertin_size_condition_applies": false,
+    "size_reference": "Vertin v13, Texas, Silence, Perfumer at equal native pixel scale; independent garment/position calibration.",
+    "preview_head_offset": [
+      0,
+      -65
+    ],
+    "reconstructed_details": [
+      "True profile/rear cap and hair surfaces",
+      "Rear jacket seams, scarf wrap and dress drape",
+      "Backpack side/rear occlusion"
+    ],
+    "head_sources": {
+      "south": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v1\\Textures\\Things\\Hair\\R99\\Regulus_south.png",
+      "east": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v1\\Textures\\Things\\Hair\\R99\\Regulus_east.png",
+      "north": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v1\\Textures\\Things\\Hair\\R99\\Regulus_north.png"
+    },
+    "head_hashes": {
+      "south": "89bade225614e4e6699038f6815c7523458c8110320861dd9dcdb76d39c9ae8d",
+      "east": "387b2ceb9ac0e89c364d78fd59a7870b0e35eb00c1eddeabe53ad4af8454448b",
+      "north": "20b11d6e416804b2930e5aa6521c2c179a3a2f9149f17617f48cf2d4df5edd75"
+    },
+    "body_hashes": {
+      "south": "c33add115cadacea5ecf4acb58de25c4a11d43d9f786bda0f3d82ea36fcf9971",
+      "east": "6a1010e3465cae66e239fb305b1a25a87a61d877e0ed8c95fab30c0ba7847513",
+      "north": "f2e1dc12bd67283556a95c25a797bfbb1f7fad8ce54e4bc8657b05e36fb9e692"
+    },
+    "item_sha256": "c33add115cadacea5ecf4acb58de25c4a11d43d9f786bda0f3d82ea36fcf9971",
+    "game_tested": false,
+    "recruitable_character_def_added": false
+  },
+  "current_method": "User-selected Python postprocessing only; no new generated artwork or transferred eyes.",
+  "original_artwork_and_prompts": "Retained in the prior export; frozen native inputs in this export are the exact approved pre-pass PNGs.",
+  "batch_reference_comparison": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\SoftPixel_v1_20261109\\previews\\heads_vs_arknights_three_views.png",
+  "batch_manifest": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\SoftPixel_v1_20261109\\recipe.json"
+}

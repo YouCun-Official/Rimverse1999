@@ -1,0 +1,11 @@
+{
+  "head_texPath": "Things/Hair/R99/Vertin",
+  "apparel_wornGraphicPath": "Things/R99_Agents/Arcanist/Vertin",
+  "item_texPath": "Things/R99_Agents/Arcanist/Vertin",
+  "body_type": "Thin",
+  "directions": [
+    "south",
+    "east",
+    "north"
+  ]
+}

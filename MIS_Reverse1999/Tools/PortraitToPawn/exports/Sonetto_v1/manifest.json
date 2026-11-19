@@ -1,0 +1,91 @@
+{
+  "character": "Sonetto",
+  "version": "v1",
+  "files": {
+    "Textures/Things/Hair/R99/Sonetto_east.png": {
+      "sha256": "f37e48c1c2d1a3622bc16711bb547828b3775fa1dba18f3df7a06edbf165558d",
+      "solid_bbox": [
+        71,
+        83,
+        173,
+        219
+      ],
+      "format": "256x256 RGBA PNG",
+      "clear_canvas_border": true
+    },
+    "Textures/Things/Hair/R99/Sonetto_north.png": {
+      "sha256": "b1a8cd7198d2c95a83f9c9b13d53db4622e0cf0627678fe28d01f883d07fd46d",
+      "solid_bbox": [
+        79,
+        84,
+        179,
+        217
+      ],
+      "format": "256x256 RGBA PNG",
+      "clear_canvas_border": true
+    },
+    "Textures/Things/Hair/R99/Sonetto_south.png": {
+      "sha256": "2d354a3c9c6c1eec22df3ac90a564ce618d68531f6543e966d9a59015dc86a2e",
+      "solid_bbox": [
+        80,
+        81,
+        174,
+        213
+      ],
+      "format": "256x256 RGBA PNG",
+      "clear_canvas_border": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Sonetto.png": {
+      "sha256": "2c452cbf0b3ba129b0ede6de05a872dad8b33b6fb39b91fbf869b9e639c3ea48",
+      "solid_bbox": [
+        84,
+        90,
+        173,
+        252
+      ],
+      "format": "256x256 RGBA PNG",
+      "clear_canvas_border": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_east.png": {
+      "sha256": "8968314fdc00ef934987c06e0c1d4aacc98a550a847abd8828b46fb997ca739f",
+      "solid_bbox": [
+        71,
+        88,
+        159,
+        252
+      ],
+      "format": "256x256 RGBA PNG",
+      "clear_canvas_border": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_north.png": {
+      "sha256": "2a4450adb316d64b95a3f74f94416bb604597fe0dcf548b4d32b45bd534e751d",
+      "solid_bbox": [
+        84,
+        89,
+        173,
+        252
+      ],
+      "format": "256x256 RGBA PNG",
+      "clear_canvas_border": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_south.png": {
+      "sha256": "2c452cbf0b3ba129b0ede6de05a872dad8b33b6fb39b91fbf869b9e639c3ea48",
+      "solid_bbox": [
+        84,
+        90,
+        173,
+        252
+      ],
+      "format": "256x256 RGBA PNG",
+      "clear_canvas_border": true
+    }
+  },
+  "sources": {
+    "body_east.png": "e81c067cf76307f68d6a8369ff7d30930c4864e7e5cc6332a06adb09aa6a1079",
+    "body_north.png": "e0027b701279a5d8e6e5425a4fe8a4493efccacc5a79acce9f68bdbe1f65d919",
+    "body_south.png": "cffbb6216579ccdf0d4fbaf9793094c64c7ac01fdaac3aa47d03192d11a70e82",
+    "head_east.png": "597c6e7106177d6746ba2c2abfca5afc8ce8f1af21a86b5cb593d4161eaa8cb3",
+    "head_north.png": "dab45c97b73e6fded743ace481f603dfc95a7850d4e8dd7398ed9b142200ccee",
+    "head_south.png": "aef392979d2344b2d48e44c0a474e9d2298d87b82097768b9395c58eb3c6658d"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-08",
+  "character": "Lilya",
+  "created_files": {
+    "Textures/Things/Hair/R99/Lilya_south.png": "2a15a06763856c25649bca3be7bba5340f13de889cdfe972c65ef3af30cd0589",
+    "Textures/Things/Hair/R99/Lilya_east.png": "8b969e566c998b1dcf4987b2661319860f1989b4d1c20b1649f6dedf6b743027",
+    "Textures/Things/Hair/R99/Lilya_north.png": "7cc09ab5a79a3c5897e48b991cc280a2433b1b0c6f6c56e72fd2b8348875cffa",
+    "Textures/Things/R99_Agents/Arcanist/Lilya_Thin_south.png": "11727c5c347857390bab9775e4386028b0e5e4b78113932de50aee2e3dc4644b",
+    "Textures/Things/R99_Agents/Arcanist/Lilya_Thin_east.png": "77bfbd26c663252eaa5ac1b9297138969369e0d0a77a74d1a0466d8aa2b7f495",
+    "Textures/Things/R99_Agents/Arcanist/Lilya_Thin_north.png": "03fb8d933a3e5a1f36557dbb8609d5cb72ac11c6b7d2b78251f1d1c75b9ff2a6",
+    "Textures/Things/R99_Agents/Arcanist/Lilya.png": "11727c5c347857390bab9775e4386028b0e5e4b78113932de50aee2e3dc4644b"
+  },
+  "replaced_files": [],
+  "preserved_existing_texture_count": 23,
+  "existing_textures_unchanged": true,
+  "existing_character_records_and_rules_unchanged": true,
+  "export_matches_installed": true,
+  "metadata_created": [
+    "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\characters\\Lilya.json"
+  ],
+  "metadata_updated": [
+    "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\使用说明.txt"
+  ],
+  "usage_before_sha256": "00a40b42bd8b60f20d41c84389874e2cf91d79e0dc51d7ed774176db437d8b2a",
+  "usage_after_sha256": "a21c6d76656ada3c07c75331804f6594af8dd713db9b03de14d8d5f092ab05eb",
+  "metadata_backup": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v1\\installation_backup",
+  "game_tested": false,
+  "character_def_created": false
+}

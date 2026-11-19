@@ -1,0 +1,39 @@
+星锑 Regulus v1 · 六向分件贴图
+日期：2026-11-08
+
+交付：头部 south/east/north 三张；躯干 Thin_south/east/north 三张；Regulus.png 正面躯干物品图，共 7 张。
+全部 256×256、RGBA、透明背景、完整画布。帽子和墨镜包含在头部；领巾、原装背包及挂饰包含在躯干。
+正式资源已添加到与 Vertin 相同的头部/躯干目录，以 Regulus 前缀区分；本目录为独立完整导出包。
+
+主参考：本地 data_infrastructure/图片/星锑.png，副本见 references/primary_local.png。
+辅助资料：https://wiki.biligame.com/reverse1999/星锑；网页立绘及原装单品仅用于交叉核对；来源和哈希见 references/sources.json。
+画风/尺度参考：本地 Arknights 的 Texas、Silence、Perfumer 等，以及本项目 Vertin v13 尺寸基准。
+星锑原服装为宽松短外套和 A 字裙，不同时满足“少年女性 + 相对紧身衣物”，因此不强套 Vertin 的贴身腰线。
+
+表情以本地立绘为准：墨镜遮眼，小鼻部、闭合且略向下的嘴形，保留略撇嘴的克制神情。
+保留浅棕短发、白帽与红黑心形徽记、橙色外套、波点领巾、深蓝裙、橙袜、靴口蝴蝶结、原装包及挂饰。
+没有明显雀斑/烧伤/疤痕，不额外添加。浮空 APPLe 同伴不属于本次头身部件。
+侧面朝右、头部直立；身体连续前倾，鞋尖收拢；头身合成偏移 (0,-65) 仅为预览约定。
+侧背的帽子、后发、服装背部与背包遮挡根据已有结构合理补全，详见 character_brief.json。
+
+生成：内置 image_gen 分别绘制六张高分辨率分件；局部修订侧面衣扣/鞋尖、背帽带、正面领巾可见性。
+后处理：4 倍采样定位和缩放、透明边缘清理、外轮廓补强；不是逐像素自动识别立绘生成。
+提示词和每轮输入/输出出处见 imagegen_prompts.json；最终原稿见 source_art，替换的初稿见 source_art/history。
+尺寸/坐标/外描边参数在 recipe.json；通用规范和任务模板保存了本次使用的快照。
+复现格式化：在本目录运行
+python format_assets.py --recipe recipe.json --out 新的空目录
+依赖 Pillow、NumPy。此命令复现已有原稿的导出，不重新调用生图。
+
+预览：
+three_views_final.png：头身合成三视图
+heads_three_views.png / bodies_three_views.png：单件三视图
+character_style_comparison.png：同像素倍率、共同裁切的五角色三向比较
+head_style_comparison.png / body_style_comparison.png：分件比较
+native_and_reduced.png：原尺寸与 50% 缩小检查
+expression_reference.png：原立绘表情对照
+alignment_guides.png：头身与脚底位置参考线（不是身体腰臀测量）
+
+校验：7 张格式正确，透明边缘无裁切，物品图与正面躯干字节相同，配方复现及安装/导出哈希一致。
+Vertin 素材、原有 UI 贴图和 Vertin 角色记录均保持不变；通用约束未改动。
+备份与安装记录见 installation_receipt.json。Regulus_v1_textures.zip 仅包含正式 7 张 PNG，可按目录结构解压。
+尚未进行游戏内验证，也未添加招募角色或其他 XML Def。

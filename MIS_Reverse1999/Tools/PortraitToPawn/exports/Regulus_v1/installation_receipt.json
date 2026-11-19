@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-08",
+  "character": "Regulus",
+  "operation": "add_new_character_textures",
+  "backup_archive": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\TextureBackups\\Regulus_before_addition_20261108_eb53481f.zip",
+  "export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v1",
+  "character_record": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\characters\\Regulus.json",
+  "installed": {
+    "Textures/Things/Hair/R99/Regulus_south.png": {
+      "sha256": "89bade225614e4e6699038f6815c7523458c8110320861dd9dcdb76d39c9ae8d",
+      "matches_export": true
+    },
+    "Textures/Things/Hair/R99/Regulus_east.png": {
+      "sha256": "387b2ceb9ac0e89c364d78fd59a7870b0e35eb00c1eddeabe53ad4af8454448b",
+      "matches_export": true
+    },
+    "Textures/Things/Hair/R99/Regulus_north.png": {
+      "sha256": "20b11d6e416804b2930e5aa6521c2c179a3a2f9149f17617f48cf2d4df5edd75",
+      "matches_export": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Regulus_Thin_south.png": {
+      "sha256": "c33add115cadacea5ecf4acb58de25c4a11d43d9f786bda0f3d82ea36fcf9971",
+      "matches_export": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Regulus_Thin_east.png": {
+      "sha256": "6a1010e3465cae66e239fb305b1a25a87a61d877e0ed8c95fab30c0ba7847513",
+      "matches_export": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Regulus_Thin_north.png": {
+      "sha256": "f2e1dc12bd67283556a95c25a797bfbb1f7fad8ce54e4bc8657b05e36fb9e692",
+      "matches_export": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Regulus.png": {
+      "sha256": "c33add115cadacea5ecf4acb58de25c4a11d43d9f786bda0f3d82ea36fcf9971",
+      "matches_export": true
+    }
+  },
+  "existing_resources_unchanged": {
+    "Textures/Things/Hair/R99/Vertin_east.png": true,
+    "Textures/Things/Hair/R99/Vertin_north.png": true,
+    "Textures/Things/Hair/R99/Vertin_south.png": true,
+    "Textures/Things/R99_Agents/Arcanist/Vertin.png": true,
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_east.png": true,
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_north.png": true,
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_south.png": true,
+    "Textures/UI/Element/R99_Arcanist.png": true,
+    "Textures/UI/Element/R99_Reverse1999.png": true,
+    "Tools/PortraitToPawn/characters/Vertin.json": true
+  },
+  "metadata_updated": [
+    "Tools/PortraitToPawn/使用说明.txt",
+    "Tools/PortraitToPawn/characters/Regulus.json"
+  ],
+  "all_export_install_hashes_match": true,
+  "game_tested": false
+}

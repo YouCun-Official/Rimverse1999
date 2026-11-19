@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-09",
+  "character": "Sonetto",
+  "version": "Sonetto_v3_head_redraw",
+  "authorized_scope": "User requested discarding existing Sonetto head textures and regenerating them; old heads replaced in the existing formal paths. Historical export/backup retained.",
+  "backup_archive": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\TextureBackups\\Sonetto_before_v3_head_redraw_20261109_a195960d.zip",
+  "backup_sha256": "77c306d3e45745fc68ca8afb6f6022b5b3b3d294fc3d7dc9aedd61d0fb61443d",
+  "changed_textures": [
+    "Textures/Things/Hair/R99/Sonetto_east.png",
+    "Textures/Things/Hair/R99/Sonetto_north.png",
+    "Textures/Things/Hair/R99/Sonetto_south.png"
+  ],
+  "installed": {
+    "Textures/Things/Hair/R99/Sonetto_south.png": "128cd40a4d515b046b7c2fde2e7890c93077b7c65c4f8a3ef52c43c23bbfdf27",
+    "Textures/Things/Hair/R99/Sonetto_east.png": "7262266f41e6fb090c17c5b384379524ff2d8eb451abaf48a946beb73743eb1b",
+    "Textures/Things/Hair/R99/Sonetto_north.png": "b14262bff106cd32332e72857116a79628d0bca113c1b0d3ae3533e5ffd9b923",
+    "Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_south.png": "2c452cbf0b3ba129b0ede6de05a872dad8b33b6fb39b91fbf869b9e639c3ea48",
+    "Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_east.png": "8968314fdc00ef934987c06e0c1d4aacc98a550a847abd8828b46fb997ca739f",
+    "Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_north.png": "2a4450adb316d64b95a3f74f94416bb604597fe0dcf548b4d32b45bd534e751d",
+    "Textures/Things/R99_Agents/Arcanist/Sonetto.png": "2c452cbf0b3ba129b0ede6de05a872dad8b33b6fb39b91fbf869b9e639c3ea48"
+  },
+  "export_install_hashes_equal": true,
+  "reproduction_hashes_equal": true,
+  "unchanged_formal_texture_count": 34,
+  "body_and_item_byte_identical": true,
+  "other_character_textures_and_records_byte_identical": true,
+  "universal_spec_template_and_AGENTS_unchanged": true,
+  "metadata_updated": [
+    "Tools/PortraitToPawn/characters/Sonetto.json",
+    "Tools/PortraitToPawn/使用说明.txt"
+  ],
+  "game_tested": false,
+  "user_visual_review": "pending"
+}

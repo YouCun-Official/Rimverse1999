@@ -1,0 +1,88 @@
+{
+  "character": "X",
+  "display_name": "X",
+  "gender": "Male",
+  "updated_date": "2026-11-08",
+  "revision": "v1",
+  "working_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v1",
+  "status": "textures_created_installed_and_statically_verified",
+  "game_tested": false,
+  "user_visual_review": "pending",
+  "character_defs_created": false,
+  "paths": {
+    "head_texPath": "Things/Hair/R99/X",
+    "apparel_wornGraphicPath": "Things/R99_Agents/Arcanist/X",
+    "item_texPath": "Things/R99_Agents/Arcanist/X",
+    "body_type": "Thin",
+    "directions": [
+      "south",
+      "east",
+      "north"
+    ]
+  },
+  "body_type_reason": "Existing project and male Arknights texture naming convention; Thin is a resource suffix, not a demand for fitted garments.",
+  "primary_portrait": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\Ombrophobia\\data_infrastructure\\图片\\X.png",
+  "reference_manifest": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v1\\references\\sources.json",
+  "constraints_file": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\角色三视图制作规范.txt",
+  "character_brief": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v1\\character_brief.json",
+  "generator_mode": "built-in image_gen, then deterministic formatting",
+  "generator_recipe": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v1\\recipe.json",
+  "generator_entrypoint": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v1\\format_assets.py",
+  "imagegen_prompts": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v1\\imagegen_prompts.json",
+  "installation_receipt": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v1\\installation_receipt.json",
+  "backup_archive": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\TextureBackups\\X_before_add_20261108_912d31e7.zip",
+  "head_sources": {
+    "south": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v1\\Textures\\Things\\Hair\\R99\\X_south.png",
+    "east": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v1\\Textures\\Things\\Hair\\R99\\X_east.png",
+    "north": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v1\\Textures\\Things\\Hair\\R99\\X_north.png"
+  },
+  "body_sources": {
+    "south": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v1\\Textures\\Things\\R99_Agents\\Arcanist\\X_Thin_south.png",
+    "east": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v1\\Textures\\Things\\R99_Agents\\Arcanist\\X_Thin_east.png",
+    "north": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v1\\Textures\\Things\\R99_Agents\\Arcanist\\X_Thin_north.png"
+  },
+  "head_hashes": {
+    "south": "8d4c829092929171aff5609865145302db531b32adf54403194704d79ad01436",
+    "east": "2881f6690ee5ac7bc5f5dc99f9b9ff52520bc3b90d11e117e5f5b4332c0edebe",
+    "north": "b04c2275fdfb24749a65469465f6bf57b9836c93c721780f38a52dc445c44943"
+  },
+  "body_hashes": {
+    "south": "75815d62132e4f17d8b4ad7d20ccc9ee92b4f0307b8b4aae4510aaf90390ead4",
+    "east": "1dcb9105b9fb68ed0fe08f924df9a2dc8bf159a5c3635f70566a5dc7bc41b2e7",
+    "north": "6989754e81a8fafc657f40522b0eaba00e534c08b4b9aadd69d3b7f483a9d344"
+  },
+  "expression": "Cheerful friendly/playful small open-mouth smile, relaxed eyebrows and lively eyes, matching local portrait; never stern/sad/blank.",
+  "eyes": {
+    "character_right": "Amber gold with dark scleral surround, viewer-left in south, as visible in primary face crop.",
+    "character_left": "blue, screen-right in south; visible in east true right profile",
+    "shape": "compact simplified pawn eyes, one small highlight, preserve heterochromia"
+  },
+  "facial_identity_marks": "No clear characteristic freckles/scars/burns in provided portrait; skip conditional mark rule.",
+  "clothing_fit": {
+    "outer": "Loose ivory/light grey calf-length open lab coat, near-straight hanging panels and slight hem spread, not waist-cinched; short shoulder caps only, no complete sleeves or arms.",
+    "upper": "Charcoal standing collar and asymmetric dark shoulder cape with cream/gold leaf-like motif on character right (front screen left).",
+    "inner": "Dark grey broad checked waistcoat; mint/aqua cloth crossed and tied in loose front bow with long ribbon tails; black knee-length shorts.",
+    "accessories": "Purple vertical strap over character left shoulder (front screen right), compact black rectangular instrument with round dial, hanging pale ID badge and turquoise loop cord, pale small chain, purple coat tabs; pen in opposite pocket.",
+    "legs": "Visible knee gap, dark grey high socks, brown buckle band on character right leg if visible, brown lace-up shoes; compact legs and downward short toe.",
+    "back": "Infer rear collar, plain coat back with center seam/vent, corresponding asymmetric cape on character right (back screen right) and narrow strap on left (back screen left); no duplicated chest dial, badge, bow or emblem on rear."
+  },
+  "size_baseline": "Not eligible for Vertin young-female/fitted baseline. Calibrate male head/loose coat against Thorns, Gnosis, Executor in native pixels.",
+  "head_rotation_degrees": 0,
+  "head_offset_preview": [
+    0,
+    -72
+  ],
+  "preview_offset_note": "Static composition only, not a game head-offset configuration.",
+  "inferential_details": [
+    "back coat seam/vent and rear cape extension",
+    "foreshortening/occlusion of shoulder instrument and badge in east",
+    "back of short hairstyle"
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-08",
+      "to": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v1",
+      "change": "New male X character from local portrait, loose-clothing-first silhouette, cheerful expression and consistent heterochromia; side pocket and shoe corrected before installation."
+    }
+  ]
+}

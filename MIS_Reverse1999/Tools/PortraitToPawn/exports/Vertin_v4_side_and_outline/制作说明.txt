@@ -1,0 +1,15 @@
+维尔汀 v4 — 侧身与三向粗轮廓（AI 辅助制作）
+
+侧身胸腰与小腿加厚，去除胸腰轴线的反向折返，肩—腰—臀—腿形成更连贯的斜向体块。
+缩短鞋尖、收拢后跟，保留靴口、靴扣和小挂片；燕尾保留紫色外层、蓝灰内衬与长短层次。
+头部与躯干三视图统一为较粗近黑外轮廓；内部衣片线适当减弱、断开。头部仍直立。
+源图用内置 image_gen 重绘。随后用确定性的 4 倍采样处理透明边缘、尺寸、侧身逐行横移和外黑边。
+头部和正后躯干追加 0.5 原生像素的外描边；侧身追加 1 像素。没有将内部所有线条一同膨胀。
+source_art/ 保存六张生图原稿；imagegen_prompts.json 为完整提示词；recipe.json 记录全部后处理。
+在本目录运行以下命令可逐字节复现最终 7 张 PNG（依赖 Pillow、NumPy）：
+python format_assets.py --recipe recipe.json --out 新输出目录
+输出目录须为空，脚本不自动覆盖正式材质。
+
+已写入正式 Textures；全部为 256×256 RGBA。正面物品图与正面躯干一致。
+备份：C:\Users\29232\Desktop\Lannuosprojects\MIS_Lannuosproject\MIS_Reverse1999\Tools\TextureBackups\Vertin_before_v4_20261105_103900_894264.zip
+静态透明边界、六向差异、侧身截面/走线、复现和安装哈希检查通过；尚未游戏内验证。

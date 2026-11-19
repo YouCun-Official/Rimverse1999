@@ -1,0 +1,14 @@
+{
+  "part": "body_east",
+  "revision": "pocket_and_shoe",
+  "prompt": "Use case: precise-object-edit.\nAsset type: transparent headless right-facing body sprite for the RimWorld mod character X.\nInput images: Image 1 is the exact edit target, our right-facing side body; image 2 is the approved front body, for continuity only; image 3 is the original local character portrait for physical-side evidence only.\nEdit ONLY two small local areas of image 1:\n1. Correct the visible character-left pocket. Remove the blue-and-gold pen completely: the original pen belongs on character-right, hidden on the far side in this view. Replace the large rectangular patch pocket outline with the original simple dark narrow angled pocket flap and its short muted-purple tab with a small pale rivet, as on the viewer-right of image 2. There must be NO extra pen and NO large rectangle dangling below this left flap. Continue the light coat fabric naturally below.\n2. Shorten the shoe's forward-projecting toe and gather the rear heel. Make a compact short brown lace-up shoe with dark toe cap and thin sole that follows the same forward-slanting lower-leg axis. Reduce horizontal shoe extension roughly one quarter, retain brown color, small laces, dark toe cap, keep ankle thickness and ground baseline. Avoid an L-shaped ankle and broad horizontal foot.\nPreserve everything else as closely as possible: same true right-facing profile, same continuous diagonal body pose with loose coat draping freely, same thick dark silhouette, same 2–3 flat tones per material, collar and gold clasp, short shoulder cap without full arms, left purple instrument strap, black round-dial instrument, teal connector and badge, looped aqua cord, glimpse of mint front ribbon and dark checked vest, dark shorts, visible knee, high charcoal sock. Keep the entire coat length and natural loose volume; no waist cinching. Preserve the existing palette and simplified internal line treatment.\nNo head, no face, no hair, no full arms or hands, no additional objects, no background, no shadow, no text. One isolated sprite. Genuinely transparent RGBA background and clean alpha.",
+  "referenced_image_paths": [
+    "C:\\Users\\29232\\Documents\\ChatGPT\\Ombrophobia\\outputs\\x_v1_20261108\\source_art\\body_east.png",
+    "C:\\Users\\29232\\Documents\\ChatGPT\\Ombrophobia\\outputs\\x_v1_20261108\\source_art\\body_south.png",
+    "C:\\Users\\29232\\Documents\\ChatGPT\\Ombrophobia\\outputs\\x_v1_20261108\\references\\X_original.png"
+  ],
+  "transparent_background": true,
+  "generated_source": "C:/Users/29232/.codex/generated_images/01a1aef2-3ca6-7473-a5cd-221d3e1ac209/exec-6848a969-bd42-4133-81b5-b96516a55a65.png",
+  "replaces_source": "source_art_initial/body_east.png",
+  "reason": "Correct physical-left pocket and shorten side shoe"
+}

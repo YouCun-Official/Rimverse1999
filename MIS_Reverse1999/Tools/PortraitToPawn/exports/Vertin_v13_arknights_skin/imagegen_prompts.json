@@ -1,0 +1,127 @@
+{
+  "mode": "built-in image_gen",
+  "revision": "v13_arknights_skin",
+  "previous_export": "Vertin_v12_sampled_skin",
+  "prompts": {
+    "head_south": "Use case: precise-object-edit. Asset: transparent RimWorld pawn head sprite. Input image 1 is the edit target; input image 2 is a SOLID COLOR REFERENCE ONLY. Perform a strictly local skin-palette replacement on the first image. Replace the existing muted brown/pink skin base with the exact pale warm ivory color shown in the second image, sRGB RGB (252,235,211), HEX #FCEBD3, copied from an existing Arknights Zima pawn texture. The face, visible ear skin, and exposed neck/nape must all use this same pale base. Skin should be flat and simple: a large uniform #FCEBD3 fill, only minimal small existing crease marks; no gradients, new blush, glints or realistic skin shading. Keep the silhouette, proportions, position, image framing and full original canvas. PRESERVE the existing eye sizes, eye spacing, iris color, pupil/highlight design, relaxed eyebrows, nose mark, mouth line, jaw and chin. This task DOES NOT enlarge or move eyes. Keep hair shape, hair color, hat shape, hat color, ribbons, bun, every non-skin part and bold dark outline as close to pixel-identical as possible. Do not change subject size or rotation. Do not redesign anything. Keep actual transparent background (alpha), no checkerboard, no text, no swatches, no labels, no other heads or shoulders. Output one edited head only. View-specific instruction: Straight front view. Lighten all facial skin and the small visible ear only; preserve the two original eyes and their horizontal spacing exactly.",
+    "head_east": "Use case: precise-object-edit. Asset: transparent RimWorld pawn head sprite. Input image 1 is the edit target; input image 2 is a SOLID COLOR REFERENCE ONLY. Perform a strictly local skin-palette replacement on the first image. Replace the existing muted brown/pink skin base with the exact pale warm ivory color shown in the second image, sRGB RGB (252,235,211), HEX #FCEBD3, copied from an existing Arknights Zima pawn texture. The face, visible ear skin, and exposed neck/nape must all use this same pale base. Skin should be flat and simple: a large uniform #FCEBD3 fill, only minimal small existing crease marks; no gradients, new blush, glints or realistic skin shading. Keep the silhouette, proportions, position, image framing and full original canvas. PRESERVE the existing eye sizes, eye spacing, iris color, pupil/highlight design, relaxed eyebrows, nose mark, mouth line, jaw and chin. This task DOES NOT enlarge or move eyes. Keep hair shape, hair color, hat shape, hat color, ribbons, bun, every non-skin part and bold dark outline as close to pixel-identical as possible. Do not change subject size or rotation. Do not redesign anything. Keep actual transparent background (alpha), no checkerboard, no text, no swatches, no labels, no other heads or shoulders. Output one edited head only. View-specific instruction: True profile facing RIGHT. Lighten face, ear and the small exposed neck patch underneath the hair; preserve nose/lip/chin profile and single visible eye exactly.",
+    "head_north": "Use case: precise-object-edit. Asset: transparent RimWorld pawn head sprite. Input image 1 is the edit target; input image 2 is a SOLID COLOR REFERENCE ONLY. Perform a strictly local skin-palette replacement on the first image. Replace the existing muted brown/pink skin base with the exact pale warm ivory color shown in the second image, sRGB RGB (252,235,211), HEX #FCEBD3, copied from an existing Arknights Zima pawn texture. The face, visible ear skin, and exposed neck/nape must all use this same pale base. Skin should be flat and simple: a large uniform #FCEBD3 fill, only minimal small existing crease marks; no gradients, new blush, glints or realistic skin shading. Keep the silhouette, proportions, position, image framing and full original canvas. PRESERVE the existing eye sizes, eye spacing, iris color, pupil/highlight design, relaxed eyebrows, nose mark, mouth line, jaw and chin. This task DOES NOT enlarge or move eyes. Keep hair shape, hair color, hat shape, hat color, ribbons, bun, every non-skin part and bold dark outline as close to pixel-identical as possible. Do not change subject size or rotation. Do not redesign anything. Keep actual transparent background (alpha), no checkerboard, no text, no swatches, no labels, no other heads or shoulders. Output one edited head only. View-specific instruction: REAR view. The only exposed skin is the tiny curved nape crescent below the back hair near the bottom center. Change that small crescent to #FCEBD3. Preserve ALL hair, bun, hat and ribbon. Do not add a face, eyes, ears or large neck."
+  },
+  "runs": [
+    {
+      "part": "head_south",
+      "inputs": [
+        "inputs/head_south_v12.png",
+        "references/skin_base_swatch.png"
+      ],
+      "result": "candidates/pass1/head_south.png",
+      "pass": 1
+    },
+    {
+      "part": "head_east",
+      "inputs": [
+        "inputs/head_east_v12.png",
+        "references/skin_base_swatch.png"
+      ],
+      "result": "candidates/pass1/head_east.png",
+      "pass": 1
+    },
+    {
+      "part": "head_north",
+      "inputs": [
+        "inputs/head_north_v12.png",
+        "references/skin_base_swatch.png"
+      ],
+      "result": "candidates/pass1/head_north.png",
+      "pass": 1
+    },
+    {
+      "part": "head_south",
+      "pass": 2,
+      "prompt": "Use case: precise-object-edit. Correct ONLY the flat skin color of image 1. Image 2 is the exact target solid color swatch: #FCEBD3, sRGB 252 235 211. The current generated skin is slightly too peach/orange and too dark: it measures about 252 230 205 on the face (rear nape about 251 227 202). Increase green and blue slightly so the large flat skin fill actually matches the second image. Treat this as a direct eyedropper fill replacement, not a new illustration or lighting change. The resulting skin should be a very pale creamy ivory #FCEBD3, not peach, tan, pink or gray. Fill face/ear/exposed neck with the same base. NO gradient, NO texture, NO added shading or highlights. Preserve all non-skin pixels and especially eye widths, eye heights, eye distance, irises, pupils, eyebrows, nose/mouth marks, jaw shape, hair, hat, ribbons, outlines, size and position. Do not change any geometry. Output only the same front-view head on actual transparent alpha background, same framing and full canvas. No swatch/text/grid/background. Keep the existing relaxed facial expression and all facial features exactly.",
+      "inputs": [
+        "candidates/pass1/head_south.png",
+        "references/skin_base_swatch.png"
+      ],
+      "result": "candidates/pass2/head_south.png"
+    },
+    {
+      "part": "head_east",
+      "pass": 2,
+      "prompt": "Use case: precise-object-edit. Correct ONLY the flat skin color of image 1. Image 2 is the exact target solid color swatch: #FCEBD3, sRGB 252 235 211. The current generated skin is slightly too peach/orange and too dark: it measures about 252 230 205 on the face (rear nape about 251 227 202). Increase green and blue slightly so the large flat skin fill actually matches the second image. Treat this as a direct eyedropper fill replacement, not a new illustration or lighting change. The resulting skin should be a very pale creamy ivory #FCEBD3, not peach, tan, pink or gray. Fill face/ear/exposed neck with the same base. NO gradient, NO texture, NO added shading or highlights. Preserve all non-skin pixels and especially eye widths, eye heights, eye distance, irises, pupils, eyebrows, nose/mouth marks, jaw shape, hair, hat, ribbons, outlines, size and position. Do not change any geometry. Output only the same right-facing side-view head on actual transparent alpha background, same framing and full canvas. No swatch/text/grid/background. Keep the existing relaxed facial expression and all facial features exactly.",
+      "inputs": [
+        "candidates/pass1/head_east.png",
+        "references/skin_base_swatch.png"
+      ],
+      "result": "candidates/pass2/head_east.png"
+    },
+    {
+      "part": "head_north",
+      "pass": 2,
+      "prompt": "Use case: precise-object-edit. Correct ONLY the flat skin color of image 1. Image 2 is the exact target solid color swatch: #FCEBD3, sRGB 252 235 211. The current generated skin is slightly too peach/orange and too dark: it measures about 252 230 205 on the face (rear nape about 251 227 202). Increase green and blue slightly so the large flat skin fill actually matches the second image. Treat this as a direct eyedropper fill replacement, not a new illustration or lighting change. The resulting skin should be a very pale creamy ivory #FCEBD3, not peach, tan, pink or gray. Fill face/ear/exposed neck with the same base. NO gradient, NO texture, NO added shading or highlights. Preserve all non-skin pixels and especially eye widths, eye heights, eye distance, irises, pupils, eyebrows, nose/mouth marks, jaw shape, hair, hat, ribbons, outlines, size and position. Do not change any geometry. Output only the same back-view head on actual transparent alpha background, same framing and full canvas. No swatch/text/grid/background. Only the tiny pale crescent below the bottom-center back hair is skin; do not change any other region or add a face.",
+      "inputs": [
+        "candidates/pass1/head_north.png",
+        "references/skin_base_swatch.png"
+      ],
+      "result": "candidates/pass2/head_north.png"
+    },
+    {
+      "part": "head_south",
+      "pass": 3,
+      "prompt": "Precise local sprite edit. Image 1 is the original approved south head. Image 2 is a flat calibrated color swatch. REPLACE ONLY THE BROWN/PINK SKIN FILL with the exact light ivory swatch color RGB 255 242 218, #FFF2DA. Copy the swatch as a uniform flat color without modifying its lighting, shading or saturation. This brighter swatch is deliberate export calibration, so do not restore the original tan skin. Change face, visible ear and tiny exposed neck skin to the same swatch. Do not redesign the character. Preserve the original hair, hat, bun, ribbons, line thickness, nose/mouth marks, jaw shape, relaxed eyebrow expression, exact eye sizes and spacing, iris colors, pupil/highlights, position and full canvas. No eye enlargement, no movement, no added shadows, no skin texture. Only the skin base is changed; all details and all non-skin colors stay the same. Transparent alpha background; no swatch or labels in output; single head, no shoulders. Maintain original face anatomy and expression exactly.",
+      "inputs": [
+        "inputs/head_south_v12.png",
+        "references/generation_compensation_south.png"
+      ],
+      "result": "source_art/head_south.png"
+    },
+    {
+      "part": "head_east",
+      "pass": 3,
+      "prompt": "Precise local sprite edit. Image 1 is the original approved east head. Image 2 is a flat calibrated color swatch. REPLACE ONLY THE BROWN/PINK SKIN FILL with the exact light ivory swatch color RGB 255 243 220, #FFF3DC. Copy the swatch as a uniform flat color without modifying its lighting, shading or saturation. This brighter swatch is deliberate export calibration, so do not restore the original tan skin. Change face, visible ear and tiny exposed neck skin to the same swatch. Do not redesign the character. Preserve the original hair, hat, bun, ribbons, line thickness, nose/mouth marks, jaw shape, relaxed eyebrow expression, exact eye sizes and spacing, iris colors, pupil/highlights, position and full canvas. No eye enlargement, no movement, no added shadows, no skin texture. Only the skin base is changed; all details and all non-skin colors stay the same. Transparent alpha background; no swatch or labels in output; single head, no shoulders. Maintain original face anatomy and expression exactly.",
+      "inputs": [
+        "inputs/head_east_v12.png",
+        "references/generation_compensation_east.png"
+      ],
+      "result": "source_art/head_east.png"
+    },
+    {
+      "part": "head_north",
+      "pass": 3,
+      "prompt": "Precise local sprite edit. Image 1 is the original approved north head. Image 2 is a flat calibrated color swatch. REPLACE ONLY THE BROWN/PINK SKIN FILL with the exact light ivory swatch color RGB 251 241 223, #FBF1DF. Copy the swatch as a uniform flat color without modifying its lighting, shading or saturation. This brighter swatch is deliberate export calibration, so do not restore the original tan skin. Change face, visible ear and tiny exposed neck skin to the same swatch. Do not redesign the character. Preserve the original hair, hat, bun, ribbons, line thickness, nose/mouth marks, jaw shape, relaxed eyebrow expression, exact eye sizes and spacing, iris colors, pupil/highlights, position and full canvas. No eye enlargement, no movement, no added shadows, no skin texture. Only the skin base is changed; all details and all non-skin colors stay the same. Transparent alpha background; no swatch or labels in output; single head, no shoulders. Back view: only the small bottom-center nape crescent below the hair is skin. Everything else is hair/hat/ribbon and stays untouched. Do not add facial features.",
+      "inputs": [
+        "inputs/head_north_v12.png",
+        "references/generation_compensation_north.png"
+      ],
+      "result": "source_art/head_north.png"
+    }
+  ],
+  "preservation_note": "Only skin is a requested design change. Non-skin head details require visual/pixel review; body/item files remain byte-identical.",
+  "generated_files": {
+    "head_south": "C:\\Users\\29232\\.codex\\generated_images\\01a1861f-9a30-7ac2-8cf4-4f87a0509258\\exec-fd49438b-f93f-45c3-b43c-0a6f331caebb.png",
+    "head_east": "C:\\Users\\29232\\.codex\\generated_images\\01a1861f-9a30-7ac2-8cf4-4f87a0509258\\exec-20720bb1-3414-48f4-905d-633c41f3849b.png",
+    "head_north": "C:\\Users\\29232\\.codex\\generated_images\\01a1861f-9a30-7ac2-8cf4-4f87a0509258\\exec-4c77c53c-0de8-4759-8ef2-570698f2acbe.png"
+  },
+  "pass1_generated_files": {
+    "head_south": "C:\\Users\\29232\\.codex\\generated_images\\01a1861f-9a30-7ac2-8cf4-4f87a0509258\\exec-a1ebfc15-e196-4cfb-82e9-f2ca27cf0946.png",
+    "head_east": "C:\\Users\\29232\\.codex\\generated_images\\01a1861f-9a30-7ac2-8cf4-4f87a0509258\\exec-8d68944e-0df3-4f9b-b4c6-85f0aa1d8b74.png",
+    "head_north": "C:\\Users\\29232\\.codex\\generated_images\\01a1861f-9a30-7ac2-8cf4-4f87a0509258\\exec-c7a0e99f-9782-4576-bf7b-17377c7505a0.png"
+  },
+  "correction_prompts": {
+    "south": "Use case: precise-object-edit. Correct ONLY the flat skin color of image 1. Image 2 is the exact target solid color swatch: #FCEBD3, sRGB 252 235 211. The current generated skin is slightly too peach/orange and too dark: it measures about 252 230 205 on the face (rear nape about 251 227 202). Increase green and blue slightly so the large flat skin fill actually matches the second image. Treat this as a direct eyedropper fill replacement, not a new illustration or lighting change. The resulting skin should be a very pale creamy ivory #FCEBD3, not peach, tan, pink or gray. Fill face/ear/exposed neck with the same base. NO gradient, NO texture, NO added shading or highlights. Preserve all non-skin pixels and especially eye widths, eye heights, eye distance, irises, pupils, eyebrows, nose/mouth marks, jaw shape, hair, hat, ribbons, outlines, size and position. Do not change any geometry. Output only the same front-view head on actual transparent alpha background, same framing and full canvas. No swatch/text/grid/background. Keep the existing relaxed facial expression and all facial features exactly.",
+    "east": "Use case: precise-object-edit. Correct ONLY the flat skin color of image 1. Image 2 is the exact target solid color swatch: #FCEBD3, sRGB 252 235 211. The current generated skin is slightly too peach/orange and too dark: it measures about 252 230 205 on the face (rear nape about 251 227 202). Increase green and blue slightly so the large flat skin fill actually matches the second image. Treat this as a direct eyedropper fill replacement, not a new illustration or lighting change. The resulting skin should be a very pale creamy ivory #FCEBD3, not peach, tan, pink or gray. Fill face/ear/exposed neck with the same base. NO gradient, NO texture, NO added shading or highlights. Preserve all non-skin pixels and especially eye widths, eye heights, eye distance, irises, pupils, eyebrows, nose/mouth marks, jaw shape, hair, hat, ribbons, outlines, size and position. Do not change any geometry. Output only the same right-facing side-view head on actual transparent alpha background, same framing and full canvas. No swatch/text/grid/background. Keep the existing relaxed facial expression and all facial features exactly.",
+    "north": "Use case: precise-object-edit. Correct ONLY the flat skin color of image 1. Image 2 is the exact target solid color swatch: #FCEBD3, sRGB 252 235 211. The current generated skin is slightly too peach/orange and too dark: it measures about 252 230 205 on the face (rear nape about 251 227 202). Increase green and blue slightly so the large flat skin fill actually matches the second image. Treat this as a direct eyedropper fill replacement, not a new illustration or lighting change. The resulting skin should be a very pale creamy ivory #FCEBD3, not peach, tan, pink or gray. Fill face/ear/exposed neck with the same base. NO gradient, NO texture, NO added shading or highlights. Preserve all non-skin pixels and especially eye widths, eye heights, eye distance, irises, pupils, eyebrows, nose/mouth marks, jaw shape, hair, hat, ribbons, outlines, size and position. Do not change any geometry. Output only the same back-view head on actual transparent alpha background, same framing and full canvas. No swatch/text/grid/background. Only the tiny pale crescent below the bottom-center back hair is skin; do not change any other region or add a face."
+  },
+  "pass2_generated_files": {
+    "head_south": "C:\\Users\\29232\\.codex\\generated_images\\01a1861f-9a30-7ac2-8cf4-4f87a0509258\\exec-3c95dbaf-b34b-4819-8407-077ed1df555e.png",
+    "head_east": "C:\\Users\\29232\\.codex\\generated_images\\01a1861f-9a30-7ac2-8cf4-4f87a0509258\\exec-30e14841-8cf7-45b6-84f3-af6c18a4e582.png",
+    "head_north": "C:\\Users\\29232\\.codex\\generated_images\\01a1861f-9a30-7ac2-8cf4-4f87a0509258\\exec-3b818a4a-9810-4dfc-a21d-5d254e51d021.png"
+  },
+  "final_prompts": {
+    "south": "Precise local sprite edit. Image 1 is the original approved south head. Image 2 is a flat calibrated color swatch. REPLACE ONLY THE BROWN/PINK SKIN FILL with the exact light ivory swatch color RGB 255 242 218, #FFF2DA. Copy the swatch as a uniform flat color without modifying its lighting, shading or saturation. This brighter swatch is deliberate export calibration, so do not restore the original tan skin. Change face, visible ear and tiny exposed neck skin to the same swatch. Do not redesign the character. Preserve the original hair, hat, bun, ribbons, line thickness, nose/mouth marks, jaw shape, relaxed eyebrow expression, exact eye sizes and spacing, iris colors, pupil/highlights, position and full canvas. No eye enlargement, no movement, no added shadows, no skin texture. Only the skin base is changed; all details and all non-skin colors stay the same. Transparent alpha background; no swatch or labels in output; single head, no shoulders. Maintain original face anatomy and expression exactly.",
+    "east": "Precise local sprite edit. Image 1 is the original approved east head. Image 2 is a flat calibrated color swatch. REPLACE ONLY THE BROWN/PINK SKIN FILL with the exact light ivory swatch color RGB 255 243 220, #FFF3DC. Copy the swatch as a uniform flat color without modifying its lighting, shading or saturation. This brighter swatch is deliberate export calibration, so do not restore the original tan skin. Change face, visible ear and tiny exposed neck skin to the same swatch. Do not redesign the character. Preserve the original hair, hat, bun, ribbons, line thickness, nose/mouth marks, jaw shape, relaxed eyebrow expression, exact eye sizes and spacing, iris colors, pupil/highlights, position and full canvas. No eye enlargement, no movement, no added shadows, no skin texture. Only the skin base is changed; all details and all non-skin colors stay the same. Transparent alpha background; no swatch or labels in output; single head, no shoulders. Maintain original face anatomy and expression exactly.",
+    "north": "Precise local sprite edit. Image 1 is the original approved north head. Image 2 is a flat calibrated color swatch. REPLACE ONLY THE BROWN/PINK SKIN FILL with the exact light ivory swatch color RGB 251 241 223, #FBF1DF. Copy the swatch as a uniform flat color without modifying its lighting, shading or saturation. This brighter swatch is deliberate export calibration, so do not restore the original tan skin. Change face, visible ear and tiny exposed neck skin to the same swatch. Do not redesign the character. Preserve the original hair, hat, bun, ribbons, line thickness, nose/mouth marks, jaw shape, relaxed eyebrow expression, exact eye sizes and spacing, iris colors, pupil/highlights, position and full canvas. No eye enlargement, no movement, no added shadows, no skin texture. Only the skin base is changed; all details and all non-skin colors stay the same. Transparent alpha background; no swatch or labels in output; single head, no shoulders. Back view: only the small bottom-center nape crescent below the hair is skin. Everything else is hair/hat/ribbon and stays untouched. Do not add facial features."
+  },
+  "final_selected_pass": 3,
+  "color_calibration_record": "generation_color_calibration.json"
+}

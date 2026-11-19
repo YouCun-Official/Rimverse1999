@@ -1,0 +1,55 @@
+{
+  "south": {
+    "v1": {
+      "solid_bbox": [
+        80,
+        79,
+        176,
+        174
+      ],
+      "sha256": "8d4c829092929171aff5609865145302db531b32adf54403194704d79ad01436"
+    },
+    "v2": {
+      "solid_bbox": [
+        79,
+        79,
+        176,
+        174
+      ],
+      "sha256": "3524782085e9c3076a371e62871ee8304f257e4bb085c20f02946b155728ed6d"
+    }
+  },
+  "east": {
+    "v1": {
+      "solid_bbox": [
+        82,
+        82,
+        173,
+        175
+      ],
+      "sha256": "2881f6690ee5ac7bc5f5dc99f9b9ff52520bc3b90d11e117e5f5b4332c0edebe"
+    },
+    "v2": {
+      "solid_bbox": [
+        86,
+        82,
+        177,
+        175
+      ],
+      "sha256": "fbc598e7f5838df18a06b094435e1f3283b82fdce4d2443aabfe68853a538f38"
+    }
+  },
+  "head_east_target_translation_native_px": [
+    4,
+    0
+  ],
+  "head_rotation_degrees": 0,
+  "unchanged_components": [
+    "head_north",
+    "body_south",
+    "body_east",
+    "body_north",
+    "item"
+  ],
+  "preservation_note": "Changed heads were visually checked, not asserted pixel-identical outside mouth. Small antialiasing differences can change a solid alpha edge by one pixel."
+}

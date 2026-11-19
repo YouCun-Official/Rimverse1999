@@ -1,0 +1,87 @@
+PortraitToPawn · 立绘转躯干草稿
+
+当前角色素材
+十四行诗当前完整套装：exports/Sonetto_v2_compact_head
+红弩箭当前完整套装：exports/Lilya_v1
+维尔汀当前完整套装：exports/Vertin_v14_facial_details
+星锑当前完整套装：exports/Regulus_v1
+历史套装：exports/Vertin_v1、exports/Vertin_v2_head_style、exports/Vertin_v3_bold、exports/Vertin_v4_side_and_outline、exports/Vertin_v5_original_hairstyle、exports/Vertin_v6_compact_faces、exports/Vertin_v7_balanced_faces、exports/Vertin_v8_pawn_eyes、exports/Vertin_v9_soft_brows、exports/Vertin_v10_waist_balance、exports/Vertin_v11_midpoint_waist、exports/Vertin_v12_sampled_skin、exports/Vertin_v13_arknights_skin
+X 当前完整套装：exports/X_v2_soft_smile
+当前安装记录：characters/Vertin.json、characters/Regulus.json、characters/X.json、characters/Lilya.json、characters/Sonetto.json
+
+正式 Textures 保存红弩箭、星锑、十四行诗、维尔汀、X各三向头部、三向躯干及正面物品图，共 35 张角色贴图，均为 256×256 RGBA PNG。
+帽子、头发和墨镜等头部配件合并在各自头部；三向分别为 south（正面）、east（朝右侧面）、north（背面）。
+当前角色仍处于材质制作阶段，尚未建立可招募角色定义。
+
+本地草稿工具
+1. 双击 Start.cmd，选择人物立绘。
+2. 填写新角色的资源英文名，使用字母开头，可含字母、数字、下划线，最多 64 字符。
+3. 选择服装结构与袖口，可选 JSON 覆盖配方。
+4. 生成结果写入新的 exports 子目录，不会自动替换正式 Textures。
+
+命令行：
+python portrait_to_pawn.py "人物立绘.png" --name NewCharacter
+python portrait_to_pawn.py "人物立绘.png" --name NewCharacter --recipe example_recipe.json --out "新的输出目录"
+python portrait_to_pawn.py "人物立绘.png" --name NewCharacter --sleeve-style none
+
+本地工具按立绘配色和服装模板生成三向躯干及物品图，共 4 张 PNG；不生成头部。
+双臂和手省略，袖口为肩部短段或完全省略。侧背与画面外裤装采用模板推断。
+example_recipe.json 是通用颜色/参数格式示例；支持 flat、shaded、fitted_tactical 渲染模式。
+fitted_tactical 需要 shirt_vest 结构，并可导出 SVG 图层。
+工具不自动理解任意立绘的装备布局；当前精修材质由内置 image_gen 重绘后格式化得到。
+
+复现维尔汀当前材质
+在 exports/Vertin_v14_facial_details 目录运行：
+python format_assets.py --recipe recipe.json --out 新输出目录
+source_art 保存六张原稿，imagegen_prompts.json 保存提示词，recipe.json 保存定位、侧身走线与描边参数。
+此命令复现已完成原稿的尺寸、透明画布、侧身逐行位置校正和外轮廓描边；不重新生成图片。头部保持直立。
+保留旧版材质及只含现存资源的备份，见安装记录。已通过静态检查，未进行游戏内验证。
+
+依赖与源码
+Start.cmd 优先使用本机附带的 Python。换机器可用：
+py -3 -m pip install -r requirements.txt
+portrait_to_pawn.py：立绘分析、格式化与导出。
+flat_renderer.py、fitted_renderer.py：通用躯干绘制模板。
+gui.py：选图与生成界面。
+python -m unittest -v test_portrait_to_pawn.py
+
+2026-11-05：三向头部与躯干统一加粗外轮廓；侧身加厚胸腰、校正连续斜向走线，鞋尖与后跟收拢，内部衣片线条分级并局部断开。正式目录共更新 7 张材质。旧版备份见当前安装记录。
+
+后续角色通用规范：先读本目录《角色三视图制作规范.txt》，再按《角色贴图Agent任务模板.txt》填写任务输入。规范面向所有角色；身份特征由目标立绘确定，占图尺寸、坐标及姿态修正量逐角色校准。
+2026-11-05：维尔汀头部 v5 根据官方人物档案、游戏立绘及卷髻细节参考，修正长侧发束、灰银发色和低位单侧卷髻；正式目录仅更新 3 张头部，躯干与物品图保留 v4。参考来源与完整提示词保存在当前导出目录。
+
+2026-11-05：维尔汀 v6 依据同尺度 Texas/Zima 等头部参考，缩短正侧面下半脸、圆化下巴、简化耳廓与五官，描边以小尺寸可读性校准。正式目录仅更新 south/east 头部，背面头部、三向躯干和物品图沿用已确认版本。角色通用规范同步补充“不过度细化、以游戏尺度校准脸型与线宽”。
+
+2026-11-05：维尔汀 v7 根据用户对 v6 过圆、鼻嘴过度简化的反馈，结合 v5 和 v6 调整为柔和内收的小下巴，恢复可辨认的鼻部和自然唇线。正式更新正面和侧面头部。通用规范改为“简化画法不删除五官”，保留三版同尺度对比。
+
+2026-11-05：维尔汀 v8 调整正面/侧面眼睛的纵向开度和简化画法，减少写实眼睑线，保留灰绿色瞳色与清楚瞳孔；鼻唇沿用 v7 的表现，下巴保持短小柔和。正式只更新两张头部，三向躯干和背面头部沿用。
+
+2026-11-05：维尔汀 v9 在用户认可 v8 整体后微调正面/侧面眉形，参照立绘减轻眉头下压、略细化和平缓眉线，保留既有眼睛、鼻嘴与脸型表现。正式只更新两张头部。
+
+2026-11-05：维尔汀 v10 放宽正面与背面腰部，保留臀宽大于肩宽和贴身版型；三向头部与侧躯干哈希保持不变。waist_guides_comparison.png 提供同尺度女性参考，measurements.json 记录着衣截面与参考线端点。通用规范及 Agent 模板增加逐层衣物版型、松量与垂坠要求，宽松大衣、裙装和衣摆不再强套贴身收腰轮廓。
+
+2026-11-05：维尔汀 v11 将正背腰部调至 v9 与 v10 之间，保留贴身版型、臀比肩宽、原头部和侧躯干。waist_three_versions.png 提供三版同尺度对比。通用规范新增男性肩宽不小于腰/臀、无收腰要求；风衣及宽松衣物无论男女均优先走衣物线条，不强套身体曲线。
+
+2026-11-05：维尔汀 v12 从原始立绘 4 处面部皮肤区域随机抽取 8 个 7×7 小块，以 sRGB 块均值等权平均得到 #CBB0A5，并据此校准三向头部肤色；躯干和物品图沿用 v11。skin_sampling.json、skin_sampling_board.png 和 sample_skin.py 保存取样、色板与复现方式。当时加入原画面部取样默认方法；后续以最新规范及明确用户覆盖为准。
+
+2026-11-05：维尔汀 v13 按用户要求弃用 v12 原画采样肤色，改用 Arknights 素材 Zima 的现有浅象牙主色 #FCEBD3（252,235,211）。颜色直接读取有效脸颊色块，不与原画色混合；三向脸/耳/后颈统一校色，眼睛尺寸和间距本次不作设计调整。躯干、物品图和其他纹理沿用；来源与颜色复核见 skin_palette_reference.json、skin_color_check.json。本条仅记载 v13 的处理过程。
+
+2026-11-05 规范修订：按用户要求删除通用规范、Agent 任务模板及 AGENTS.md 中的肤色规则，以及流程、验收、交付清单中的相关要求。历史版本取色记录只用于追溯，不作为现行通用约束；当前 v13 贴图未改动。
+
+2026-11-05 尺寸基准修订：后续目标同时满足“少年女性 + 相对紧身衣物”时，头部和躯干三视图尺寸统一以现有 Vertin v13 为基准，躯干沿用 v11 中间宽度。基准目录 exports/Vertin_v13_arknights_skin；对照正式 PNG，查询 recipe.json、validation.json。其他角色继续单独校准，宽松外层仍按衣物轮廓优先。本次仅更新规则，贴图未改动。
+
+2026-11-06 面部细节约束修订：明显、具有辨识度的雀斑、烧伤痕迹、疤痕等按原设简化保留，检查位置、侧别、三向遮挡及小尺寸可读性；无明显特征可跳过，不给所有角色统一添加。本条不新增肤色确定规则。
+
+2026-11-06：维尔汀 v14 对照已有游戏立绘和官方参考，补上鼻梁及邻近上颊的浅色雀斑，正侧面按可见性简化表达。仅更新 south/east 头部；背面头部、三向躯干、物品图与无关纹理哈希不变。尺寸基准仍固定引用 v13；v14 未改变占图边界。检查来源、局部前后对比及验证记录见新导出目录，未进行游戏内验证。
+
+2026-11-08：新增星锑 Regulus v1。以本地 星锑.png 为主，网络资料辅助核对原装包与配件；保留墨镜及略撇嘴的克制神情。宽松短外套和 A 字裙按衣物轮廓校准，不套用贴身 Vertin 腰线。使用内置 image_gen 分件绘制并修正侧面衣扣、鞋尖、背面帽带和正面领巾遮挡，再以 4 倍采样格式化为 7 张正式贴图。source_art、imagegen_prompts.json、recipe.json、三视图、同倍率参考对比和校验结果均在 exports/Regulus_v1。该目录运行 python format_assets.py --recipe recipe.json --out 新输出目录 可复现格式化结果。Vertin 贴图与角色记录保持不变。静态检查通过，未进行游戏内验证。
+
+2026-11-08：新增 X v1，采用本地 X.png 为身份及神情主参考。男性宽松长外套优先走衣物轮廓，不采用 Vertin 少年女性紧身尺寸基准。保留异色瞳、轻松笑容和仪表胸牌等标志配件；侧背不可见处为克制推断。新增 7 张正式纹理，原有 Vertin 与 UI 哈希均不变。提示词、来源、原尺寸/缩小与同尺度对比、格式化配方和安装回执见 exports/X_v1。可在该目录运行 python format_assets.py --recipe recipe.json --out 新输出目录 复现。未创建 X 角色 Def，游戏内未验证。
+
+2026-11-08：新增红弩箭 Lilya v1，以本地 红弩箭.png 为主要立绘，网络仅辅助核对名称与初始装束。保留自信、略露齿的笑容，青蓝瞳色、长金发、飞行帽及护目镜；颈挂呼吸面罩归入躯干。宽松飞行外套按衣物轮廓校准，侧背配件按物理侧别与遮挡修正，背面长发保持连续层次。使用内置 image_gen 分别绘制六个部件，经 4 倍采样、定位与外轮廓补强导出 7 张正式贴图。提示词、源图、配方、同尺度对比与验收回执见 exports/Lilya_v1；在该目录运行 python format_assets.py --recipe recipe.json --out 新输出目录 可复现格式化结果。现有角色及 UI 纹理保持不变，未新增角色 Def，游戏内未验证。
+
+2026-11-08：新增十四行诗 Sonetto v1，头部、躯干各三向及物品图共 7 张，正式路径与 Vertin 同级。以本地十四行诗.png 为身份与表情主参照，使用内置 image_gen 绘制并格式化；保存提示词、原稿、参考、同尺度对比和配方。侧背不可见结构按原设合理补全。复现：在 exports/Sonetto_v1 中运行 python format_assets.py --recipe recipe.json --out 新输出目录。已通过静态与复现检查，游戏内未验证。
+
+2026-11-08：十四行诗 v2 修正头部导出的额外纵向拉伸，正侧面改用等比缩放并重新定位眼线与下巴，背面同步校准头部尺度。原稿、神情与配色沿用；三向躯干和物品图字节不变。当前目录 exports/Sonetto_v2_compact_head；前后同尺度对比、配方与验证记录一并保存，游戏内未验证。
+
+2026-11-08：X v2 按用户反馈将正面、侧面的张口笑改为克制的闭口微笑，并将朝右侧面头部在原生画布中向前平移 4 像素，保持直立和原尺寸目标。只替换两张头部；背面头部、三向躯干、物品图及其他角色纹理哈希不变。前后对比见 exports/X_v2_soft_smile/changes_before_after.png；完整提示词、原稿、配方及校验记录保存在该版本目录。旧版保留 exports/X_v1。静态与复现检查通过，游戏内未验证。

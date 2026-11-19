@@ -1,0 +1,114 @@
+{
+  "batch": "SoftPixel_v1_20261109",
+  "date": "2026-11-09",
+  "method": "User explicitly selected Python pixel postprocessing. Light premultiplied-alpha pixel grouping, restrained low-contrast median contribution and color grouping. No redraw, face transfer, warp, alpha edit, new expression, noise or dithering.",
+  "profiles": {
+    "light": {
+      "median_local_limit": 20,
+      "protection_feather_px": 2,
+      "dark_stroke_luma": 72,
+      "max_dark_stroke_lightening": 5,
+      "guide_grid": 192,
+      "pixel_mix": 0.5,
+      "median_mix": 0.18,
+      "color_step": 6,
+      "max_channel_delta": 16
+    }
+  },
+  "assets": {
+    "X_head_south": {
+      "character": "X",
+      "part": "head",
+      "direction": "south",
+      "source": "native_inputs/Textures/Things/Hair/R99/X_south.png",
+      "source_sha256": "3524782085e9c3076a371e62871ee8304f257e4bb085c20f02946b155728ed6d",
+      "relative_path": "Textures/Things/Hair/R99/X_south.png",
+      "profile": "light",
+      "protected_boxes": [
+        [
+          106,
+          135,
+          150,
+          168
+        ]
+      ]
+    },
+    "X_body_south": {
+      "character": "X",
+      "part": "body",
+      "direction": "south",
+      "source": "native_inputs/Textures/Things/R99_Agents/Arcanist/X_Thin_south.png",
+      "source_sha256": "75815d62132e4f17d8b4ad7d20ccc9ee92b4f0307b8b4aae4510aaf90390ead4",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/X_Thin_south.png",
+      "profile": "light",
+      "protected_boxes": []
+    },
+    "X_head_east": {
+      "character": "X",
+      "part": "head",
+      "direction": "east",
+      "source": "native_inputs/Textures/Things/Hair/R99/X_east.png",
+      "source_sha256": "fbc598e7f5838df18a06b094435e1f3283b82fdce4d2443aabfe68853a538f38",
+      "relative_path": "Textures/Things/Hair/R99/X_east.png",
+      "profile": "light",
+      "protected_boxes": [
+        [
+          137,
+          134,
+          167,
+          166
+        ]
+      ]
+    },
+    "X_body_east": {
+      "character": "X",
+      "part": "body",
+      "direction": "east",
+      "source": "native_inputs/Textures/Things/R99_Agents/Arcanist/X_Thin_east.png",
+      "source_sha256": "1dcb9105b9fb68ed0fe08f924df9a2dc8bf159a5c3635f70566a5dc7bc41b2e7",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/X_Thin_east.png",
+      "profile": "light",
+      "protected_boxes": []
+    },
+    "X_head_north": {
+      "character": "X",
+      "part": "head",
+      "direction": "north",
+      "source": "native_inputs/Textures/Things/Hair/R99/X_north.png",
+      "source_sha256": "b04c2275fdfb24749a65469465f6bf57b9836c93c721780f38a52dc445c44943",
+      "relative_path": "Textures/Things/Hair/R99/X_north.png",
+      "profile": "light",
+      "protected_boxes": []
+    },
+    "X_body_north": {
+      "character": "X",
+      "part": "body",
+      "direction": "north",
+      "source": "native_inputs/Textures/Things/R99_Agents/Arcanist/X_Thin_north.png",
+      "source_sha256": "6989754e81a8fafc657f40522b0eaba00e534c08b4b9aadd69d3b7f483a9d344",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/X_Thin_north.png",
+      "profile": "light",
+      "protected_boxes": []
+    }
+  },
+  "items": {
+    "X": {
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/X.png",
+      "copy_from": "X_body_south"
+    }
+  },
+  "expression_rule": "No broad open/toothy grin. Joy uses restrained closed-mouth smile; preserve existing composed/serious/curious expressions and small natural lip parting.",
+  "prior_exports": {
+    "X": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\X_v2_soft_smile"
+  },
+  "preview_head_offsets": {
+    "X": [
+      0,
+      -72
+    ]
+  },
+  "fixed_alpha_and_canvas": true,
+  "source_policy": "Read fresh, unfiltered native_inputs only. Never cumulatively process this pass output.",
+  "character": "X",
+  "version": "X_v3_softpixel"
+}

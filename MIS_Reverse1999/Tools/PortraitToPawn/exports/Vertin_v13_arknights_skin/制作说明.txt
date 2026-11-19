@@ -1,0 +1,24 @@
+维尔汀 v13 · 改用 Arknights 白皙肤色
+
+本次按用户明确要求弃用 v12 的原画采样肤色 #CBB0A5，改为 Zima 原有面部主色 #FCEBD3 / sRGB (252,235,211)。
+取色来自 MIS_arknights/Textures/Things/Hair/Vanguard/Zima_south.png 的三块有效面部区域，138 个像素中 122 个为该原始颜色；以已有色值众数直接确定，不与原立绘或其他角色混合。
+来源、SHA-256、取色坐标与统计见 skin_palette_reference.json；色板与标注见 skin_reference_board.png。
+
+内置 image_gen 完成局部肤色编辑，既有脚本执行透明边缘和 256×256 RGBA 格式化。
+生成过程中针对工具与透明格式化的轻微暖色偏差进行了中间提示色补偿，最终基准仍为 Zima #FCEBD3；过程见 generation_color_calibration.json 和 imagegen_prompts.json。
+最终原生皮肤内部采样及与基准的差异见 skin_color_check.json、validation.json，不声称所有皮肤和抗锯齿像素都精确等于同一 HEX。
+
+脸、耳朵和背面小块后颈共同采用该浅色基准；眼睛大小/间距、瞳色、眉形、鼻嘴、下巴、发型和帽饰不作设计调整。对生图附带的细小变化进行视觉核查，不声称三张新头部的非皮肤像素逐点不变。
+三向躯干及物品图保持 v11 文件哈希，无关 UI 纹理保持不变。仅安装三张新头部。
+当前眼睛尺寸比较仍可参考 analyses/Vertin_v12_eye_grid_20261105；该记录属于 v12 的只读测量，本次没有执行眼睛放大方案。
+
+skin_before_after.png：v12/v13 三向头部对比。
+three_views_final.png、heads_three_views.png、bodies_three_views.png：完整人物与分件三视图。
+head_style_comparison.png：与 Zima、Texas、Silence 同像素尺度比较。
+feature_preservation_grid.png：沿用 v12 眼部框线核查五官保留。
+native_and_reduced.png：原尺寸和缩小检查。
+
+复现：python format_assets.py --recipe recipe.json --out 新的空目录
+源图和完整提示词已保存；安装前备份的位置见 installation_receipt.json。
+现行通用规范已按用户要求删除肤色规则；本目录的色值、来源和处理方法仅记录此版本的制作过程。
+静态与复现检查已通过；游戏内显示效果未验证。

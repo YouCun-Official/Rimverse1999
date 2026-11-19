@@ -1,0 +1,801 @@
+{
+  "batch": "SoftPixel_v1_20261109",
+  "method": "User explicitly selected Python pixel postprocessing. Light premultiplied-alpha pixel grouping, restrained low-contrast median contribution and color grouping. No redraw, face transfer, warp, alpha edit, new expression, noise or dithering.",
+  "files": {
+    "Vertin_head_south": {
+      "path": "Textures/Things/Hair/R99/Vertin_south.png",
+      "source_sha256": "38313803bfbebcf626c201451bb46d09168be40b245ee38496632e953b11044a",
+      "output_sha256": "80c970efec396665c3daa7158764db1c54e0717b141d3394a67e196825429d02",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        75,
+        76,
+        191,
+        178
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [
+        [
+          106,
+          134,
+          151,
+          167
+        ]
+      ],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 6425,
+      "mean_abs_rgb_delta_over_visible": 2.5992,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "Vertin_body_south": {
+      "path": "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_south.png",
+      "source_sha256": "d12802758d07b58e8681449101af7383f5c25ed127334cc0624c4ed7bc42f9db",
+      "output_sha256": "b2b1899c2d99049b9e1d3993f108a01f1f854a7cc96340fee1186de03b028189",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        85,
+        89,
+        171,
+        253
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 10009,
+      "mean_abs_rgb_delta_over_visible": 2.8636,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "Vertin_head_east": {
+      "path": "Textures/Things/Hair/R99/Vertin_east.png",
+      "source_sha256": "0fba21b56edd8d13b3e9b4864fe1dacc1e8aa09a0524c87a4691b6f198c511c8",
+      "output_sha256": "8d0aa1b7a728132d22ccecba07f11f7095b0a055d843dd7058fd74cb412bc850",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        69,
+        78,
+        187,
+        181
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [
+        [
+          149,
+          136,
+          168,
+          167
+        ]
+      ],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 7256,
+      "mean_abs_rgb_delta_over_visible": 2.9469,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "Vertin_body_east": {
+      "path": "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_east.png",
+      "source_sha256": "d4780b9360a535c7668df19ac3f5836241dc87b1d662194cb565df8e0a6cae92",
+      "output_sha256": "9d52c4d64e93766f65bb42349985ae31666e5f9c34f925d93bde0f28f07a3a3d",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        71,
+        88,
+        159,
+        252
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 8424,
+      "mean_abs_rgb_delta_over_visible": 1.9226,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "Vertin_head_north": {
+      "path": "Textures/Things/Hair/R99/Vertin_north.png",
+      "source_sha256": "b73b76a4259ea05eced26dfc832991b613a42d8225d2991d4c1046646a8acffe",
+      "output_sha256": "3ff314b0ff92ee08502f98ad2182f087f3ebe5650078a03a9b5f295e238f823b",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        63,
+        82,
+        181,
+        177
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 7827,
+      "mean_abs_rgb_delta_over_visible": 2.8881,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "Vertin_body_north": {
+      "path": "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_north.png",
+      "source_sha256": "917490eef61b66664bc25045cd31533d5600f97f22126a7fc5430a06a56ac90c",
+      "output_sha256": "dc77c5497abe789e3af379913dcc559c05cd20490d2b05b161122275e75dfb8d",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        85,
+        89,
+        171,
+        253
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 9474,
+      "mean_abs_rgb_delta_over_visible": 2.1133,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "Lilya_head_south": {
+      "path": "Textures/Things/Hair/R99/Lilya_south.png",
+      "source_sha256": "fbecd77049c6287a55b20feca4d64953798cc2856c6cfe19beebfa07350f290f",
+      "output_sha256": "0a0726ea94cb7923c2e1ffc29d32bfe1f10e4bbc862f5135e9d7586f9e156d8d",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        72,
+        84,
+        184,
+        231
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [
+        [
+          103,
+          135,
+          147,
+          168
+        ]
+      ],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 8173,
+      "mean_abs_rgb_delta_over_visible": 3.3122,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "Lilya_body_south": {
+      "path": "Textures/Things/R99_Agents/Arcanist/Lilya_Thin_south.png",
+      "source_sha256": "11727c5c347857390bab9775e4386028b0e5e4b78113932de50aee2e3dc4644b",
+      "output_sha256": "3b7295feff059f3f5e94c98f11cf77a1f437498485a67bb190a9c86ad695d7e6",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        78,
+        89,
+        180,
+        252
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 10895,
+      "mean_abs_rgb_delta_over_visible": 2.7975,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "Lilya_head_east": {
+      "path": "Textures/Things/Hair/R99/Lilya_east.png",
+      "source_sha256": "38d37c3193b429ca77b3b438fd8e93b53498d4aa2a1d8fb532a0123eab47cc03",
+      "output_sha256": "973f4a02ac58f7d19edef5a36ade5e629bc27f579eac702cc7331403f8c3e5e1",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        55,
+        84,
+        175,
+        231
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [
+        [
+          131,
+          135,
+          167,
+          169
+        ]
+      ],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 10422,
+      "mean_abs_rgb_delta_over_visible": 2.9628,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "Lilya_body_east": {
+      "path": "Textures/Things/R99_Agents/Arcanist/Lilya_Thin_east.png",
+      "source_sha256": "77bfbd26c663252eaa5ac1b9297138969369e0d0a77a74d1a0466d8aa2b7f495",
+      "output_sha256": "af31e6be6734d96fce62b1bef00e2f3e239c64930f9f05c20f08534136364311",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        69,
+        89,
+        159,
+        252
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 8746,
+      "mean_abs_rgb_delta_over_visible": 2.55,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "Lilya_head_north": {
+      "path": "Textures/Things/Hair/R99/Lilya_north.png",
+      "source_sha256": "7cc09ab5a79a3c5897e48b991cc280a2433b1b0c6f6c56e72fd2b8348875cffa",
+      "output_sha256": "0f230af7ff290c1cebefd59a94b82dc5ec3e76e947addd07db198d05a2a4abf3",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        72,
+        84,
+        184,
+        231
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 11945,
+      "mean_abs_rgb_delta_over_visible": 2.7168,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "Lilya_body_north": {
+      "path": "Textures/Things/R99_Agents/Arcanist/Lilya_Thin_north.png",
+      "source_sha256": "03fb8d933a3e5a1f36557dbb8609d5cb72ac11c6b7d2b78251f1d1c75b9ff2a6",
+      "output_sha256": "189ee331da6ca5893010693a6ebff0e9e0041249812e7b964962c54b0eec5c37",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        78,
+        88,
+        180,
+        253
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 10987,
+      "mean_abs_rgb_delta_over_visible": 2.211,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "Regulus_head_south": {
+      "path": "Textures/Things/Hair/R99/Regulus_south.png",
+      "source_sha256": "89bade225614e4e6699038f6815c7523458c8110320861dd9dcdb76d39c9ae8d",
+      "output_sha256": "7aff3a400b54093d247e27f0c15cb7b55f5eda05489700ce2e26ae9ed05ef506",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        82,
+        74,
+        174,
+        180
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [
+        [
+          100,
+          134,
+          155,
+          168
+        ]
+      ],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 5529,
+      "mean_abs_rgb_delta_over_visible": 2.2075,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "Regulus_body_south": {
+      "path": "Textures/Things/R99_Agents/Arcanist/Regulus_Thin_south.png",
+      "source_sha256": "c33add115cadacea5ecf4acb58de25c4a11d43d9f786bda0f3d82ea36fcf9971",
+      "output_sha256": "4b132974003b27e2cd76852f50b07733d5b96ffb8de08f3d1fbfc49e56bc7729",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        83,
+        89,
+        185,
+        253
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 10710,
+      "mean_abs_rgb_delta_over_visible": 3.2447,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "Regulus_head_east": {
+      "path": "Textures/Things/Hair/R99/Regulus_east.png",
+      "source_sha256": "387b2ceb9ac0e89c364d78fd59a7870b0e35eb00c1eddeabe53ad4af8454448b",
+      "output_sha256": "55a26cc865987a1b572aa75e0a22795118732024f06742ac380918f0bf3cb88e",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        76,
+        74,
+        175,
+        180
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [
+        [
+          135,
+          134,
+          169,
+          168
+        ]
+      ],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 6383,
+      "mean_abs_rgb_delta_over_visible": 2.4019,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "Regulus_body_east": {
+      "path": "Textures/Things/R99_Agents/Arcanist/Regulus_Thin_east.png",
+      "source_sha256": "6a1010e3465cae66e239fb305b1a25a87a61d877e0ed8c95fab30c0ba7847513",
+      "output_sha256": "662af3a93a8ad42d373167b7cca6063be4b496034b7a2ebb94ef25a5600fc1fb",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        80,
+        89,
+        173,
+        253
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 8679,
+      "mean_abs_rgb_delta_over_visible": 3.2061,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "Regulus_head_north": {
+      "path": "Textures/Things/Hair/R99/Regulus_north.png",
+      "source_sha256": "20b11d6e416804b2930e5aa6521c2c179a3a2f9149f17617f48cf2d4df5edd75",
+      "output_sha256": "2853b3ecd0cb1cc9ed30dd446ae3397889570a25130f3081f6b359a53411f63f",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        82,
+        74,
+        174,
+        180
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 7335,
+      "mean_abs_rgb_delta_over_visible": 2.0605,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "Regulus_body_north": {
+      "path": "Textures/Things/R99_Agents/Arcanist/Regulus_Thin_north.png",
+      "source_sha256": "f2e1dc12bd67283556a95c25a797bfbb1f7fad8ce54e4bc8657b05e36fb9e692",
+      "output_sha256": "13ab0fec0a999b9f828e365d4c9fa8db8a276529e229a628d3d974b938c7b7e1",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        70,
+        89,
+        172,
+        253
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 10533,
+      "mean_abs_rgb_delta_over_visible": 2.5636,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "X_head_south": {
+      "path": "Textures/Things/Hair/R99/X_south.png",
+      "source_sha256": "3524782085e9c3076a371e62871ee8304f257e4bb085c20f02946b155728ed6d",
+      "output_sha256": "e4ac2cf84218869044da1e939d9b19901c00d04f1b1b2f3c4d1fac66a7b27d69",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        79,
+        78,
+        177,
+        175
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [
+        [
+          106,
+          135,
+          150,
+          168
+        ]
+      ],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 4813,
+      "mean_abs_rgb_delta_over_visible": 2.3182,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "X_body_south": {
+      "path": "Textures/Things/R99_Agents/Arcanist/X_Thin_south.png",
+      "source_sha256": "75815d62132e4f17d8b4ad7d20ccc9ee92b4f0307b8b4aae4510aaf90390ead4",
+      "output_sha256": "bf12bf3441da28213a2358c6541e52dc6a1e3d6cc10f2b186acc4fbec5679620",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        77,
+        89,
+        179,
+        253
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 12644,
+      "mean_abs_rgb_delta_over_visible": 3.2519,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "X_head_east": {
+      "path": "Textures/Things/Hair/R99/X_east.png",
+      "source_sha256": "fbc598e7f5838df18a06b094435e1f3283b82fdce4d2443aabfe68853a538f38",
+      "output_sha256": "ac6fbfddbb13d895cf824bca49d65390b05976cad5d169f9d3269f1b59312f72",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        85,
+        81,
+        178,
+        176
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [
+        [
+          137,
+          134,
+          167,
+          166
+        ]
+      ],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 4931,
+      "mean_abs_rgb_delta_over_visible": 2.4813,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "X_body_east": {
+      "path": "Textures/Things/R99_Agents/Arcanist/X_Thin_east.png",
+      "source_sha256": "1dcb9105b9fb68ed0fe08f924df9a2dc8bf159a5c3635f70566a5dc7bc41b2e7",
+      "output_sha256": "cc5f4aa10e62078714b0c2ca965613fd17ee801bd7628780ba93fbd983aca87d",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        73,
+        89,
+        173,
+        253
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 9590,
+      "mean_abs_rgb_delta_over_visible": 2.5226,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "X_head_north": {
+      "path": "Textures/Things/Hair/R99/X_north.png",
+      "source_sha256": "b04c2275fdfb24749a65469465f6bf57b9836c93c721780f38a52dc445c44943",
+      "output_sha256": "15e29731d4fffa38b2c07be51c6a3793ee253c3f270349c71d3aac257830d731",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        81,
+        79,
+        177,
+        173
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 5930,
+      "mean_abs_rgb_delta_over_visible": 2.2131,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "X_body_north": {
+      "path": "Textures/Things/R99_Agents/Arcanist/X_Thin_north.png",
+      "source_sha256": "6989754e81a8fafc657f40522b0eaba00e534c08b4b9aadd69d3b7f483a9d344",
+      "output_sha256": "92f18c945edc6ce0e765029e53cf2e7be272ea01c1f19f36dcb8e2cadb087e3c",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        77,
+        89,
+        179,
+        253
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 12484,
+      "mean_abs_rgb_delta_over_visible": 1.86,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "Sonetto_head_south": {
+      "path": "Textures/Things/Hair/R99/Sonetto_south.png",
+      "source_sha256": "128cd40a4d515b046b7c2fde2e7890c93077b7c65c4f8a3ef52c43c23bbfdf27",
+      "output_sha256": "2fb8ef88fec5402c82f6f203036511cb883df4fecf4b539c6a558efc2ac4a68b",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        78,
+        85,
+        185,
+        214
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [
+        [
+          103,
+          133,
+          155,
+          167
+        ]
+      ],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 7502,
+      "mean_abs_rgb_delta_over_visible": 2.299,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "Sonetto_body_south": {
+      "path": "Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_south.png",
+      "source_sha256": "2c452cbf0b3ba129b0ede6de05a872dad8b33b6fb39b91fbf869b9e639c3ea48",
+      "output_sha256": "3ad4f284115eb982b116f7289d1b68fce31b4bbdde4ab06fc9ce3ddea993c59d",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        83,
+        89,
+        174,
+        253
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 8931,
+      "mean_abs_rgb_delta_over_visible": 3.5317,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "Sonetto_head_east": {
+      "path": "Textures/Things/Hair/R99/Sonetto_east.png",
+      "source_sha256": "7262266f41e6fb090c17c5b384379524ff2d8eb451abaf48a946beb73743eb1b",
+      "output_sha256": "a3f3639194f28cd80d91dbd190fec80918f4a41baf8b13a8fb6171e9576fe149",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        78,
+        88,
+        175,
+        223
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [
+        [
+          138,
+          134,
+          170,
+          168
+        ]
+      ],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 7554,
+      "mean_abs_rgb_delta_over_visible": 2.4282,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "Sonetto_body_east": {
+      "path": "Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_east.png",
+      "source_sha256": "8968314fdc00ef934987c06e0c1d4aacc98a550a847abd8828b46fb997ca739f",
+      "output_sha256": "9d84ec8d37c3ae0d3c969b201b8369626d7c085c186955f0be0ffe7a79c2e8ae",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        71,
+        88,
+        159,
+        253
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 7763,
+      "mean_abs_rgb_delta_over_visible": 3.1491,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "Sonetto_head_north": {
+      "path": "Textures/Things/Hair/R99/Sonetto_north.png",
+      "source_sha256": "b14262bff106cd32332e72857116a79628d0bca113c1b0d3ae3533e5ffd9b923",
+      "output_sha256": "791fb0e873126b9fc1ae344bd99a3795d3e410b04fde26cf83a94086806034f0",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        83,
+        85,
+        173,
+        215
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 8787,
+      "mean_abs_rgb_delta_over_visible": 2.0988,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "Sonetto_body_north": {
+      "path": "Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_north.png",
+      "source_sha256": "2a4450adb316d64b95a3f74f94416bb604597fe0dcf548b4d32b45bd534e751d",
+      "output_sha256": "38e24193d5ca8e9814aad82f50174fd756e64a2ee08b03591479246db108702b",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        83,
+        89,
+        174,
+        253
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 8691,
+      "mean_abs_rgb_delta_over_visible": 2.7176,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    }
+  },
+  "items": {
+    "Vertin": {
+      "path": "Textures/Things/R99_Agents/Arcanist/Vertin.png",
+      "sha256": "b2b1899c2d99049b9e1d3993f108a01f1f854a7cc96340fee1186de03b028189",
+      "front_body_sha256": "b2b1899c2d99049b9e1d3993f108a01f1f854a7cc96340fee1186de03b028189",
+      "byte_identical_to_front_body": true
+    },
+    "Lilya": {
+      "path": "Textures/Things/R99_Agents/Arcanist/Lilya.png",
+      "sha256": "3b7295feff059f3f5e94c98f11cf77a1f437498485a67bb190a9c86ad695d7e6",
+      "front_body_sha256": "3b7295feff059f3f5e94c98f11cf77a1f437498485a67bb190a9c86ad695d7e6",
+      "byte_identical_to_front_body": true
+    },
+    "Regulus": {
+      "path": "Textures/Things/R99_Agents/Arcanist/Regulus.png",
+      "sha256": "4b132974003b27e2cd76852f50b07733d5b96ffb8de08f3d1fbfc49e56bc7729",
+      "front_body_sha256": "4b132974003b27e2cd76852f50b07733d5b96ffb8de08f3d1fbfc49e56bc7729",
+      "byte_identical_to_front_body": true
+    },
+    "X": {
+      "path": "Textures/Things/R99_Agents/Arcanist/X.png",
+      "sha256": "bf12bf3441da28213a2358c6541e52dc6a1e3d6cc10f2b186acc4fbec5679620",
+      "front_body_sha256": "bf12bf3441da28213a2358c6541e52dc6a1e3d6cc10f2b186acc4fbec5679620",
+      "byte_identical_to_front_body": true
+    },
+    "Sonetto": {
+      "path": "Textures/Things/R99_Agents/Arcanist/Sonetto.png",
+      "sha256": "3ad4f284115eb982b116f7289d1b68fce31b4bbdde4ab06fc9ce3ddea993c59d",
+      "front_body_sha256": "3ad4f284115eb982b116f7289d1b68fce31b4bbdde4ab06fc9ce3ddea993c59d",
+      "byte_identical_to_front_body": true
+    }
+  },
+  "all_alpha_and_placement_unchanged": true,
+  "all_protected_features_pixel_identical": true,
+  "game_tested": false
+}

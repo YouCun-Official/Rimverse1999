@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AK_DLL.OperatorSeriesDef>
+		<defName>R99_Series_Reverse1999</defName>
+		<label>重返未来：1999</label>
+		<icon>UI/Element/R99_Reverse1999</icon>
+	</AK_DLL.OperatorSeriesDef>
+
+	<AK_DLL.OperatorClassDef Name="R99_OpClassBase" Abstract="True">
+		<series>R99_Series_Reverse1999</series>
+	</AK_DLL.OperatorClassDef>
+
+	<!-- sortingOrder 在所有 MIS 扩展之间必须唯一且小于 10000000：Arknights 与其它领袖占用 1–9，Limbus 占用 31 -->
+	<AK_DLL.OperatorClassDef ParentName="R99_OpClassBase">
+		<defName>R99_OperatorClass_Arcanist</defName>
+		<label>神秘学家</label>
+		<sortingOrder>1999</sortingOrder>
+		<textureFolder>Arcanist</textureFolder>
+		<iconPath>UI/Element/R99_Arcanist</iconPath>
+	</AK_DLL.OperatorClassDef>
+
+</Defs>

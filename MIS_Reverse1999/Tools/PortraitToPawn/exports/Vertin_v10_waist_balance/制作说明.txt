@@ -1,0 +1,17 @@
+维尔汀 v10 · 腰部比例调整
+
+当前修改：正面/背面躯干及正面物品副本；三向头部和侧躯干沿用 v9，字节不变。
+正面 y=140 的着衣腰截面从 49 增至 56 原生像素，背面同一 y 从 41 增至 48。
+正面所标肩/腰/上臀为 70/56/74，背面为 64/48/69；这些是固定图像行的着衣轮廓，不是人体骨骼测量或通用模板比例。
+衣物保持贴身、腰侧过渡放缓，臀部仍宽于肩部；未把当前角色改为宽松衣物。
+
+预览：waist_guides_comparison.png（Texas/Lappland 同尺度对比）、body_before_after_three_views.png、three_views_final.png、heads_three_views.png、native_and_reduced.png。
+clothing_fit_references.png 为贴身、敞开外套、大衣与裙装的差异示例。
+参考线只在预览图中；正式纹理为 256×256 RGBA 透明 PNG。
+
+艺术编辑使用内置 image_gen，完整本次提示词及各轮输入在 imagegen_prompts.json；原稿在 source_art，原版/中间稿在 inputs。
+格式化复现：python format_assets.py --recipe recipe.json --out 新的空目录
+头部不旋转；合成偏移 (0,-65) 是静态预览约定。
+
+通用规范和 Agent 任务模板已增加“逐层区分贴身/合体/宽松、松量/垂坠/遮挡”的约束，参数仍按角色单独校准。
+已完成同尺度/原尺寸/缩小图视觉检查、格式检查、复现及安装哈希检查；游戏内显示未验证。

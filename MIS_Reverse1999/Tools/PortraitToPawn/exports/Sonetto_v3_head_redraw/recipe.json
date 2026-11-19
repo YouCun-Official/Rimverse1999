@@ -1,0 +1,103 @@
+{
+  "character": "Sonetto",
+  "display_name": "十四行诗",
+  "version": "Sonetto_v3_head_redraw",
+  "date": "2026-11-09",
+  "generation_method": "Built-in image_gen redraw of all three heads from original portrait and accepted local pawn references; no v1/v2 Sonetto head artwork or cancelled eye transplant used as input.",
+  "canvas": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "supersampling": 4,
+  "head_rotation_degrees": 0,
+  "preview_head_offset": [
+    0,
+    -65
+  ],
+  "size_reference": "Vertin_v13_arknights_skin for compact face/head-body scale; hair/accessory extent individually calibrated",
+  "alpha_cleanup": {
+    "source_drop_below": 8,
+    "otherwise_preserve_generated_alpha": true,
+    "final_drop_below": 8
+  },
+  "outline_note": "0.5 native pixel additional silhouette only, on top of imagegen-drawn bold contour; no global thickening of eye/nose/mouth lines",
+  "previous_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v2_compact_head",
+  "assets": {
+    "head_south": {
+      "mode": "format",
+      "source": "source_art/head_south.png",
+      "source_sha256": "f42462c043f7ae4e6cbd7dfef896ff9793ec8c0e7630a31743630348a5ce6861",
+      "relative_path": "Textures/Things/Hair/R99/Sonetto_south.png",
+      "outer_ink_px": 0.5,
+      "uniform_scale": 0.12,
+      "source_alignment_anchor": [
+        428,
+        620
+      ],
+      "target_alignment_anchor": [
+        106,
+        143
+      ],
+      "anchor_note": "Face-left at eye level and eye-line manually read from new source. Uniform x/y scale; expected lower-face eye-line-to-chin about 30 px."
+    },
+    "head_east": {
+      "mode": "format",
+      "source": "source_art/head_east.png",
+      "source_sha256": "7fa8360e7f934a5a40bb065973864fec59093917701773abced6b0fab1eaeaf2",
+      "relative_path": "Textures/Things/Hair/R99/Sonetto_east.png",
+      "outer_ink_px": 0.5,
+      "uniform_scale": 0.12,
+      "source_alignment_anchor": [
+        935,
+        558
+      ],
+      "target_alignment_anchor": [
+        165,
+        144
+      ],
+      "anchor_note": "Near nose/profile horizontal anchor and eye-line; match original head connection without squeezing cheek width. No head tilt."
+    },
+    "head_north": {
+      "mode": "format",
+      "source": "source_art/head_north.png",
+      "source_sha256": "124dcdd60382d78f68b016d65d661bbcad1cc3d24144ce3d8ded6288fd53e83f",
+      "relative_path": "Textures/Things/Hair/R99/Sonetto_north.png",
+      "outer_ink_px": 0.5,
+      "uniform_scale": 0.127,
+      "source_alignment_anchor": [
+        619,
+        139
+      ],
+      "target_alignment_anchor": [
+        128,
+        86
+      ],
+      "anchor_note": "Rear cranial center and crown; independently uniform scale reconciles visible rear skull with front/profile, not a stretch to identical hair boxes."
+    },
+    "body_south": {
+      "mode": "copy",
+      "source": "before/Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_south.png",
+      "source_sha256": "2c452cbf0b3ba129b0ede6de05a872dad8b33b6fb39b91fbf869b9e639c3ea48",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_south.png"
+    },
+    "body_east": {
+      "mode": "copy",
+      "source": "before/Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_east.png",
+      "source_sha256": "8968314fdc00ef934987c06e0c1d4aacc98a550a847abd8828b46fb997ca739f",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_east.png"
+    },
+    "body_north": {
+      "mode": "copy",
+      "source": "before/Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_north.png",
+      "source_sha256": "2a4450adb316d64b95a3f74f94416bb604597fe0dcf548b4d32b45bd534e751d",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_north.png"
+    },
+    "item": {
+      "mode": "copy",
+      "source": "before/Textures/Things/R99_Agents/Arcanist/Sonetto.png",
+      "source_sha256": "2c452cbf0b3ba129b0ede6de05a872dad8b33b6fb39b91fbf869b9e639c3ea48",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Sonetto.png"
+    }
+  }
+}

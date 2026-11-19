@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- 不继承框架的 AK_RecruitBase：它引用的渲染树 AK_PawnRenderTree_Operator 只在 MIS Arknights 里定义 -->
+	<AK_DLL.OperatorDef Name="R99_RecruitBase" Abstract="True">
+		<surname>圣洛夫基金会</surname>
+		<description>暴雨之后，来自各个时代的神秘学家。</description>
+		<bodyTypeDef>Thin</bodyTypeDef>
+		<skinColor>(0.9804, 0.902, 0.8235, 1.0)</skinColor>
+		<hairColor>(1,1,1,1)</hairColor>
+		<childHood>AK_BackStory_Unknown_Child</childHood>
+		<age>20</age>
+		<headTypeDef>Female_AverageNormal</headTypeDef>
+		<standOffsets>
+			<li>
+				<key>0</key>
+				<value>(10,20,0.5)</value>
+			</li>
+			<li>
+				<key>1</key>
+				<value>(10,10,0.5)</value>
+			</li>
+		</standOffsets>
+		<xenoType>AK_BaseType</xenoType>
+		<operatorID>AK_VAbility_Operator</operatorID>
+		<!-- 框架默认值是 MIS.Arknights，DynaLoad 立绘会去 Arknights 的文件夹里找 -->
+		<modPackageID>lannuos.mis.reverse1999</modPackageID>
+		<modExtensions>
+			<li MayRequire="Paluto22.AK.Compatibility" Class="PA_AKPatch.Ext_MarkNLIncompatible">
+			</li>
+		</modExtensions>
+	</AK_DLL.OperatorDef>
+
+	<AK_DLL.OperatorDef ParentName="R99_RecruitBase" Name="R99_RecruitBase_Arcanist" Abstract="True">
+		<operatorType>R99_OperatorClass_Arcanist</operatorType>
+	</AK_DLL.OperatorDef>
+
+</Defs>

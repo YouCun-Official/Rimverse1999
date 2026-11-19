@@ -1,0 +1,133 @@
+{
+  "prior_working_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v3_head_redraw",
+  "prior_character_record": {
+    "character": "Sonetto",
+    "display_name": "十四行诗",
+    "updated_date": "2026-11-09",
+    "working_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v3_head_redraw",
+    "status": "three_heads_redrawn_installed_and_statically_verified",
+    "user_visual_approval": "pending",
+    "game_tested": false,
+    "primary_portrait": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\Ombrophobia\\data_infrastructure\\图片\\十四行诗.png",
+    "installation_receipt": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v3_head_redraw\\installation_receipt.json",
+    "generator_entrypoint": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v3_head_redraw\\format_assets.py",
+    "generator_recipe": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v3_head_redraw\\recipe.json",
+    "generation_mode": "built_in_imagegen_new_three_head_artwork_with_uniform_formatting",
+    "constraints_file": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\角色三视图制作规范.txt",
+    "size_baseline": {
+      "young_female": true,
+      "relatively_fitted_main_outfit": true,
+      "baseline": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v13_arknights_skin",
+      "body_type": "Thin",
+      "scope": "Face/skull, torso and leg scale from Vertin; natural skirt flare, cape drape and long-hair extensions follow Sonetto original clothing/hair rules"
+    },
+    "paths": {
+      "head_texPath": "Things/Hair/R99/Sonetto",
+      "apparel_wornGraphicPath": "Things/R99_Agents/Arcanist/Sonetto",
+      "item_texPath": "Things/R99_Agents/Arcanist/Sonetto",
+      "body_type": "Thin",
+      "directions": [
+        "south",
+        "east",
+        "north"
+      ]
+    },
+    "expression": {
+      "read": "serious/composed, attentive with mild questioning curiosity; subtly parted lips, no broad smile or angry scowl",
+      "mouth": "tiny slightly open natural mouth, near-level corners",
+      "brows": "slender soft angled eyebrows following the local reference, not exaggerated angry V or default happy arches",
+      "eyes": "muted grey-green, compact pawn-scale eyes; keep original hue"
+    },
+    "hair": {
+      "color": "copper-orange/auburn orange",
+      "structure": "copper-auburn long loose broad wavy locks; small close-to-skull swept-back upper gathers, coherent rolled forelock, one short braid on character-left temple with dull-gold jaw-level clasp",
+      "headband": "narrow black-and-ivory check/diamond strip across upper/front crown; modest narrow tail behind character-left gather",
+      "side_braid_character_side": "left",
+      "front_screen_side": "right",
+      "east_visibility": "near-side braid visible",
+      "back_screen_side": "left, only if not occluded",
+      "long_hair": "coherent loose waves, natural asymmetric tapered ends; no paired identical corkscrew ringlet pigtails; all hair remains in head layer"
+    },
+    "clothing_fit": {
+      "bodice": "fitted ivory-white high-collared dress/tunic with black center lacing and small buttons",
+      "capelet": "short charcoal/slate grey shoulder cape with muted coral lining, black/ivory check lining on visible inner flap, gold circular clasp and short chain, sparse gold sun/star motifs and small crest",
+      "skirt": "short gently flared/pleated ivory hem, follows garment volume rather than an exaggerated tight hip outline",
+      "legs": "ivory tall stockings/boots; a small black bow on character-right upper leg and grey buckled bands on character-left thigh",
+      "shoes": "pale grey-white lace-front short compact toes, subdued dark sole; not full realistic long heels",
+      "arms_hands": "omit completely, only short shoulder clothing structure remains; keep capelet as a garment, not hanging arms",
+      "held_pen": "omitted from head/body sprite because hands and weapons are outside requested components"
+    },
+    "facial_identity_details": {
+      "finding": "No obvious freckles, scars or burn marks in the primary face; skip conditional markings",
+      "action": "Do not inherit Vertin freckles"
+    },
+    "inferred": [
+      "True-profile and back orthographic construction",
+      "Back cape continuation and understated seam layout",
+      "Back hair gathers and obscured ribbon arrangement; no new decorative motifs"
+    ],
+    "backup_archive": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\TextureBackups\\Sonetto_before_v3_head_redraw_20261109_a195960d.zip",
+    "head_hashes": {
+      "south": "128cd40a4d515b046b7c2fde2e7890c93077b7c65c4f8a3ef52c43c23bbfdf27",
+      "east": "7262266f41e6fb090c17c5b384379524ff2d8eb451abaf48a946beb73743eb1b",
+      "north": "b14262bff106cd32332e72857116a79628d0bca113c1b0d3ae3533e5ffd9b923"
+    },
+    "body_hashes": {
+      "south": "2c452cbf0b3ba129b0ede6de05a872dad8b33b6fb39b91fbf869b9e639c3ea48",
+      "east": "8968314fdc00ef934987c06e0c1d4aacc98a550a847abd8828b46fb997ca739f",
+      "north": "2a4450adb316d64b95a3f74f94416bb604597fe0dcf548b4d32b45bd534e751d"
+    },
+    "preview": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v3_head_redraw\\previews\\three_views_full_character.png",
+    "preview_head_offset": [
+      0,
+      -65
+    ],
+    "preview_offset_note": "Static same-scale comparison convention; not a verified game rendering configuration.",
+    "previous_working_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v2_compact_head",
+    "head_proportion_revision": {
+      "version": "v3",
+      "method": "New imagegen artwork; uniform scale in each view, no anisotropic face scaling or head rotation",
+      "uniform_scales": {
+        "south": 0.12,
+        "east": 0.12,
+        "north": 0.127
+      },
+      "same_source_art": false,
+      "former_v1_v2_art_retained_only_as_history": true,
+      "cancelled_eye_transfer_used": false
+    },
+    "revision_history": [
+      {
+        "date": "2026-11-08",
+        "from": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v1",
+        "to": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v2_compact_head",
+        "change": "Removed 21% front and 18% profile extra vertical stretch, recalibrated eyes/chin and rear cranial scale using uniform scaling. Original source artwork/expression retained; body/item byte-identical."
+      },
+      {
+        "date": "2026-11-09",
+        "from": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v2_compact_head",
+        "to": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v3_head_redraw",
+        "change": "User rejected old Sonetto heads. Replaced all three with new built-in imagegen artwork from original portrait and accepted pawn style references; coherent loose hair/rolled fringe/thin check band and near-side temple braid. Uniform scale/position calibration; unchanged bodies/item and every other character. Not based on cancelled eye transplant."
+      }
+    ],
+    "generation_prompts": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v3_head_redraw\\imagegen_prompts.json",
+    "generation_provenance": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v3_head_redraw\\generation_provenance.json",
+    "head_sources": {
+      "south": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v3_head_redraw\\source_art\\head_south.png",
+      "east": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v3_head_redraw\\source_art\\head_east.png",
+      "north": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v3_head_redraw\\source_art\\head_north.png"
+    },
+    "installed_head_files": {
+      "south": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Textures\\Things\\Hair\\R99\\Sonetto_south.png",
+      "east": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Textures\\Things\\Hair\\R99\\Sonetto_east.png",
+      "north": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Textures\\Things\\Hair\\R99\\Sonetto_north.png"
+    },
+    "body_source_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v2_compact_head",
+    "head_preview": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v3_head_redraw\\previews\\heads_three_views.png",
+    "head_comparison": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Sonetto_v3_head_redraw\\previews\\heads_reference_comparison.png"
+  },
+  "current_method": "User-selected Python postprocessing only; no new generated artwork or transferred eyes.",
+  "original_artwork_and_prompts": "Retained in the prior export; frozen native inputs in this export are the exact approved pre-pass PNGs.",
+  "batch_reference_comparison": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\SoftPixel_v1_20261109\\previews\\heads_vs_arknights_three_views.png",
+  "batch_manifest": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\SoftPixel_v1_20261109\\recipe.json"
+}

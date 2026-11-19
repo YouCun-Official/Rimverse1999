@@ -1,0 +1,67 @@
+{
+  "mode": "built-in image_gen edit",
+  "change_scope": [
+    "body_south",
+    "body_north",
+    "item_copy"
+  ],
+  "retained": [
+    "head_south",
+    "head_east",
+    "head_north",
+    "body_east"
+  ],
+  "basis": "User's latest instruction: between v9 and v10 widths, not exact matching to Texas.",
+  "prompts": {
+    "body_south": "Use case: precise-object-edit.\nAsset: a single transparent headless, armless RimWorld pawn BODY sprite.\nImage 1 is the EDIT TARGET, current version v10, which is slightly too broad through the waist. Image 2 is the older v9 proportion REFERENCE, which was too pinched. Produce exactly one edited body, retaining image 1's artwork.\nPrimary change: set the torso/waist contour HALFWAY BETWEEN these two versions. Gently narrow only image 1's lower-rib/waist region by roughly 6–7 percent, about half of the prior widening. It must visibly be narrower than image 1 but wider than image 2. Keep the transition smooth and softly fitted, no sharp corset notch.\nPreserve the same shoulder span, collar/neck anchor, hip span, existing coat-tail extent and length, trouser/boot proportions, foot baseline, all clothing colors and recognizable buttons, buckles and lining. Hips must remain slightly wider than the whole shoulders including tiny shoulder caps. Do NOT widen shoulders, narrow hips or enlarge coat skirts. Keep every body part in place except the local waist contour and necessary small adjacent cloth-seam adjustment.\nStyle remains simple flat matte 2D game art, bold nearblack outer outline, sparse subordinate inner lines, muted plum/charcoal/blue-grey/ivory palette. No new gloss, gradients, detail, accessories or texture. No head, complete arms or hands. Same framing and total height. Real transparent background; no text, diagram, guide lines, checkerboard or shadow.\nView: SOUTH true front. Preserve ivory tiered jabot, charcoal waistcoat, existing button count, blue-grey lapel edging and plum jacket. At native export scale the old v9 waist section was 49 px and v10 is 56 px; visually aim at about 52–53 px after identical normalization. These are proportional guidance, not requested image resolution. Reduce the waist itself, not the whole sprite width. Preserve image 1's lower body and hips.",
+    "body_north": "Use case: precise-object-edit.\nAsset: a single transparent headless, armless RimWorld pawn BODY sprite.\nImage 1 is the EDIT TARGET, current version v10, which is slightly too broad through the waist. Image 2 is the older v9 proportion REFERENCE, which was too pinched. Produce exactly one edited body, retaining image 1's artwork.\nPrimary change: set the torso/waist contour HALFWAY BETWEEN these two versions. Gently narrow only image 1's lower-rib/waist region by roughly 6–7 percent, about half of the prior widening. It must visibly be narrower than image 1 but wider than image 2. Keep the transition smooth and softly fitted, no sharp corset notch.\nPreserve the same shoulder span, collar/neck anchor, hip span, existing coat-tail extent and length, trouser/boot proportions, foot baseline, all clothing colors and recognizable buttons, buckles and lining. Hips must remain slightly wider than the whole shoulders including tiny shoulder caps. Do NOT widen shoulders, narrow hips or enlarge coat skirts. Keep every body part in place except the local waist contour and necessary small adjacent cloth-seam adjustment.\nStyle remains simple flat matte 2D game art, bold nearblack outer outline, sparse subordinate inner lines, muted plum/charcoal/blue-grey/ivory palette. No new gloss, gradients, detail, accessories or texture. No head, complete arms or hands. Same framing and total height. Real transparent background; no text, diagram, guide lines, checkerboard or shadow.\nView: NORTH true back. Preserve rear collar, center seam, exactly two pale rear waist buttons, split tailcoat and blue-grey lining. At native export scale the old v9 waist section was 41 px and v10 is 48 px; visually aim at about 44–45 px after identical normalization. These are proportional guidance, not requested image resolution. Slightly deepen image 1's waist contour to a midpoint, without restoring image 2's sharply pinched shape. Keep back buttons at the same level as image 1; don't add front lapels or jabot."
+  },
+  "runs": [
+    {
+      "part": "body_south",
+      "iteration": 1,
+      "inputs": [
+        "inputs/body_south_v10.png",
+        "inputs/body_south_v9.png"
+      ],
+      "prompt": "Use case: precise-object-edit.\nAsset: a single transparent headless, armless RimWorld pawn BODY sprite.\nImage 1 is the EDIT TARGET, current version v10, which is slightly too broad through the waist. Image 2 is the older v9 proportion REFERENCE, which was too pinched. Produce exactly one edited body, retaining image 1's artwork.\nPrimary change: set the torso/waist contour HALFWAY BETWEEN these two versions. Gently narrow only image 1's lower-rib/waist region by roughly 6–7 percent, about half of the prior widening. It must visibly be narrower than image 1 but wider than image 2. Keep the transition smooth and softly fitted, no sharp corset notch.\nPreserve the same shoulder span, collar/neck anchor, hip span, existing coat-tail extent and length, trouser/boot proportions, foot baseline, all clothing colors and recognizable buttons, buckles and lining. Hips must remain slightly wider than the whole shoulders including tiny shoulder caps. Do NOT widen shoulders, narrow hips or enlarge coat skirts. Keep every body part in place except the local waist contour and necessary small adjacent cloth-seam adjustment.\nStyle remains simple flat matte 2D game art, bold nearblack outer outline, sparse subordinate inner lines, muted plum/charcoal/blue-grey/ivory palette. No new gloss, gradients, detail, accessories or texture. No head, complete arms or hands. Same framing and total height. Real transparent background; no text, diagram, guide lines, checkerboard or shadow.\nView: SOUTH true front. Preserve ivory tiered jabot, charcoal waistcoat, existing button count, blue-grey lapel edging and plum jacket. At native export scale the old v9 waist section was 49 px and v10 is 56 px; visually aim at about 52–53 px after identical normalization. These are proportional guidance, not requested image resolution. Reduce the waist itself, not the whole sprite width. Preserve image 1's lower body and hips.",
+      "result": "source_art/body_south.png",
+      "selected": true
+    },
+    {
+      "part": "body_south",
+      "iteration": 2,
+      "inputs": [
+        "source_art/body_south.png"
+      ],
+      "prompt": "Use case: precise-object-edit. The image is a transparent SOUTH FRONT body-only RimWorld texture. Make only the following LOCAL contour adjustment to the supplied 977x1609 image; preserve all other drawing, palette, outline style and framing.\n1. Slightly narrow the waist another small step, roughly 2 native export pixels in total: around source y=530..600 let the side silhouette smoothly pass through about x=262 on the left and x=714 on the right, instead of its current x=253..723 near y=550. Gentle fitted taper, no deep corset notch. Keep the waistcoat buttons and existing lapel border.\n2. Restore only the UPPER HIP breadth that was accidentally narrowed: around source y=740..800 expand the fitted clothed hip outline to approximately x=163..814 at y=750 instead of current x=180..797. This restores the established hip size so upper hips are subtly wider than the entire shoulder span, including the short shoulder caps. Slightly fill the adjacent trouser pelvis to support the shape rather than adding empty flared wings. No widening of the long tails. Blend waist to hip gently.\nThese coordinates are visual guidance, do not draw the numbers or guides.\nKeep all shoulder/collar/jabot shapes and positions unchanged. Keep original entire lower body below y=850, boots, stance, buckles, lining, coat-tail silhouette. Fitted plum jacket and charcoal waistcoat/trousers, bluegrey edging/lining and ivory tiered jabot. Preserve flat matte 2D game simplification, thick nearblack outside outline, thinner sparse interior strokes, no new shading, texture or gloss. No head, full arms or hands, no accessories. Same transparent background, total height and anchor. Return exactly one body.",
+      "result": "inputs/body_south_unselected_refinement.png",
+      "selected": false,
+      "selection_note": "First iteration selected: preserves established garment panel shapes better while already placing measured waist between v9 and v10."
+    },
+    {
+      "part": "body_north",
+      "iteration": 1,
+      "inputs": [
+        "inputs/body_north_v10.png",
+        "inputs/body_north_v9.png"
+      ],
+      "prompt": "Use case: precise-object-edit.\nAsset: a single transparent headless, armless RimWorld pawn BODY sprite.\nImage 1 is the EDIT TARGET, current version v10, which is slightly too broad through the waist. Image 2 is the older v9 proportion REFERENCE, which was too pinched. Produce exactly one edited body, retaining image 1's artwork.\nPrimary change: set the torso/waist contour HALFWAY BETWEEN these two versions. Gently narrow only image 1's lower-rib/waist region by roughly 6–7 percent, about half of the prior widening. It must visibly be narrower than image 1 but wider than image 2. Keep the transition smooth and softly fitted, no sharp corset notch.\nPreserve the same shoulder span, collar/neck anchor, hip span, existing coat-tail extent and length, trouser/boot proportions, foot baseline, all clothing colors and recognizable buttons, buckles and lining. Hips must remain slightly wider than the whole shoulders including tiny shoulder caps. Do NOT widen shoulders, narrow hips or enlarge coat skirts. Keep every body part in place except the local waist contour and necessary small adjacent cloth-seam adjustment.\nStyle remains simple flat matte 2D game art, bold nearblack outer outline, sparse subordinate inner lines, muted plum/charcoal/blue-grey/ivory palette. No new gloss, gradients, detail, accessories or texture. No head, complete arms or hands. Same framing and total height. Real transparent background; no text, diagram, guide lines, checkerboard or shadow.\nView: NORTH true back. Preserve rear collar, center seam, exactly two pale rear waist buttons, split tailcoat and blue-grey lining. At native export scale the old v9 waist section was 41 px and v10 is 48 px; visually aim at about 44–45 px after identical normalization. These are proportional guidance, not requested image resolution. Slightly deepen image 1's waist contour to a midpoint, without restoring image 2's sharply pinched shape. Keep back buttons at the same level as image 1; don't add front lapels or jabot.",
+      "result": "source_art/body_north.png",
+      "selected": true
+    },
+    {
+      "part": "body_north",
+      "iteration": 2,
+      "inputs": [
+        "source_art/body_north.png"
+      ],
+      "prompt": "Use case: precise-object-edit. The image is a transparent NORTH BACK body-only RimWorld texture. Make one very small local waist correction; preserve all other drawing, palette, framing and shape.\nIn this 977x1609 image, the rear waist silhouette around y=500..560 is still just a little too thick. At y=530 current boundaries are approximately x=285 and x=690. Move them inward to approximately x=294 and x=681, about nine source pixels each side. Blend gently back to the unchanged ribcage at y=420 and unchanged upper hips by y=680. Do not make a sharp corset indentation. This yields a waist size between the earlier thin and broad versions, just moderately fitted.\nKeep the shoulders, upper hip breadth, two pale waist buttons and their vertical position, center back seam, split coat tails and lining, trousers and boots unchanged. Hips remain a little wider than shoulders. Don't reduce hip width, enlarge shoulders or change garment fit. Do not add front lapels or jabot to the back.\nKeep the same flat matte simplified muted purple/charcoal/blue-grey art, bold nearblack outer line, sparse subtle interior marks. No new fine details, sheen, gradient or texture. No head, hands or complete arms. Same total height, pose and layout. Real transparent background. No text, guides, checkerboard or ground shadow.",
+      "result": "inputs/body_north_unselected_refinement.png",
+      "selected": false,
+      "selection_note": "First iteration selected: preserves established garment panel shapes better while already placing measured waist between v9 and v10."
+    }
+  ],
+  "retained_source_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v10_waist_balance",
+  "measurement_policy": "Requested percentages and coordinates are visual guidance; measured fixed-row and waist-band results are in measurements.json."
+}

@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-09",
+  "batch": "SoftPixel_v1_20261109",
+  "backup_archive": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\TextureBackups\\AllCharacters_before_SoftPixel_v1_20261109_5bd9c9f0.zip",
+  "backup_sha256": "09a5ac15fdac3e489cfe3dc1adbbf945edb00a3158df523c16f6c3db8ffb799b",
+  "changed_formal_textures": [
+    "Textures/Things/Hair/R99/Regulus_south.png",
+    "Textures/Things/R99_Agents/Arcanist/Regulus_Thin_south.png",
+    "Textures/Things/Hair/R99/Regulus_east.png",
+    "Textures/Things/R99_Agents/Arcanist/Regulus_Thin_east.png",
+    "Textures/Things/Hair/R99/Regulus_north.png",
+    "Textures/Things/R99_Agents/Arcanist/Regulus_Thin_north.png",
+    "Textures/Things/R99_Agents/Arcanist/Regulus.png"
+  ],
+  "changed_count": 7,
+  "unchanged_ui_count": 2,
+  "export_reproduction_install_hashes_equal": true,
+  "all_alpha_pixel_identical": true,
+  "canvas_and_geometry_unchanged": true,
+  "protected_face_pixels_identical": true,
+  "no_new_grin_or_eye_transfer": true,
+  "item_front_body_byte_identical": true,
+  "installed": {
+    "Textures/Things/Hair/R99/Regulus_south.png": "7aff3a400b54093d247e27f0c15cb7b55f5eda05489700ce2e26ae9ed05ef506",
+    "Textures/Things/R99_Agents/Arcanist/Regulus_Thin_south.png": "4b132974003b27e2cd76852f50b07733d5b96ffb8de08f3d1fbfc49e56bc7729",
+    "Textures/Things/Hair/R99/Regulus_east.png": "55a26cc865987a1b572aa75e0a22795118732024f06742ac380918f0bf3cb88e",
+    "Textures/Things/R99_Agents/Arcanist/Regulus_Thin_east.png": "662af3a93a8ad42d373167b7cca6063be4b496034b7a2ebb94ef25a5600fc1fb",
+    "Textures/Things/Hair/R99/Regulus_north.png": "2853b3ecd0cb1cc9ed30dd446ae3397889570a25130f3081f6b359a53411f63f",
+    "Textures/Things/R99_Agents/Arcanist/Regulus_Thin_north.png": "13ab0fec0a999b9f828e365d4c9fa8db8a276529e229a628d3d974b938c7b7e1",
+    "Textures/Things/R99_Agents/Arcanist/Regulus.png": "4b132974003b27e2cd76852f50b07733d5b96ffb8de08f3d1fbfc49e56bc7729"
+  },
+  "character_versions": {
+    "Vertin": "Vertin_v16_softpixel",
+    "Lilya": "Lilya_v3_softpixel",
+    "Regulus": "Regulus_v2_softpixel",
+    "X": "X_v3_softpixel",
+    "Sonetto": "Sonetto_v4_softpixel"
+  },
+  "documentation_updated": [
+    "AGENTS.md",
+    "Tools/PortraitToPawn/角色三视图制作规范.txt",
+    "Tools/PortraitToPawn/角色贴图Agent任务模板.txt",
+    "Tools/PortraitToPawn/使用说明.txt"
+  ],
+  "game_tested": false,
+  "user_visual_review": "pending",
+  "character": "Regulus"
+}

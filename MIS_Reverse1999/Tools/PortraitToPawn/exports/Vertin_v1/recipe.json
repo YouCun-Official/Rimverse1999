@@ -1,0 +1,102 @@
+{
+  "name": "Vertin",
+  "display_name": "维尔汀",
+  "version": "v1",
+  "source_images": {
+    "head_south": "source_art/head_south.png",
+    "body_south": "source_art/body_south.png",
+    "head_east": "source_art/head_east.png",
+    "head_north": "source_art/head_north.png",
+    "body_east": "source_art/body_east.png",
+    "body_north": "source_art/body_north.png"
+  },
+  "body_frames": {
+    "south": [
+      86,
+      90,
+      170,
+      252
+    ],
+    "east": [
+      98,
+      90,
+      160,
+      252
+    ],
+    "north": [
+      86,
+      90,
+      170,
+      252
+    ]
+  },
+  "head_registration": {
+    "south": {
+      "source_anchor": [
+        628,
+        1037
+      ],
+      "target_anchor": [
+        129,
+        172
+      ],
+      "scale": 0.102
+    },
+    "east": {
+      "source_anchor": [
+        975,
+        1014
+      ],
+      "target_anchor": [
+        164,
+        173
+      ],
+      "scale": 0.102
+    },
+    "north": {
+      "source_anchor": [
+        680,
+        1068
+      ],
+      "target_anchor": [
+        128,
+        182
+      ],
+      "scale": 0.102
+    }
+  },
+  "east_pose": {
+    "fixed_above_y": 110,
+    "waist_y": 148,
+    "upper_degrees": 7,
+    "lower_degrees": 18,
+    "head_rotation": 0
+  },
+  "head_soften_radius_px": 0.22,
+  "body_soften_radius_px": 0.45,
+  "supersample": 4,
+  "source_portrait": "portrait_reference.png",
+  "detail_policy": {
+    "preserved": [
+      "ash-beige side-swept short curled hair",
+      "gray-green eyes",
+      "dark plum top hat",
+      "blue-gray bow and dark-tipped ribbons",
+      "ivory layered cravat",
+      "violet coat and black patterned trim",
+      "smoky blue-teal tailcoat lining",
+      "dark trousers",
+      "high plum boots with square buckles and indigo tabs"
+    ],
+    "adapted": [
+      "hat worn on head instead of floating",
+      "no arms or hands; very short shoulder caps",
+      "compact closed legs and downward boot silhouette"
+    ],
+    "inferred": [
+      "standing coat front hidden by curled pose",
+      "back seam and center split",
+      "rear hairstyle and rear boot structure"
+    ]
+  }
+}

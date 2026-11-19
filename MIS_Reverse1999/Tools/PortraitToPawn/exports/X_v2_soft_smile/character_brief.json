@@ -1,0 +1,56 @@
+{
+  "character": "X",
+  "date": "2026-11-08",
+  "gender": "male",
+  "primary_portrait": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\Ombrophobia\\data_infrastructure\\图片\\X.png",
+  "size_baseline": "Not eligible for Vertin young-female/fitted baseline. Calibrate male head/loose coat against Thorns, Gnosis, Executor in native pixels.",
+  "body_type": "Thin",
+  "body_type_reason": "Existing project and male Arknights texture naming convention; Thin is a resource suffix, not a demand for fitted garments.",
+  "expression": "Gentle friendly closed-lip smile, no open mouth, teeth or broad grin; relaxed eyes and brows. Explicit user revision overrides v1 open-mouth interpretation.",
+  "hair": "Short voluminous ash smoky grey with muted lavender undertone; layered swept side fringe, crown whorl, long central forelocks; not white and not a hat.",
+  "eyes": {
+    "character_right": "Amber gold with dark scleral surround, viewer-left in south, as visible in primary face crop.",
+    "character_left": "blue, screen-right in south; visible in east true right profile",
+    "shape": "compact simplified pawn eyes, one small highlight, preserve heterochromia"
+  },
+  "facial_identity_marks": "No clear characteristic freckles/scars/burns in provided portrait; skip conditional mark rule.",
+  "clothing": {
+    "outer": "Loose ivory/light grey calf-length open lab coat, near-straight hanging panels and slight hem spread, not waist-cinched; short shoulder caps only, no complete sleeves or arms.",
+    "upper": "Charcoal standing collar and asymmetric dark shoulder cape with cream/gold leaf-like motif on character right (front screen left).",
+    "inner": "Dark grey broad checked waistcoat; mint/aqua cloth crossed and tied in loose front bow with long ribbon tails; black knee-length shorts.",
+    "accessories": "Purple vertical strap over character left shoulder (front screen right), compact black rectangular instrument with round dial, hanging pale ID badge and turquoise loop cord, pale small chain, purple coat tabs; pen in opposite pocket.",
+    "legs": "Visible knee gap, dark grey high socks, brown buckle band on character right leg if visible, brown lace-up shoes; compact legs and downward short toe.",
+    "back": "Infer rear collar, plain coat back with center seam/vent, corresponding asymmetric cape on character right (back screen right) and narrow strap on left (back screen left); no duplicated chest dial, badge, bow or emblem on rear."
+  },
+  "pose": "Head always upright. East body continuous slight forward diagonal, lower limb more forward lean relative to torso; loose coat hangs naturally without forced waist/hip contours.",
+  "omitted_by_project_style": [
+    "complete arms/hands",
+    "hand-held book and clipboard",
+    "background and free-standing prop"
+  ],
+  "inferential_details": [
+    "back coat seam/vent and rear cape extension",
+    "foreshortening/occlusion of shoulder instrument and badge in east",
+    "back of short hairstyle"
+  ],
+  "output_paths": {
+    "head_texPath": "Things/Hair/R99/X",
+    "apparel_wornGraphicPath": "Things/R99_Agents/Arcanist/X",
+    "item_texPath": "Things/R99_Agents/Arcanist/X"
+  },
+  "format": "256x256 transparent RGBA PNG, 6 direction pieces + byte-identical south-body item copy",
+  "existing_assets": "All Vertin textures and unrelated files must remain unchanged.",
+  "local_revision": {
+    "parts": [
+      "head_south",
+      "head_east"
+    ],
+    "mouth": "small closed smile",
+    "head_east_shift_native_px": [
+      4,
+      0
+    ],
+    "head_rotation_degrees": 0,
+    "preserve": "v1 hairstyle, compact eyes, heterochromia, nose, skin and chin visually; north head and all bodies/item byte-identical"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "Texas": {
+    "head_south": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Texas_south.png",
+      "sha256": "264239c05a87a9c15b3cc439757d2ddacee495b4f1738d995002417700fc5ee1"
+    },
+    "body_south": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Vanguard\\Texas_Thin_south.png",
+      "sha256": "c15f16e531b46c2a6344ba23e78fe6d3abf9b044116e750bc8f76f7b6a60307e"
+    },
+    "head_east": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Texas_east.png",
+      "sha256": "fb51d064091ef4f5ac6f7197e6eb72c91fba6a700b24c4b1a1936f57131cbbfb"
+    },
+    "body_east": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Vanguard\\Texas_Thin_east.png",
+      "sha256": "d2f6833733c1a75913082c98c140e78c51bf9d2f939412c34a624bed6ba14693"
+    },
+    "head_north": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Texas_north.png",
+      "sha256": "30fc62f47c29d9f91eb179b5434f2e884d3318ea3cc994d15b1c345465c92da5"
+    },
+    "body_north": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Vanguard\\Texas_Thin_north.png",
+      "sha256": "b6aaff58dc90d1057c55698736f7a67c898a461fd7df5c7785db0adcd019becf"
+    }
+  },
+  "Zima": {
+    "head_south": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Zima_south.png",
+      "sha256": "028c53c9be02dcb00d156cdf5244549fd1e50455478b1ba9445d13b0512aa3c8"
+    },
+    "body_south": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Vanguard\\Zima_Thin_south.png",
+      "sha256": "756c456e31baedacd2d638ecafa09ee74d29a1d742558f28bdd30d1a7d4a851e"
+    },
+    "head_east": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Zima_east.png",
+      "sha256": "ae830d816be8e52932c27641dc2fc2cb7115ceee682bbce5031b7ecbb75beed6"
+    },
+    "body_east": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Vanguard\\Zima_Thin_east.png",
+      "sha256": "6507266c8bb5b04224b275dbb0c3a85847c84ad4e703149972ec91d5472c86f8"
+    },
+    "head_north": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Zima_north.png",
+      "sha256": "50d6d4c7e8b5284ef5bf70222bc673932aaf1eedd7fa62a71b5c56d121274464"
+    },
+    "body_north": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Vanguard\\Zima_Thin_north.png",
+      "sha256": "c9aedb52c3b57f0e3edaf6534a491a6f29f19fd088c1a53358bf1391dbcd066d"
+    }
+  },
+  "Thorns": {
+    "head_south": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Guard\\Thorns_south.png",
+      "sha256": "ae9bf10692a05a80c88df564d3c16e14bfe8edfe37d2e0b46b73c98ab64c292b"
+    },
+    "body_south": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Guard\\Thorns_Thin_south.png",
+      "sha256": "be9bd51a5ad2de12c8cf0dc593c7b25bf9a07e2c18a3742b1a2166a47facb357"
+    },
+    "head_east": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Guard\\Thorns_east.png",
+      "sha256": "486771148607ea371f968ccaf40a2346c7601c5ce0bc3924b3ca0449e1e108b9"
+    },
+    "body_east": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Guard\\Thorns_Thin_east.png",
+      "sha256": "af2ab438651bcfaf2ac6c5de2f182e41523578752ba343b0309bb28f0c170346"
+    },
+    "head_north": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Guard\\Thorns_north.png",
+      "sha256": "871a21a4a75c7c393238ead7e52a9bc9c47c6adb89fd9e6e5336a2d44147d023"
+    },
+    "body_north": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Guard\\Thorns_Thin_north.png",
+      "sha256": "a335ef656cd13d67eea1d25485463169fbe74fa3b01479ace5c1c09f10a23e46"
+    }
+  },
+  "Silence": {
+    "head_south": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Medic\\Silence_south.png",
+      "sha256": "c47618cf6e557090fa0f559f7cb9b490deb346135b4b5ccce6f9716bd6ab1eed"
+    },
+    "body_south": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Medic\\Silence_Thin_south.png",
+      "sha256": "418ca6b1872db1f26fb02b818d5ecef5004429dd7b64981fa8156a029500448b"
+    },
+    "head_east": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Medic\\Silence_east.png",
+      "sha256": "928b4f89a5ac514f711d3f46f6b8837d12416c9326805b5be80d906dd1a78caf"
+    },
+    "body_east": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Medic\\Silence_Thin_east.png",
+      "sha256": "c4cf5bb82b15c96210e4e3ba9503a11567b0c04ade2d7340e0e637c678be38db"
+    },
+    "head_north": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Medic\\Silence_north.png",
+      "sha256": "bd9c5743bdc249ff774859582f463e429f62d7e60d097b9c05deac4e5dfccd33"
+    },
+    "body_north": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Medic\\Silence_Thin_north.png",
+      "sha256": "681bf20381c3869a37672e6340c7351133ec00fcad8a73282b2d446bc700f48e"
+    }
+  },
+  "Courier": {
+    "head_south": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Courier_south.png",
+      "sha256": "d37b94690e9ac568889fbe9574fb470ca665da7f1df18f2a338b0cebe65f9306"
+    },
+    "body_south": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Vanguard\\Courier_Thin_south.png",
+      "sha256": "40ff37847428d8ba8c570672e455acb82a4bf46beedffbc05325b1d8a5c8cf1d"
+    },
+    "head_east": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Courier_east.png",
+      "sha256": "022e7c666659badb2970aaa9d280220e11abef34fffe5b9cdaec860365026b23"
+    },
+    "body_east": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Vanguard\\Courier_Thin_east.png",
+      "sha256": "9aa58db2645d3d7045a72c09ab1c48c45ff8cfb5e8816b3c399f94883da6ab55"
+    },
+    "head_north": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Courier_north.png",
+      "sha256": "7365352bbdabf06e65f372e552e81a3025122b2e3bf86c60005c90dc49734b05"
+    },
+    "body_north": {
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\AK_Agents\\Vanguard\\Courier_Thin_north.png",
+      "sha256": "ac7dc8f67e9d70dc8371edcb3b0b8b46a814743a7f3dbd7903e7a190d7136348"
+    }
+  }
+}

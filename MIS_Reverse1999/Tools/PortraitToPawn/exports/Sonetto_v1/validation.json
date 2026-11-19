@@ -1,0 +1,167 @@
+{
+  "date": "2026-11-08",
+  "checks": {
+    "Textures/Things/Hair/R99/Sonetto_east.png": {
+      "sha256": "f37e48c1c2d1a3622bc16711bb547828b3775fa1dba18f3df7a06edbf165558d",
+      "solid_bbox": [
+        71,
+        83,
+        173,
+        219
+      ],
+      "format": "256x256 RGBA PNG",
+      "clear_canvas_border": true
+    },
+    "Textures/Things/Hair/R99/Sonetto_north.png": {
+      "sha256": "b1a8cd7198d2c95a83f9c9b13d53db4622e0cf0627678fe28d01f883d07fd46d",
+      "solid_bbox": [
+        79,
+        84,
+        179,
+        217
+      ],
+      "format": "256x256 RGBA PNG",
+      "clear_canvas_border": true
+    },
+    "Textures/Things/Hair/R99/Sonetto_south.png": {
+      "sha256": "2d354a3c9c6c1eec22df3ac90a564ce618d68531f6543e966d9a59015dc86a2e",
+      "solid_bbox": [
+        80,
+        81,
+        174,
+        213
+      ],
+      "format": "256x256 RGBA PNG",
+      "clear_canvas_border": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Sonetto.png": {
+      "sha256": "2c452cbf0b3ba129b0ede6de05a872dad8b33b6fb39b91fbf869b9e639c3ea48",
+      "solid_bbox": [
+        84,
+        90,
+        173,
+        252
+      ],
+      "format": "256x256 RGBA PNG",
+      "clear_canvas_border": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_east.png": {
+      "sha256": "8968314fdc00ef934987c06e0c1d4aacc98a550a847abd8828b46fb997ca739f",
+      "solid_bbox": [
+        71,
+        88,
+        159,
+        252
+      ],
+      "format": "256x256 RGBA PNG",
+      "clear_canvas_border": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_north.png": {
+      "sha256": "2a4450adb316d64b95a3f74f94416bb604597fe0dcf548b4d32b45bd534e751d",
+      "solid_bbox": [
+        84,
+        89,
+        173,
+        252
+      ],
+      "format": "256x256 RGBA PNG",
+      "clear_canvas_border": true
+    },
+    "Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_south.png": {
+      "sha256": "2c452cbf0b3ba129b0ede6de05a872dad8b33b6fb39b91fbf869b9e639c3ea48",
+      "solid_bbox": [
+        84,
+        90,
+        173,
+        252
+      ],
+      "format": "256x256 RGBA PNG",
+      "clear_canvas_border": true
+    }
+  },
+  "format_reproduction_passed": true,
+  "head_rotation_degrees": 0,
+  "preview_head_offset": [
+    0,
+    -65
+  ],
+  "size_baseline": "Vertin_v13_arknights_skin",
+  "visual_review": "passed",
+  "game_tested": false,
+  "back_view_provenance": "Conservative reconstruction; no authoritative orthographic rear sheet found.",
+  "reviewed_artifacts": [
+    "heads_three_views.png",
+    "bodys_three_views.png",
+    "three_views_final.png",
+    "head_style_comparison.png",
+    "body_style_comparison.png",
+    "pawn_style_comparison.png",
+    "native_and_reduced.png",
+    "expression_reference_comparison.png",
+    "alignment_guides.png"
+  ],
+  "visual_findings": {
+    "expression": "Composed, attentive, mildly questioning; tiny parted mouth, restrained brows; no imposed cheerful or angry mood.",
+    "identity": "Copper-orange long waves, checker headband, small upper tied locks and character-left braid/clamp; cape clasp and gold motifs remain visible.",
+    "facial_marks": "No clear reference scars/freckles/burns; skipped conditional additions.",
+    "clothing": "Fitted bodice and natural loose capelet/skirt; characteristic trim and asymmetrical leg accessories retained with side mapping.",
+    "side": "Upright head; continuous sloping torso/leg; fuller calf/ankle and compact integrated shoe.",
+    "scale": "Same native-pixel comparison against pinned Vertin v13, Texas and Silence; hair/cape/skirt extensions treated separately from anatomy.",
+    "edges": "No observed background, detached noise, white fringe, gross halo, text or cut canvas border in final PNGs."
+  },
+  "measurement_summary": {
+    "east": [
+      {
+        "y": 120,
+        "x0": 102,
+        "x1_exclusive": 159,
+        "span_px": 57,
+        "scope": "上身衣物"
+      },
+      {
+        "y": 220,
+        "x0": 75,
+        "x1_exclusive": 109,
+        "span_px": 34,
+        "scope": "腿/衣摆截面"
+      },
+      {
+        "y": 240,
+        "x0": 73,
+        "x1_exclusive": 103,
+        "span_px": 30,
+        "scope": "脚踝/靴筒"
+      }
+    ],
+    "south": [
+      {
+        "y": 115,
+        "x0": 93,
+        "x1_exclusive": 164,
+        "span_px": 71,
+        "scope": "肩部衣物"
+      },
+      {
+        "y": 150,
+        "x0": 99,
+        "x1_exclusive": 158,
+        "span_px": 59,
+        "scope": "可见腰部衣物"
+      },
+      {
+        "y": 175,
+        "x0": 84,
+        "x1_exclusive": 173,
+        "span_px": 89,
+        "scope": "裙摆"
+      }
+    ]
+  },
+  "selected_art_count": 6,
+  "generation_archive_count": 12,
+  "user_visual_approval": "pending",
+  "dependencies": {
+    "Pillow": "13.0.0",
+    "numpy": "2.3.5"
+  }
+}

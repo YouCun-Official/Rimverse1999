@@ -1,0 +1,53 @@
+{
+  "south": [
+    {
+      "name": "Texas",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Texas_south.png",
+      "hash": "264239c05a87a9c15b3cc439757d2ddacee495b4f1738d995002417700fc5ee1"
+    },
+    {
+      "name": "Thorns",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Guard\\Thorns_south.png",
+      "hash": "ae9bf10692a05a80c88df564d3c16e14bfe8edfe37d2e0b46b73c98ab64c292b"
+    },
+    {
+      "name": "Platinum",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Sniper\\Platinum_south.png",
+      "hash": "b1c952461bc040a7af6c229ede2a0e2d842ea58fc776ccfdb05403b169a46504"
+    }
+  ],
+  "east": [
+    {
+      "name": "Texas",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Texas_east.png",
+      "hash": "fb51d064091ef4f5ac6f7197e6eb72c91fba6a700b24c4b1a1936f57131cbbfb"
+    },
+    {
+      "name": "Thorns",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Guard\\Thorns_east.png",
+      "hash": "486771148607ea371f968ccaf40a2346c7601c5ce0bc3924b3ca0449e1e108b9"
+    },
+    {
+      "name": "Platinum",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Sniper\\Platinum_east.png",
+      "hash": "53b115e1065c25a535e0be354d077e7d2292b705fd66246cac59c7e0362b8e85"
+    }
+  ],
+  "north": [
+    {
+      "name": "Texas",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Texas_north.png",
+      "hash": "30fc62f47c29d9f91eb179b5434f2e884d3318ea3cc994d15b1c345465c92da5"
+    },
+    {
+      "name": "Thorns",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Guard\\Thorns_north.png",
+      "hash": "871a21a4a75c7c393238ead7e52a9bc9c47c6adb89fd9e6e5336a2d44147d023"
+    },
+    {
+      "name": "Platinum",
+      "path": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Sniper\\Platinum_north.png",
+      "hash": "0160a449c95d2e410d2218189ca5fd5bf1820ca8421b8a9d8287a6590c62f8ad"
+    }
+  ]
+}

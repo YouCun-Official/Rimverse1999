@@ -1,0 +1,72 @@
+{
+  "png_checks": {
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_south.png": {
+      "format": "256x256 RGBA PNG",
+      "solid_bbox": [
+        86,
+        90,
+        170,
+        252
+      ]
+    },
+    "Textures/Things/Hair/R99/Vertin_south.png": {
+      "format": "256x256 RGBA PNG",
+      "solid_bbox": [
+        76,
+        77,
+        190,
+        177
+      ]
+    },
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_east.png": {
+      "format": "256x256 RGBA PNG",
+      "solid_bbox": [
+        74,
+        90,
+        159,
+        252
+      ]
+    },
+    "Textures/Things/Hair/R99/Vertin_east.png": {
+      "format": "256x256 RGBA PNG",
+      "solid_bbox": [
+        70,
+        79,
+        186,
+        180
+      ]
+    },
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_north.png": {
+      "format": "256x256 RGBA PNG",
+      "solid_bbox": [
+        86,
+        90,
+        170,
+        252
+      ]
+    },
+    "Textures/Things/Hair/R99/Vertin_north.png": {
+      "format": "256x256 RGBA PNG",
+      "solid_bbox": [
+        64,
+        83,
+        180,
+        176
+      ]
+    },
+    "Textures/Things/R99_Agents/Arcanist/Vertin.png": {
+      "format": "256x256 RGBA PNG",
+      "solid_bbox": [
+        86,
+        90,
+        170,
+        252
+      ]
+    }
+  },
+  "preview_and_export_identical": true,
+  "four_body_and_item_files_byte_identical_to_v1": true,
+  "head_rotation_degrees": 0,
+  "visual_review": "three revised heads and complete figure inspected; compared at identical coordinates/scale with v1, Thorns and Texas",
+  "game_tested": false
+}

@@ -1,0 +1,87 @@
+{
+  "character": "Vertin",
+  "method": "Built-in image_gen artistic edit, followed by deterministic premultiplied-alpha size/registration normalization.",
+  "canvas": [
+    256,
+    256
+  ],
+  "post_blur_radius_px": 0,
+  "post_stroke_radius_px": 0,
+  "side_pose": "Already present in source artwork; do not apply a second shear.",
+  "head_rotation_degrees": 0,
+  "preview_head_offset": [
+    0,
+    -65
+  ],
+  "assets": [
+    {
+      "key": "Vertin_head_south",
+      "source": "source_art/Vertin_head_south.png",
+      "relative_path": "Textures/Things/Hair/R99/Vertin_south.png",
+      "target_solid_bbox": [
+        76,
+        77,
+        190,
+        177
+      ]
+    },
+    {
+      "key": "Vertin_head_east",
+      "source": "source_art/Vertin_head_east.png",
+      "relative_path": "Textures/Things/Hair/R99/Vertin_east.png",
+      "target_solid_bbox": [
+        70,
+        79,
+        186,
+        180
+      ]
+    },
+    {
+      "key": "Vertin_head_north",
+      "source": "source_art/Vertin_head_north.png",
+      "relative_path": "Textures/Things/Hair/R99/Vertin_north.png",
+      "target_solid_bbox": [
+        64,
+        83,
+        180,
+        176
+      ]
+    },
+    {
+      "key": "Vertin_body_south",
+      "source": "source_art/Vertin_body_south.png",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_south.png",
+      "target_solid_bbox": [
+        86,
+        90,
+        170,
+        252
+      ]
+    },
+    {
+      "key": "Vertin_body_east",
+      "source": "source_art/Vertin_body_east.png",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_east.png",
+      "target_solid_bbox": [
+        74,
+        90,
+        159,
+        252
+      ]
+    },
+    {
+      "key": "Vertin_body_north",
+      "source": "source_art/Vertin_body_north.png",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_north.png",
+      "target_solid_bbox": [
+        86,
+        90,
+        170,
+        252
+      ]
+    }
+  ],
+  "duplicates": {
+    "Textures/Things/R99_Agents/Arcanist/Vertin.png": "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_south.png"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-06",
+  "mode": "built-in image_gen",
+  "use_case": "precise-object-edit",
+  "base_export": "Vertin_v13_arknights_skin",
+  "selected_pass": 2,
+  "reason": "First-pass spots were too small and faint after native reduction; strengthen only the sparse freckles.",
+  "edits": [
+    {
+      "part": "head_south",
+      "prompt": "Use case: precise-object-edit. Asset: transparent RimWorld pawn HEAD only. Image 1 is the edit target, the already approved flat stylized Vertin v13 head. Image 2 is the original game portrait, used ONLY to identify the small light freckles across the upper bridge of her nose and immediately adjacent upper cheeks. Make a minimal local addition of these identity freckles to Image 1. Do not imitate Image 2's facial proportions, shading, hat angle, realism, eye occlusion or expression. Preserve Image 1's exact head pose, silhouette, placement, crop, hair and hat shapes, thick outer outline, thin internal marks, grey-green eyes and their dimensions/spacing, relaxed brows, nose, lips and chin. Preserve the current pale ivory face/ear color exactly as closely as possible; this is NOT a palette revision. Freckles should be a sparse irregular cluster of small separated muted medium-light taupe-brown dots, around #AD876F on the existing pale ivory face, much softer than the dark outline. Express a few representative spots only, never texture noise, dense pores, blush, acne, large moles, scar lines or a dark horizontal stripe. They must remain delicate in the final approximately 40-pixel-wide face. Do not add freckles to forehead, chin, ears, hair or hat. Single head, same orientation and whole framing as Image 1; keep real transparent background and all alpha edges. No text or comparison layout.\nDirection: exactly the same FRONT view as Image 1. Add about 6-8 fine pale brown freckle dots concentrated around the UPPER NOSE BRIDGE and its adjacent inner upper cheeks, a narrow band just below the eye openings and above/around the top of the existing nose mark; leave the nose mark and lips untouched. Slightly irregular spacing and size, not mirrored perfectly. At this source size spots are roughly 11-14 pixels wide, designed to downsample to one clearly distinct but understated native pixel, not smaller. Do not cover the eyes or move any features.\nReadability correction: an earlier attempt made these freckles too small and too faint to survive the approximately 9x reduction to the final game sprite. Keep the small sparse cluster, but each individual dot must have enough diameter and restrained contrast to survive that reduction. These are simple identity spots, not photoreal skin texture. Do not make black or large dark moles. Keep every other feature as in edit target Image 1.",
+      "referenced_image_paths": [
+        "C:/Users/29232/Desktop/Lannuosprojects/MIS_Lannuosproject/MIS_Reverse1999/Tools/PortraitToPawn/exports/Vertin_v13_arknights_skin/source_art/head_south.png",
+        "C:/Users/29232/Desktop/Lannuosprojects/MIS_Lannuosproject/MIS_Reverse1999/Tools/PortraitToPawn/exports/Vertin_v5_original_hairstyle/references/game_portrait_wikiru.png"
+      ],
+      "transparent_background": true,
+      "generated_source": "C:/Users/29232/.codex/generated_images/01a1861f-9a30-7ac2-8cf4-4f87a0509258/exec-2b0bb582-612b-4fc8-a6e5-4ddbd59a1489.png"
+    },
+    {
+      "part": "head_east",
+      "prompt": "Use case: precise-object-edit. Asset: transparent RimWorld pawn HEAD only. Image 1 is the edit target, the already approved flat stylized Vertin v13 head. Image 2 is the original game portrait, used ONLY to identify the small light freckles across the upper bridge of her nose and immediately adjacent upper cheeks. Make a minimal local addition of these identity freckles to Image 1. Do not imitate Image 2's facial proportions, shading, hat angle, realism, eye occlusion or expression. Preserve Image 1's exact head pose, silhouette, placement, crop, hair and hat shapes, thick outer outline, thin internal marks, grey-green eyes and their dimensions/spacing, relaxed brows, nose, lips and chin. Preserve the current pale ivory face/ear color exactly as closely as possible; this is NOT a palette revision. Freckles should be a sparse irregular cluster of small separated muted medium-light taupe-brown dots, around #AD876F on the existing pale ivory face, much softer than the dark outline. Express a few representative spots only, never texture noise, dense pores, blush, acne, large moles, scar lines or a dark horizontal stripe. They must remain delicate in the final approximately 40-pixel-wide face. Do not add freckles to forehead, chin, ears, hair or hat. Single head, same orientation and whole framing as Image 1; keep real transparent background and all alpha edges. No text or comparison layout.\nDirection: exactly the same TRUE RIGHT-FACING PROFILE as Image 1. Only the near-side upper cheek just behind the nose and under the eye is visible. Add about 3 delicate separated pale brown dots to that small visible area, consistent with a nose-bridge freckle cluster seen in profile; do not draw far-side dots through the face or hair. At this source size spots are roughly 11-14 pixels wide, designed to downsample to one clearly distinct but understated native pixel, not smaller. Keep eye, ear, nose profile and mouth unchanged.\nReadability correction: an earlier attempt made these freckles too small and too faint to survive the approximately 9x reduction to the final game sprite. Keep the small sparse cluster, but each individual dot must have enough diameter and restrained contrast to survive that reduction. These are simple identity spots, not photoreal skin texture. Do not make black or large dark moles. Keep every other feature as in edit target Image 1.",
+      "referenced_image_paths": [
+        "C:/Users/29232/Desktop/Lannuosprojects/MIS_Lannuosproject/MIS_Reverse1999/Tools/PortraitToPawn/exports/Vertin_v13_arknights_skin/source_art/head_east.png",
+        "C:/Users/29232/Desktop/Lannuosprojects/MIS_Lannuosproject/MIS_Reverse1999/Tools/PortraitToPawn/exports/Vertin_v5_original_hairstyle/references/game_portrait_wikiru.png"
+      ],
+      "transparent_background": true,
+      "generated_source": "C:/Users/29232/.codex/generated_images/01a1861f-9a30-7ac2-8cf4-4f87a0509258/exec-ff414c0a-27ce-4e7f-a124-cc859a35e3c5.png"
+    }
+  ],
+  "preserved_parts": [
+    "head_north",
+    "body_south",
+    "body_east",
+    "body_north"
+  ],
+  "prior_prompt_provenance": "references/imagegen_prompts_v13.json",
+  "first_pass_prompts": "candidates/pass1/imagegen_prompts.json"
+}

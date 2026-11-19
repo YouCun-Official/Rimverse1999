@@ -1,0 +1,15 @@
+维尔汀 v11 · 两版之间的腰部宽度
+
+按最新用户要求，躯干宽度介于 v9 和 v10 之间；不以 Texas 的绝对尺寸为硬目标。
+同一原生 y=140 截面：正面腰宽 v9 49 / v11 54 / v10 56 px；背面 v9 41 / v11 46 / v10 48 px。
+腰部 y=132..145 的平均宽度同样介于两版之间；具体数据见 measurements.json。
+正面上臀取 y=170、背面取 y=165，在三版本统一坐标下比较，臀部着衣轮廓仍宽于肩部。
+这些是可见着衣截面，不是人体测量或所有角色通用的固定比例。
+
+正式仅更新正面、背面躯干与正面物品副本。三向头部、侧躯干及无关纹理字节不变。
+生成工具：内置 image_gen。完整本次提示词、输入及选稿记录见 imagegen_prompts.json；source_art 为选用源图，inputs 保留旧稿与未选稿。
+复现：python format_assets.py --recipe recipe.json --out 新的空目录
+规范与 Agent 模板已加入男性肩宽要求和男女通用的风衣/宽松衣物轮廓优先级。
+
+预览：waist_three_versions.png、reference_body_comparison.png、three_views_final.png、bodies_three_views.png、heads_three_views.png、native_and_reduced.png。
+完成静态格式、同尺度视觉、复现、安装哈希核对；游戏内显示未验证。

@@ -1,0 +1,11 @@
+维尔汀 v8 — 眼睛比例与环世界贴图画法适配（AI 辅助制作）
+
+使用内置 image_gen 编辑 v7 正面、侧面头部，对齐本地 Texas、Zima 的眼睛形状比例：加大可见垂直开度、保留合理眼宽与眼距，改成单层上眼线、简化虹膜和可辨认瞳孔。
+保留低饱和灰绿色瞳色与平静神态；鼻子和嘴沿用用户认可的 v7 画法，下巴保持短小、柔和收口。鼻唇属于生图编辑中的视觉保留，不宣称与 v7 像素级相同。
+背面头部与三向躯干、物品图均与上版字节一致。正式只更新两张头部，完整素材包仍为七张 256×256 RGBA PNG。
+脚本只做确定性尺寸/透明边缘/追加外描边格式化和预览校验，没有用脚本绘制眼睛。生图提示词中的眼睛像素、百分比和下巴位移是视觉指导，不当作最终精确测量。
+源图见 source_art；完整提示词见 imagegen_prompts.json；输入见 inputs；本地风格参考见 references；精确后处理见 recipe.json。
+已检查同尺度前后/参考对比、头部三向、头身合成、原尺寸和 50% 缩小效果。格式、透明边界、方向差异、图标副本、变更范围、复现与安装哈希校验通过。尚未游戏内测试。
+复现：python format_assets.py --recipe recipe.json --out 新输出目录
+输出目录必须为空；复现脚本不会自动覆盖正式 Textures。
+备份：C:\Users\29232\Desktop\Lannuosprojects\MIS_Lannuosproject\MIS_Reverse1999\Tools\TextureBackups\Vertin_before_v8_20261105_120609_464601.zip

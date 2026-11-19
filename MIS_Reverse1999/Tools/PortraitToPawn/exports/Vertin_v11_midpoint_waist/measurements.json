@@ -1,0 +1,164 @@
+{
+  "units": "native pixels",
+  "alpha_threshold": 128,
+  "fixed_rows": {
+    "south": {
+      "shoulder": 110,
+      "waist": 140,
+      "hip": 170
+    },
+    "north": {
+      "shoulder": 115,
+      "waist": 140,
+      "hip": 165
+    }
+  },
+  "scope": "Visible clothed cross-sections, not skeletal/anatomical measurements. Same coordinates and scale for all three versions.",
+  "hip_landmark_note": "Front upper hip sampled at y=170 for all versions, below the short upper jacket panel edge at y=160 used in v10 preview; rear y=165 unchanged. Do not compare differently located rows as identical measurements.",
+  "versions": {
+    "v9": {
+      "south": {
+        "shoulder": {
+          "y": 110,
+          "left": 93,
+          "right_exclusive": 163,
+          "width": 70
+        },
+        "waist": {
+          "y": 140,
+          "left": 103,
+          "right_exclusive": 152,
+          "width": 49
+        },
+        "hip": {
+          "y": 170,
+          "left": 92,
+          "right_exclusive": 164,
+          "width": 72
+        }
+      },
+      "north": {
+        "shoulder": {
+          "y": 115,
+          "left": 96,
+          "right_exclusive": 161,
+          "width": 65
+        },
+        "waist": {
+          "y": 140,
+          "left": 108,
+          "right_exclusive": 149,
+          "width": 41
+        },
+        "hip": {
+          "y": 165,
+          "left": 93,
+          "right_exclusive": 163,
+          "width": 70
+        }
+      }
+    },
+    "staging": {
+      "south": {
+        "shoulder": {
+          "y": 110,
+          "left": 93,
+          "right_exclusive": 163,
+          "width": 70
+        },
+        "waist": {
+          "y": 140,
+          "left": 101,
+          "right_exclusive": 155,
+          "width": 54
+        },
+        "hip": {
+          "y": 170,
+          "left": 91,
+          "right_exclusive": 165,
+          "width": 74
+        }
+      },
+      "north": {
+        "shoulder": {
+          "y": 115,
+          "left": 96,
+          "right_exclusive": 160,
+          "width": 64
+        },
+        "waist": {
+          "y": 140,
+          "left": 105,
+          "right_exclusive": 151,
+          "width": 46
+        },
+        "hip": {
+          "y": 165,
+          "left": 94,
+          "right_exclusive": 162,
+          "width": 68
+        }
+      }
+    },
+    "before": {
+      "south": {
+        "shoulder": {
+          "y": 110,
+          "left": 93,
+          "right_exclusive": 163,
+          "width": 70
+        },
+        "waist": {
+          "y": 140,
+          "left": 100,
+          "right_exclusive": 156,
+          "width": 56
+        },
+        "hip": {
+          "y": 170,
+          "left": 91,
+          "right_exclusive": 165,
+          "width": 74
+        }
+      },
+      "north": {
+        "shoulder": {
+          "y": 115,
+          "left": 96,
+          "right_exclusive": 160,
+          "width": 64
+        },
+        "waist": {
+          "y": 140,
+          "left": 104,
+          "right_exclusive": 152,
+          "width": 48
+        },
+        "hip": {
+          "y": 165,
+          "left": 93,
+          "right_exclusive": 162,
+          "width": 69
+        }
+      }
+    }
+  },
+  "waist_band_y": [
+    132,
+    145
+  ],
+  "waist_band_mean": {
+    "v9": {
+      "south": 51.857,
+      "north": 43.143
+    },
+    "staging": {
+      "south": 54.857,
+      "north": 47.571
+    },
+    "before": {
+      "south": 57.0,
+      "north": 49.071
+    }
+  }
+}

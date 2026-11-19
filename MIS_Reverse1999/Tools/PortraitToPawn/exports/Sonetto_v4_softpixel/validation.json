@@ -1,0 +1,169 @@
+{
+  "batch": "SoftPixel_v1_20261109",
+  "method": "User explicitly selected Python pixel postprocessing. Light premultiplied-alpha pixel grouping, restrained low-contrast median contribution and color grouping. No redraw, face transfer, warp, alpha edit, new expression, noise or dithering.",
+  "files": {
+    "Sonetto_head_south": {
+      "path": "Textures/Things/Hair/R99/Sonetto_south.png",
+      "source_sha256": "128cd40a4d515b046b7c2fde2e7890c93077b7c65c4f8a3ef52c43c23bbfdf27",
+      "output_sha256": "2fb8ef88fec5402c82f6f203036511cb883df4fecf4b539c6a558efc2ac4a68b",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        78,
+        85,
+        185,
+        214
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [
+        [
+          103,
+          133,
+          155,
+          167
+        ]
+      ],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 7502,
+      "mean_abs_rgb_delta_over_visible": 2.299,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "Sonetto_body_south": {
+      "path": "Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_south.png",
+      "source_sha256": "2c452cbf0b3ba129b0ede6de05a872dad8b33b6fb39b91fbf869b9e639c3ea48",
+      "output_sha256": "3ad4f284115eb982b116f7289d1b68fce31b4bbdde4ab06fc9ce3ddea993c59d",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        83,
+        89,
+        174,
+        253
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 8931,
+      "mean_abs_rgb_delta_over_visible": 3.5317,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "Sonetto_head_east": {
+      "path": "Textures/Things/Hair/R99/Sonetto_east.png",
+      "source_sha256": "7262266f41e6fb090c17c5b384379524ff2d8eb451abaf48a946beb73743eb1b",
+      "output_sha256": "a3f3639194f28cd80d91dbd190fec80918f4a41baf8b13a8fb6171e9576fe149",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        78,
+        88,
+        175,
+        223
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [
+        [
+          138,
+          134,
+          170,
+          168
+        ]
+      ],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 7554,
+      "mean_abs_rgb_delta_over_visible": 2.4282,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "Sonetto_body_east": {
+      "path": "Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_east.png",
+      "source_sha256": "8968314fdc00ef934987c06e0c1d4aacc98a550a847abd8828b46fb997ca739f",
+      "output_sha256": "9d84ec8d37c3ae0d3c969b201b8369626d7c085c186955f0be0ffe7a79c2e8ae",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        71,
+        88,
+        159,
+        253
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 7763,
+      "mean_abs_rgb_delta_over_visible": 3.1491,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "Sonetto_head_north": {
+      "path": "Textures/Things/Hair/R99/Sonetto_north.png",
+      "source_sha256": "b14262bff106cd32332e72857116a79628d0bca113c1b0d3ae3533e5ffd9b923",
+      "output_sha256": "791fb0e873126b9fc1ae344bd99a3795d3e410b04fde26cf83a94086806034f0",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        83,
+        85,
+        173,
+        215
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 8787,
+      "mean_abs_rgb_delta_over_visible": 2.0988,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "Sonetto_body_north": {
+      "path": "Textures/Things/R99_Agents/Arcanist/Sonetto_Thin_north.png",
+      "source_sha256": "2a4450adb316d64b95a3f74f94416bb604597fe0dcf548b4d32b45bd534e751d",
+      "output_sha256": "38e24193d5ca8e9814aad82f50174fd756e64a2ee08b03591479246db108702b",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        83,
+        89,
+        174,
+        253
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 8691,
+      "mean_abs_rgb_delta_over_visible": 2.7176,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    }
+  },
+  "items": {
+    "Sonetto": {
+      "path": "Textures/Things/R99_Agents/Arcanist/Sonetto.png",
+      "sha256": "3ad4f284115eb982b116f7289d1b68fce31b4bbdde4ab06fc9ce3ddea993c59d",
+      "front_body_sha256": "3ad4f284115eb982b116f7289d1b68fce31b4bbdde4ab06fc9ce3ddea993c59d",
+      "byte_identical_to_front_body": true
+    }
+  },
+  "all_alpha_and_placement_unchanged": true,
+  "all_protected_features_pixel_identical": true,
+  "game_tested": false
+}

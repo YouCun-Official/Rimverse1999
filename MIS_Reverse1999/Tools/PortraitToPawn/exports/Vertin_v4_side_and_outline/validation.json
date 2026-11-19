@@ -1,0 +1,101 @@
+{
+  "checks": {
+    "Textures/Things/Hair/R99/Vertin_south.png": {
+      "format": "256x256 RGBA PNG",
+      "solid_bbox": [
+        76,
+        76,
+        190,
+        177
+      ],
+      "outer_band_dark_fraction_before": 0.725,
+      "outer_band_dark_fraction_after": 0.9217,
+      "sha256": "5ffeacae173ecb1f9635f7f98cfa955fbe8e50a7a1d7afe1642f2ed1367cda0f"
+    },
+    "Textures/Things/Hair/R99/Vertin_east.png": {
+      "format": "256x256 RGBA PNG",
+      "solid_bbox": [
+        70,
+        79,
+        186,
+        180
+      ],
+      "outer_band_dark_fraction_before": 0.6365,
+      "outer_band_dark_fraction_after": 0.9702,
+      "sha256": "da31470746e5bdbac25f37f6d32cb4cfe7a2e328b15db2a1f00ce265502708b0"
+    },
+    "Textures/Things/Hair/R99/Vertin_north.png": {
+      "format": "256x256 RGBA PNG",
+      "solid_bbox": [
+        64,
+        83,
+        180,
+        176
+      ],
+      "outer_band_dark_fraction_before": 0.6551,
+      "outer_band_dark_fraction_after": 0.935,
+      "sha256": "469d312c4774a042813123609ae550012a075955ce36dd6c9b1e87adbe8c670e"
+    },
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_south.png": {
+      "format": "256x256 RGBA PNG",
+      "solid_bbox": [
+        86,
+        90,
+        170,
+        253
+      ],
+      "outer_band_dark_fraction_before": 0.7189,
+      "outer_band_dark_fraction_after": 0.9969,
+      "sha256": "49163822bfdf4e2a4b6e874c8c51d0c2c079b6447f25ebf490bfdcbe6a14957c"
+    },
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_east.png": {
+      "format": "256x256 RGBA PNG",
+      "solid_bbox": [
+        72,
+        89,
+        158,
+        252
+      ],
+      "outer_band_dark_fraction_before": 0.6298,
+      "outer_band_dark_fraction_after": 0.9987,
+      "sha256": "d4780b9360a535c7668df19ac3f5836241dc87b1d662194cb565df8e0a6cae92"
+    },
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_north.png": {
+      "format": "256x256 RGBA PNG",
+      "solid_bbox": [
+        86,
+        90,
+        170,
+        252
+      ],
+      "outer_band_dark_fraction_before": 0.649,
+      "outer_band_dark_fraction_after": 0.985,
+      "sha256": "af2475c5769648d51ac98fae53820aaa0e411e4626a5cbadc1e414f9d8735713"
+    },
+    "Textures/Things/R99_Agents/Arcanist/Vertin.png": {
+      "format": "256x256 RGBA PNG",
+      "solid_bbox": [
+        86,
+        90,
+        170,
+        253
+      ],
+      "outer_band_dark_fraction_before": 0.7189,
+      "outer_band_dark_fraction_after": 0.9969,
+      "sha256": "49163822bfdf4e2a4b6e874c8c51d0c2c079b6447f25ebf490bfdcbe6a14957c"
+    }
+  },
+  "side_waist_width_native_px": {
+    "y140_before": 35,
+    "y140_after": 56,
+    "y145_before": 40,
+    "y145_after": 57
+  },
+  "upper_centerline_reversal_removed_at_checked_rows": true,
+  "shoe_front_extension_beyond_ankle_px": -1,
+  "head_rotation_degrees": 0,
+  "reproduction_hashes_match": true,
+  "visual_review": "Six isolated parts and assembled south/east/north inspected; same-scale east comparison with Thorns/Texas/Silence.",
+  "boundary_metric_note": "Near-black fraction within a 3px square-eroded inner silhouette band; contrast measurement, not exact stroke width.",
+  "game_tested": false
+}

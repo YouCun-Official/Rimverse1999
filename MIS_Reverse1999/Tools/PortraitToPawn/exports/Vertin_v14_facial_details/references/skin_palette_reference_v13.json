@@ -1,0 +1,77 @@
+{
+  "revision": "v13",
+  "mode": "explicit_user_reference_override",
+  "character": "Vertin",
+  "source_character": "Zima",
+  "source": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_arknights\\Textures\\Things\\Hair\\Vanguard\\Zima_south.png",
+  "source_local": "references/Zima_skin_reference.png",
+  "source_sha256": "028c53c9be02dcb00d156cdf5244549fd1e50455478b1ba9445d13b0512aa3c8",
+  "base_rgb": [
+    252,
+    235,
+    211
+  ],
+  "base_hex": "#FCEBD3",
+  "color_space": "sRGB",
+  "method": "Directly reuse the most frequent existing RGB in visually verified flat face-skin blocks; no averaging with original portrait or other characters.",
+  "patches": [
+    {
+      "box_xyxy_exclusive": [
+        116,
+        155,
+        124,
+        161
+      ],
+      "pixel_count": 48,
+      "mode_rgb": [
+        252,
+        235,
+        211
+      ],
+      "mode_count": 46
+    },
+    {
+      "box_xyxy_exclusive": [
+        132,
+        155,
+        140,
+        161
+      ],
+      "pixel_count": 48,
+      "mode_rgb": [
+        252,
+        235,
+        211
+      ],
+      "mode_count": 46
+    },
+    {
+      "box_xyxy_exclusive": [
+        121,
+        161,
+        135,
+        164
+      ],
+      "pixel_count": 42,
+      "mode_rgb": [
+        252,
+        235,
+        211
+      ],
+      "mode_count": 30
+    }
+  ],
+  "mode_count": 122,
+  "total_pixels": 138,
+  "previous_base_hex": "#CBB0A5",
+  "scope": "Historical palette reference for Vertin v13 only. This file is provenance for the existing artwork and imposes no universal skin-color rule.",
+  "protected_features": [
+    "eye size and spacing",
+    "iris color",
+    "soft brow expression",
+    "nose and lips",
+    "face silhouette",
+    "hair and hat",
+    "all body and item textures"
+  ]
+}

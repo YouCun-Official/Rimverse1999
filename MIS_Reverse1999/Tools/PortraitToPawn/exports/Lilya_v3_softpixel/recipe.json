@@ -1,0 +1,114 @@
+{
+  "batch": "SoftPixel_v1_20261109",
+  "date": "2026-11-09",
+  "method": "User explicitly selected Python pixel postprocessing. Light premultiplied-alpha pixel grouping, restrained low-contrast median contribution and color grouping. No redraw, face transfer, warp, alpha edit, new expression, noise or dithering.",
+  "profiles": {
+    "light": {
+      "median_local_limit": 20,
+      "protection_feather_px": 2,
+      "dark_stroke_luma": 72,
+      "max_dark_stroke_lightening": 5,
+      "guide_grid": 192,
+      "pixel_mix": 0.5,
+      "median_mix": 0.18,
+      "color_step": 6,
+      "max_channel_delta": 16
+    }
+  },
+  "assets": {
+    "Lilya_head_south": {
+      "character": "Lilya",
+      "part": "head",
+      "direction": "south",
+      "source": "native_inputs/Textures/Things/Hair/R99/Lilya_south.png",
+      "source_sha256": "fbecd77049c6287a55b20feca4d64953798cc2856c6cfe19beebfa07350f290f",
+      "relative_path": "Textures/Things/Hair/R99/Lilya_south.png",
+      "profile": "light",
+      "protected_boxes": [
+        [
+          103,
+          135,
+          147,
+          168
+        ]
+      ]
+    },
+    "Lilya_body_south": {
+      "character": "Lilya",
+      "part": "body",
+      "direction": "south",
+      "source": "native_inputs/Textures/Things/R99_Agents/Arcanist/Lilya_Thin_south.png",
+      "source_sha256": "11727c5c347857390bab9775e4386028b0e5e4b78113932de50aee2e3dc4644b",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Lilya_Thin_south.png",
+      "profile": "light",
+      "protected_boxes": []
+    },
+    "Lilya_head_east": {
+      "character": "Lilya",
+      "part": "head",
+      "direction": "east",
+      "source": "native_inputs/Textures/Things/Hair/R99/Lilya_east.png",
+      "source_sha256": "38d37c3193b429ca77b3b438fd8e93b53498d4aa2a1d8fb532a0123eab47cc03",
+      "relative_path": "Textures/Things/Hair/R99/Lilya_east.png",
+      "profile": "light",
+      "protected_boxes": [
+        [
+          131,
+          135,
+          167,
+          169
+        ]
+      ]
+    },
+    "Lilya_body_east": {
+      "character": "Lilya",
+      "part": "body",
+      "direction": "east",
+      "source": "native_inputs/Textures/Things/R99_Agents/Arcanist/Lilya_Thin_east.png",
+      "source_sha256": "77bfbd26c663252eaa5ac1b9297138969369e0d0a77a74d1a0466d8aa2b7f495",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Lilya_Thin_east.png",
+      "profile": "light",
+      "protected_boxes": []
+    },
+    "Lilya_head_north": {
+      "character": "Lilya",
+      "part": "head",
+      "direction": "north",
+      "source": "native_inputs/Textures/Things/Hair/R99/Lilya_north.png",
+      "source_sha256": "7cc09ab5a79a3c5897e48b991cc280a2433b1b0c6f6c56e72fd2b8348875cffa",
+      "relative_path": "Textures/Things/Hair/R99/Lilya_north.png",
+      "profile": "light",
+      "protected_boxes": []
+    },
+    "Lilya_body_north": {
+      "character": "Lilya",
+      "part": "body",
+      "direction": "north",
+      "source": "native_inputs/Textures/Things/R99_Agents/Arcanist/Lilya_Thin_north.png",
+      "source_sha256": "03fb8d933a3e5a1f36557dbb8609d5cb72ac11c6b7d2b78251f1d1c75b9ff2a6",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Lilya_Thin_north.png",
+      "profile": "light",
+      "protected_boxes": []
+    }
+  },
+  "items": {
+    "Lilya": {
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Lilya.png",
+      "copy_from": "Lilya_body_south"
+    }
+  },
+  "expression_rule": "No broad open/toothy grin. Joy uses restrained closed-mouth smile; preserve existing composed/serious/curious expressions and small natural lip parting.",
+  "prior_exports": {
+    "Lilya": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Lilya_v2_face_and_smile"
+  },
+  "preview_head_offsets": {
+    "Lilya": [
+      0,
+      -65
+    ]
+  },
+  "fixed_alpha_and_canvas": true,
+  "source_policy": "Read fresh, unfiltered native_inputs only. Never cumulatively process this pass output.",
+  "character": "Lilya",
+  "version": "Lilya_v3_softpixel"
+}

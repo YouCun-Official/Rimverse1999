@@ -1,0 +1,146 @@
+{
+  "character": "Regulus",
+  "display_name": "星锑",
+  "version": "v1",
+  "updated_date": "2026-11-09",
+  "working_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v2_softpixel",
+  "status": "softpixel_pass_installed_and_statically_verified",
+  "installation_receipt": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v2_softpixel\\installation_receipt.json",
+  "backup_archive": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\TextureBackups\\AllCharacters_before_SoftPixel_v1_20261109_5bd9c9f0.zip",
+  "paths": {
+    "head_texPath": "Things/Hair/R99/Regulus",
+    "apparel_wornGraphicPath": "Things/R99_Agents/Arcanist/Regulus",
+    "item_texPath": "Things/R99_Agents/Arcanist/Regulus",
+    "body_type": "Thin",
+    "directions": [
+      "south",
+      "east",
+      "north"
+    ]
+  },
+  "format": {
+    "canvas": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "background": "transparent",
+    "count": 7
+  },
+  "primary_reference": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\Ombrophobia\\data_infrastructure\\图片\\星锑.png",
+  "source_manifest": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v1\\references\\sources.json",
+  "character_brief": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v1\\character_brief.json",
+  "generator_recipe": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v2_softpixel\\recipe.json",
+  "generator_entrypoint": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v2_softpixel\\soft_pixel.py",
+  "imagegen_prompts": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v1\\imagegen_prompts.json",
+  "constraints_file": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\角色三视图制作规范.txt",
+  "requested_style": {
+    "rendering": "Flat simple 2D matte color masses, thick near-black outside outline, sparse weaker interior strokes.",
+    "arms": "No complete arms or hands; short shoulder sleeve caps only.",
+    "expression": "Local portrait sunglasses, visible small nose and closed slightly downturned mouth; cool, faintly stubborn pout, no broad smile.",
+    "clothing": "Loose cropped bomber and A-line dress; garment contour takes priority, no forced hourglass waist.",
+    "face_identity_marks": "No obvious freckles, scars or burns; conditional rule skipped.",
+    "side_pose": "Upright unrotated head; body follows a continuous mild forward diagonal, shortened gathered foot, no L-shaped toe.",
+    "accessory_side": "Bag carried from character left shoulder: front screen right, east profile behind toward screen left, rear screen left."
+  },
+  "strict_vertin_size_condition_applies": false,
+  "size_reference": "Vertin v13, Texas, Silence, Perfumer at equal native pixel scale; independent garment/position calibration.",
+  "preview_head_offset": [
+    0,
+    -65
+  ],
+  "reconstructed_details": [
+    "True profile/rear cap and hair surfaces",
+    "Rear jacket seams, scarf wrap and dress drape",
+    "Backpack side/rear occlusion"
+  ],
+  "head_sources": {
+    "south": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v2_softpixel\\native_inputs\\Textures\\Things\\Hair\\R99\\Regulus_south.png",
+    "east": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v2_softpixel\\native_inputs\\Textures\\Things\\Hair\\R99\\Regulus_east.png",
+    "north": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v2_softpixel\\native_inputs\\Textures\\Things\\Hair\\R99\\Regulus_north.png"
+  },
+  "head_hashes": {
+    "south": "7aff3a400b54093d247e27f0c15cb7b55f5eda05489700ce2e26ae9ed05ef506",
+    "east": "55a26cc865987a1b572aa75e0a22795118732024f06742ac380918f0bf3cb88e",
+    "north": "2853b3ecd0cb1cc9ed30dd446ae3397889570a25130f3081f6b359a53411f63f"
+  },
+  "body_hashes": {
+    "south": "4b132974003b27e2cd76852f50b07733d5b96ffb8de08f3d1fbfc49e56bc7729",
+    "east": "662af3a93a8ad42d373167b7cca6063be4b496034b7a2ebb94ef25a5600fc1fb",
+    "north": "13ab0fec0a999b9f828e365d4c9fa8db8a276529e229a628d3d974b938c7b7e1"
+  },
+  "item_sha256": "c33add115cadacea5ecf4acb58de25c4a11d43d9f786bda0f3d82ea36fcf9971",
+  "game_tested": false,
+  "recruitable_character_def_added": false,
+  "previous_working_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v1",
+  "accepted_preprocessing_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v1",
+  "user_visual_approval": "Pre-pass five-character designs accepted; this light texture pass awaits visual review.",
+  "generation_mode": "user_selected_python_softpixel_postprocessing_of_existing_native_artwork",
+  "body_sources": {
+    "south": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v2_softpixel\\native_inputs\\Textures\\Things\\R99_Agents\\Arcanist\\Regulus_Thin_south.png",
+    "east": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v2_softpixel\\native_inputs\\Textures\\Things\\R99_Agents\\Arcanist\\Regulus_Thin_east.png",
+    "north": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v2_softpixel\\native_inputs\\Textures\\Things\\R99_Agents\\Arcanist\\Regulus_Thin_north.png"
+  },
+  "preview": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v2_softpixel\\previews\\three_views_final.png",
+  "head_preview": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v2_softpixel\\previews\\heads_three_views.png",
+  "body_preview": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v2_softpixel\\previews\\bodys_three_views.png",
+  "texture_processing": {
+    "version": "SoftPixel_v1_20261109",
+    "batch_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\SoftPixel_v1_20261109",
+    "recipe": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v2_softpixel\\recipe.json",
+    "source_policy": "Use frozen native_inputs; do not cumulatively filter current output",
+    "alpha_and_geometry_pixel_identical": true,
+    "face_protection_pixel_identical": true,
+    "no_eye_transfer": true,
+    "no_grin_rule": "No broad toothy/open grin; happiness uses restrained closed-mouth smile. Existing expressions retained.",
+    "protected_boxes": {
+      "south": [
+        [
+          100,
+          134,
+          155,
+          168
+        ]
+      ],
+      "east": [
+        [
+          135,
+          134,
+          169,
+          168
+        ]
+      ],
+      "north": []
+    },
+    "parameters": {
+      "median_local_limit": 20,
+      "protection_feather_px": 2,
+      "dark_stroke_luma": 72,
+      "max_dark_stroke_lightening": 5,
+      "guide_grid": 192,
+      "pixel_mix": 0.5,
+      "median_mix": 0.18,
+      "color_step": 6,
+      "max_channel_delta": 16
+    },
+    "before_after": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\SoftPixel_v1_20261109\\previews\\all_characters_before_after.png",
+    "reference_comparison": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\SoftPixel_v1_20261109\\previews\\material_closeups_before_after_reference.png"
+  },
+  "revision_history": [
+    {
+      "date": "2026-11-09",
+      "from": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v1",
+      "to": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Regulus_v2_softpixel",
+      "change": "Applied user-selected Python light pixel grouping and restrained low-contrast rubbing to six existing parts; preserved all alpha, canvas, position and protected facial pixels. Item recopied from processed front body. No redrawing or eye transplant. Added no-toothy-grin and noncumulative postprocess rules."
+    }
+  ],
+  "documentation_updates": [
+    {
+      "date": "2026-11-09",
+      "change": "General spec revision 6 adds no broad/toothy grin and a controlled light half-pixel postprocess; no common eye spacing or skin-color rules added."
+    }
+  ],
+  "revision": "v2_softpixel",
+  "current_version": "Regulus_v2_softpixel",
+  "user_visual_review": "pending"
+}

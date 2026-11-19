@@ -1,0 +1,10 @@
+维尔汀 v5 — 原版发型校正（AI 辅助制作）
+
+本轮仅调整头部三个方向：深侧分、较长前侧发束、低位单侧卷髻，发色改为灰银略带灰绿。取消原先外翘短碎发。发髻在角色右侧，正面画面左、背面画面右；朝右侧面主要看到另一侧，发髻只部分露出。
+帽饰、直立头部及已有比例沿用 v4；三向躯干和物品图与 v4 字节一致。原图由内置 image_gen 编辑，格式化过程为 4 倍采样透明边缘清理、原有坐标校准和外轮廓补强；无新增身体变换。
+参考包括 2 张官方账号宣传图、1 张社区 Wiki 收录的游戏立绘、1 张游戏发髻细节拼图、1 张画集预览转载。参考来源层级和 URL 见 references/sources.json。后视发流依据侧面细节补全，不声称有正交背面设定图。
+角色通用规范见 角色三视图制作规范.txt；提示词见 imagegen_prompts.json；六张源图见 source_art；精确坐标和描边见 recipe.json。
+复现全部 7 张 PNG：python format_assets.py --recipe recipe.json --out 新输出目录
+输出目录必须为空。此命令复现已有原稿，不重新生图，不自动覆盖正式 Textures。
+已核验 256×256 RGBA、透明边界、三向差异、正面图标副本、仅头部变更、复现/安装哈希一致，并检查原尺寸及缩小预览；尚未游戏内验证。
+旧版备份：C:\Users\29232\Desktop\Lannuosprojects\MIS_Lannuosproject\MIS_Reverse1999\Tools\TextureBackups\Vertin_before_v5_20261105_110836_824942.zip

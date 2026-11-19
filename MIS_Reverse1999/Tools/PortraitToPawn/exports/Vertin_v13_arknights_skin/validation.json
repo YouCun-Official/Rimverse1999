@@ -1,0 +1,165 @@
+{
+  "checks": {
+    "Textures/Things/Hair/R99/Vertin_east.png": {
+      "sha256": "368104ec239f41614ceb1e532b07109acda9e0eb7444439ad1cfcf0bae5bd47e",
+      "changed_vs_v12": true,
+      "solid_bbox": [
+        70,
+        79,
+        186,
+        180
+      ],
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true,
+      "silhouette_iou_vs_v12": 0.988802
+    },
+    "Textures/Things/Hair/R99/Vertin_north.png": {
+      "sha256": "b73b76a4259ea05eced26dfc832991b613a42d8225d2991d4c1046646a8acffe",
+      "changed_vs_v12": true,
+      "solid_bbox": [
+        64,
+        83,
+        180,
+        176
+      ],
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true,
+      "silhouette_iou_vs_v12": 0.994237
+    },
+    "Textures/Things/Hair/R99/Vertin_south.png": {
+      "sha256": "6f50731fbc169255e55e675f3cb545abb418fd9aa461f14ee179cbe959706153",
+      "changed_vs_v12": true,
+      "solid_bbox": [
+        76,
+        77,
+        190,
+        177
+      ],
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true,
+      "silhouette_iou_vs_v12": 0.99289
+    },
+    "Textures/Things/R99_Agents/Arcanist/Vertin.png": {
+      "sha256": "d12802758d07b58e8681449101af7383f5c25ed127334cc0624c4ed7bc42f9db",
+      "changed_vs_v12": false,
+      "solid_bbox": [
+        86,
+        90,
+        171,
+        252
+      ],
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true,
+      "silhouette_iou_vs_v12": 1.0
+    },
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_east.png": {
+      "sha256": "d4780b9360a535c7668df19ac3f5836241dc87b1d662194cb565df8e0a6cae92",
+      "changed_vs_v12": false,
+      "solid_bbox": [
+        72,
+        89,
+        158,
+        252
+      ],
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true,
+      "silhouette_iou_vs_v12": 1.0
+    },
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_north.png": {
+      "sha256": "917490eef61b66664bc25045cd31533d5600f97f22126a7fc5430a06a56ac90c",
+      "changed_vs_v12": false,
+      "solid_bbox": [
+        86,
+        90,
+        170,
+        252
+      ],
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true,
+      "silhouette_iou_vs_v12": 1.0
+    },
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_south.png": {
+      "sha256": "d12802758d07b58e8681449101af7383f5c25ed127334cc0624c4ed7bc42f9db",
+      "changed_vs_v12": false,
+      "solid_bbox": [
+        86,
+        90,
+        171,
+        252
+      ],
+      "format": "256x256 RGBA PNG",
+      "transparent_boundary": true,
+      "silhouette_iou_vs_v12": 1.0
+    }
+  },
+  "changed_parts": [
+    "head_south",
+    "head_east",
+    "head_north"
+  ],
+  "bodies_and_item_unchanged": true,
+  "reference_color_recomputed": true,
+  "reference_character": "Zima",
+  "reference_base_rgb": [
+    252,
+    235,
+    211
+  ],
+  "reference_base_hex": "#FCEBD3",
+  "skin_color_deviations": {
+    "south": {
+      "actual_native_patch_mean": [
+        250,
+        233,
+        206
+      ],
+      "delta_from_base": [
+        -2,
+        -2,
+        -5
+      ]
+    },
+    "east": {
+      "actual_native_patch_mean": [
+        250,
+        234,
+        208
+      ],
+      "delta_from_base": [
+        -2,
+        -1,
+        -3
+      ]
+    },
+    "north": {
+      "actual_source_nape_mean": [
+        250,
+        237,
+        210
+      ],
+      "delta_from_base": [
+        -2,
+        2,
+        -1
+      ],
+      "note": "Nape is only a few native pixels tall; source interior avoids outline/AA blending."
+    }
+  },
+  "skin_color_tolerance_max_channel": 8,
+  "format_reproduction_passed": true,
+  "head_rotation_degrees": 0,
+  "preview_head_offset": [
+    0,
+    -65
+  ],
+  "visual_review": "passed",
+  "game_tested": false,
+  "visual_review_notes": [
+    "Reviewed reference color blocks and extracted original Zima base.",
+    "Reviewed all three edited source heads and final native before/after views.",
+    "Reviewed existing-character comparison using common crop and uniform pixel scale.",
+    "Reviewed v12 eye-box overlays on both versions: no intentional eye resizing or spacing redesign; original eye/eyebrow/nose/lip/face identity retained visually.",
+    "Reviewed native and 50 percent assembled figures and clean transparency.",
+    "Generated non-skin head details can contain small incidental differences; byte-identical preservation is claimed only for body/item/unrelated texture files."
+  ]
+}

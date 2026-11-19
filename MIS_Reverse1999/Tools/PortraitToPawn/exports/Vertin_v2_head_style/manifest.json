@@ -1,0 +1,158 @@
+{
+  "name": "Vertin",
+  "version": "v2_head_style",
+  "format": "256x256 RGBA PNG",
+  "files": [
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_south.png",
+    "Textures/Things/Hair/R99/Vertin_south.png",
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_east.png",
+    "Textures/Things/Hair/R99/Vertin_east.png",
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_north.png",
+    "Textures/Things/Hair/R99/Vertin_north.png",
+    "Textures/Things/R99_Agents/Arcanist/Vertin.png"
+  ],
+  "hashes": {
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_south.png": "9076d08e6ec07ea938b8b01cac46a6ab31ffbd31e31e1081217b85bf1a1b1e63",
+    "Textures/Things/Hair/R99/Vertin_south.png": "e66c211c07c0fb5c57db3980b950205436fc3eef36ac1beb8adb02ddb3c3847c",
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_east.png": "fcdd976d690618ed919d17b42a27686d0092138b063c4ef33fae0b05da19039b",
+    "Textures/Things/Hair/R99/Vertin_east.png": "396d850dd9e9b050c70a78781a0c5eddcc70070ffcc86c8a3e2871952fc1267d",
+    "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_north.png": "1238a227cdfa2049a35d03f22794141a475cd2016bf7ee49f075f4a32f6346a4",
+    "Textures/Things/Hair/R99/Vertin_north.png": "b04c17a1689834d4be042752620cfb764d5494566c38d41fa906f63e7b00a959",
+    "Textures/Things/R99_Agents/Arcanist/Vertin.png": "9076d08e6ec07ea938b8b01cac46a6ab31ffbd31e31e1081217b85bf1a1b1e63"
+  },
+  "source_hashes": {
+    "head_south": "eda0d3688c4afb43de8d7c658523e3d3741d8fe71be1c35e7dda8824c9746a5c",
+    "body_south": "e30dd0d568501fb6247889a65a091bf2f013b57908d6bf2da0f67af93816e92d",
+    "head_east": "91b76546d60935b25be322c327e247c04b4f963097f353e50060a41e9e2264e1",
+    "head_north": "61a044fba96703f83e775679643a75c294552de5fbee06a4f40c96a1f27d610e",
+    "body_east": "26456bc6ec94444f52b946f2f08178be2e0d6e76c4e0c579d8dac7c9b866175c",
+    "body_north": "c6105989d55c278d60d39516dc59448d2b358bea84caba39f75b4f200c20565e"
+  },
+  "normalization": {
+    "south": {
+      "body": {
+        "source_size": [
+          1254,
+          1254
+        ],
+        "source_solid_bbox": [
+          391,
+          179,
+          864,
+          1155
+        ],
+        "target_frame": [
+          86,
+          90,
+          170,
+          252
+        ]
+      },
+      "head": {
+        "source_size": [
+          1278,
+          1230
+        ],
+        "registration": {
+          "source_anchor": [
+            630,
+            1060
+          ],
+          "target_anchor": [
+            129,
+            173
+          ],
+          "scale": 0.098
+        },
+        "rotation_degrees": 0
+      }
+    },
+    "east": {
+      "body": {
+        "source_size": [
+          1024,
+          1536
+        ],
+        "source_solid_bbox": [
+          343,
+          95,
+          706,
+          1444
+        ],
+        "target_frame": [
+          98,
+          90,
+          160,
+          252
+        ]
+      },
+      "head": {
+        "source_size": [
+          1278,
+          1230
+        ],
+        "registration": {
+          "source_anchor": [
+            1018,
+            1048
+          ],
+          "target_anchor": [
+            164,
+            173
+          ],
+          "scale": 0.098
+        },
+        "rotation_degrees": 0
+      }
+    },
+    "north": {
+      "body": {
+        "source_size": [
+          1254,
+          1254
+        ],
+        "source_solid_bbox": [
+          373,
+          95,
+          882,
+          1172
+        ],
+        "target_frame": [
+          86,
+          90,
+          170,
+          252
+        ]
+      },
+      "head": {
+        "source_size": [
+          1278,
+          1230
+        ],
+        "registration": {
+          "source_anchor": [
+            700,
+            1044
+          ],
+          "target_anchor": [
+            128,
+            176
+          ],
+          "scale": 0.098
+        },
+        "rotation_degrees": 0
+      }
+    }
+  },
+  "east_pose": {
+    "fixed_above_y": 110,
+    "waist_y": 148,
+    "upper_degrees": 7,
+    "lower_degrees": 18,
+    "head_rotation": 0
+  },
+  "head_soften_radius_px": 0.18,
+  "body_soften_radius_px": 0.45,
+  "game_tested": false,
+  "method": "built-in image_gen directional drawing + local normalization and body pose"
+}

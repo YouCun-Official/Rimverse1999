@@ -1,0 +1,2819 @@
+{
+  "method": "Literal native-pixel eye extraction, iris recoloring and localized compositing as explicitly requested; no generative redraw.",
+  "donor_scale": [
+    1,
+    1
+  ],
+  "target_iris_mid_rgb": [
+    152,
+    141,
+    112
+  ],
+  "local_eye_background_repair_rgb": [
+    250,
+    233,
+    210
+  ],
+  "changed_pixel_count": 283,
+  "changed_bbox": [
+    110,
+    140,
+    147,
+    151
+  ],
+  "outside_eye_mask_byte_identical": true,
+  "alpha_byte_identical": true,
+  "brows_above_y140_unchanged": true,
+  "nose_mouth_and_freckles_from_y151_unchanged": true,
+  "source_sha256": {
+    "base": "38313803bfbebcf626c201451bb46d09168be40b245ee38496632e953b11044a",
+    "donor": "d37b94690e9ac568889fbe9574fb470ca665da7f1df18f2a338b0cebe65f9306"
+  },
+  "output_sha256": "c220e1b9059cf4aee766a044576c5ccfa13e688a61d888e6daf570eade842a8f",
+  "eyes": {
+    "screen_left": {
+      "donor_pixels_copied_without_rgb_change": 51,
+      "iris_pixels_recolored": 66,
+      "donor_skin_pixels_omitted": 5,
+      "native_translation": [
+        3,
+        -1
+      ],
+      "mapping": [
+        {
+          "source": [
+            109,
+            142
+          ],
+          "target": [
+            112,
+            141
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            110,
+            142
+          ],
+          "target": [
+            113,
+            141
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            111,
+            142
+          ],
+          "target": [
+            114,
+            141
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            112,
+            142
+          ],
+          "target": [
+            115,
+            141
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            113,
+            142
+          ],
+          "target": [
+            116,
+            141
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            114,
+            142
+          ],
+          "target": [
+            117,
+            141
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            115,
+            142
+          ],
+          "target": [
+            118,
+            141
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            116,
+            142
+          ],
+          "target": [
+            119,
+            141
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            117,
+            142
+          ],
+          "target": [
+            120,
+            141
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            118,
+            142
+          ],
+          "target": [
+            121,
+            141
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            119,
+            142
+          ],
+          "target": [
+            122,
+            141
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            120,
+            142
+          ],
+          "target": [
+            123,
+            141
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            109,
+            143
+          ],
+          "target": [
+            112,
+            142
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            110,
+            143
+          ],
+          "target": [
+            113,
+            142
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            111,
+            143
+          ],
+          "target": [
+            114,
+            142
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            112,
+            143
+          ],
+          "target": [
+            115,
+            142
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            113,
+            143
+          ],
+          "target": [
+            116,
+            142
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            114,
+            143
+          ],
+          "target": [
+            117,
+            142
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            115,
+            143
+          ],
+          "target": [
+            118,
+            142
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            116,
+            143
+          ],
+          "target": [
+            119,
+            142
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            117,
+            143
+          ],
+          "target": [
+            120,
+            142
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            118,
+            143
+          ],
+          "target": [
+            121,
+            142
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            119,
+            143
+          ],
+          "target": [
+            122,
+            142
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            120,
+            143
+          ],
+          "target": [
+            123,
+            142
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            108,
+            144
+          ],
+          "target": [
+            111,
+            143
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            109,
+            144
+          ],
+          "target": [
+            112,
+            143
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            110,
+            144
+          ],
+          "target": [
+            113,
+            143
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            111,
+            144
+          ],
+          "target": [
+            114,
+            143
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            112,
+            144
+          ],
+          "target": [
+            115,
+            143
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            113,
+            144
+          ],
+          "target": [
+            116,
+            143
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            114,
+            144
+          ],
+          "target": [
+            117,
+            143
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            115,
+            144
+          ],
+          "target": [
+            118,
+            143
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            116,
+            144
+          ],
+          "target": [
+            119,
+            143
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            117,
+            144
+          ],
+          "target": [
+            120,
+            143
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            118,
+            144
+          ],
+          "target": [
+            121,
+            143
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            119,
+            144
+          ],
+          "target": [
+            122,
+            143
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            120,
+            144
+          ],
+          "target": [
+            123,
+            143
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            121,
+            144
+          ],
+          "target": [
+            124,
+            143
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            108,
+            145
+          ],
+          "target": [
+            111,
+            144
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            109,
+            145
+          ],
+          "target": [
+            112,
+            144
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            110,
+            145
+          ],
+          "target": [
+            113,
+            144
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            111,
+            145
+          ],
+          "target": [
+            114,
+            144
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            112,
+            145
+          ],
+          "target": [
+            115,
+            144
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            113,
+            145
+          ],
+          "target": [
+            116,
+            144
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            114,
+            145
+          ],
+          "target": [
+            117,
+            144
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            115,
+            145
+          ],
+          "target": [
+            118,
+            144
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            116,
+            145
+          ],
+          "target": [
+            119,
+            144
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            117,
+            145
+          ],
+          "target": [
+            120,
+            144
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            118,
+            145
+          ],
+          "target": [
+            121,
+            144
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            119,
+            145
+          ],
+          "target": [
+            122,
+            144
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            120,
+            145
+          ],
+          "target": [
+            123,
+            144
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            121,
+            145
+          ],
+          "target": [
+            124,
+            144
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            108,
+            146
+          ],
+          "target": [
+            111,
+            145
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            109,
+            146
+          ],
+          "target": [
+            112,
+            145
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            110,
+            146
+          ],
+          "target": [
+            113,
+            145
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            111,
+            146
+          ],
+          "target": [
+            114,
+            145
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            112,
+            146
+          ],
+          "target": [
+            115,
+            145
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            113,
+            146
+          ],
+          "target": [
+            116,
+            145
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            114,
+            146
+          ],
+          "target": [
+            117,
+            145
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            115,
+            146
+          ],
+          "target": [
+            118,
+            145
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            116,
+            146
+          ],
+          "target": [
+            119,
+            145
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            117,
+            146
+          ],
+          "target": [
+            120,
+            145
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            118,
+            146
+          ],
+          "target": [
+            121,
+            145
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            119,
+            146
+          ],
+          "target": [
+            122,
+            145
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            120,
+            146
+          ],
+          "target": [
+            123,
+            145
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            107,
+            147
+          ],
+          "target": [
+            110,
+            146
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            108,
+            147
+          ],
+          "target": [
+            111,
+            146
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            109,
+            147
+          ],
+          "target": [
+            112,
+            146
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            110,
+            147
+          ],
+          "target": [
+            113,
+            146
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            111,
+            147
+          ],
+          "target": [
+            114,
+            146
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            112,
+            147
+          ],
+          "target": [
+            115,
+            146
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            113,
+            147
+          ],
+          "target": [
+            116,
+            146
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            114,
+            147
+          ],
+          "target": [
+            117,
+            146
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            115,
+            147
+          ],
+          "target": [
+            118,
+            146
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            116,
+            147
+          ],
+          "target": [
+            119,
+            146
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            117,
+            147
+          ],
+          "target": [
+            120,
+            146
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            118,
+            147
+          ],
+          "target": [
+            121,
+            146
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            119,
+            147
+          ],
+          "target": [
+            122,
+            146
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            120,
+            147
+          ],
+          "target": [
+            123,
+            146
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            108,
+            148
+          ],
+          "target": [
+            111,
+            147
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            109,
+            148
+          ],
+          "target": [
+            112,
+            147
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            110,
+            148
+          ],
+          "target": [
+            113,
+            147
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            111,
+            148
+          ],
+          "target": [
+            114,
+            147
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            112,
+            148
+          ],
+          "target": [
+            115,
+            147
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            113,
+            148
+          ],
+          "target": [
+            116,
+            147
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            114,
+            148
+          ],
+          "target": [
+            117,
+            147
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            115,
+            148
+          ],
+          "target": [
+            118,
+            147
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            116,
+            148
+          ],
+          "target": [
+            119,
+            147
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            117,
+            148
+          ],
+          "target": [
+            120,
+            147
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            118,
+            148
+          ],
+          "target": [
+            121,
+            147
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            119,
+            148
+          ],
+          "target": [
+            122,
+            147
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            120,
+            148
+          ],
+          "target": [
+            123,
+            147
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            109,
+            149
+          ],
+          "target": [
+            112,
+            148
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            110,
+            149
+          ],
+          "target": [
+            113,
+            148
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            111,
+            149
+          ],
+          "target": [
+            114,
+            148
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            112,
+            149
+          ],
+          "target": [
+            115,
+            148
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            113,
+            149
+          ],
+          "target": [
+            116,
+            148
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            114,
+            149
+          ],
+          "target": [
+            117,
+            148
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            115,
+            149
+          ],
+          "target": [
+            118,
+            148
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            116,
+            149
+          ],
+          "target": [
+            119,
+            148
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            117,
+            149
+          ],
+          "target": [
+            120,
+            148
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            118,
+            149
+          ],
+          "target": [
+            121,
+            148
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            119,
+            149
+          ],
+          "target": [
+            122,
+            148
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            110,
+            150
+          ],
+          "target": [
+            113,
+            149
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            111,
+            150
+          ],
+          "target": [
+            114,
+            149
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            112,
+            150
+          ],
+          "target": [
+            115,
+            149
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            113,
+            150
+          ],
+          "target": [
+            116,
+            149
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            114,
+            150
+          ],
+          "target": [
+            117,
+            149
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            115,
+            150
+          ],
+          "target": [
+            118,
+            149
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            116,
+            150
+          ],
+          "target": [
+            119,
+            149
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            117,
+            150
+          ],
+          "target": [
+            120,
+            149
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            118,
+            150
+          ],
+          "target": [
+            121,
+            149
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            112,
+            151
+          ],
+          "target": [
+            115,
+            150
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            113,
+            151
+          ],
+          "target": [
+            116,
+            150
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            114,
+            151
+          ],
+          "target": [
+            117,
+            150
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            115,
+            151
+          ],
+          "target": [
+            118,
+            150
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            116,
+            151
+          ],
+          "target": [
+            119,
+            150
+          ],
+          "iris_recolored": false
+        }
+      ]
+    },
+    "screen_right": {
+      "donor_pixels_copied_without_rgb_change": 62,
+      "iris_pixels_recolored": 67,
+      "donor_skin_pixels_omitted": 8,
+      "native_translation": [
+        -1,
+        -1
+      ],
+      "mapping": [
+        {
+          "source": [
+            133,
+            142
+          ],
+          "target": [
+            132,
+            141
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            134,
+            142
+          ],
+          "target": [
+            133,
+            141
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            135,
+            142
+          ],
+          "target": [
+            134,
+            141
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            136,
+            142
+          ],
+          "target": [
+            135,
+            141
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            137,
+            142
+          ],
+          "target": [
+            136,
+            141
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            138,
+            142
+          ],
+          "target": [
+            137,
+            141
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            139,
+            142
+          ],
+          "target": [
+            138,
+            141
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            140,
+            142
+          ],
+          "target": [
+            139,
+            141
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            141,
+            142
+          ],
+          "target": [
+            140,
+            141
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            142,
+            142
+          ],
+          "target": [
+            141,
+            141
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            143,
+            142
+          ],
+          "target": [
+            142,
+            141
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            144,
+            142
+          ],
+          "target": [
+            143,
+            141
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            145,
+            142
+          ],
+          "target": [
+            144,
+            141
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            146,
+            142
+          ],
+          "target": [
+            145,
+            141
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            133,
+            143
+          ],
+          "target": [
+            132,
+            142
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            134,
+            143
+          ],
+          "target": [
+            133,
+            142
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            135,
+            143
+          ],
+          "target": [
+            134,
+            142
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            136,
+            143
+          ],
+          "target": [
+            135,
+            142
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            137,
+            143
+          ],
+          "target": [
+            136,
+            142
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            138,
+            143
+          ],
+          "target": [
+            137,
+            142
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            139,
+            143
+          ],
+          "target": [
+            138,
+            142
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            140,
+            143
+          ],
+          "target": [
+            139,
+            142
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            141,
+            143
+          ],
+          "target": [
+            140,
+            142
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            142,
+            143
+          ],
+          "target": [
+            141,
+            142
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            143,
+            143
+          ],
+          "target": [
+            142,
+            142
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            144,
+            143
+          ],
+          "target": [
+            143,
+            142
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            145,
+            143
+          ],
+          "target": [
+            144,
+            142
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            146,
+            143
+          ],
+          "target": [
+            145,
+            142
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            132,
+            144
+          ],
+          "target": [
+            131,
+            143
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            133,
+            144
+          ],
+          "target": [
+            132,
+            143
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            134,
+            144
+          ],
+          "target": [
+            133,
+            143
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            135,
+            144
+          ],
+          "target": [
+            134,
+            143
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            136,
+            144
+          ],
+          "target": [
+            135,
+            143
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            137,
+            144
+          ],
+          "target": [
+            136,
+            143
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            138,
+            144
+          ],
+          "target": [
+            137,
+            143
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            139,
+            144
+          ],
+          "target": [
+            138,
+            143
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            140,
+            144
+          ],
+          "target": [
+            139,
+            143
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            141,
+            144
+          ],
+          "target": [
+            140,
+            143
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            142,
+            144
+          ],
+          "target": [
+            141,
+            143
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            143,
+            144
+          ],
+          "target": [
+            142,
+            143
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            144,
+            144
+          ],
+          "target": [
+            143,
+            143
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            145,
+            144
+          ],
+          "target": [
+            144,
+            143
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            146,
+            144
+          ],
+          "target": [
+            145,
+            143
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            147,
+            144
+          ],
+          "target": [
+            146,
+            143
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            132,
+            145
+          ],
+          "target": [
+            131,
+            144
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            133,
+            145
+          ],
+          "target": [
+            132,
+            144
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            134,
+            145
+          ],
+          "target": [
+            133,
+            144
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            135,
+            145
+          ],
+          "target": [
+            134,
+            144
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            136,
+            145
+          ],
+          "target": [
+            135,
+            144
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            137,
+            145
+          ],
+          "target": [
+            136,
+            144
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            138,
+            145
+          ],
+          "target": [
+            137,
+            144
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            139,
+            145
+          ],
+          "target": [
+            138,
+            144
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            140,
+            145
+          ],
+          "target": [
+            139,
+            144
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            141,
+            145
+          ],
+          "target": [
+            140,
+            144
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            142,
+            145
+          ],
+          "target": [
+            141,
+            144
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            143,
+            145
+          ],
+          "target": [
+            142,
+            144
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            144,
+            145
+          ],
+          "target": [
+            143,
+            144
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            145,
+            145
+          ],
+          "target": [
+            144,
+            144
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            146,
+            145
+          ],
+          "target": [
+            145,
+            144
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            132,
+            146
+          ],
+          "target": [
+            131,
+            145
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            133,
+            146
+          ],
+          "target": [
+            132,
+            145
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            134,
+            146
+          ],
+          "target": [
+            133,
+            145
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            135,
+            146
+          ],
+          "target": [
+            134,
+            145
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            136,
+            146
+          ],
+          "target": [
+            135,
+            145
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            137,
+            146
+          ],
+          "target": [
+            136,
+            145
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            138,
+            146
+          ],
+          "target": [
+            137,
+            145
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            139,
+            146
+          ],
+          "target": [
+            138,
+            145
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            140,
+            146
+          ],
+          "target": [
+            139,
+            145
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            141,
+            146
+          ],
+          "target": [
+            140,
+            145
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            142,
+            146
+          ],
+          "target": [
+            141,
+            145
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            143,
+            146
+          ],
+          "target": [
+            142,
+            145
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            144,
+            146
+          ],
+          "target": [
+            143,
+            145
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            145,
+            146
+          ],
+          "target": [
+            144,
+            145
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            146,
+            146
+          ],
+          "target": [
+            145,
+            145
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            133,
+            147
+          ],
+          "target": [
+            132,
+            146
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            134,
+            147
+          ],
+          "target": [
+            133,
+            146
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            135,
+            147
+          ],
+          "target": [
+            134,
+            146
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            136,
+            147
+          ],
+          "target": [
+            135,
+            146
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            137,
+            147
+          ],
+          "target": [
+            136,
+            146
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            138,
+            147
+          ],
+          "target": [
+            137,
+            146
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            139,
+            147
+          ],
+          "target": [
+            138,
+            146
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            140,
+            147
+          ],
+          "target": [
+            139,
+            146
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            141,
+            147
+          ],
+          "target": [
+            140,
+            146
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            142,
+            147
+          ],
+          "target": [
+            141,
+            146
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            143,
+            147
+          ],
+          "target": [
+            142,
+            146
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            144,
+            147
+          ],
+          "target": [
+            143,
+            146
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            145,
+            147
+          ],
+          "target": [
+            144,
+            146
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            146,
+            147
+          ],
+          "target": [
+            145,
+            146
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            133,
+            148
+          ],
+          "target": [
+            132,
+            147
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            134,
+            148
+          ],
+          "target": [
+            133,
+            147
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            135,
+            148
+          ],
+          "target": [
+            134,
+            147
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            136,
+            148
+          ],
+          "target": [
+            135,
+            147
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            137,
+            148
+          ],
+          "target": [
+            136,
+            147
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            138,
+            148
+          ],
+          "target": [
+            137,
+            147
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            139,
+            148
+          ],
+          "target": [
+            138,
+            147
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            140,
+            148
+          ],
+          "target": [
+            139,
+            147
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            141,
+            148
+          ],
+          "target": [
+            140,
+            147
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            142,
+            148
+          ],
+          "target": [
+            141,
+            147
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            143,
+            148
+          ],
+          "target": [
+            142,
+            147
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            144,
+            148
+          ],
+          "target": [
+            143,
+            147
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            145,
+            148
+          ],
+          "target": [
+            144,
+            147
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            146,
+            148
+          ],
+          "target": [
+            145,
+            147
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            134,
+            149
+          ],
+          "target": [
+            133,
+            148
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            135,
+            149
+          ],
+          "target": [
+            134,
+            148
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            136,
+            149
+          ],
+          "target": [
+            135,
+            148
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            137,
+            149
+          ],
+          "target": [
+            136,
+            148
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            138,
+            149
+          ],
+          "target": [
+            137,
+            148
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            139,
+            149
+          ],
+          "target": [
+            138,
+            148
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            140,
+            149
+          ],
+          "target": [
+            139,
+            148
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            141,
+            149
+          ],
+          "target": [
+            140,
+            148
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            142,
+            149
+          ],
+          "target": [
+            141,
+            148
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            143,
+            149
+          ],
+          "target": [
+            142,
+            148
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            144,
+            149
+          ],
+          "target": [
+            143,
+            148
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            145,
+            149
+          ],
+          "target": [
+            144,
+            148
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            134,
+            150
+          ],
+          "target": [
+            133,
+            149
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            135,
+            150
+          ],
+          "target": [
+            134,
+            149
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            136,
+            150
+          ],
+          "target": [
+            135,
+            149
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            137,
+            150
+          ],
+          "target": [
+            136,
+            149
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            138,
+            150
+          ],
+          "target": [
+            137,
+            149
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            139,
+            150
+          ],
+          "target": [
+            138,
+            149
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            140,
+            150
+          ],
+          "target": [
+            139,
+            149
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            141,
+            150
+          ],
+          "target": [
+            140,
+            149
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            142,
+            150
+          ],
+          "target": [
+            141,
+            149
+          ],
+          "iris_recolored": true
+        },
+        {
+          "source": [
+            143,
+            150
+          ],
+          "target": [
+            142,
+            149
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            137,
+            151
+          ],
+          "target": [
+            136,
+            150
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            138,
+            151
+          ],
+          "target": [
+            137,
+            150
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            139,
+            151
+          ],
+          "target": [
+            138,
+            150
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            140,
+            151
+          ],
+          "target": [
+            139,
+            150
+          ],
+          "iris_recolored": false
+        },
+        {
+          "source": [
+            141,
+            151
+          ],
+          "target": [
+            140,
+            150
+          ],
+          "iris_recolored": false
+        }
+      ]
+    }
+  },
+  "representative_freckle_points_preserved": [
+    [
+      122,
+      150
+    ],
+    [
+      123,
+      152
+    ],
+    [
+      116,
+      153
+    ],
+    [
+      119,
+      151
+    ],
+    [
+      126,
+      149
+    ],
+    [
+      130,
+      148
+    ],
+    [
+      132,
+      151
+    ],
+    [
+      137,
+      151
+    ]
+  ],
+  "visual_review": {
+    "status": "passed",
+    "boards": [
+      "eye_transfer_comparison.png",
+      "reference_comparison_with_trial.png",
+      "protected_regions_check.png"
+    ],
+    "findings": [
+      "Courier native eyelid, sclera, pupil and highlight structure transferred at 1:1 scale.",
+      "Donor skin and adjacent dark hair were excluded from the eye extraction.",
+      "Iris tint mapped to sampled existing Vertin iris color; noncolored donor eye pixels kept.",
+      "Existing eyebrows, chin/face silhouette, hair/hat, nose/lips and freckles visually retained; all pixels outside the two local masks are exactly unchanged.",
+      "Review boards include native and half-scale display and equal-scale local references."
+    ],
+    "status_note": "A first trial for user review, not an accepted replacement."
+  },
+  "formal_texture_count_preserved": 37,
+  "formal_textures_unchanged": true,
+  "active_vertin_record_unchanged": true,
+  "game_tested": false,
+  "status": "trial_not_installed",
+  "package_reproduction_passed": true
+}

@@ -1,0 +1,18 @@
+{
+  "family": "shirt_vest",
+  "palette": {
+    "shirt": "#f4f3ef",
+    "vest": "#2a2930",
+    "pants": "#2c2b32",
+    "shoes": "#242329",
+    "outline": "#17171c"
+  },
+  "parameters": {
+    "outline_px": 3.2,
+    "supersample": 4,
+    "buttons": 2,
+    "sleeve_style": "short",
+    "render_style": "flat",
+    "emit_layers": true
+  }
+}

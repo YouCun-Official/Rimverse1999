@@ -1,0 +1,163 @@
+{
+  "date": "2026-11-08",
+  "tool": "built-in image_gen",
+  "transparent_background": true,
+  "primary_reference": "references/primary_local.png",
+  "passes": [
+    {
+      "part": "head_south",
+      "prompt": "Use case: stylized-concept. Asset: Regulus (星锑) HEAD ONLY, front south view. Image 1 is the user's LOCAL original head crop and is the primary identity and expression authority. Image 2 is only the target pawn STYLE/proportion board, not Regulus's identity.\nProduction sprite for a RimWorld character mod. Use a compact flat 2D pawn drawing matching the supplied local pawn style reference. Broad restrained color patches, 2 or at most 3 tones per material, strong near-black outer contour that will read roughly 3-4 pixels thick in a 256px final atlas, thinner selective internal strokes, low detail density. Not a realistic portrait, not 3D, no glossy highlights, no smooth gradients, no thin elegant line art, no vector icon simplification. Keep distinctive costume shapes readable after downscaling. Real transparent background, single isolated asset centered with clean margin, no ground shadow, no checkerboard, no text, no labels.\nDraw one upright, straight-on head with hat, hair, ears and face; no neck clothing, scarf, shoulders, arms or torso. Recognizable details: sandy light-brown layered chin-to-nape bob with softly flicked ends and short wispy side-swept bangs; off-white soft sailor/newsboy cap, BLACK rounded short visor, brick-red piping and round side buttons; a simple red-bordered dark heart badge on the FRONT cap panel, slightly to character LEFT (viewer right) as in the portrait. Oversized black rounded rectangular sunglasses WORN OVER THE EYES, opaque near-black brown lenses, subtle single flat muted reflection at most, clearly separate bridge and frames, no visible invented eyes. Compact softly tapered face, short chin, small visible nose and restrained closed mouth with the same slight downward turn/slight pout as the primary portrait. Expression is cool, composed and faintly stubborn; NOT a happy smile, open laugh, crying or angry grimace. Do not import Vertin's freckles: Regulus has no obvious characteristic face marks in the primary. Match the practical head/face scale of Vertin and the Arknights heads; don't make a baby round face. Exact frontal orthographic view, head absolutely upright. Hat front badge is part of head, scarf belongs to separate body and must be omitted. Keep entire cap/hair uncut.",
+      "referenced_image_paths": [
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/regulus_v1_20261108/references/primary_head_crop.png",
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/regulus_v1_20261108/references/head_style_board.png"
+      ],
+      "pass": "initial",
+      "generated_local_path": "C:/Users/29232/.codex/generated_images/01a1aef2-5342-7013-9609-ad65943698a5/exec-d86134fb-8f60-42d2-84b1-7eb0ede9404c.png",
+      "selected_source": "source_art/head_south.png",
+      "local_input_copies": [
+        "references/primary_head_crop.png",
+        "references/head_style_board.png"
+      ]
+    },
+    {
+      "part": "body_south",
+      "prompt": "Use case: stylized-concept. Asset: Regulus (星锑) BODY ONLY, front south view. Image 1 is the user's LOCAL original full illustration, the primary costume authority; image 2 is a pawn-style BODY board; image 3 is a secondary close view of her actual backpack.\nProduction sprite for a RimWorld character mod. Use a compact flat 2D pawn drawing matching the supplied local pawn style reference. Broad restrained color patches, 2 or at most 3 tones per material, strong near-black outer contour that will read roughly 3-4 pixels thick in a 256px final atlas, thinner selective internal strokes, low detail density. Not a realistic portrait, not 3D, no glossy highlights, no smooth gradients, no thin elegant line art, no vector icon simplification. Keep distinctive costume shapes readable after downscaling. Real transparent background, single isolated asset centered with clean margin, no ground shadow, no checkerboard, no text, no labels.\nDraw from the small neck opening to the soles only, no head, hair, cap, sunglasses. CRITICAL RimWorld convention: NO complete arms, NO hands, NO forearms; jacket sleeves are reduced to very short shoulder caps like the pawn references. Do not draw the original illustration's bent/pocket hands or puffy long sleeves. Use upright compact garment silhouette, overall body scale like Vertin/Texas, gently inward legs and downward boots, feet close together, no splayed stance.\nCostume from Image 1: orange/rust cropped OPEN bomber jacket with cream paired edge stripes and dark buttons on character RIGHT front (viewer left); dark ribbed small shoulder-cap edges, no hanging sleeves. A loose deep navy-blue A-line short dress underneath, softly widening hem and narrow pale lilac hem stripe; do NOT cinch its waist into an hourglass or convert it to trousers. Blue-violet scarf with a sparse readable cream polka-dot pattern, tied toward character LEFT (viewer right), one long front hanging tail and one short lateral end; fit scarf at neck opening. Exposed compact knees/lower thighs, rust-orange tall socks, short dark near-black boots with cream folded cuffs, cream bands and small bows; boots continue down along the legs, short toes facing downward, heels gathered.\nRetain original asymmetry: the dark grey/navy record backpack is carried from character LEFT shoulder and lies behind LEFT back/hip, so only a compact partial bag appears on viewer RIGHT in front view. One cream shoulder strap with small buckle descends on this viewer-right chest, carrying a recognizable orange peace-hand badge outlined pale turquoise near the shoulder. Backpack has orange handles/trim, a few pale record sleeves projecting from its opening, a tiny silver star pendant and turquoise charm at its lower outer side. Simplify these without removing identity. It is a record bag, not tactical kit; no added weapons, pouches, straps or equipment beyond this. Do not draw the floating apple companion to the left of the illustration.\nLoose jacket/dress cloth contours take priority over visible anatomy; no forced narrow waist or exaggerated hips. Front dress hem and boots level, compact 2D silhouette, no long fashion-model legs. One body only, centered, front orthographic, full soles intact.",
+      "referenced_image_paths": [
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/regulus_v1_20261108/references/primary_local.png",
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/regulus_v1_20261108/references/body_style_board.png",
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/regulus_v1_20261108/references/web_backpack.png"
+      ],
+      "pass": "initial",
+      "generated_local_path": "C:/Users/29232/.codex/generated_images/01a1aef2-5342-7013-9609-ad65943698a5/exec-2a4a064a-160e-4302-adff-1cb05588818f.png",
+      "selected_source": "source_art/history/body_south_initial.png",
+      "local_input_copies": [
+        "references/primary_local.png",
+        "references/body_style_board.png",
+        "references/web_backpack.png"
+      ],
+      "superseded": true
+    },
+    {
+      "part": "head_east",
+      "prompt": "Use case: stylized-concept. Generate a matching directional game-pawn HEAD asset for Regulus (星锑). Image 1 is the approved newly drawn FRONT head; preserve that same identity, haircut, cap design, subdued palette, chunky outer line and compact face. Image 2 is the user's original identity/expression crop; it outranks unrelated alternate costumes. Image 3 shows the project's directional pawn STYLE only. Flat simple 2D sprite, broad matte colors with only 2-3 tones per material, near-black heavy outer outline, weaker selective inner hair lines, no realistic shading or glossy lenses. Head only, with ears/hair/cap/sunglasses where visible. NO scarf, neck clothes, shoulders, torso or arms. Head upright without tilt. Sandy light-brown short layered bob with curled/flicked nape ends and swept bangs; off-white soft cap with brick-red piping, small round red side buttons, short BLACK visor and a red-bordered dark heart badge located only on the FRONT panel slightly toward character left. Dark opaque rounded rectangular sunglasses sit over the eyes; don't invent pupils. The small closed slightly downturned/pouting mouth and little nose preserve the local portrait's composed cool faintly stubborn expression, not a smile, laugh, angry grimace or crying. No freckles or scars. Single isolated asset fully inside canvas, genuine transparent background, no backdrop, checkerboard, labels, shadow or other objects.\nDirection: exact TRUE RIGHT-FACING PROFILE, sees character LEFT side. Only ONE sunglasses lens is visible in side perspective plus the temple arm over the visible ear. Nose points right; short soft chin and the subtle closed downturned mouth remain readable. Black cap visor points right. The front-left heart badge is only a small foreshortened partial emblem on the near-front cap region, never a centered front-view logo pasted across a side cap. Rear hair volume lies to screen left. Do not draw a three-quarter face or two eyes/lenses. Keep this head as upright as the front head; no forward leaning.",
+      "referenced_image_paths": [
+        "C:/Users/29232/.codex/generated_images/01a1aef2-5342-7013-9609-ad65943698a5/exec-d86134fb-8f60-42d2-84b1-7eb0ede9404c.png",
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/regulus_v1_20261108/references/primary_head_crop.png",
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/regulus_v1_20261108/references/head_style_board.png"
+      ],
+      "pass": "initial",
+      "generated_local_path": "C:/Users/29232/.codex/generated_images/01a1aef2-5342-7013-9609-ad65943698a5/exec-a305983b-2c5f-4781-b274-8398def9802e.png",
+      "selected_source": "source_art/head_east.png",
+      "local_input_copies": [
+        "source_art/head_south.png",
+        "references/primary_head_crop.png",
+        "references/head_style_board.png"
+      ]
+    },
+    {
+      "part": "head_north",
+      "prompt": "Use case: stylized-concept. Generate a matching directional game-pawn HEAD asset for Regulus (星锑). Image 1 is the approved newly drawn FRONT head; preserve that same identity, haircut, cap design, subdued palette, chunky outer line and compact face. Image 2 is the user's original identity/expression crop; it outranks unrelated alternate costumes. Image 3 shows the project's directional pawn STYLE only. Flat simple 2D sprite, broad matte colors with only 2-3 tones per material, near-black heavy outer outline, weaker selective inner hair lines, no realistic shading or glossy lenses. Head only, with ears/hair/cap/sunglasses where visible. NO scarf, neck clothes, shoulders, torso or arms. Head upright without tilt. Sandy light-brown short layered bob with curled/flicked nape ends and swept bangs; off-white soft cap with brick-red piping, small round red side buttons, short BLACK visor and a red-bordered dark heart badge located only on the FRONT panel slightly toward character left. Dark opaque rounded rectangular sunglasses sit over the eyes; don't invent pupils. The small closed slightly downturned/pouting mouth and little nose preserve the local portrait's composed cool faintly stubborn expression, not a smile, laugh, angry grimace or crying. No freckles or scars. Single isolated asset fully inside canvas, genuine transparent background, no backdrop, checkerboard, labels, shadow or other objects.\nDirection: exact BACK / NORTH view. Show the back of the same off-white rounded soft cap, a black lower band and restrained rear seam, red lower piping if it continues around the cap, and the back of the layered sandy-brown bob with outward nape tips. FRONT HEART BADGE and FRONT BLACK VISOR are not visible from the back: do NOT repeat the heart logo or visor on the rear. No sunglasses lenses, no eyes, no nose or mouth. Only tiny side temple ends may show if physically plausible, otherwise omit. No invented bow, braid or hair bun. Full symmetrical-ish rear skull/hair, upright, no face turned toward viewer.",
+      "referenced_image_paths": [
+        "C:/Users/29232/.codex/generated_images/01a1aef2-5342-7013-9609-ad65943698a5/exec-d86134fb-8f60-42d2-84b1-7eb0ede9404c.png",
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/regulus_v1_20261108/references/primary_head_crop.png",
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/regulus_v1_20261108/references/head_style_board.png"
+      ],
+      "pass": "initial",
+      "generated_local_path": "C:/Users/29232/.codex/generated_images/01a1aef2-5342-7013-9609-ad65943698a5/exec-c55c6297-475b-4ab2-bf24-ba7abbaa43e8.png",
+      "selected_source": "source_art/history/head_north_initial.png",
+      "superseded": true,
+      "local_input_copies": [
+        "source_art/head_south.png",
+        "references/primary_head_crop.png",
+        "references/head_style_board.png"
+      ]
+    },
+    {
+      "part": "body_east",
+      "prompt": "Use case: stylized-concept. Generate a matching directional game-pawn BODY asset for Regulus (星锑). Image 1 is the newly drawn FRONT body and is the matching design to carry into this direction. Image 2 is the user's local original portrait, the primary clothing authority. Image 3 is the pawn BODY style/pose board. Image 4 is the original backpack construction reference. Keep all same garment lengths, main colors and accessories of Image 1, interpreted in the specified direction. Flat matte 2D broad patches, 2-3 tones per material, strong near-black outer contour around 3-4 native pixels after formatting, weaker internal strokes, no gloss, gradients, realistic shading or fine textures.\nFrom small neck opening to full soles only. NO HEAD, hair, cap, face, full arms, hands or forearms; only very short orange shoulder caps, no dangling long sleeves. Orange/rust cropped open bomber with cream paired front trim; dark blue loose A-line short dress with a thin pale lilac hem stripe; blue-violet cream polka-dot scarf tied at FRONT character-left neck (one long front tail, one short left-lateral end). Compact exposed knee/lower thigh, rust-orange high socks and dark boots with cream cuff/band/bow details. Shoe toes short, heels gathered, feet run downward along legs; no long horizontal sole or outward splayed stance. Use actual garment drape, no hourglass waist under loose dress.\nOne original dark grey/navy record BACKPACK carried on CHARACTER LEFT shoulder behind left back/hip, NOT centered blindly or duplicated: cream strap/buckles, orange handles/trim, pale record sleeves at opening, tiny silver star pendant and turquoise charm. Orange peace-hand badge with pale turquoise border is on the FRONT of left shoulder strap, not printed on every bag face. Do not add extra military equipment, floating apple companion, extra straps, multiple bags or arms. The bag remains compact beside the body, not huge enough to shrink the wearer.\nOne body only, centered clean transparent canvas, no background, checkerboard, ground shadow or text.\nDirection: true RIGHT-FACING PROFILE, showing character LEFT side. Body shoulder/neck sits slightly forward (screen right) of waist, waist slightly forward of legs/feet; the overall main mass is one continuous thick forward SLASH, not a bent > sign. Upper body lean small, lower body diagonal more pronounced, with no pinched deep lumbar hollow. Keep enough thickness through torso, skirt, legs/ankle. Boots continue that diagonal down to lower-left with a tiny compact forward toe; no L-shaped foot. Two legs largely overlap in a coherent profile. Dress hem still hangs as fabric, not pressed into body curves.\nThe left-side bag is visible BEHIND the wearer toward SCREEN LEFT, attached at back shoulder/hip with a compact rear projection. Show original orange bag handle/trim, pale record sleeves, silver star and turquoise charm. The near-side front shoulder strap and turquoise-edged orange peace-hand pin are visible toward the upper/front (screen right) part of torso; scarf front tail is seen on front-right chest edge. Do not place the backpack on the chest or in front of the legs. No head or neck tilted forward.",
+      "referenced_image_paths": [
+        "C:/Users/29232/.codex/generated_images/01a1aef2-5342-7013-9609-ad65943698a5/exec-2a4a064a-160e-4302-adff-1cb05588818f.png",
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/regulus_v1_20261108/references/primary_local.png",
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/regulus_v1_20261108/references/body_style_board.png",
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/regulus_v1_20261108/references/web_backpack.png"
+      ],
+      "pass": "initial",
+      "generated_local_path": "C:/Users/29232/.codex/generated_images/01a1aef2-5342-7013-9609-ad65943698a5/exec-e7ffaf89-84fb-4d62-83b5-4c974a9c6772.png",
+      "selected_source": "source_art/history/body_east_initial.png",
+      "superseded": true,
+      "local_input_copies": [
+        "source_art/history/body_south_initial.png",
+        "references/primary_local.png",
+        "references/body_style_board.png",
+        "references/web_backpack.png"
+      ]
+    },
+    {
+      "part": "body_north",
+      "prompt": "Use case: stylized-concept. Generate a matching directional game-pawn BODY asset for Regulus (星锑). Image 1 is the newly drawn FRONT body and is the matching design to carry into this direction. Image 2 is the user's local original portrait, the primary clothing authority. Image 3 is the pawn BODY style/pose board. Image 4 is the original backpack construction reference. Keep all same garment lengths, main colors and accessories of Image 1, interpreted in the specified direction. Flat matte 2D broad patches, 2-3 tones per material, strong near-black outer contour around 3-4 native pixels after formatting, weaker internal strokes, no gloss, gradients, realistic shading or fine textures.\nFrom small neck opening to full soles only. NO HEAD, hair, cap, face, full arms, hands or forearms; only very short orange shoulder caps, no dangling long sleeves. Orange/rust cropped open bomber with cream paired front trim; dark blue loose A-line short dress with a thin pale lilac hem stripe; blue-violet cream polka-dot scarf tied at FRONT character-left neck (one long front tail, one short left-lateral end). Compact exposed knee/lower thigh, rust-orange high socks and dark boots with cream cuff/band/bow details. Shoe toes short, heels gathered, feet run downward along legs; no long horizontal sole or outward splayed stance. Use actual garment drape, no hourglass waist under loose dress.\nOne original dark grey/navy record BACKPACK carried on CHARACTER LEFT shoulder behind left back/hip, NOT centered blindly or duplicated: cream strap/buckles, orange handles/trim, pale record sleeves at opening, tiny silver star pendant and turquoise charm. Orange peace-hand badge with pale turquoise border is on the FRONT of left shoulder strap, not printed on every bag face. Do not add extra military equipment, floating apple companion, extra straps, multiple bags or arms. The bag remains compact beside the body, not huge enough to shrink the wearer.\nOne body only, centered clean transparent canvas, no background, checkerboard, ground shadow or text.\nDirection: exact BACK / NORTH view. Upright broad coherent silhouette, no twist. Character LEFT is VIEWER LEFT: the one record backpack occupies the LEFT upper back/hip, with its strap running over left shoulder; right jacket/dress remains readable. Preserve bag dark navy/charcoal panels, orange handle/trim, pale record sleeves protruding from the opening, tiny star and turquoise charm at left outer lower corner. Do not move it to viewer right or duplicate it.\nBack jacket shows plain rust-orange rear panel with simple seams and a dark ribbed cropped lower edge, NOT front buttons, lapels or front cream trim. Scarf at back is a polka-dot neck wrap plus at most a little left side knot/end seen around the side, NOT the long front hanging tail repeated down the back. No front peace-hand pin pasted to back panels. Loose navy dress continues to same hem height with same pale stripe. Compact exposed knees, rust socks, rear boot cuffs and a few rear seam/band marks; front-facing boot bows are not repeated on rear boot faces. Feet closely gathered with plain rounded rear heels, no outward fan or wide heel base.",
+      "referenced_image_paths": [
+        "C:/Users/29232/.codex/generated_images/01a1aef2-5342-7013-9609-ad65943698a5/exec-2a4a064a-160e-4302-adff-1cb05588818f.png",
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/regulus_v1_20261108/references/primary_local.png",
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/regulus_v1_20261108/references/body_style_board.png",
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/regulus_v1_20261108/references/web_backpack.png"
+      ],
+      "pass": "initial",
+      "generated_local_path": "C:/Users/29232/.codex/generated_images/01a1aef2-5342-7013-9609-ad65943698a5/exec-bccc793f-ff24-4dbd-8e86-01969f8a51a5.png",
+      "selected_source": "source_art/body_north.png",
+      "local_input_copies": [
+        "source_art/history/body_south_initial.png",
+        "references/primary_local.png",
+        "references/body_style_board.png",
+        "references/web_backpack.png"
+      ]
+    },
+    {
+      "part": "body_east",
+      "prompt": "Use case: precise-object-edit. Edit ONLY the first supplied transparent Regulus right-profile body sprite, preserving its composition, colors, diagonal leaning pose, garment lengths, strong dark outer lines and all original accessories.\nInput 1 is the edit target. Input 2 is the corresponding front sprite, for consistency only.\nMake two precise corrections to the target:\n1. Remove the two round dark buttons on the visible orange jacket front edge. This is the character's LEFT side, whose panel has cream edging but NO round buttons. The buttons on the front reference belong to the other side. Restore the existing orange/cream edge neatly where those two buttons were.\n2. Shorten and gather the profile boot: remove the horizontally projecting rightward toe and the little flat horizontal sole. Keep the cream boot cuff, bands and bow. The foot must continue down the same forward-leaning diagonal as the shin, tapering toward a small rounded bottom with almost no forward toe projection, like a RimWorld pawn side boot, not an L shape. Keep the foot base at the same level.\nEverything else remains the same: no head, no full arms/hands, one visible side leg, original dark bag behind toward screen left, pale record sleeves, orange handle, star/turquoise charms, polka-dot scarf with long front tail, shoulder peace badge and cream strap toward screen right, orange socks, A-line navy skirt with pale hem. Preserve the sprite's original top and bottom positions and overall thickness. Flat simple 2D game sprite, 2-3 tones per material; matte, bold outline, no glows or new gradients. Genuine transparent background with clean edges, no checkerboard, no ground shadow, no text, no other sprites.",
+      "referenced_image_paths": [
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/regulus_v1_20261108/source_art/body_east.png",
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/regulus_v1_20261108/source_art/body_south.png"
+      ],
+      "generated_local_path": "C:/Users/29232/.codex/generated_images/01a1aef2-5342-7013-9609-ad65943698a5/exec-fe270094-a44d-4607-8e9f-ecbb4ac2e6a0.png",
+      "pass_name": "targeted_consistency_correction",
+      "selected_source": "source_art/body_east.png",
+      "superseded": false,
+      "local_input_copies": [
+        "source_art/history/body_east_initial.png",
+        "source_art/history/body_south_initial.png"
+      ]
+    },
+    {
+      "part": "head_north",
+      "prompt": "Use case: precise-object-edit. Edit only the rear-facing head sprite in input 1; input 2 shows its front appearance for construction reference.\nThe first image currently has an oval black shape beneath the rear red trim that reads as a FRONT VISOR incorrectly repeated on the back. Replace that oval black rear visor with a narrow, soft black fabric cap band wrapping against the back of the head. It should be a shallow strip, not a projecting brim or large black oval. Keep only a fine muted red seam above that band. Remove the two round red front-temple buttons from the rear view: they belong at the front visor attachments and are hidden in this rear projection. Keep the existing off-white soft cap crown, side black fabric panels, central rear seam, broad flat shadow shapes, sandy-brown short bob and flicking ends, thick near-black outside outline and all head positioning. Where removing the false visor exposes a little area underneath, continue the same back hair color/mass. No front heart badge, no eyes, no glasses, no face, no shoulders. Don't redesign or shrink the hat or hair silhouette. Same simple flat 2D RimWorld pawn sprite look. Genuine transparent background with clean edges, no background glow, no text, no extra parts.",
+      "referenced_image_paths": [
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/regulus_v1_20261108/source_art/head_north.png",
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/regulus_v1_20261108/source_art/head_south.png"
+      ],
+      "generated_local_path": "C:/Users/29232/.codex/generated_images/01a1aef2-5342-7013-9609-ad65943698a5/exec-91819c9c-23f7-4660-b387-1783048a0eaa.png",
+      "pass_name": "targeted_consistency_correction",
+      "selected_source": "source_art/head_north.png",
+      "superseded": false,
+      "local_input_copies": [
+        "source_art/history/head_north_initial.png",
+        "source_art/head_south.png"
+      ]
+    },
+    {
+      "part": "body_south",
+      "prompt": "Use case: precise-object-edit. First image is the transparent front BODY edit target. Second image is the local original portrait head/neck detail, only to confirm the scarf's identity.\nMake ONLY the lateral polka-dot scarf end more visible beside the character's left shoulder (viewer RIGHT), because the separate head overlaps it in the final game composite.\nKeep the neck opening and scarf knot at their current positions. Extend the existing short rightward scarf flap horizontally farther to viewer right, with its tip just inside the rightmost extent of the backpack below, and lower the flap's middle slightly so it sits beside the shoulder, above the peace-hand pin. It must remain one short soft pointed flap with the existing cream dots and muted blue-purple color, connected to the same knot. Its outer portion should clearly peek out beyond the bob haircut once the head is overlaid. Keep the other LONG scarf tail down the chest unchanged.\nPreserve everything else as closely as possible: the empty head space, orange short sleeve caps, no arms/hands, two buttons on viewer-left jacket only, original peace pin and cream bag strap on viewer right, original dark backpack and record sleeves/charms, loose navy dress with pale hem, exposed knees, orange socks, close parallel boots and cream bow cuffs. Do not move or rescale the body, shift the neck or foot baseline, redesign the outfit, change the expression (there is no head in this image), add another scarf flap, or add objects. Bold dark outline, broad simple matte 2D colors. Genuine transparent background, clean silhouette, no glow or checkerboard, no head or face, no text.",
+      "referenced_image_paths": [
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/regulus_v1_20261108/source_art/body_south.png",
+        "C:/Users/29232/Documents/ChatGPT/Ombrophobia/outputs/regulus_v1_20261108/references/primary_head_crop.png"
+      ],
+      "generated_local_path": "C:/Users/29232/.codex/generated_images/01a1aef2-5342-7013-9609-ad65943698a5/exec-a0ce5ee7-400e-4010-915f-9e5078e8c6a6.png",
+      "local_input_copies": [
+        "source_art/history/body_south_initial.png",
+        "references/primary_head_crop.png"
+      ],
+      "pass_name": "front_scarf_visibility_correction",
+      "selected_source": "source_art/body_south.png",
+      "superseded": false
+    }
+  ]
+}

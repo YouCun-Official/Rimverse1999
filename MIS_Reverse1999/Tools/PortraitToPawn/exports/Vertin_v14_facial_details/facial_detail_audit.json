@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-06",
+  "scope": "All current character records and installed character textures in MIS_Reverse1999; only Vertin exists.",
+  "characters": [
+    {
+      "character": "Vertin",
+      "current_export": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v13_arknights_skin",
+      "finding": "Small pale warm-brown freckles clustered across the upper nose bridge and adjoining upper cheek region are visible in the cached game portrait and official portrait. Current v13 heads omit them.",
+      "features_to_add": [
+        "sparse simplified freckles"
+      ],
+      "parts_to_edit": [
+        "head_south",
+        "head_east"
+      ],
+      "parts_to_keep": [
+        "head_north",
+        "body_south",
+        "body_east",
+        "body_north",
+        "item"
+      ],
+      "side_visibility": "Near-side portion of the same upper nose/cheek cluster; precise dots are a simplified perspective interpretation, not a supplied orthographic side reference.",
+      "excluded": "No visible characteristic burn/scar in the reviewed references; do not invent them.",
+      "sources": [
+        {
+          "file": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v5_original_hairstyle\\references\\game_portrait_wikiru.png",
+          "sha256": "d30321bf4e66b88d51fcf37b36a9feef7b2dd83c1005c561ba321ed66cce8d78",
+          "crop_xyxy": [
+            205,
+            534,
+            545,
+            737
+          ]
+        },
+        {
+          "file": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\MIS_Lannuosproject\\MIS_Reverse1999\\Tools\\PortraitToPawn\\exports\\Vertin_v5_original_hairstyle\\references\\official_archive_seated.jpg",
+          "sha256": "e784791d81ddbe00e2a856169672af97424a3c9f04db038f4ee1afebe032dfb9",
+          "crop_xyxy": [
+            500,
+            434,
+            706,
+            550
+          ]
+        }
+      ],
+      "main_user_portrait": "C:\\Users\\29232\\Desktop\\Lannuosprojects\\Ombrophobia\\data_infrastructure\\图片\\维尔汀.webp",
+      "main_portrait_note": "Inspected; dynamic portrait makes the tiny facial marks less legible. The clearer existing game and official front references establish the feature."
+    }
+  ],
+  "evidence_board": "facial_detail_evidence.png",
+  "artwork_status": "reference-supported freckles added to front/profile heads; native/reduced visual review and deterministic static checks passed",
+  "selected_generation_pass": 2,
+  "output_version": "Vertin_v14_facial_details",
+  "no_facial_mark_case_rule": "No obvious characteristic marks in the reference: skip this conditional rule; never add default freckles/scars to all characters."
+}

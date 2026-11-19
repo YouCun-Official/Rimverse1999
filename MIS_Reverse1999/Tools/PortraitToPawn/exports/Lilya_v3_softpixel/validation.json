@@ -1,0 +1,169 @@
+{
+  "batch": "SoftPixel_v1_20261109",
+  "method": "User explicitly selected Python pixel postprocessing. Light premultiplied-alpha pixel grouping, restrained low-contrast median contribution and color grouping. No redraw, face transfer, warp, alpha edit, new expression, noise or dithering.",
+  "files": {
+    "Lilya_head_south": {
+      "path": "Textures/Things/Hair/R99/Lilya_south.png",
+      "source_sha256": "fbecd77049c6287a55b20feca4d64953798cc2856c6cfe19beebfa07350f290f",
+      "output_sha256": "0a0726ea94cb7923c2e1ffc29d32bfe1f10e4bbc862f5135e9d7586f9e156d8d",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        72,
+        84,
+        184,
+        231
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [
+        [
+          103,
+          135,
+          147,
+          168
+        ]
+      ],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 8173,
+      "mean_abs_rgb_delta_over_visible": 3.3122,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "Lilya_body_south": {
+      "path": "Textures/Things/R99_Agents/Arcanist/Lilya_Thin_south.png",
+      "source_sha256": "11727c5c347857390bab9775e4386028b0e5e4b78113932de50aee2e3dc4644b",
+      "output_sha256": "3b7295feff059f3f5e94c98f11cf77a1f437498485a67bb190a9c86ad695d7e6",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        78,
+        89,
+        180,
+        252
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 10895,
+      "mean_abs_rgb_delta_over_visible": 2.7975,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "Lilya_head_east": {
+      "path": "Textures/Things/Hair/R99/Lilya_east.png",
+      "source_sha256": "38d37c3193b429ca77b3b438fd8e93b53498d4aa2a1d8fb532a0123eab47cc03",
+      "output_sha256": "973f4a02ac58f7d19edef5a36ade5e629bc27f579eac702cc7331403f8c3e5e1",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        55,
+        84,
+        175,
+        231
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [
+        [
+          131,
+          135,
+          167,
+          169
+        ]
+      ],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 10422,
+      "mean_abs_rgb_delta_over_visible": 2.9628,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "Lilya_body_east": {
+      "path": "Textures/Things/R99_Agents/Arcanist/Lilya_Thin_east.png",
+      "source_sha256": "77bfbd26c663252eaa5ac1b9297138969369e0d0a77a74d1a0466d8aa2b7f495",
+      "output_sha256": "af31e6be6734d96fce62b1bef00e2f3e239c64930f9f05c20f08534136364311",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        69,
+        89,
+        159,
+        252
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 8746,
+      "mean_abs_rgb_delta_over_visible": 2.55,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "Lilya_head_north": {
+      "path": "Textures/Things/Hair/R99/Lilya_north.png",
+      "source_sha256": "7cc09ab5a79a3c5897e48b991cc280a2433b1b0c6f6c56e72fd2b8348875cffa",
+      "output_sha256": "0f230af7ff290c1cebefd59a94b82dc5ec3e76e947addd07db198d05a2a4abf3",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        72,
+        84,
+        184,
+        231
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 11945,
+      "mean_abs_rgb_delta_over_visible": 2.7168,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    },
+    "Lilya_body_north": {
+      "path": "Textures/Things/R99_Agents/Arcanist/Lilya_Thin_north.png",
+      "source_sha256": "03fb8d933a3e5a1f36557dbb8609d5cb72ac11c6b7d2b78251f1d1c75b9ff2a6",
+      "output_sha256": "189ee331da6ca5893010693a6ebff0e9e0041249812e7b964962c54b0eec5c37",
+      "rgba_size": [
+        256,
+        256
+      ],
+      "alpha_pixel_identical": true,
+      "alpha_bbox": [
+        78,
+        88,
+        180,
+        253
+      ],
+      "transparent_rgb_unchanged": true,
+      "protected_boxes": [],
+      "protected_pixels_identical": true,
+      "changed_pixel_count": 10987,
+      "mean_abs_rgb_delta_over_visible": 2.211,
+      "max_rgb_channel_delta": 16,
+      "profile": "light"
+    }
+  },
+  "items": {
+    "Lilya": {
+      "path": "Textures/Things/R99_Agents/Arcanist/Lilya.png",
+      "sha256": "3b7295feff059f3f5e94c98f11cf77a1f437498485a67bb190a9c86ad695d7e6",
+      "front_body_sha256": "3b7295feff059f3f5e94c98f11cf77a1f437498485a67bb190a9c86ad695d7e6",
+      "byte_identical_to_front_body": true
+    }
+  },
+  "all_alpha_and_placement_unchanged": true,
+  "all_protected_features_pixel_identical": true,
+  "game_tested": false
+}

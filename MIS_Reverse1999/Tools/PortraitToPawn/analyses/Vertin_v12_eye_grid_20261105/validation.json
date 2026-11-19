@@ -1,0 +1,18 @@
+{
+  "analysis_only": true,
+  "installed_texture_count": 9,
+  "all_production_textures_unchanged": true,
+  "source_hashes_verified": 16,
+  "reference_count_quantified": 5,
+  "character_count_quantified": 6,
+  "resampling": "integer nearest neighbor only; no image edits, per-character resize, rotation or translation",
+  "visible_measurement_annotations": "manual, source-coordinate boxes; about 1 px edge judgment uncertainty",
+  "game_tested": false,
+  "visual_review": "passed",
+  "visual_review_notes": [
+    "Reviewed native pixel coordinate panels before annotating visible eye bounds.",
+    "Checked front/side overlays and visible face spans against source pixels.",
+    "Reviewed text layout; adjusted compact panel axis-label interval to avoid overlap.",
+    "Quantitative results are manual visible-eye bounding boxes with about 1 px edge uncertainty, not inferred hidden anatomy."
+  ]
+}

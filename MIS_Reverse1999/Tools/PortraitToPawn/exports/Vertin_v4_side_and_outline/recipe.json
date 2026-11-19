@@ -1,0 +1,152 @@
+{
+  "character": "Vertin",
+  "canvas": [
+    256,
+    256
+  ],
+  "method": "Built-in image_gen redraw + native-coordinate normalization + outer ink calibration",
+  "head_rotation_degrees": 0,
+  "head_offset_preview": [
+    0,
+    -65
+  ],
+  "alpha_cleanup": "alpha below 96 removed; remaining alpha linearly remapped",
+  "assets": {
+    "head_south": {
+      "source": "source_art/head_south.png",
+      "relative_path": "Textures/Things/Hair/R99/Vertin_south.png",
+      "target_solid_bbox": [
+        76,
+        77,
+        190,
+        177
+      ],
+      "outer_ink_px": 0.5
+    },
+    "head_east": {
+      "source": "source_art/head_east.png",
+      "relative_path": "Textures/Things/Hair/R99/Vertin_east.png",
+      "target_solid_bbox": [
+        70,
+        79,
+        186,
+        180
+      ],
+      "outer_ink_px": 0.5
+    },
+    "head_north": {
+      "source": "source_art/head_north.png",
+      "relative_path": "Textures/Things/Hair/R99/Vertin_north.png",
+      "target_solid_bbox": [
+        64,
+        83,
+        180,
+        176
+      ],
+      "outer_ink_px": 0.5
+    },
+    "body_south": {
+      "source": "source_art/body_south.png",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_south.png",
+      "target_solid_bbox": [
+        86,
+        90,
+        170,
+        252
+      ],
+      "outer_ink_px": 0.5
+    },
+    "body_east": {
+      "source": "source_art/body_east.png",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_east.png",
+      "target_solid_bbox": [
+        68,
+        90,
+        164,
+        251
+      ],
+      "outer_ink_px": 1,
+      "row_warp": [
+        [
+          0,
+          0
+        ],
+        [
+          90,
+          0
+        ],
+        [
+          100,
+          0
+        ],
+        [
+          110,
+          -3
+        ],
+        [
+          125,
+          -7
+        ],
+        [
+          140,
+          -6
+        ],
+        [
+          155,
+          -3
+        ],
+        [
+          170,
+          0
+        ],
+        [
+          185,
+          1
+        ],
+        [
+          200,
+          3
+        ],
+        [
+          215,
+          5
+        ],
+        [
+          230,
+          4
+        ],
+        [
+          235,
+          2
+        ],
+        [
+          240,
+          -1
+        ],
+        [
+          245,
+          -4
+        ],
+        [
+          251,
+          -7
+        ],
+        [
+          256,
+          -7
+        ]
+      ]
+    },
+    "body_north": {
+      "source": "source_art/body_north.png",
+      "relative_path": "Textures/Things/R99_Agents/Arcanist/Vertin_Thin_north.png",
+      "target_solid_bbox": [
+        86,
+        90,
+        170,
+        252
+      ],
+      "outer_ink_px": 0.5
+    }
+  }
+}
